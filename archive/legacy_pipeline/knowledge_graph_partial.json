@@ -1,0 +1,7443 @@
+[
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Temperature",
+        "type": "Measurement"
+      },
+      {
+        "name": "Vibration",
+        "type": "Measurement"
+      },
+      {
+        "name": "Event Log",
+        "type": "Sensor"
+      },
+      {
+        "name": "ATM",
+        "type": "Machine"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Machine Availability",
+        "type": "Maintenance Goal"
+      },
+      {
+        "name": "Unplanned Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Failure",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Change Point Detection",
+        "type": "Technique"
+      },
+      {
+        "name": "Time Series",
+        "type": "Technique"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Failure"
+      },
+      {
+        "subject": "Temperature",
+        "predicate": "indicates",
+        "object": "Failure"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Failure"
+      },
+      {
+        "subject": "Event Log",
+        "predicate": "measuredBy",
+        "object": "Motor"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "partOf",
+        "object": "Maintenance Action"
+      },
+      {
+        "subject": "Machine Availability",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Unplanned Maintenance",
+        "predicate": "causes",
+        "object": "Failure"
+      },
+      {
+        "subject": "Change Point Detection",
+        "predicate": "measuredBy",
+        "object": "Time Series"
+      },
+      {
+        "subject": "Time Series",
+        "predicate": "measuredBy",
+        "object": "Event Log"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_0"
+  },
+  {
+    "entities": [
+      {
+        "name": "machine",
+        "type": "component"
+      },
+      {
+        "name": "sensors",
+        "type": "component"
+      },
+      {
+        "name": "vibration monitoring",
+        "type": "maintenance action"
+      },
+      {
+        "name": "rotating machinery",
+        "type": "component"
+      },
+      {
+        "name": "amplitude of vibrations",
+        "type": "measurement"
+      },
+      {
+        "name": "temperature",
+        "type": "measurement"
+      },
+      {
+        "name": "pressure",
+        "type": "measurement"
+      },
+      {
+        "name": "failure",
+        "type": "failure mode"
+      },
+      {
+        "name": "degradation",
+        "type": "failure mode"
+      },
+      {
+        "name": "unplanned maintenance",
+        "type": "failure mode"
+      },
+      {
+        "name": "machine failure",
+        "type": "failure mode"
+      },
+      {
+        "name": "stock part management",
+        "type": "maintenance action"
+      },
+      {
+        "name": "cost optimization",
+        "type": "maintenance action"
+      },
+      {
+        "name": "productivity",
+        "type": "benefit"
+      },
+      {
+        "name": "downtime",
+        "type": "benefit"
+      },
+      {
+        "name": "patient health",
+        "type": "benefit"
+      },
+      {
+        "name": "event logs",
+        "type": "sensor"
+      },
+      {
+        "name": "ATM",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "degradation"
+      },
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "unplanned maintenance"
+      },
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "machine failure"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "amplitude of vibrations"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "temperature"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "pressure"
+      },
+      {
+        "subject": "vibration monitoring",
+        "predicate": "requiresMaintenance",
+        "object": "machine"
+      },
+      {
+        "subject": "vibration monitoring",
+        "predicate": "partOf",
+        "object": "predictive maintenance"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "indicates",
+        "object": "remaining time before failure"
+      },
+      {
+        "subject": "event logs",
+        "predicate": "measuredBy",
+        "object": "ATM"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_1"
+  },
+  {
+    "entities": [
+      {
+        "name": "Data Mining",
+        "type": "approach"
+      },
+      {
+        "name": "temporal data",
+        "type": "data"
+      },
+      {
+        "name": "chronicles mining",
+        "type": "technique"
+      },
+      {
+        "name": "rules mining",
+        "type": "technique"
+      },
+      {
+        "name": "change point detection",
+        "type": "method"
+      },
+      {
+        "name": "survival analysis",
+        "type": "technique"
+      },
+      {
+        "name": "hazard-rate models",
+        "type": "model"
+      },
+      {
+        "name": "autoregressive models",
+        "type": "model"
+      },
+      {
+        "name": "Markov models",
+        "type": "model"
+      },
+      {
+        "name": "machine learning",
+        "type": "approach"
+      },
+      {
+        "name": "sliding window statistics",
+        "type": "feature"
+      },
+      {
+        "name": "ROCKET",
+        "type": "technique"
+      },
+      {
+        "name": "MrSEQL",
+        "type": "technique"
+      },
+      {
+        "name": "Convolutional Network",
+        "type": "Deep Learning method"
+      },
+      {
+        "name": "Recurrent Network",
+        "type": "Deep Learning method"
+      },
+      {
+        "name": "Auto-Encoders",
+        "type": "Deep Learning method"
+      },
+      {
+        "name": "anomaly detection",
+        "type": "goal"
+      },
+      {
+        "name": "logs",
+        "type": "data"
+      },
+      {
+        "name": "data centers",
+        "type": "location"
+      },
+      {
+        "name": "machine",
+        "type": "entity"
+      },
+      {
+        "name": "motor",
+        "type": "entity"
+      },
+      {
+        "name": "predictive maintenance",
+        "type": "problem"
+      },
+      {
+        "name": "maintenance",
+        "type": "action"
+      },
+      {
+        "name": "malfunction",
+        "type": "failure mode"
+      },
+      {
+        "name": "failure",
+        "type": "event"
+      },
+      {
+        "name": "time series",
+        "type": "data"
+      },
+      {
+        "name": "features",
+        "type": "data"
+      },
+      {
+        "name": "anomalies",
+        "type": "event"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Data Mining",
+        "predicate": "hasFailureMode",
+        "object": "malfunction"
+      },
+      {
+        "subject": "change point detection",
+        "predicate": "indicates",
+        "object": "malfunction"
+      },
+      {
+        "subject": "survival analysis",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "autoregressive models",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "Markov models",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "machine learning",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "logs",
+        "predicate": "measuredBy",
+        "object": "machine"
+      },
+      {
+        "subject": "data centers",
+        "predicate": "partOf",
+        "object": "location"
+      },
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "malfunction"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "malfunction",
+        "predicate": "causes",
+        "object": "failure"
+      },
+      {
+        "subject": "failure",
+        "predicate": "indicates",
+        "object": "anomalies"
+      },
+      {
+        "subject": "time series",
+        "predicate": "measuredBy",
+        "object": "features"
+      },
+      {
+        "subject": "features",
+        "predicate": "measuredBy",
+        "object": "time series"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_3"
+  },
+  {
+    "entities": [
+      {
+        "name": "ROCKET",
+        "type": "method"
+      },
+      {
+        "name": "MrSEQL",
+        "type": "method"
+      },
+      {
+        "name": "Convolutional Network",
+        "type": "method"
+      },
+      {
+        "name": "Recurrent Network",
+        "type": "method"
+      },
+      {
+        "name": "Auto-Encoders",
+        "type": "method"
+      },
+      {
+        "name": "ATM fleet",
+        "type": "system"
+      },
+      {
+        "name": "time series data",
+        "type": "data"
+      },
+      {
+        "name": "event logs",
+        "type": "data"
+      },
+      {
+        "name": "machine",
+        "type": "component"
+      },
+      {
+        "name": "failure",
+        "type": "failure mode"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "ROCKET",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "MrSEQL",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "Convolutional Network",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "Recurrent Network",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "Auto-Encoders",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "time series data",
+        "predicate": "indicates",
+        "object": "failure"
+      },
+      {
+        "subject": "event logs",
+        "predicate": "indicates",
+        "object": "failure"
+      },
+      {
+        "subject": "machine",
+        "predicate": "partOf",
+        "object": "ATM fleet"
+      },
+      {
+        "subject": "machine",
+        "predicate": "measuredBy",
+        "object": "time series data"
+      },
+      {
+        "subject": "machine",
+        "predicate": "measuredBy",
+        "object": "event logs"
+      },
+      {
+        "subject": "failure",
+        "predicate": "causes",
+        "object": "maintenance actions"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_4"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Failure",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Timestamp",
+        "type": "Measurement"
+      },
+      {
+        "name": "Event",
+        "type": "Event"
+      },
+      {
+        "name": "Responsive Duration",
+        "type": "Time Interval"
+      },
+      {
+        "name": "Predictive Padding",
+        "type": "Time Interval"
+      },
+      {
+        "name": "Infected Interval",
+        "type": "Time Interval"
+      },
+      {
+        "name": "ATM",
+        "type": "Component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Failure"
+      },
+      {
+        "subject": "Failure",
+        "predicate": "causes",
+        "object": "Maintenance"
+      },
+      {
+        "subject": "Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Sensor",
+        "predicate": "measuredBy",
+        "object": "Measurement"
+      },
+      {
+        "subject": "Measurement",
+        "predicate": "indicates",
+        "object": "Event"
+      },
+      {
+        "subject": "Event",
+        "predicate": "detectedBy",
+        "object": "Sensor"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "partOf",
+        "object": "ATM"
+      },
+      {
+        "subject": "Maintenance",
+        "predicate": "partOf",
+        "object": "Responsive Duration"
+      },
+      {
+        "subject": "Responsive Duration",
+        "predicate": "partOf",
+        "object": "Predictive Padding"
+      },
+      {
+        "subject": "Predictive Padding",
+        "predicate": "partOf",
+        "object": "Infected Interval"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_5"
+  },
+  {
+    "entities": [
+      {
+        "name": "ATM module",
+        "type": "component"
+      },
+      {
+        "name": "distribution module",
+        "type": "component"
+      },
+      {
+        "name": "storage boxes",
+        "type": "component"
+      },
+      {
+        "name": "rolling or suction cup mechanisms",
+        "type": "component"
+      },
+      {
+        "name": "exit slot",
+        "type": "component"
+      },
+      {
+        "name": "life cycle",
+        "type": "event"
+      },
+      {
+        "name": "maintenance",
+        "type": "action"
+      },
+      {
+        "name": "failure",
+        "type": "event"
+      },
+      {
+        "name": "banknote storage boxes",
+        "type": "component"
+      },
+      {
+        "name": "K7",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "ATM module",
+        "predicate": "partOf",
+        "object": "distribution module"
+      },
+      {
+        "subject": "distribution module",
+        "predicate": "partOf",
+        "object": "ATM module"
+      },
+      {
+        "subject": "storage boxes",
+        "predicate": "partOf",
+        "object": "distribution module"
+      },
+      {
+        "subject": "rolling or suction cup mechanisms",
+        "predicate": "partOf",
+        "object": "distribution module"
+      },
+      {
+        "subject": "exit slot",
+        "predicate": "partOf",
+        "object": "distribution module"
+      },
+      {
+        "subject": "life cycle",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "life cycle",
+        "predicate": "hasFailureMode",
+        "object": "maintenance"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "ATM module"
+      },
+      {
+        "subject": "failure",
+        "predicate": "causes",
+        "object": "maintenance"
+      },
+      {
+        "subject": "banknote storage boxes",
+        "predicate": "partOf",
+        "object": "distribution module"
+      },
+      {
+        "subject": "K7",
+        "predicate": "partOf",
+        "object": "banknote storage boxes"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_6"
+  },
+  {
+    "entities": [
+      {
+        "name": "ATMs",
+        "type": "components"
+      },
+      {
+        "name": "life cycles",
+        "type": "components"
+      },
+      {
+        "name": "event codes",
+        "type": "components"
+      },
+      {
+        "name": "hardware component",
+        "type": "components"
+      },
+      {
+        "name": "distribution module",
+        "type": "components"
+      },
+      {
+        "name": "failure state",
+        "type": "failure modes"
+      },
+      {
+        "name": "problems on other modules",
+        "type": "causes"
+      },
+      {
+        "name": "maintenance processes",
+        "type": "maintenance actions"
+      },
+      {
+        "name": "updates",
+        "type": "maintenance actions"
+      },
+      {
+        "name": "withdrawal events",
+        "type": "symptoms"
+      },
+      {
+        "name": "duration of life cycles",
+        "type": "symptoms"
+      },
+      {
+        "name": "mean daily number of withdrawal events",
+        "type": "symptoms"
+      },
+      {
+        "name": "infected interval",
+        "type": "symptoms"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "ATMs",
+        "predicate": "hasFailureMode",
+        "object": "failure state"
+      },
+      {
+        "subject": "problems on other modules",
+        "predicate": "causes",
+        "object": "failure state"
+      },
+      {
+        "subject": "maintenance processes",
+        "predicate": "requiresMaintenance",
+        "object": "hardware component"
+      },
+      {
+        "subject": "updates",
+        "predicate": "requiresMaintenance",
+        "object": "hardware component"
+      },
+      {
+        "subject": "withdrawal events",
+        "predicate": "indicates",
+        "object": "symptoms"
+      },
+      {
+        "subject": "duration of life cycles",
+        "predicate": "indicates",
+        "object": "symptoms"
+      },
+      {
+        "subject": "mean daily number of withdrawal events",
+        "predicate": "indicates",
+        "object": "symptoms"
+      },
+      {
+        "subject": "infected interval",
+        "predicate": "detectedBy",
+        "object": "event codes"
+      },
+      {
+        "subject": "event codes",
+        "predicate": "measuredBy",
+        "object": "hardware component"
+      },
+      {
+        "subject": "distribution module",
+        "predicate": "partOf",
+        "object": "hardware component"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_7"
+  },
+  {
+    "entities": [
+      {
+        "name": "Distribution Module",
+        "type": "Component"
+      },
+      {
+        "name": "ATM",
+        "type": "Component"
+      },
+      {
+        "name": "Banknote",
+        "type": "Component"
+      },
+      {
+        "name": "Mechanism",
+        "type": "Component"
+      },
+      {
+        "name": "Event Code 6000",
+        "type": "Symptom"
+      },
+      {
+        "name": "Event Code 6001",
+        "type": "Symptom"
+      },
+      {
+        "name": "Event Code 6002",
+        "type": "Symptom"
+      },
+      {
+        "name": "Restart Process",
+        "type": "Cause"
+      },
+      {
+        "name": "Problem Recovery",
+        "type": "Cause"
+      },
+      {
+        "name": "Damaged Banknote",
+        "type": "Cause"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Event Log",
+        "type": "Sensor"
+      },
+      {
+        "name": "Resampling Frequency",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Distribution Module",
+        "predicate": "hasFailureMode",
+        "object": "Event Code 6000"
+      },
+      {
+        "subject": "Distribution Module",
+        "predicate": "hasFailureMode",
+        "object": "Event Code 6001"
+      },
+      {
+        "subject": "Distribution Module",
+        "predicate": "hasFailureMode",
+        "object": "Event Code 6002"
+      },
+      {
+        "subject": "Restart Process",
+        "predicate": "causes",
+        "object": "Event Code 6000"
+      },
+      {
+        "subject": "Problem Recovery",
+        "predicate": "causes",
+        "object": "Event Code 6000"
+      },
+      {
+        "subject": "Damaged Banknote",
+        "predicate": "causes",
+        "object": "Event Code 6001"
+      },
+      {
+        "subject": "Event Code 6000",
+        "predicate": "indicates",
+        "object": "OK Event"
+      },
+      {
+        "subject": "Event Code 6001",
+        "predicate": "indicates",
+        "object": "Error Event"
+      },
+      {
+        "subject": "Event Code 6002",
+        "predicate": "indicates",
+        "object": "Warning Event"
+      },
+      {
+        "subject": "Event Log",
+        "predicate": "measuredBy",
+        "object": "Resampling Frequency"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "ATM"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_8"
+  },
+  {
+    "entities": [
+      {
+        "name": "life cycle",
+        "type": "component"
+      },
+      {
+        "name": "life cycle",
+        "type": "data stream"
+      },
+      {
+        "name": "ATMs",
+        "type": "component"
+      },
+      {
+        "name": "machine",
+        "type": "component"
+      },
+      {
+        "name": "change point detection methods",
+        "type": "maintenance action"
+      },
+      {
+        "name": "unsupervised change point detection methods",
+        "type": "maintenance action"
+      },
+      {
+        "name": "features",
+        "type": "measurement"
+      },
+      {
+        "name": "timestamp",
+        "type": "measurement"
+      },
+      {
+        "name": "vector",
+        "type": "measurement"
+      },
+      {
+        "name": "data",
+        "type": "measurement"
+      },
+      {
+        "name": "alert",
+        "type": "symptom"
+      },
+      {
+        "name": "maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "failure",
+        "type": "failure mode"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "life cycle",
+        "predicate": "partOf",
+        "object": "data stream"
+      },
+      {
+        "subject": "life cycle",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "ATMs",
+        "predicate": "partOf",
+        "object": "machine"
+      },
+      {
+        "subject": "machine",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "change point detection methods",
+        "predicate": "requiresMaintenance",
+        "object": "machine"
+      },
+      {
+        "subject": "unsupervised change point detection methods",
+        "predicate": "requiresMaintenance",
+        "object": "machine"
+      },
+      {
+        "subject": "features",
+        "predicate": "measuredBy",
+        "object": "vector"
+      },
+      {
+        "subject": "timestamp",
+        "predicate": "measuredBy",
+        "object": "vector"
+      },
+      {
+        "subject": "vector",
+        "predicate": "measuredBy",
+        "object": "data"
+      },
+      {
+        "subject": "data",
+        "predicate": "measuredBy",
+        "object": "life cycle"
+      },
+      {
+        "subject": "alert",
+        "predicate": "indicates",
+        "object": "failure"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "machine"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "causes",
+        "object": "alert"
+      },
+      {
+        "subject": "failure",
+        "predicate": "causes",
+        "object": "alert"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_11"
+  },
+  {
+    "entities": [
+      {
+        "name": "life cycle",
+        "type": "component"
+      },
+      {
+        "name": "features",
+        "type": "component"
+      },
+      {
+        "name": "change point detection methods",
+        "type": "maintenance action"
+      },
+      {
+        "name": "alert",
+        "type": "symptom"
+      },
+      {
+        "name": "True Positive",
+        "type": "classification"
+      },
+      {
+        "name": "False Positive",
+        "type": "classification"
+      },
+      {
+        "name": "False Negative",
+        "type": "classification"
+      },
+      {
+        "name": "event logs",
+        "type": "component"
+      },
+      {
+        "name": "ATM fleet",
+        "type": "component"
+      },
+      {
+        "name": "time series",
+        "type": "component"
+      },
+      {
+        "name": "change",
+        "type": "failure mode"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "change point detection methods",
+        "predicate": "requiresMaintenance",
+        "object": "life cycle"
+      },
+      {
+        "subject": "alert",
+        "predicate": "indicates",
+        "object": "change"
+      },
+      {
+        "subject": "change point detection methods",
+        "predicate": "measuredBy",
+        "object": "features"
+      },
+      {
+        "subject": "change point detection methods",
+        "predicate": "measuredBy",
+        "object": "time series"
+      },
+      {
+        "subject": "True Positive",
+        "predicate": "classification",
+        "object": "classification"
+      },
+      {
+        "subject": "False Positive",
+        "predicate": "classification",
+        "object": "classification"
+      },
+      {
+        "subject": "False Negative",
+        "predicate": "classification",
+        "object": "classification"
+      },
+      {
+        "subject": "life cycle",
+        "predicate": "partOf",
+        "object": "event logs"
+      },
+      {
+        "subject": "ATM fleet",
+        "predicate": "partOf",
+        "object": "event logs"
+      },
+      {
+        "subject": "change",
+        "predicate": "hasFailureMode",
+        "object": "failure mode"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_12"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "failure",
+        "type": "failure_mode"
+      },
+      {
+        "name": "optimal system",
+        "type": "system"
+      },
+      {
+        "name": "anomaly",
+        "type": "symptom"
+      },
+      {
+        "name": "alert",
+        "type": "symptom"
+      },
+      {
+        "name": "padding",
+        "type": "maintenance_action"
+      },
+      {
+        "name": "responsive duration",
+        "type": "maintenance_action"
+      },
+      {
+        "name": "false positive",
+        "type": "symptom"
+      },
+      {
+        "name": "false negative",
+        "type": "symptom"
+      },
+      {
+        "name": "true positive",
+        "type": "symptom"
+      },
+      {
+        "name": "true negative",
+        "type": "symptom"
+      },
+      {
+        "name": "Precision",
+        "type": "metric"
+      },
+      {
+        "name": "Recall",
+        "type": "metric"
+      },
+      {
+        "name": "business constraints",
+        "type": "cause"
+      },
+      {
+        "name": "dataset",
+        "type": "data_source"
+      },
+      {
+        "name": "event log",
+        "type": "data_source"
+      },
+      {
+        "name": "ATM fleet",
+        "type": "system"
+      },
+      {
+        "name": "algorithm",
+        "type": "method"
+      },
+      {
+        "name": "parameter",
+        "type": "parameter"
+      },
+      {
+        "name": "metric",
+        "type": "metric"
+      },
+      {
+        "name": "sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "measurement",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "motor",
+        "predicate": "causes",
+        "object": "anomaly"
+      },
+      {
+        "subject": "anomaly",
+        "predicate": "indicates",
+        "object": "alert"
+      },
+      {
+        "subject": "padding",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "responsive duration",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "false positive",
+        "predicate": "detectedBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "false negative",
+        "predicate": "detectedBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "true positive",
+        "predicate": "detectedBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "true negative",
+        "predicate": "detectedBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "Precision",
+        "predicate": "measuredBy",
+        "object": "measurement"
+      },
+      {
+        "subject": "Recall",
+        "predicate": "measuredBy",
+        "object": "measurement"
+      },
+      {
+        "subject": "business constraints",
+        "predicate": "causes",
+        "object": "failure"
+      },
+      {
+        "subject": "dataset",
+        "predicate": "partOf",
+        "object": "event log"
+      },
+      {
+        "subject": "event log",
+        "predicate": "partOf",
+        "object": "ATM fleet"
+      },
+      {
+        "subject": "algorithm",
+        "predicate": "requires",
+        "object": "parameter"
+      },
+      {
+        "subject": "parameter",
+        "predicate": "measuredBy",
+        "object": "metric"
+      },
+      {
+        "subject": "metric",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "sensor",
+        "predicate": "measuredBy",
+        "object": "measurement"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_16"
+  },
+  {
+    "entities": [
+      {
+        "name": "Error events",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Distribution module",
+        "type": "Component"
+      },
+      {
+        "name": "Banknote storage",
+        "type": "Component"
+      },
+      {
+        "name": "ATMs",
+        "type": "Component"
+      },
+      {
+        "name": "Life cycles",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Change point detection methods",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Event logs",
+        "type": "Sensor"
+      },
+      {
+        "name": "Threshold",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Error events",
+        "predicate": "hasFailureMode",
+        "object": "Failure Mode"
+      },
+      {
+        "subject": "Distribution module",
+        "predicate": "partOf",
+        "object": "ATMs"
+      },
+      {
+        "subject": "Banknote storage",
+        "predicate": "partOf",
+        "object": "ATMs"
+      },
+      {
+        "subject": "Life cycles",
+        "predicate": "requiresMaintenance",
+        "object": "Distribution module"
+      },
+      {
+        "subject": "Change point detection methods",
+        "predicate": "requiresMaintenance",
+        "object": "Distribution module"
+      },
+      {
+        "subject": "Event logs",
+        "predicate": "measuredBy",
+        "object": "Error events"
+      },
+      {
+        "subject": "Threshold",
+        "predicate": "measuredBy",
+        "object": "Error events"
+      },
+      {
+        "subject": "Threshold",
+        "predicate": "indicates",
+        "object": "Error events"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_19"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Anomaly",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Alert",
+        "type": "Symptom"
+      },
+      {
+        "name": "Change point",
+        "type": "Cause"
+      },
+      {
+        "name": "Algorithm",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Fuzzy logic system",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Event log",
+        "type": "Measurement"
+      },
+      {
+        "name": "Life cycle",
+        "type": "Measurement"
+      },
+      {
+        "name": "Threshold",
+        "type": "Measurement"
+      },
+      {
+        "name": "Batch protocol",
+        "type": "Measurement"
+      },
+      {
+        "name": "Data",
+        "type": "Measurement"
+      },
+      {
+        "name": "Characteristics",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Anomaly",
+        "predicate": "hasFailureMode",
+        "object": "Failure Mode"
+      },
+      {
+        "subject": "Alert",
+        "predicate": "indicates",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Change point",
+        "predicate": "causes",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Sensor",
+        "predicate": "measuredBy",
+        "object": "Event log"
+      },
+      {
+        "subject": "Life cycle",
+        "predicate": "measuredBy",
+        "object": "Data"
+      },
+      {
+        "subject": "Threshold",
+        "predicate": "measuredBy",
+        "object": "Batch protocol"
+      },
+      {
+        "subject": "Algorithm",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Fuzzy logic system",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Sensor",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Event log",
+        "predicate": "detectedBy",
+        "object": "Sensor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_20"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "LSTM Autoencoder",
+        "type": "Model"
+      },
+      {
+        "name": "ARM A",
+        "type": "Model"
+      },
+      {
+        "name": "Data Center",
+        "type": "System"
+      },
+      {
+        "name": "Log",
+        "type": "Data"
+      },
+      {
+        "name": "Fuzzy Rule",
+        "type": "Model"
+      },
+      {
+        "name": "Rocket",
+        "type": "Model"
+      },
+      {
+        "name": "Random Convolutional Kernel",
+        "type": "Model"
+      },
+      {
+        "name": "Wild Binary Segmentation",
+        "type": "Model"
+      },
+      {
+        "name": "Matrix Profile",
+        "type": "Model"
+      },
+      {
+        "name": "Sensor",
+        "type": "Component"
+      },
+      {
+        "name": "Measurement",
+        "type": "Data"
+      },
+      {
+        "name": "Cyber-Physical Production System",
+        "type": "System"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Fault Event",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Anomaly",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Change Point",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Motor Failure",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Temperature",
+        "type": "Symptom"
+      },
+      {
+        "name": "Vibration",
+        "type": "Symptom"
+      },
+      {
+        "name": "Current",
+        "type": "Symptom"
+      },
+      {
+        "name": "Overheating",
+        "type": "Cause"
+      },
+      {
+        "name": "Wear and Tear",
+        "type": "Cause"
+      },
+      {
+        "name": "Insufficient Maintenance",
+        "type": "Cause"
+      },
+      {
+        "name": "Sensor Failure",
+        "type": "Cause"
+      },
+      {
+        "name": "Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Inspection",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Replacement",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Vibration Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Current Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Temperature Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Vibration Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Current Measurement",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Motor Failure"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Fault Event"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Change Point"
+      },
+      {
+        "subject": "Overheating",
+        "predicate": "causes",
+        "object": "Motor Failure"
+      },
+      {
+        "subject": "Wear and Tear",
+        "predicate": "causes",
+        "object": "Motor Failure"
+      },
+      {
+        "subject": "Insufficient Maintenance",
+        "predicate": "causes",
+        "object": "Motor Failure"
+      },
+      {
+        "subject": "Sensor Failure",
+        "predicate": "causes",
+        "object": "Motor Failure"
+      },
+      {
+        "subject": "Temperature",
+        "predicate": "indicates",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Wear and Tear"
+      },
+      {
+        "subject": "Current",
+        "predicate": "indicates",
+        "object": "Insufficient Maintenance"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "measuredBy",
+        "object": "Temperature Measurement"
+      },
+      {
+        "subject": "Vibration Sensor",
+        "predicate": "measuredBy",
+        "object": "Vibration Measurement"
+      },
+      {
+        "subject": "Current Sensor",
+        "predicate": "measuredBy",
+        "object": "Current Measurement"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Inspection",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Replacement",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "partOf",
+        "object": "Cyber-Physical Production System"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "partOf",
+        "object": "Data Center"
+      },
+      {
+        "subject": "Sensor",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Measurement",
+        "predicate": "detectedBy",
+        "object": "Sensor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_21"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Rolling Element Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Vibration",
+        "type": "Symptom"
+      },
+      {
+        "name": "Anomaly",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Defect",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Failure",
+        "type": "Cause"
+      },
+      {
+        "name": "Wear",
+        "type": "Cause"
+      },
+      {
+        "name": "Overheating",
+        "type": "Cause"
+      },
+      {
+        "name": "Maintenance",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Inspection",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Replacement",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Accelerometer",
+        "type": "Sensor"
+      },
+      {
+        "name": "Vibration Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Current Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Voltage Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Speed Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Power Consumption",
+        "type": "Measurement"
+      },
+      {
+        "name": "Vibration Level",
+        "type": "Measurement"
+      },
+      {
+        "name": "Temperature",
+        "type": "Measurement"
+      },
+      {
+        "name": "Current",
+        "type": "Measurement"
+      },
+      {
+        "name": "Voltage",
+        "type": "Measurement"
+      },
+      {
+        "name": "Speed",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Defect"
+      },
+      {
+        "subject": "Rolling Element Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Rolling Element Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Defect"
+      },
+      {
+        "subject": "Failure",
+        "predicate": "causes",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Failure",
+        "predicate": "causes",
+        "object": "Defect"
+      },
+      {
+        "subject": "Wear",
+        "predicate": "causes",
+        "object": "Failure"
+      },
+      {
+        "subject": "Overheating",
+        "predicate": "causes",
+        "object": "Failure"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Anomaly"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Defect"
+      },
+      {
+        "subject": "Accelerometer",
+        "predicate": "measuredBy",
+        "object": "Vibration Level"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "measuredBy",
+        "object": "Temperature"
+      },
+      {
+        "subject": "Current Sensor",
+        "predicate": "measuredBy",
+        "object": "Current"
+      },
+      {
+        "subject": "Voltage Sensor",
+        "predicate": "measuredBy",
+        "object": "Voltage"
+      },
+      {
+        "subject": "Speed Sensor",
+        "predicate": "measuredBy",
+        "object": "Speed"
+      },
+      {
+        "subject": "Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Inspection",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Replacement",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "partOf",
+        "object": "System"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf::chunk_23"
+  },
+  {
+    "entities": [
+      {
+        "name": "Filtration Units",
+        "type": "Components"
+      },
+      {
+        "name": "Sensors",
+        "type": "Components"
+      },
+      {
+        "name": "Industry 4.0",
+        "type": "Concept"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "Corrective Maintenance",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "Preventive Maintenance",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "Machine Learning Algorithms",
+        "type": "Concept"
+      },
+      {
+        "name": "Upper Management",
+        "type": "Role"
+      },
+      {
+        "name": "Management",
+        "type": "Role"
+      },
+      {
+        "name": "Cost-Benefit Analysis",
+        "type": "Concept"
+      },
+      {
+        "name": "Monte Carlo Simulation",
+        "type": "Concept"
+      },
+      {
+        "name": "Water Treatment Plant",
+        "type": "System"
+      },
+      {
+        "name": "Singapore University of Technology and Design",
+        "type": "Organization"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Filtration Units"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Industry 4.0",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "hasFailureMode",
+        "object": "Filtration Units"
+      },
+      {
+        "subject": "Corrective Maintenance",
+        "predicate": "causes",
+        "object": "Downtime"
+      },
+      {
+        "subject": "Preventive Maintenance",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Upper Management",
+        "predicate": "causes",
+        "object": "Low Adoption Rate"
+      },
+      {
+        "subject": "Management",
+        "predicate": "causes",
+        "object": "Low Adoption Rate"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "partOf",
+        "object": "Industry 4.0"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "detectedBy",
+        "object": "Sensors"
+      },
+      {
+        "subject": "Cost-Benefit Analysis",
+        "predicate": "measuredBy",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Monte Carlo Simulation",
+        "predicate": "measuredBy",
+        "object": "Predictive Maintenance"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_0"
+  },
+  {
+    "entities": [
+      {
+        "name": "Industry 4.0",
+        "type": "concept"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "concept"
+      },
+      {
+        "name": "Machine Learning",
+        "type": "concept"
+      },
+      {
+        "name": "Filtration Unit",
+        "type": "component"
+      },
+      {
+        "name": "Cost-Benefit Analysis",
+        "type": "method"
+      },
+      {
+        "name": "Monte Carlo Simulation",
+        "type": "method"
+      },
+      {
+        "name": "CITIC Envirotech Ltd",
+        "type": "company"
+      },
+      {
+        "name": "Singapore University of Technology and Design",
+        "type": "organization"
+      },
+      {
+        "name": "Water Treatment Plant",
+        "type": "system"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "hasFailureMode",
+        "object": "Filtration Unit"
+      },
+      {
+        "subject": "Industry 4.0",
+        "predicate": "requires",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "indicates",
+        "object": "Filtration Unit"
+      },
+      {
+        "subject": "Filtration Unit",
+        "predicate": "measuredBy",
+        "object": "Sensors"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Measurements"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Filtration Unit"
+      },
+      {
+        "subject": "Filtration Unit",
+        "predicate": "partOf",
+        "object": "Water Treatment Plant"
+      },
+      {
+        "subject": "Cost-Benefit Analysis",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Monte Carlo Simulation",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "CITIC Envirotech Ltd",
+        "predicate": "has",
+        "object": "Financial Figures"
+      },
+      {
+        "subject": "Financial Figures",
+        "predicate": "indicates",
+        "object": "Predictive Maintenance"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_1"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "performance",
+        "type": "symptom"
+      },
+      {
+        "name": "maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "real-time remote monitoring",
+        "type": "maintenance action"
+      },
+      {
+        "name": "live tracking",
+        "type": "maintenance action"
+      },
+      {
+        "name": "production process",
+        "type": "process"
+      },
+      {
+        "name": "predictive maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "advanced statistical modeling",
+        "type": "method"
+      },
+      {
+        "name": "machine learning",
+        "type": "method"
+      },
+      {
+        "name": "predictive analytics",
+        "type": "analysis"
+      },
+      {
+        "name": "faults",
+        "type": "failure mode"
+      },
+      {
+        "name": "cost justifications",
+        "type": "cause"
+      },
+      {
+        "name": "management",
+        "type": "actor"
+      },
+      {
+        "name": "IIoT",
+        "type": "technology"
+      },
+      {
+        "name": "Emory University Future of IIoT Research Study",
+        "type": "study"
+      },
+      {
+        "name": "Presenso",
+        "type": "company"
+      },
+      {
+        "name": "statistical modeling",
+        "type": "method"
+      },
+      {
+        "name": "time series forecasting",
+        "type": "method"
+      },
+      {
+        "name": "machine learning models",
+        "type": "method"
+      },
+      {
+        "name": "predictive maintenance program",
+        "type": "program"
+      },
+      {
+        "name": "substantial costs",
+        "type": "cause"
+      },
+      {
+        "name": "study",
+        "type": "research"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "faults"
+      },
+      {
+        "subject": "motor",
+        "predicate": "measuredBy",
+        "object": "performance"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "partOf",
+        "object": "production process"
+      },
+      {
+        "subject": "real-time remote monitoring",
+        "predicate": "measuredBy",
+        "object": "performance"
+      },
+      {
+        "subject": "live tracking",
+        "predicate": "measuredBy",
+        "object": "performance"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "indicates",
+        "object": "performance"
+      },
+      {
+        "subject": "cost justifications",
+        "predicate": "causes",
+        "object": "predictive maintenance"
+      },
+      {
+        "subject": "management",
+        "predicate": "causes",
+        "object": "cost justifications"
+      },
+      {
+        "subject": "Emory University Future of IIoT Research Study",
+        "predicate": "detectedBy",
+        "object": "Presenso"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "advanced statistical modeling"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "machine learning"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "predictive analytics"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "statistical modeling"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "time series forecasting"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "machine learning models"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_2"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "Components"
+      },
+      {
+        "name": "failure modes",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "symptoms",
+        "type": "Symptoms"
+      },
+      {
+        "name": "causes",
+        "type": "Causes"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "sensors",
+        "type": "Sensors"
+      },
+      {
+        "name": "measurements",
+        "type": "Measurements"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motors",
+        "predicate": "hasFailureMode",
+        "object": "failure modes"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "measurements"
+      },
+      {
+        "subject": "measurements",
+        "predicate": "indicates",
+        "object": "symptoms"
+      },
+      {
+        "subject": "symptoms",
+        "predicate": "causes",
+        "object": "causes"
+      },
+      {
+        "subject": "causes",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance actions"
+      },
+      {
+        "subject": "motors",
+        "predicate": "partOf",
+        "object": "plant and equipment"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_4"
+  },
+  {
+    "entities": [
+      {
+        "name": "Sensors",
+        "type": "Components"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "Maintenance Approach"
+      },
+      {
+        "name": "Corrective Maintenance",
+        "type": "Maintenance Approach"
+      },
+      {
+        "name": "Preventive Maintenance",
+        "type": "Maintenance Approach"
+      },
+      {
+        "name": "Physical Assets",
+        "type": "Components"
+      },
+      {
+        "name": "Time",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Temperature",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Pressure",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Length",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Mass",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Angle",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Outlier",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Gradient",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Distance",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Spike",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Stuck-at",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "High Noise",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Late Deliveries",
+        "type": "Cause"
+      },
+      {
+        "name": "Weaknesses of Corrective Maintenance",
+        "type": "Cause"
+      },
+      {
+        "name": "Weaknesses of Preventive Maintenance",
+        "type": "Cause"
+      },
+      {
+        "name": "Maintenance Actions",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "External Network",
+        "type": "Components"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Time"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Temperature"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Pressure"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Length"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Mass"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "measuredBy",
+        "object": "Angle"
+      },
+      {
+        "subject": "Outlier",
+        "predicate": "hasFailureMode",
+        "object": "Outlier"
+      },
+      {
+        "subject": "Gradient",
+        "predicate": "hasFailureMode",
+        "object": "Gradient"
+      },
+      {
+        "subject": "Distance",
+        "predicate": "hasFailureMode",
+        "object": "Distance"
+      },
+      {
+        "subject": "Spike",
+        "predicate": "hasFailureMode",
+        "object": "Spike"
+      },
+      {
+        "subject": "Stuck-at",
+        "predicate": "hasFailureMode",
+        "object": "Stuck-at"
+      },
+      {
+        "subject": "High Noise",
+        "predicate": "hasFailureMode",
+        "object": "High Noise"
+      },
+      {
+        "subject": "Late Deliveries",
+        "predicate": "causes",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Weaknesses of Corrective Maintenance",
+        "predicate": "causes",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Weaknesses of Preventive Maintenance",
+        "predicate": "causes",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Predictive Maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Physical Assets"
+      },
+      {
+        "subject": "Sensors",
+        "predicate": "partOf",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "External Network",
+        "predicate": "detectedBy",
+        "object": "Sensors"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_5"
+  },
+  {
+    "entities": [
+      {
+        "name": "noise",
+        "type": "symptom"
+      },
+      {
+        "name": "variance",
+        "type": "symptom"
+      },
+      {
+        "name": "trend",
+        "type": "component"
+      },
+      {
+        "name": "sensor",
+        "type": "component"
+      },
+      {
+        "name": "data",
+        "type": "component"
+      },
+      {
+        "name": "fault",
+        "type": "failure mode"
+      },
+      {
+        "name": "physical malfunction",
+        "type": "cause"
+      },
+      {
+        "name": "threshold",
+        "type": "component"
+      },
+      {
+        "name": "sensor reading",
+        "type": "measurement"
+      },
+      {
+        "name": "rule-based method",
+        "type": "maintenance action"
+      },
+      {
+        "name": "estimation-based method",
+        "type": "maintenance action"
+      },
+      {
+        "name": "time-series-based method",
+        "type": "maintenance action"
+      },
+      {
+        "name": "learning-based method",
+        "type": "maintenance action"
+      },
+      {
+        "name": "domain-specific knowledge",
+        "type": "component"
+      },
+      {
+        "name": "sensor data",
+        "type": "measurement"
+      },
+      {
+        "name": "multiple sensors",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "noise",
+        "predicate": "indicates",
+        "object": "variance"
+      },
+      {
+        "subject": "variance",
+        "predicate": "indicates",
+        "object": "trend"
+      },
+      {
+        "subject": "trend",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "sensor",
+        "predicate": "measuredBy",
+        "object": "data"
+      },
+      {
+        "subject": "data",
+        "predicate": "hasFailureMode",
+        "object": "fault"
+      },
+      {
+        "subject": "fault",
+        "predicate": "causes",
+        "object": "physical malfunction"
+      },
+      {
+        "subject": "physical malfunction",
+        "predicate": "causes",
+        "object": "variance"
+      },
+      {
+        "subject": "threshold",
+        "predicate": "partOf",
+        "object": "rule-based method"
+      },
+      {
+        "subject": "sensor reading",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "rule-based method",
+        "predicate": "requiresMaintenance",
+        "object": "sensor"
+      },
+      {
+        "subject": "estimation-based method",
+        "predicate": "requiresMaintenance",
+        "object": "multiple sensors"
+      },
+      {
+        "subject": "time-series-based method",
+        "predicate": "requiresMaintenance",
+        "object": "sensor data"
+      },
+      {
+        "subject": "learning-based method",
+        "predicate": "requiresMaintenance",
+        "object": "data"
+      },
+      {
+        "subject": "domain-specific knowledge",
+        "predicate": "partOf",
+        "object": "rule-based method"
+      },
+      {
+        "subject": "sensor data",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "multiple sensors",
+        "predicate": "measuredBy",
+        "object": "sensor data"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_6"
+  },
+  {
+    "entities": [
+      {
+        "name": "sensor",
+        "type": "Component"
+      },
+      {
+        "name": "threshold",
+        "type": "Component"
+      },
+      {
+        "name": "fault signal",
+        "type": "Symptom"
+      },
+      {
+        "name": "sensor reading",
+        "type": "Measurement"
+      },
+      {
+        "name": "estimation-based methods",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "time-series-based methods",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "learning-based methods",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "machine learning model",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "financial model",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "data",
+        "type": "Measurement"
+      },
+      {
+        "name": "normal behavior",
+        "type": "Cause"
+      },
+      {
+        "name": "abnormal behavior",
+        "type": "Cause"
+      },
+      {
+        "name": "stationarity",
+        "type": "Cause"
+      },
+      {
+        "name": "autocorrelation",
+        "type": "Cause"
+      },
+      {
+        "name": "training data",
+        "type": "Measurement"
+      },
+      {
+        "name": "validation data",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "sensor reading",
+        "predicate": "indicates",
+        "object": "fault signal"
+      },
+      {
+        "subject": "threshold",
+        "predicate": "hasFailureMode",
+        "object": "fault signal"
+      },
+      {
+        "subject": "sensor reading",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "estimation-based methods",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "time-series-based methods",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "learning-based methods",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "machine learning model",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "financial model",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "data",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "normal behavior",
+        "predicate": "causes",
+        "object": "stationarity"
+      },
+      {
+        "subject": "normal behavior",
+        "predicate": "causes",
+        "object": "autocorrelation"
+      },
+      {
+        "subject": "abnormal behavior",
+        "predicate": "causes",
+        "object": "fault signal"
+      },
+      {
+        "subject": "training data",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "validation data",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_7"
+  },
+  {
+    "entities": [
+      {
+        "name": "machine learning model",
+        "type": "component"
+      },
+      {
+        "name": "financial model",
+        "type": "component"
+      },
+      {
+        "name": "predictive maintenance model",
+        "type": "component"
+      },
+      {
+        "name": "Secure Water Treatment (SWaT) testbed",
+        "type": "testbed"
+      },
+      {
+        "name": "Singapore University of Technology and Design (SUTD)",
+        "type": "university"
+      },
+      {
+        "name": "Allen-Bradley Programmable Logic Controllers (PLCs)",
+        "type": "component"
+      },
+      {
+        "name": "Human Machine Interfaces (HMIs)",
+        "type": "component"
+      },
+      {
+        "name": "Supervisory Control and Data Acquisition (SCADA) workstation",
+        "type": "component"
+      },
+      {
+        "name": "Historian",
+        "type": "component"
+      },
+      {
+        "name": "ultra-filtration stage",
+        "type": "stage"
+      },
+      {
+        "name": "raw water intake",
+        "type": "stage"
+      },
+      {
+        "name": "chemical dosing pre-treatment",
+        "type": "stage"
+      },
+      {
+        "name": "dechlorination using ultraviolet lamps",
+        "type": "stage"
+      },
+      {
+        "name": "reverse osmosis",
+        "type": "stage"
+      },
+      {
+        "name": "backwash process",
+        "type": "stage"
+      },
+      {
+        "name": "water treatment plant",
+        "type": "system"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "machine learning model",
+        "predicate": "requiresMaintenance",
+        "object": "predictive maintenance model"
+      },
+      {
+        "subject": "predictive maintenance model",
+        "predicate": "hasFailureMode",
+        "object": "ultra-filtration stage"
+      },
+      {
+        "subject": "ultra-filtration stage",
+        "predicate": "partOf",
+        "object": "water treatment plant"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasComponent",
+        "object": "Allen-Bradley Programmable Logic Controllers (PLCs)"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasComponent",
+        "object": "Human Machine Interfaces (HMIs)"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasComponent",
+        "object": "Supervisory Control and Data Acquisition (SCADA) workstation"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasComponent",
+        "object": "Historian"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "raw water intake"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "chemical dosing pre-treatment"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "dechlorination using ultraviolet lamps"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "reverse osmosis"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "backwash process"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "hasStage",
+        "object": "ultra-filtration stage"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_8"
+  },
+  {
+    "entities": [
+      {
+        "name": "PLCs",
+        "type": "Components"
+      },
+      {
+        "name": "Human Machine Interfaces (HMIs)",
+        "type": "Components"
+      },
+      {
+        "name": "Supervisory Control and Data Acquisition (SCADA) workstation",
+        "type": "Components"
+      },
+      {
+        "name": "Historian",
+        "type": "Components"
+      },
+      {
+        "name": "Sensor data",
+        "type": "Measurements"
+      },
+      {
+        "name": "Differential pressure indicator transmitter (DPIT) sensor",
+        "type": "Sensors"
+      },
+      {
+        "name": "Raw water intake stage",
+        "type": "Stage"
+      },
+      {
+        "name": "Ultra-filtration stage",
+        "type": "Stage"
+      },
+      {
+        "name": "Predictive maintenance",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "Simulation of values",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "Normal operation",
+        "type": "Stage"
+      },
+      {
+        "name": "Attack scenarios",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "Excessive noise factor",
+        "type": "Symptoms"
+      },
+      {
+        "name": "Differential pressure",
+        "type": "Measurements"
+      },
+      {
+        "name": "PLC code",
+        "type": "Components"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "PLCs",
+        "predicate": "partOf",
+        "object": "SCADA system"
+      },
+      {
+        "subject": "Human Machine Interfaces (HMIs)",
+        "predicate": "partOf",
+        "object": "SCADA system"
+      },
+      {
+        "subject": "Supervisory Control and Data Acquisition (SCADA) workstation",
+        "predicate": "partOf",
+        "object": "SCADA system"
+      },
+      {
+        "subject": "Historian",
+        "predicate": "partOf",
+        "object": "SCADA system"
+      },
+      {
+        "subject": "Sensor data",
+        "predicate": "measuredBy",
+        "object": "Sensors"
+      },
+      {
+        "subject": "Differential pressure indicator transmitter (DPIT) sensor",
+        "predicate": "measuredBy",
+        "object": "Differential pressure"
+      },
+      {
+        "subject": "Differential pressure indicator transmitter (DPIT) sensor",
+        "predicate": "detectedBy",
+        "object": "SCADA system"
+      },
+      {
+        "subject": "Predictive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "Motors"
+      },
+      {
+        "subject": "Simulation of values",
+        "predicate": "indicates",
+        "object": "Predictive maintenance"
+      },
+      {
+        "subject": "Attack scenarios",
+        "predicate": "causes",
+        "object": "Failure Modes"
+      },
+      {
+        "subject": "Excessive noise factor",
+        "predicate": "indicates",
+        "object": "Symptoms"
+      },
+      {
+        "subject": "PLC code",
+        "predicate": "causes",
+        "object": "Failure Modes"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_9"
+  },
+  {
+    "entities": [
+      {
+        "name": "DPIT",
+        "type": "sensor"
+      },
+      {
+        "name": "ultra-filtration stage",
+        "type": "component"
+      },
+      {
+        "name": "predictive maintenance models",
+        "type": "maintenance action"
+      },
+      {
+        "name": "Python",
+        "type": "programming language"
+      },
+      {
+        "name": "DataFrame",
+        "type": "data structure"
+      },
+      {
+        "name": "timestamp",
+        "type": "measurement"
+      },
+      {
+        "name": "differential pressure",
+        "type": "measurement"
+      },
+      {
+        "name": "lag features",
+        "type": "feature"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "DPIT",
+        "predicate": "partOf",
+        "object": "ultra-filtration stage"
+      },
+      {
+        "subject": "predictive maintenance models",
+        "predicate": "requiresMaintenance",
+        "object": "DPIT"
+      },
+      {
+        "subject": "Python",
+        "predicate": "measuredBy",
+        "object": "DataFrame"
+      },
+      {
+        "subject": "timestamp",
+        "predicate": "measuredBy",
+        "object": "Python"
+      },
+      {
+        "subject": "differential pressure",
+        "predicate": "measuredBy",
+        "object": "DPIT"
+      },
+      {
+        "subject": "lag features",
+        "predicate": "indicates",
+        "object": "differential pressure"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_10"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "components"
+      },
+      {
+        "name": "failure modes",
+        "type": "failure modes"
+      },
+      {
+        "name": "symptoms",
+        "type": "symptoms"
+      },
+      {
+        "name": "causes",
+        "type": "causes"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "maintenance actions"
+      },
+      {
+        "name": "sensors",
+        "type": "sensors"
+      },
+      {
+        "name": "measurements",
+        "type": "measurements"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_14"
+  },
+  {
+    "entities": [
+      {
+        "name": "predictive maintenance",
+        "type": "maintenance type"
+      },
+      {
+        "name": "preventive maintenance",
+        "type": "maintenance type"
+      },
+      {
+        "name": "water treatment plant",
+        "type": "equipment"
+      },
+      {
+        "name": "filtration unit",
+        "type": "component"
+      },
+      {
+        "name": "pressure",
+        "type": "measurement"
+      },
+      {
+        "name": "RMSE",
+        "type": "metric"
+      },
+      {
+        "name": "machine learning models",
+        "type": "model"
+      },
+      {
+        "name": "maintenance",
+        "type": "action"
+      },
+      {
+        "name": "downtime",
+        "type": "symptom"
+      },
+      {
+        "name": "revenue loss",
+        "type": "consequence"
+      },
+      {
+        "name": "failure",
+        "type": "event"
+      },
+      {
+        "name": "breakdown",
+        "type": "event"
+      },
+      {
+        "name": "maintenance cycle",
+        "type": "schedule"
+      },
+      {
+        "name": "period",
+        "type": "time unit"
+      },
+      {
+        "name": "event",
+        "type": "occurrence"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "predictive maintenance",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "indicates",
+        "object": "no fault"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance"
+      },
+      {
+        "subject": "preventive maintenance",
+        "predicate": "hasFailureMode",
+        "object": "failure"
+      },
+      {
+        "subject": "preventive maintenance",
+        "predicate": "indicates",
+        "object": "maintenance"
+      },
+      {
+        "subject": "preventive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance"
+      },
+      {
+        "subject": "filtration unit",
+        "predicate": "partOf",
+        "object": "water treatment plant"
+      },
+      {
+        "subject": "pressure",
+        "predicate": "measuredBy",
+        "object": "sensor"
+      },
+      {
+        "subject": "RMSE",
+        "predicate": "measuredBy",
+        "object": "machine learning models"
+      },
+      {
+        "subject": "failure",
+        "predicate": "causes",
+        "object": "downtime"
+      },
+      {
+        "subject": "downtime",
+        "predicate": "indicates",
+        "object": "revenue loss"
+      },
+      {
+        "subject": "event",
+        "predicate": "detectedBy",
+        "object": "predictive maintenance model"
+      },
+      {
+        "subject": "predictive maintenance model",
+        "predicate": "measuredBy",
+        "object": "RMSE"
+      },
+      {
+        "subject": "maintenance cycle",
+        "predicate": "partOf",
+        "object": "predictive maintenance"
+      },
+      {
+        "subject": "period",
+        "predicate": "partOf",
+        "object": "maintenance cycle"
+      },
+      {
+        "subject": "event",
+        "predicate": "partOf",
+        "object": "maintenance cycle"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_15"
+  },
+  {
+    "entities": [
+      {
+        "name": "RMSE",
+        "type": "metric"
+      },
+      {
+        "name": "linear regression",
+        "type": "model"
+      },
+      {
+        "name": "random forest regressor",
+        "type": "model"
+      },
+      {
+        "name": "gradient boosting regressor",
+        "type": "model"
+      },
+      {
+        "name": "tree-based models",
+        "type": "category"
+      },
+      {
+        "name": "Monte Carlo simulation",
+        "type": "method"
+      },
+      {
+        "name": "inspection cost savings",
+        "type": "subcategory"
+      },
+      {
+        "name": "maintenance cost savings",
+        "type": "subcategory"
+      },
+      {
+        "name": "avoidance of lost revenue",
+        "type": "subcategory"
+      },
+      {
+        "name": "materials cost savings",
+        "type": "subcategory"
+      },
+      {
+        "name": "Table 2",
+        "type": "table"
+      },
+      {
+        "name": "Table 3",
+        "type": "table"
+      },
+      {
+        "name": "Ureca@NTU 2019-20",
+        "type": "conference"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_16"
+  },
+  {
+    "entities": [
+      {
+        "name": "linear regression",
+        "type": "machine learning model"
+      },
+      {
+        "name": "random forest regressor",
+        "type": "machine learning model"
+      },
+      {
+        "name": "gradient boosting regressor",
+        "type": "machine learning model"
+      },
+      {
+        "name": "differential pressure indicating transmitter",
+        "type": "sensor"
+      },
+      {
+        "name": "pressure values",
+        "type": "measurement"
+      },
+      {
+        "name": "RMSE",
+        "type": "evaluation metric"
+      },
+      {
+        "name": "water treatment plant",
+        "type": "equipment"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "maintenance action"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "linear regression",
+        "predicate": "performed best on",
+        "object": "RMSE"
+      },
+      {
+        "subject": "random forest regressor",
+        "predicate": "ranked second on",
+        "object": "RMSE"
+      },
+      {
+        "subject": "gradient boosting regressor",
+        "predicate": "ranked last on",
+        "object": "RMSE"
+      },
+      {
+        "subject": "differential pressure indicating transmitter",
+        "predicate": "indicates",
+        "object": "pressure values"
+      },
+      {
+        "subject": "pressure values",
+        "predicate": "measured by",
+        "object": "differential pressure indicating transmitter"
+      },
+      {
+        "subject": "maintenance actions",
+        "predicate": "requires",
+        "object": "differential pressure indicating transmitter"
+      },
+      {
+        "subject": "maintenance actions",
+        "predicate": "requires",
+        "object": "water treatment plant"
+      },
+      {
+        "subject": "water treatment plant",
+        "predicate": "has",
+        "object": "differential pressure indicating transmitter"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_17"
+  },
+  {
+    "entities": [
+      {
+        "name": "costs",
+        "type": "component"
+      },
+      {
+        "name": "revenue",
+        "type": "component"
+      },
+      {
+        "name": "pressure value",
+        "type": "component"
+      },
+      {
+        "name": "system",
+        "type": "component"
+      },
+      {
+        "name": "equipment",
+        "type": "component"
+      },
+      {
+        "name": "maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "predictive maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "corrective maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "preventive maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "cost-benefit analysis",
+        "type": "template"
+      },
+      {
+        "name": "financial template",
+        "type": "template"
+      },
+      {
+        "name": "water treatment industry",
+        "type": "industry"
+      },
+      {
+        "name": "sensors",
+        "type": "sensor"
+      },
+      {
+        "name": "measurements",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "predictive maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "equipment"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "indicates",
+        "object": "pressure value exceeding its limit"
+      },
+      {
+        "subject": "pressure value exceeding its limit",
+        "predicate": "hasFailureMode",
+        "object": "rapid failure"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "measuredBy",
+        "object": "sensors"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "detectedBy",
+        "object": "measurements"
+      },
+      {
+        "subject": "pressure value",
+        "predicate": "measuredBy",
+        "object": "sensors"
+      },
+      {
+        "subject": "measurements",
+        "predicate": "measuredBy",
+        "object": "sensors"
+      },
+      {
+        "subject": "predictive maintenance",
+        "predicate": "causes",
+        "object": "halt the system to prevent further damage"
+      },
+      {
+        "subject": "halt the system to prevent further damage",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "partOf",
+        "object": "predictive maintenance"
+      },
+      {
+        "subject": "cost-benefit analysis",
+        "predicate": "indicates",
+        "object": "relevant costs"
+      },
+      {
+        "subject": "relevant costs",
+        "predicate": "excluded",
+        "object": "sunk costs"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_18"
+  },
+  {
+    "entities": [
+      {
+        "name": "project",
+        "type": "component"
+      },
+      {
+        "name": "financial template",
+        "type": "component"
+      },
+      {
+        "name": "machine learning model",
+        "type": "component"
+      },
+      {
+        "name": "filtration unit",
+        "type": "component"
+      },
+      {
+        "name": "water treatment plant",
+        "type": "component"
+      },
+      {
+        "name": "probability distribution",
+        "type": "component"
+      },
+      {
+        "name": "sampling bias",
+        "type": "cause"
+      },
+      {
+        "name": "lack of detailed information",
+        "type": "cause"
+      },
+      {
+        "name": "downtime",
+        "type": "symptom"
+      },
+      {
+        "name": "loss of revenue",
+        "type": "symptom"
+      },
+      {
+        "name": "rapid rise in pressure",
+        "type": "symptom"
+      },
+      {
+        "name": "predictive maintenance program",
+        "type": "maintenance action"
+      },
+      {
+        "name": "cost-benefit analysis",
+        "type": "maintenance action"
+      },
+      {
+        "name": "pressure sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "temperature sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "vibration sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "pressure measurement",
+        "type": "measurement"
+      },
+      {
+        "name": "temperature measurement",
+        "type": "measurement"
+      },
+      {
+        "name": "vibration measurement",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "project",
+        "predicate": "hasFailureMode",
+        "object": "downtime"
+      },
+      {
+        "subject": "project",
+        "predicate": "hasFailureMode",
+        "object": "loss of revenue"
+      },
+      {
+        "subject": "filtration unit",
+        "predicate": "hasFailureMode",
+        "object": "rapid rise in pressure"
+      },
+      {
+        "subject": "sampling bias",
+        "predicate": "causes",
+        "object": "biased point estimate"
+      },
+      {
+        "subject": "lack of detailed information",
+        "predicate": "causes",
+        "object": "biased point estimate"
+      },
+      {
+        "subject": "machine learning model",
+        "predicate": "indicates",
+        "object": "fault detection"
+      },
+      {
+        "subject": "pressure sensor",
+        "predicate": "measuredBy",
+        "object": "pressure measurement"
+      },
+      {
+        "subject": "temperature sensor",
+        "predicate": "measuredBy",
+        "object": "temperature measurement"
+      },
+      {
+        "subject": "vibration sensor",
+        "predicate": "measuredBy",
+        "object": "vibration measurement"
+      },
+      {
+        "subject": "predictive maintenance program",
+        "predicate": "requiresMaintenance",
+        "object": "filtration unit"
+      },
+      {
+        "subject": "cost-benefit analysis",
+        "predicate": "requiresMaintenance",
+        "object": "predictive maintenance program"
+      },
+      {
+        "subject": "filtration unit",
+        "predicate": "partOf",
+        "object": "water treatment plant"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_20"
+  },
+  {
+    "entities": [
+      {
+        "name": "water treatment plant",
+        "type": "component"
+      },
+      {
+        "name": "machine learning models",
+        "type": "maintenance action"
+      },
+      {
+        "name": "sensors",
+        "type": "sensor"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_22"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Failure",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Vibration",
+        "type": "Symptom"
+      },
+      {
+        "name": "Overheating",
+        "type": "Symptom"
+      },
+      {
+        "name": "Wear",
+        "type": "Cause"
+      },
+      {
+        "name": "Corrosion",
+        "type": "Cause"
+      },
+      {
+        "name": "Inspection",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Replacement",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Vibration Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Vibration Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Temperature Measurement",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Failure"
+      },
+      {
+        "subject": "Wear",
+        "predicate": "causes",
+        "object": "Failure"
+      },
+      {
+        "subject": "Corrosion",
+        "predicate": "causes",
+        "object": "Failure"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Failure"
+      },
+      {
+        "subject": "Overheating",
+        "predicate": "indicates",
+        "object": "Failure"
+      },
+      {
+        "subject": "Vibration Sensor",
+        "predicate": "measuredBy",
+        "object": "Vibration Measurement"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "measuredBy",
+        "object": "Temperature Measurement"
+      },
+      {
+        "subject": "Inspection",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Replacement",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Vibration Sensor",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Vibration Measurement",
+        "predicate": "detectedBy",
+        "object": "Vibration Sensor"
+      },
+      {
+        "subject": "Temperature Measurement",
+        "predicate": "detectedBy",
+        "object": "Temperature Sensor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_24"
+  },
+  {
+    "entities": [
+      {
+        "name": "Sensor",
+        "type": "Component"
+      },
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Failure Mode",
+        "type": "FailureMode"
+      },
+      {
+        "name": "Symptom",
+        "type": "Symptom"
+      },
+      {
+        "name": "Cause",
+        "type": "Cause"
+      },
+      {
+        "name": "Maintenance Action",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Sensor Network",
+        "type": "Sensor"
+      },
+      {
+        "name": "Fault Type",
+        "type": "FailureMode"
+      },
+      {
+        "name": "Outlier",
+        "type": "Symptom"
+      },
+      {
+        "name": "Predictive Maintenance",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Calibration",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Fault Detection",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Environmental Sensor Network",
+        "type": "Sensor"
+      },
+      {
+        "name": "Early Failure Detection",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Stock Prediction",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Financial Modeling",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Cost Benefit Analysis",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Thermographer’s Conference",
+        "type": "Event"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Sensor",
+        "predicate": "measuredBy",
+        "object": "Fault Type"
+      },
+      {
+        "subject": "Sensor Network",
+        "predicate": "measuredBy",
+        "object": "Fault Type"
+      },
+      {
+        "subject": "Sensor Network",
+        "predicate": "measuredBy",
+        "object": "Outlier"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Early Failure Detection"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Fault Detection"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Calibration"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "causes",
+        "object": "Outlier"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "indicates",
+        "object": "Symptom"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Predictive Maintenance"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Calibration"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Fault Detection"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "partOf",
+        "object": "Sensor Network"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "detectedBy",
+        "object": "Sensor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf::chunk_25"
+  },
+  {
+    "entities": [
+      {
+        "name": "Fault diagnosis",
+        "type": "area of research"
+      },
+      {
+        "name": "Automotive infotainment electronics",
+        "type": "field"
+      },
+      {
+        "name": "Mechanical systems",
+        "type": "system"
+      },
+      {
+        "name": "Electrical systems",
+        "type": "system"
+      },
+      {
+        "name": "Automobile",
+        "type": "field"
+      },
+      {
+        "name": "Diagnosis system",
+        "type": "system"
+      },
+      {
+        "name": "Fault symptoms",
+        "type": "observable effects"
+      },
+      {
+        "name": "Diagnosis class",
+        "type": "category"
+      },
+      {
+        "name": "Probable cause",
+        "type": "cause"
+      },
+      {
+        "name": "Similarity matching techniques",
+        "type": "method"
+      },
+      {
+        "name": "Knowledge",
+        "type": "source"
+      },
+      {
+        "name": "System analysis",
+        "type": "source"
+      },
+      {
+        "name": "Application area",
+        "type": "area"
+      },
+      {
+        "name": "Automotive infotainment applications",
+        "type": "application"
+      },
+      {
+        "name": "Dr. Mashud Kabir",
+        "type": "author"
+      },
+      {
+        "name": "Department of Computer Science, University of Tuebingen",
+        "type": "organization"
+      },
+      {
+        "name": "University of Tuebingen",
+        "type": "organization"
+      },
+      {
+        "name": "Germany",
+        "type": "location"
+      },
+      {
+        "name": "Tuebingen",
+        "type": "location"
+      },
+      {
+        "name": "IJCSI",
+        "type": "journal"
+      },
+      {
+        "name": "IJCSI International Journal of Computer Science Issues",
+        "type": "journal"
+      },
+      {
+        "name": "Vol. 3",
+        "type": "volume"
+      },
+      {
+        "name": "2009",
+        "type": "year"
+      },
+      {
+        "name": "ISSN (Online): 1694-0784",
+        "type": "identifier"
+      },
+      {
+        "name": "ISSN (Printed): 1694-0814",
+        "type": "identifier"
+      },
+      {
+        "name": "Dr. Mashud Kabir",
+        "type": "author"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf::chunk_0"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "component"
+      },
+      {
+        "name": "failure modes",
+        "type": "failure mode"
+      },
+      {
+        "name": "symptoms",
+        "type": "symptom"
+      },
+      {
+        "name": "causes",
+        "type": "cause"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "maintenance action"
+      },
+      {
+        "name": "sensors",
+        "type": "sensor"
+      },
+      {
+        "name": "measurements",
+        "type": "measurement"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf::chunk_1"
+  },
+  {
+    "entities": [
+      {
+        "name": "Kukich",
+        "type": "author"
+      },
+      {
+        "name": "Tao",
+        "type": "author"
+      },
+      {
+        "name": "Muthukkumarasamy",
+        "type": "author"
+      },
+      {
+        "name": "Verma",
+        "type": "author"
+      },
+      {
+        "name": "Blumenstein",
+        "type": "author"
+      },
+      {
+        "name": "Mashud Kabir",
+        "type": "author"
+      },
+      {
+        "name": "Narayanganj",
+        "type": "location"
+      },
+      {
+        "name": "Bangladesh",
+        "type": "country"
+      },
+      {
+        "name": "Bangladesh University of Engineering & Technology",
+        "type": "university"
+      },
+      {
+        "name": "BUET",
+        "type": "university"
+      },
+      {
+        "name": "University of Stuttgart",
+        "type": "university"
+      },
+      {
+        "name": "Germany",
+        "type": "country"
+      },
+      {
+        "name": "Mercedes-Benz Technology Center",
+        "type": "company"
+      },
+      {
+        "name": "BMW",
+        "type": "company"
+      },
+      {
+        "name": "Land-Rover",
+        "type": "company"
+      },
+      {
+        "name": "Audi",
+        "type": "company"
+      },
+      {
+        "name": "Department of Computer Science",
+        "type": "department"
+      },
+      {
+        "name": "University of Tuebingen",
+        "type": "university"
+      },
+      {
+        "name": "ACM Computing Surveys",
+        "type": "journal"
+      },
+      {
+        "name": "ICCIMA 2003",
+        "type": "conference"
+      },
+      {
+        "name": "STIEBET",
+        "type": "scholarship"
+      },
+      {
+        "name": "MANETs",
+        "type": "technology"
+      },
+      {
+        "name": "Automotive Infotainment Network",
+        "type": "technology"
+      },
+      {
+        "name": "PhD",
+        "type": "degree"
+      },
+      {
+        "name": "MSc",
+        "type": "degree"
+      },
+      {
+        "name": "BSc",
+        "type": "degree"
+      },
+      {
+        "name": "Master thesis",
+        "type": "thesis"
+      },
+      {
+        "name": "Doctoral degree",
+        "type": "degree"
+      },
+      {
+        "name": "Dissertation",
+        "type": "thesis"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf::chunk_16"
+  },
+  {
+    "entities": [
+      {
+        "name": "Doctoral degree",
+        "type": "component"
+      },
+      {
+        "name": "Department of Computer Science",
+        "type": "component"
+      },
+      {
+        "name": "University of Tuebingen",
+        "type": "component"
+      },
+      {
+        "name": "Germany",
+        "type": "component"
+      },
+      {
+        "name": "Intelligent System",
+        "type": "component"
+      },
+      {
+        "name": "Fault Diagnosis",
+        "type": "component"
+      },
+      {
+        "name": "Automotive Applications",
+        "type": "component"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf::chunk_17"
+  },
+  {
+    "entities": [
+      {
+        "name": "AI model",
+        "type": "component"
+      },
+      {
+        "name": "AR application",
+        "type": "system"
+      },
+      {
+        "name": "camera sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "HMD device",
+        "type": "device"
+      },
+      {
+        "name": "maintenance personnel",
+        "type": "entity"
+      },
+      {
+        "name": "expert support personnel",
+        "type": "entity"
+      },
+      {
+        "name": "environment",
+        "type": "entity"
+      },
+      {
+        "name": "work environment",
+        "type": "entity"
+      },
+      {
+        "name": "Action Cards",
+        "type": "component"
+      },
+      {
+        "name": "support application",
+        "type": "system"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_6"
+  },
+  {
+    "entities": [
+      {
+        "name": "participants",
+        "type": "people"
+      },
+      {
+        "name": "maintenance personnel",
+        "type": "people"
+      },
+      {
+        "name": "support personnel",
+        "type": "people"
+      },
+      {
+        "name": "AR HMD device",
+        "type": "equipment"
+      },
+      {
+        "name": "personal computer",
+        "type": "equipment"
+      },
+      {
+        "name": "faulty machine",
+        "type": "equipment"
+      },
+      {
+        "name": "simulated environment",
+        "type": "location"
+      },
+      {
+        "name": "kitchen appliances",
+        "type": "equipment"
+      },
+      {
+        "name": "maintenance area",
+        "type": "location"
+      },
+      {
+        "name": "separate room",
+        "type": "location"
+      },
+      {
+        "name": "Briefing Phase",
+        "type": "phase"
+      },
+      {
+        "name": "Familiarization Phase",
+        "type": "phase"
+      },
+      {
+        "name": "Maintenance Phase",
+        "type": "phase"
+      },
+      {
+        "name": "Debriefing Phase",
+        "type": "phase"
+      },
+      {
+        "name": "Qualitative Data Collection",
+        "type": "activity"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_9"
+  },
+  {
+    "entities": [
+      {
+        "name": "3D representations",
+        "type": "component"
+      },
+      {
+        "name": "Action Cards",
+        "type": "component"
+      },
+      {
+        "name": "AR Application",
+        "type": "application"
+      },
+      {
+        "name": "Support Application",
+        "type": "application"
+      },
+      {
+        "name": "voice communication",
+        "type": "component"
+      },
+      {
+        "name": "Video Feed",
+        "type": "component"
+      },
+      {
+        "name": "3D View",
+        "type": "component"
+      },
+      {
+        "name": "Unity game engine",
+        "type": "tool"
+      },
+      {
+        "name": "PUN 2",
+        "type": "tool"
+      },
+      {
+        "name": "Flask",
+        "type": "tool"
+      },
+      {
+        "name": "Photon",
+        "type": "company"
+      },
+      {
+        "name": "Unity Technologies",
+        "type": "company"
+      },
+      {
+        "name": "server solutions",
+        "type": "tool"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_15"
+  },
+  {
+    "entities": [
+      {
+        "name": "Unity game engine",
+        "type": "software"
+      },
+      {
+        "name": "PUN 2",
+        "type": "software"
+      },
+      {
+        "name": "Flask",
+        "type": "software"
+      },
+      {
+        "name": "Flask-SocketIO",
+        "type": "software"
+      },
+      {
+        "name": "HoloLens 2",
+        "type": "hardware"
+      },
+      {
+        "name": "Microsoft",
+        "type": "company"
+      },
+      {
+        "name": "AR Maintenance application",
+        "type": "software"
+      },
+      {
+        "name": "Participants",
+        "type": "group"
+      },
+      {
+        "name": "Experiment",
+        "type": "event"
+      },
+      {
+        "name": "Communication Channel Tests",
+        "type": "event"
+      },
+      {
+        "name": "Problem-solving phases",
+        "type": "event"
+      },
+      {
+        "name": "Table 1",
+        "type": "document"
+      },
+      {
+        "name": "System Usability Score Results",
+        "type": "document"
+      },
+      {
+        "name": "Maintenance AR Application",
+        "type": "software"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_16"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Failure Mode",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Symptom",
+        "type": "Symptom"
+      },
+      {
+        "name": "Cause",
+        "type": "Cause"
+      },
+      {
+        "name": "Maintenance Action",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Measurement",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_21"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "failure mode",
+        "type": "failure mode"
+      },
+      {
+        "name": "symptom",
+        "type": "symptom"
+      },
+      {
+        "name": "cause",
+        "type": "cause"
+      },
+      {
+        "name": "maintenance action",
+        "type": "maintenance action"
+      },
+      {
+        "name": "sensor",
+        "type": "sensor"
+      },
+      {
+        "name": "measurement",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "failure mode"
+      },
+      {
+        "subject": "cause",
+        "predicate": "causes",
+        "object": "failure mode"
+      },
+      {
+        "subject": "symptom",
+        "predicate": "indicates",
+        "object": "failure mode"
+      },
+      {
+        "subject": "sensor",
+        "predicate": "measuredBy",
+        "object": "measurement"
+      },
+      {
+        "subject": "maintenance action",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      },
+      {
+        "subject": "motor",
+        "predicate": "partOf",
+        "object": "system"
+      },
+      {
+        "subject": "sensor",
+        "predicate": "detectedBy",
+        "object": "maintenance action"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_23"
+  },
+  {
+    "entities": [
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Bearings",
+        "type": "Component"
+      },
+      {
+        "name": "Shafts",
+        "type": "Component"
+      },
+      {
+        "name": "Winding",
+        "type": "Component"
+      },
+      {
+        "name": "Insulation",
+        "type": "Component"
+      },
+      {
+        "name": "Overheating",
+        "type": "FailureMode"
+      },
+      {
+        "name": "Vibration",
+        "type": "Symptom"
+      },
+      {
+        "name": "Increased Temperature",
+        "type": "Symptom"
+      },
+      {
+        "name": "Wear and Tear",
+        "type": "Cause"
+      },
+      {
+        "name": "Corrosion",
+        "type": "Cause"
+      },
+      {
+        "name": "Insufficient Maintenance",
+        "type": "Cause"
+      },
+      {
+        "name": "Inspection",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Replacement",
+        "type": "MaintenanceAction"
+      },
+      {
+        "name": "Vibration Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Current Sensor",
+        "type": "Sensor"
+      },
+      {
+        "name": "Vibration Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Temperature Measurement",
+        "type": "Measurement"
+      },
+      {
+        "name": "Current Measurement",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Overheating",
+        "predicate": "hasFailureMode",
+        "object": "Motor"
+      },
+      {
+        "subject": "Wear and Tear",
+        "predicate": "causes",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Corrosion",
+        "predicate": "causes",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Insufficient Maintenance",
+        "predicate": "causes",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Vibration",
+        "predicate": "indicates",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Increased Temperature",
+        "predicate": "indicates",
+        "object": "Overheating"
+      },
+      {
+        "subject": "Vibration Sensor",
+        "predicate": "measuredBy",
+        "object": "Vibration Measurement"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "measuredBy",
+        "object": "Temperature Measurement"
+      },
+      {
+        "subject": "Current Sensor",
+        "predicate": "measuredBy",
+        "object": "Current Measurement"
+      },
+      {
+        "subject": "Inspection",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Replacement",
+        "predicate": "requiresMaintenance",
+        "object": "Motor"
+      },
+      {
+        "subject": "Bearings",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Shafts",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Winding",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Insulation",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Vibration Sensor",
+        "predicate": "detectedBy",
+        "object": "Vibration"
+      },
+      {
+        "subject": "Temperature Sensor",
+        "predicate": "detectedBy",
+        "object": "Increased Temperature"
+      },
+      {
+        "subject": "Current Sensor",
+        "predicate": "detectedBy",
+        "object": "Current Measurement"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_30"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "bearing",
+        "type": "component"
+      },
+      {
+        "name": "shaft",
+        "type": "component"
+      },
+      {
+        "name": "vibration",
+        "type": "symptom"
+      },
+      {
+        "name": "temperature",
+        "type": "symptom"
+      },
+      {
+        "name": "noise",
+        "type": "symptom"
+      },
+      {
+        "name": "wear",
+        "type": "cause"
+      },
+      {
+        "name": "overload",
+        "type": "cause"
+      },
+      {
+        "name": "lubrication failure",
+        "type": "cause"
+      },
+      {
+        "name": "maintenance",
+        "type": "maintenance action"
+      },
+      {
+        "name": "inspection",
+        "type": "maintenance action"
+      },
+      {
+        "name": "replacement",
+        "type": "maintenance action"
+      },
+      {
+        "name": "accelerometer",
+        "type": "sensor"
+      },
+      {
+        "name": "thermocouple",
+        "type": "sensor"
+      },
+      {
+        "name": "microphone",
+        "type": "sensor"
+      },
+      {
+        "name": "vibration measurement",
+        "type": "measurement"
+      },
+      {
+        "name": "temperature measurement",
+        "type": "measurement"
+      },
+      {
+        "name": "noise measurement",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "bearing",
+        "predicate": "hasFailureMode",
+        "object": "wear"
+      },
+      {
+        "subject": "shaft",
+        "predicate": "hasFailureMode",
+        "object": "overload"
+      },
+      {
+        "subject": "lubrication",
+        "predicate": "hasFailureMode",
+        "object": "lubrication failure"
+      },
+      {
+        "subject": "wear",
+        "predicate": "causes",
+        "object": "vibration"
+      },
+      {
+        "subject": "overload",
+        "predicate": "causes",
+        "object": "vibration"
+      },
+      {
+        "subject": "lubrication failure",
+        "predicate": "causes",
+        "object": "temperature"
+      },
+      {
+        "subject": "vibration",
+        "predicate": "indicates",
+        "object": "bearing failure"
+      },
+      {
+        "subject": "temperature",
+        "predicate": "indicates",
+        "object": "lubrication failure"
+      },
+      {
+        "subject": "noise",
+        "predicate": "indicates",
+        "object": "shaft failure"
+      },
+      {
+        "subject": "accelerometer",
+        "predicate": "measuredBy",
+        "object": "vibration measurement"
+      },
+      {
+        "subject": "thermocouple",
+        "predicate": "measuredBy",
+        "object": "temperature measurement"
+      },
+      {
+        "subject": "microphone",
+        "predicate": "measuredBy",
+        "object": "noise measurement"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "bearing"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "shaft"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "lubrication"
+      },
+      {
+        "subject": "inspection",
+        "predicate": "partOf",
+        "object": "maintenance"
+      },
+      {
+        "subject": "replacement",
+        "predicate": "partOf",
+        "object": "maintenance"
+      },
+      {
+        "subject": "accelerometer",
+        "predicate": "detectedBy",
+        "object": "vibration"
+      },
+      {
+        "subject": "thermocouple",
+        "predicate": "detectedBy",
+        "object": "temperature"
+      },
+      {
+        "subject": "microphone",
+        "predicate": "detectedBy",
+        "object": "noise"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf::chunk_32"
+  },
+  {
+    "entities": [
+      {
+        "name": "Digital Twin",
+        "type": "concept"
+      },
+      {
+        "name": "Extended Reality",
+        "type": "concept"
+      },
+      {
+        "name": "Virtual Reality",
+        "type": "concept"
+      },
+      {
+        "name": "Augmented Reality",
+        "type": "concept"
+      },
+      {
+        "name": "Mixed Reality",
+        "type": "concept"
+      },
+      {
+        "name": "Manufacturing",
+        "type": "industry"
+      },
+      {
+        "name": "Urban Development",
+        "type": "industry"
+      },
+      {
+        "name": "Infrastructure Management",
+        "type": "industry"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User-Centric_Evaluation_Methods_for_Digital_Twin_Applications_in_Extended_Realit.pdf::chunk_1"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "components"
+      },
+      {
+        "name": "failure modes",
+        "type": "failure modes"
+      },
+      {
+        "name": "symptoms",
+        "type": "symptoms"
+      },
+      {
+        "name": "causes",
+        "type": "causes"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "maintenance actions"
+      },
+      {
+        "name": "sensors",
+        "type": "sensors"
+      },
+      {
+        "name": "measurements",
+        "type": "measurements"
+      },
+      {
+        "name": "digital twin",
+        "type": "digital twin"
+      },
+      {
+        "name": "extended reality",
+        "type": "extended reality"
+      },
+      {
+        "name": "artificial reality",
+        "type": "artificial reality"
+      },
+      {
+        "name": "virtual reality",
+        "type": "virtual reality"
+      },
+      {
+        "name": "field inspections",
+        "type": "field inspections"
+      },
+      {
+        "name": "on-site monitoring",
+        "type": "on-site monitoring"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motors",
+        "predicate": "hasFailureMode",
+        "object": "failure modes"
+      },
+      {
+        "subject": "failure modes",
+        "predicate": "causes",
+        "object": "symptoms"
+      },
+      {
+        "subject": "symptoms",
+        "predicate": "indicates",
+        "object": "causes"
+      },
+      {
+        "subject": "causes",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance actions"
+      },
+      {
+        "subject": "maintenance actions",
+        "predicate": "partOf",
+        "object": "digital twin"
+      },
+      {
+        "subject": "digital twin",
+        "predicate": "measuredBy",
+        "object": "sensors"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "measurements"
+      },
+      {
+        "subject": "measurements",
+        "predicate": "detectedBy",
+        "object": "field inspections"
+      },
+      {
+        "subject": "measurements",
+        "predicate": "detectedBy",
+        "object": "on-site monitoring"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/User-Centric_Evaluation_Methods_for_Digital_Twin_Applications_in_Extended_Realit.pdf::chunk_2"
+  },
+  {
+    "entities": [
+      {
+        "name": "DT Creation",
+        "type": "use case"
+      },
+      {
+        "name": "City Planning",
+        "type": "use case"
+      },
+      {
+        "name": "City Maintenance",
+        "type": "use case"
+      },
+      {
+        "name": "VR Virtual Tourism",
+        "type": "use case"
+      },
+      {
+        "name": "AR Virtual Tourism",
+        "type": "use case"
+      },
+      {
+        "name": "AR Industrial DT Maintenance",
+        "type": "use case"
+      },
+      {
+        "name": "VR",
+        "type": "platform"
+      },
+      {
+        "name": "AR",
+        "type": "platform"
+      },
+      {
+        "name": "desktop",
+        "type": "platform"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/User-Centric_Evaluation_Methods_for_Digital_Twin_Applications_in_Extended_Realit.pdf::chunk_9"
+  },
+  {
+    "entities": [
+      {
+        "name": "Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Vibration signal",
+        "type": "Measurement"
+      },
+      {
+        "name": "Fast Fourier transformation (FFT)",
+        "type": "Measurement"
+      },
+      {
+        "name": "Maximum mean discrepancy (MMD)",
+        "type": "Measurement"
+      },
+      {
+        "name": "Nearest-Neighbor (NN)",
+        "type": "Algorithm"
+      },
+      {
+        "name": "Domain adaptation using transferable features (DATF)",
+        "type": "Method"
+      },
+      {
+        "name": "Faulty bearings",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Normal bearing",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Rotating machinery",
+        "type": "System"
+      },
+      {
+        "name": "Bearing failure",
+        "type": "Failure Mode"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Bearing failure"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Faulty bearings"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Normal bearing"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "partOf",
+        "object": "Rotating machinery"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "measuredBy",
+        "object": "Vibration signal"
+      },
+      {
+        "subject": "Vibration signal",
+        "predicate": "measuredBy",
+        "object": "Fast Fourier transformation (FFT)"
+      },
+      {
+        "subject": "Fast Fourier transformation (FFT)",
+        "predicate": "measuredBy",
+        "object": "Maximum mean discrepancy (MMD)"
+      },
+      {
+        "subject": "Maximum mean discrepancy (MMD)",
+        "predicate": "measuredBy",
+        "object": "Nearest-Neighbor (NN)"
+      },
+      {
+        "subject": "Nearest-Neighbor (NN)",
+        "predicate": "requiresMaintenance",
+        "object": "Bearing"
+      },
+      {
+        "subject": "Domain adaptation using transferable features (DATF)",
+        "predicate": "causes",
+        "object": "Improved performance of bearing fault diagnosis"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_0"
+  },
+  {
+    "entities": [
+      {
+        "name": "bearings",
+        "type": "Components"
+      },
+      {
+        "name": "roller",
+        "type": "Components"
+      },
+      {
+        "name": "outer race",
+        "type": "Components"
+      },
+      {
+        "name": "inner race",
+        "type": "Components"
+      },
+      {
+        "name": "vibration signal",
+        "type": "Symptoms"
+      },
+      {
+        "name": "motor speeds",
+        "type": "Causes"
+      },
+      {
+        "name": "load conditions",
+        "type": "Causes"
+      },
+      {
+        "name": "cracks",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "spalls",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "NN classiﬁer",
+        "type": "Sensors"
+      },
+      {
+        "name": "maximum mean discrepancy (MMD)",
+        "type": "Measurements"
+      },
+      {
+        "name": "Nearest-Neighbor (NN) classiﬁer",
+        "type": "Sensors"
+      },
+      {
+        "name": "transferable features",
+        "type": "Measurements"
+      },
+      {
+        "name": "bearing faults",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "maintenance",
+        "type": "Maintenance Actions"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "bearings",
+        "predicate": "partOf",
+        "object": "rotating machinery"
+      },
+      {
+        "subject": "cracks",
+        "predicate": "hasFailureMode",
+        "object": "bearings"
+      },
+      {
+        "subject": "spalls",
+        "predicate": "hasFailureMode",
+        "object": "bearings"
+      },
+      {
+        "subject": "vibration signal",
+        "predicate": "indicates",
+        "object": "bearing faults"
+      },
+      {
+        "subject": "motor speeds",
+        "predicate": "causes",
+        "object": "bearing faults"
+      },
+      {
+        "subject": "load conditions",
+        "predicate": "causes",
+        "object": "bearing faults"
+      },
+      {
+        "subject": "NN classiﬁer",
+        "predicate": "measuredBy",
+        "object": "vibration signal"
+      },
+      {
+        "subject": "maximum mean discrepancy (MMD)",
+        "predicate": "measuredBy",
+        "object": "vibration signal"
+      },
+      {
+        "subject": "Nearest-Neighbor (NN) classiﬁer",
+        "predicate": "measuredBy",
+        "object": "vibration signal"
+      },
+      {
+        "subject": "transferable features",
+        "predicate": "measuredBy",
+        "object": "vibration signal"
+      },
+      {
+        "subject": "bearing faults",
+        "predicate": "requiresMaintenance",
+        "object": "maintenance"
+      },
+      {
+        "subject": "bearings",
+        "predicate": "detectedBy",
+        "object": "vibration signal"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_1"
+  },
+  {
+    "entities": [
+      {
+        "name": "bearings",
+        "type": "Components"
+      },
+      {
+        "name": "roller",
+        "type": "Components"
+      },
+      {
+        "name": "outer race",
+        "type": "Components"
+      },
+      {
+        "name": "inner race",
+        "type": "Components"
+      },
+      {
+        "name": "vibration signal",
+        "type": "Symptoms"
+      },
+      {
+        "name": "sensors",
+        "type": "Sensors"
+      },
+      {
+        "name": "genetic algorithm-based SVM (GA-SVM) model",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "DWT and ANN",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "PCA",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "time-domain statistical analysis",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "frequency-domain analysis",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "time-frequency domain analysis",
+        "type": "Maintenance Actions"
+      },
+      {
+        "name": "cracks",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "spalls",
+        "type": "Failure Modes"
+      },
+      {
+        "name": "heavy casualties",
+        "type": "Causes"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "bearings",
+        "predicate": "hasFailureMode",
+        "object": "cracks"
+      },
+      {
+        "subject": "bearings",
+        "predicate": "hasFailureMode",
+        "object": "spalls"
+      },
+      {
+        "subject": "vibration signal",
+        "predicate": "indicates",
+        "object": "operating state of bearing"
+      },
+      {
+        "subject": "sensors",
+        "predicate": "measuredBy",
+        "object": "vibration signal"
+      },
+      {
+        "subject": "genetic algorithm-based SVM (GA-SVM) model",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "DWT and ANN",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "PCA",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "time-domain statistical analysis",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "frequency-domain analysis",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "time-frequency domain analysis",
+        "predicate": "requiresMaintenance",
+        "object": "bearings"
+      },
+      {
+        "subject": "heavy casualties",
+        "predicate": "causes",
+        "object": "bearings"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_2"
+  },
+  {
+    "entities": [
+      {
+        "name": "vibration signals",
+        "type": "component"
+      },
+      {
+        "name": "time-domain statistical analysis",
+        "type": "technique"
+      },
+      {
+        "name": "frequency-domain analysis",
+        "type": "technique"
+      },
+      {
+        "name": "time-frequency domain analysis",
+        "type": "technique"
+      },
+      {
+        "name": "principal component analysis (PCA)",
+        "type": "technique"
+      },
+      {
+        "name": "locally linear embedding (LLE)",
+        "type": "technique"
+      },
+      {
+        "name": "linear discriminant analysis (LDA)",
+        "type": "technique"
+      },
+      {
+        "name": "nearest-neighbor (NN)",
+        "type": "classifier"
+      },
+      {
+        "name": "support vector machine (SVM)",
+        "type": "classifier"
+      },
+      {
+        "name": "artiﬁcial neural networks (ANN)",
+        "type": "classifier"
+      },
+      {
+        "name": "roller bearing",
+        "type": "component"
+      },
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "sensor signals",
+        "type": "component"
+      },
+      {
+        "name": "fault data",
+        "type": "component"
+      },
+      {
+        "name": "classifier",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "vibration signals",
+        "predicate": "measuredBy",
+        "object": "sensor signals"
+      },
+      {
+        "subject": "time-domain statistical analysis",
+        "predicate": "indicates",
+        "object": "fault data"
+      },
+      {
+        "subject": "frequency-domain analysis",
+        "predicate": "indicates",
+        "object": "fault data"
+      },
+      {
+        "subject": "time-frequency domain analysis",
+        "predicate": "indicates",
+        "object": "fault data"
+      },
+      {
+        "subject": "principal component analysis (PCA)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "locally linear embedding (LLE)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "linear discriminant analysis (LDA)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "nearest-neighbor (NN)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "support vector machine (SVM)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "artiﬁcial neural networks (ANN)",
+        "predicate": "requiresMaintenance",
+        "object": "classifier"
+      },
+      {
+        "subject": "roller bearing",
+        "predicate": "hasFailureMode",
+        "object": "fault data"
+      },
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "fault data"
+      },
+      {
+        "subject": "fault data",
+        "predicate": "causes",
+        "object": "classifier"
+      },
+      {
+        "subject": "classifier",
+        "predicate": "requiresMaintenance",
+        "object": "roller bearing"
+      },
+      {
+        "subject": "classifier",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_3"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "component"
+      },
+      {
+        "name": "speed",
+        "type": "measurement"
+      },
+      {
+        "name": "load",
+        "type": "measurement"
+      },
+      {
+        "name": "fault",
+        "type": "failure mode"
+      },
+      {
+        "name": "classifier",
+        "type": "model"
+      },
+      {
+        "name": "domain",
+        "type": "concept"
+      },
+      {
+        "name": "bearing",
+        "type": "component"
+      },
+      {
+        "name": "training data",
+        "type": "data"
+      },
+      {
+        "name": "test data",
+        "type": "data"
+      },
+      {
+        "name": "fault diagnosis",
+        "type": "task"
+      },
+      {
+        "name": "distribution",
+        "type": "concept"
+      },
+      {
+        "name": "features",
+        "type": "concept"
+      },
+      {
+        "name": "domain adaptation",
+        "type": "concept"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "classifier",
+        "predicate": "trained on",
+        "object": "training data"
+      },
+      {
+        "subject": "classifier",
+        "predicate": "applied to",
+        "object": "test data"
+      },
+      {
+        "subject": "test data",
+        "predicate": "collected under",
+        "object": "different motor speed and load"
+      },
+      {
+        "subject": "training data",
+        "predicate": "collected under",
+        "object": "certain motor speed and load"
+      },
+      {
+        "subject": "classifier",
+        "predicate": "performs poorly on",
+        "object": "test domain"
+      },
+      {
+        "subject": "classifier",
+        "predicate": "achieves high accuracy on",
+        "object": "training domain"
+      },
+      {
+        "subject": "distribution",
+        "predicate": "differs between",
+        "object": "training domain and test domain"
+      },
+      {
+        "subject": "features",
+        "predicate": "cannot represent",
+        "object": "another domain"
+      },
+      {
+        "subject": "domain adaptation",
+        "predicate": "can be considered",
+        "object": "a solution to recalibration effort"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_4"
+  },
+  {
+    "entities": [
+      {
+        "name": "diagnosis model",
+        "type": "model"
+      },
+      {
+        "name": "training domain",
+        "type": "condition"
+      },
+      {
+        "name": "test domain",
+        "type": "condition"
+      },
+      {
+        "name": "domain adaptation",
+        "type": "method"
+      },
+      {
+        "name": "transfer learning",
+        "type": "method"
+      },
+      {
+        "name": "rolling bearing",
+        "type": "component"
+      },
+      {
+        "name": "vibration signals",
+        "type": "measurement"
+      },
+      {
+        "name": "motor speeds",
+        "type": "measurement"
+      },
+      {
+        "name": "load conditions",
+        "type": "measurement"
+      },
+      {
+        "name": "nearest-neighbor classiﬁer",
+        "type": "model"
+      },
+      {
+        "name": "fast Fourier transformation",
+        "type": "method"
+      },
+      {
+        "name": "Maximum mean discrepancy",
+        "type": "method"
+      },
+      {
+        "name": "distribution divergences",
+        "type": "concept"
+      },
+      {
+        "name": "transferable features",
+        "type": "concept"
+      },
+      {
+        "name": "bearing faults",
+        "type": "failure mode"
+      },
+      {
+        "name": "faulty bearings",
+        "type": "component"
+      },
+      {
+        "name": "normal bearing",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "diagnosis model",
+        "predicate": "trained in",
+        "object": "training domain"
+      },
+      {
+        "subject": "diagnosis model",
+        "predicate": "refined in",
+        "object": "test domain"
+      },
+      {
+        "subject": "domain adaptation",
+        "predicate": "part of",
+        "object": "transfer learning"
+      },
+      {
+        "subject": "domain adaptation",
+        "predicate": "applied to",
+        "object": "distribution divergences"
+      },
+      {
+        "subject": "Maximum mean discrepancy",
+        "predicate": "applied to",
+        "object": "distribution divergences"
+      },
+      {
+        "subject": "nearest-neighbor classiﬁer",
+        "predicate": "built in",
+        "object": "training domain"
+      },
+      {
+        "subject": "nearest-neighbor classiﬁer",
+        "predicate": "refined in",
+        "object": "test domain"
+      },
+      {
+        "subject": "nearest-neighbor classiﬁer",
+        "predicate": "built with",
+        "object": "transferable features"
+      },
+      {
+        "subject": "transferable features",
+        "predicate": "learnt from",
+        "object": "training domain"
+      },
+      {
+        "subject": "transferable features",
+        "predicate": "learnt from",
+        "object": "test domain"
+      },
+      {
+        "subject": "bearing faults",
+        "predicate": "identified by",
+        "object": "nearest-neighbor classiﬁer"
+      },
+      {
+        "subject": "faulty bearings",
+        "predicate": "has failure mode",
+        "object": "bearing faults"
+      },
+      {
+        "subject": "normal bearing",
+        "predicate": "has failure mode",
+        "object": "bearing faults"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_5"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "components"
+      },
+      {
+        "name": "bearings",
+        "type": "components"
+      },
+      {
+        "name": "faults",
+        "type": "failure_modes"
+      },
+      {
+        "name": "working conditions",
+        "type": "causes"
+      },
+      {
+        "name": "domain adaptation",
+        "type": "maintenance_actions"
+      },
+      {
+        "name": "transferable features",
+        "type": "measurements"
+      },
+      {
+        "name": "NN classifier",
+        "type": "sensors"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motors",
+        "predicate": "hasFailureMode",
+        "object": "faults"
+      },
+      {
+        "subject": "bearings",
+        "predicate": "hasFailureMode",
+        "object": "faults"
+      },
+      {
+        "subject": "working conditions",
+        "predicate": "causes",
+        "object": "faults"
+      },
+      {
+        "subject": "domain adaptation",
+        "predicate": "requiresMaintenance",
+        "object": "motors"
+      },
+      {
+        "subject": "transferable features",
+        "predicate": "measuredBy",
+        "object": "NN classifier"
+      },
+      {
+        "subject": "motors",
+        "predicate": "partOf",
+        "object": "bearings"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_6"
+  },
+  {
+    "entities": [
+      {
+        "name": "Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Motor",
+        "type": "Component"
+      },
+      {
+        "name": "Distribution",
+        "type": "Measure"
+      },
+      {
+        "name": "Feature Space",
+        "type": "Measure"
+      },
+      {
+        "name": "Training Domain",
+        "type": "Domain"
+      },
+      {
+        "name": "Test Domain",
+        "type": "Domain"
+      },
+      {
+        "name": "Model",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Maximum Mean Discrepancy",
+        "type": "Measure"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Fault"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "hasFailureMode",
+        "object": "Fault"
+      },
+      {
+        "subject": "Distribution",
+        "predicate": "measuredBy",
+        "object": "Feature Space"
+      },
+      {
+        "subject": "Training Domain",
+        "predicate": "hasDistribution",
+        "object": "P(Xtr)"
+      },
+      {
+        "subject": "Test Domain",
+        "predicate": "hasDistribution",
+        "object": "Q(Xte)"
+      },
+      {
+        "subject": "Training Domain",
+        "predicate": "hasConditionalDistribution",
+        "object": "P(Ytr|Xtr)"
+      },
+      {
+        "subject": "Test Domain",
+        "predicate": "hasConditionalDistribution",
+        "object": "Q(Yte|Xte)"
+      },
+      {
+        "subject": "Model",
+        "predicate": "requiresMaintenance",
+        "object": "Bearing"
+      },
+      {
+        "subject": "Maximum Mean Discrepancy",
+        "predicate": "measuredBy",
+        "object": "Distribution"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_7"
+  },
+  {
+    "entities": [
+      {
+        "name": "bearing",
+        "type": "component"
+      },
+      {
+        "name": "fault",
+        "type": "failure mode"
+      },
+      {
+        "name": "working conditions",
+        "type": "cause"
+      },
+      {
+        "name": "domain adaptation",
+        "type": "maintenance action"
+      },
+      {
+        "name": "MMD",
+        "type": "sensor"
+      },
+      {
+        "name": "distance metric",
+        "type": "measurement"
+      },
+      {
+        "name": "adaptation matrix",
+        "type": "sensor"
+      },
+      {
+        "name": "source instances",
+        "type": "measurement"
+      },
+      {
+        "name": "target instances",
+        "type": "measurement"
+      },
+      {
+        "name": "k-dimensional embedding",
+        "type": "measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "bearing",
+        "predicate": "hasFailureMode",
+        "object": "fault"
+      },
+      {
+        "subject": "working conditions",
+        "predicate": "causes",
+        "object": "fault"
+      },
+      {
+        "subject": "domain adaptation",
+        "predicate": "requiresMaintenance",
+        "object": "bearing"
+      },
+      {
+        "subject": "MMD",
+        "predicate": "measuredBy",
+        "object": "distance metric"
+      },
+      {
+        "subject": "adaptation matrix",
+        "predicate": "measuredBy",
+        "object": "distance metric"
+      },
+      {
+        "subject": "source instances",
+        "predicate": "measuredBy",
+        "object": "distance metric"
+      },
+      {
+        "subject": "target instances",
+        "predicate": "measuredBy",
+        "object": "distance metric"
+      },
+      {
+        "subject": "k-dimensional embedding",
+        "predicate": "measuredBy",
+        "object": "distance metric"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_8"
+  },
+  {
+    "entities": [
+      {
+        "name": "Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Vibration signals",
+        "type": "Measurement"
+      },
+      {
+        "name": "Frequency domain",
+        "type": "Measurement"
+      },
+      {
+        "name": "PCA",
+        "type": "Sensor"
+      },
+      {
+        "name": "FFT",
+        "type": "Sensor"
+      },
+      {
+        "name": "Training domain",
+        "type": "Component"
+      },
+      {
+        "name": "Test domain",
+        "type": "Component"
+      },
+      {
+        "name": "Inner race fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Ball fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Outer race fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Normal condition",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Data acquisition",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Model revision",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "Pseudo-label",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Inner race fault"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Ball fault"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Outer race fault"
+      },
+      {
+        "subject": "Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Normal condition"
+      },
+      {
+        "subject": "Vibration signals",
+        "predicate": "measuredBy",
+        "object": "PCA"
+      },
+      {
+        "subject": "Vibration signals",
+        "predicate": "measuredBy",
+        "object": "FFT"
+      },
+      {
+        "subject": "Training domain",
+        "predicate": "requiresMaintenance",
+        "object": "Model revision"
+      },
+      {
+        "subject": "Test domain",
+        "predicate": "requiresMaintenance",
+        "object": "Model revision"
+      },
+      {
+        "subject": "Data acquisition",
+        "predicate": "partOf",
+        "object": "Maintenance Action"
+      },
+      {
+        "subject": "Model revision",
+        "predicate": "partOf",
+        "object": "Maintenance Action"
+      },
+      {
+        "subject": "Pseudo-label",
+        "predicate": "indicates",
+        "object": "Failure Mode"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_9"
+  },
+  {
+    "entities": [
+      {
+        "name": "Inner race fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Ball fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Outer race fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "NO",
+        "type": "Component"
+      },
+      {
+        "name": "IF",
+        "type": "Component"
+      },
+      {
+        "name": "BF",
+        "type": "Component"
+      },
+      {
+        "name": "OF",
+        "type": "Component"
+      },
+      {
+        "name": "Vibration signal",
+        "type": "Measurement"
+      },
+      {
+        "name": "FFT amplitudes",
+        "type": "Measurement"
+      },
+      {
+        "name": "Motor",
+        "type": "Component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Inner race fault",
+        "predicate": "hasFailureMode",
+        "object": "Outer race fault"
+      },
+      {
+        "subject": "Ball fault",
+        "predicate": "hasFailureMode",
+        "object": "Outer race fault"
+      },
+      {
+        "subject": "Inner race fault",
+        "predicate": "causes",
+        "object": "Vibration signal"
+      },
+      {
+        "subject": "Ball fault",
+        "predicate": "causes",
+        "object": "Vibration signal"
+      },
+      {
+        "subject": "Outer race fault",
+        "predicate": "causes",
+        "object": "Vibration signal"
+      },
+      {
+        "subject": "Vibration signal",
+        "predicate": "indicates",
+        "object": "Inner race fault"
+      },
+      {
+        "subject": "Vibration signal",
+        "predicate": "indicates",
+        "object": "Ball fault"
+      },
+      {
+        "subject": "Vibration signal",
+        "predicate": "indicates",
+        "object": "Outer race fault"
+      },
+      {
+        "subject": "FFT amplitudes",
+        "predicate": "measuredBy",
+        "object": "Vibration signal"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Inner race fault"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Ball fault"
+      },
+      {
+        "subject": "Motor",
+        "predicate": "requiresMaintenance",
+        "object": "Outer race fault"
+      },
+      {
+        "subject": "NO",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "IF",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "BF",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "OF",
+        "predicate": "partOf",
+        "object": "Motor"
+      },
+      {
+        "subject": "Vibration signal",
+        "predicate": "detectedBy",
+        "object": "FFT amplitudes"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_10"
+  },
+  {
+    "entities": [
+      {
+        "name": "FFT",
+        "type": "component"
+      },
+      {
+        "name": "PCA",
+        "type": "component"
+      },
+      {
+        "name": "MATLAB",
+        "type": "software"
+      },
+      {
+        "name": "vibration signals",
+        "type": "measurement"
+      },
+      {
+        "name": "raw time series",
+        "type": "measurement"
+      },
+      {
+        "name": "amplitudes",
+        "type": "measurement"
+      },
+      {
+        "name": "feature space",
+        "type": "component"
+      },
+      {
+        "name": "training data",
+        "type": "data"
+      },
+      {
+        "name": "test data",
+        "type": "data"
+      },
+      {
+        "name": "fault types",
+        "type": "failure mode"
+      },
+      {
+        "name": "identity matrix",
+        "type": "component"
+      },
+      {
+        "name": "ones vectors",
+        "type": "component"
+      },
+      {
+        "name": "optimization problem",
+        "type": "component"
+      },
+      {
+        "name": "MMD",
+        "type": "component"
+      },
+      {
+        "name": "distance measures",
+        "type": "component"
+      },
+      {
+        "name": "marginal distribution",
+        "type": "component"
+      },
+      {
+        "name": "MMD matrix",
+        "type": "component"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "FFT",
+        "predicate": "measuredBy",
+        "object": "vibration signals"
+      },
+      {
+        "subject": "PCA",
+        "predicate": "partOf",
+        "object": "feature space"
+      },
+      {
+        "subject": "MATLAB",
+        "predicate": "requiresMaintenance",
+        "object": "FFT"
+      },
+      {
+        "subject": "raw time series",
+        "predicate": "measuredBy",
+        "object": "amplitudes"
+      },
+      {
+        "subject": "amplitudes",
+        "predicate": "indicates",
+        "object": "fault types"
+      },
+      {
+        "subject": "fault types",
+        "predicate": "hasFailureMode",
+        "object": "failure mode"
+      },
+      {
+        "subject": "identity matrix",
+        "predicate": "partOf",
+        "object": "optimization problem"
+      },
+      {
+        "subject": "ones vectors",
+        "predicate": "partOf",
+        "object": "optimization problem"
+      },
+      {
+        "subject": "optimization problem",
+        "predicate": "requiresMaintenance",
+        "object": "MMD"
+      },
+      {
+        "subject": "MMD",
+        "predicate": "partOf",
+        "object": "distance measures"
+      },
+      {
+        "subject": "distance measures",
+        "predicate": "measuredBy",
+        "object": "marginal distribution"
+      },
+      {
+        "subject": "marginal distribution",
+        "predicate": "hasFailureMode",
+        "object": "marginal distribution"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_11"
+  },
+  {
+    "entities": [
+      {
+        "name": "MMD",
+        "type": "matrix"
+      },
+      {
+        "name": "Mm",
+        "type": "matrix"
+      },
+      {
+        "name": "Mc",
+        "type": "matrix"
+      },
+      {
+        "name": "V",
+        "type": "representation"
+      },
+      {
+        "name": "X",
+        "type": "data"
+      },
+      {
+        "name": "Xtr",
+        "type": "data"
+      },
+      {
+        "name": "Xte",
+        "type": "data"
+      },
+      {
+        "name": "Xc",
+        "type": "data"
+      },
+      {
+        "name": "AT",
+        "type": "transformation"
+      },
+      {
+        "name": "XD",
+        "type": "transformation"
+      },
+      {
+        "name": "DA",
+        "type": "transformation"
+      },
+      {
+        "name": "xi",
+        "type": "data point"
+      },
+      {
+        "name": "xj",
+        "type": "data point"
+      },
+      {
+        "name": "c",
+        "type": "class label"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_12"
+  },
+  {
+    "entities": [
+      {
+        "name": "motors",
+        "type": "components"
+      },
+      {
+        "name": "failure modes",
+        "type": "failure modes"
+      },
+      {
+        "name": "symptoms",
+        "type": "symptoms"
+      },
+      {
+        "name": "causes",
+        "type": "causes"
+      },
+      {
+        "name": "maintenance actions",
+        "type": "maintenance actions"
+      },
+      {
+        "name": "sensors",
+        "type": "sensors"
+      },
+      {
+        "name": "measurements",
+        "type": "measurements"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_13"
+  },
+  {
+    "entities": [
+      {
+        "name": "NN classifier",
+        "type": "algorithm"
+      },
+      {
+        "name": "MMD matrix",
+        "type": "matrix"
+      },
+      {
+        "name": "adaptation matrix",
+        "type": "matrix"
+      },
+      {
+        "name": "robust representation",
+        "type": "representation"
+      },
+      {
+        "name": "bearing vibration signals",
+        "type": "signal"
+      },
+      {
+        "name": "bearing test rig",
+        "type": "equipment"
+      },
+      {
+        "name": "Case Western Reserve University",
+        "type": "organization"
+      },
+      {
+        "name": "CWRU",
+        "type": "abbreviation"
+      },
+      {
+        "name": "DATF",
+        "type": "algorithm"
+      },
+      {
+        "name": "PCA",
+        "type": "algorithm"
+      },
+      {
+        "name": "subspace alignment",
+        "type": "algorithm"
+      },
+      {
+        "name": "NN NA",
+        "type": "algorithm"
+      },
+      {
+        "name": "NN SA",
+        "type": "algorithm"
+      },
+      {
+        "name": "NN classiﬁer",
+        "type": "algorithm"
+      },
+      {
+        "name": "test data labels",
+        "type": "labels"
+      },
+      {
+        "name": "Yte",
+        "type": "labels"
+      },
+      {
+        "name": "Xte",
+        "type": "input"
+      },
+      {
+        "name": "Xtr",
+        "type": "input"
+      },
+      {
+        "name": "Ytr",
+        "type": "labels"
+      },
+      {
+        "name": "A",
+        "type": "matrix"
+      },
+      {
+        "name": "V",
+        "type": "representation"
+      },
+      {
+        "name": "Mc",
+        "type": "matrix"
+      },
+      {
+        "name": "C",
+        "type": "index"
+      },
+      {
+        "name": "Eq.(5)",
+        "type": "equation"
+      },
+      {
+        "name": "Eq.(8)",
+        "type": "equation"
+      },
+      {
+        "name": "Lagrange multiplier",
+        "type": "mathematical concept"
+      }
+    ],
+    "relations": [],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_15"
+  },
+  {
+    "entities": [
+      {
+        "name": "motor",
+        "type": "Component"
+      },
+      {
+        "name": "torque sensor/encoder",
+        "type": "Sensor"
+      },
+      {
+        "name": "power meter",
+        "type": "Sensor"
+      },
+      {
+        "name": "accelerometers",
+        "type": "Sensor"
+      },
+      {
+        "name": "electronic control unit",
+        "type": "Component"
+      },
+      {
+        "name": "bearing",
+        "type": "Component"
+      },
+      {
+        "name": "inner-race faults (IF)",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "outer-race faults (OF)",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "ball fault (BF)",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "electrosparking",
+        "type": "Cause"
+      },
+      {
+        "name": "vibration signals",
+        "type": "Measurement"
+      },
+      {
+        "name": "dataset",
+        "type": "Measurement"
+      },
+      {
+        "name": "Drive End Bearing Fault Data",
+        "type": "Measurement"
+      },
+      {
+        "name": "12kHz",
+        "type": "Measurement"
+      },
+      {
+        "name": "0.007in",
+        "type": "Cause"
+      },
+      {
+        "name": "0.014in",
+        "type": "Cause"
+      },
+      {
+        "name": "0.021in",
+        "type": "Cause"
+      },
+      {
+        "name": "maintenance",
+        "type": "Maintenance Action"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "inner-race faults (IF)"
+      },
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "outer-race faults (OF)"
+      },
+      {
+        "subject": "motor",
+        "predicate": "hasFailureMode",
+        "object": "ball fault (BF)"
+      },
+      {
+        "subject": "electrosparking",
+        "predicate": "causes",
+        "object": "inner-race faults (IF)"
+      },
+      {
+        "subject": "electrosparking",
+        "predicate": "causes",
+        "object": "outer-race faults (OF)"
+      },
+      {
+        "subject": "electrosparking",
+        "predicate": "causes",
+        "object": "ball fault (BF)"
+      },
+      {
+        "subject": "accelerometers",
+        "predicate": "measuredBy",
+        "object": "vibration signals"
+      },
+      {
+        "subject": "torque sensor/encoder",
+        "predicate": "measuredBy",
+        "object": "vibration signals"
+      },
+      {
+        "subject": "power meter",
+        "predicate": "measuredBy",
+        "object": "vibration signals"
+      },
+      {
+        "subject": "dataset",
+        "predicate": "measuredBy",
+        "object": "Drive End Bearing Fault Data"
+      },
+      {
+        "subject": "dataset",
+        "predicate": "measuredBy",
+        "object": "12kHz"
+      },
+      {
+        "subject": "0.007in",
+        "predicate": "causes",
+        "object": "inner-race faults (IF)"
+      },
+      {
+        "subject": "0.014in",
+        "predicate": "causes",
+        "object": "outer-race faults (OF)"
+      },
+      {
+        "subject": "0.021in",
+        "predicate": "causes",
+        "object": "ball fault (BF)"
+      },
+      {
+        "subject": "maintenance",
+        "predicate": "requiresMaintenance",
+        "object": "motor"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_16"
+  },
+  {
+    "entities": [
+      {
+        "name": "Drive End Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Bearing",
+        "type": "Component"
+      },
+      {
+        "name": "Fault",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "Vibration Data",
+        "type": "Symptom"
+      },
+      {
+        "name": "Fourier Coefficients",
+        "type": "Measurement"
+      },
+      {
+        "name": "FFT",
+        "type": "Sensor"
+      },
+      {
+        "name": "DATF",
+        "type": "Maintenance Action"
+      },
+      {
+        "name": "k",
+        "type": "Parameter"
+      },
+      {
+        "name": "λ",
+        "type": "Parameter"
+      },
+      {
+        "name": "Load",
+        "type": "Cause"
+      },
+      {
+        "name": "Training Domain",
+        "type": "Cause"
+      },
+      {
+        "name": "Test Domain",
+        "type": "Cause"
+      },
+      {
+        "name": "hp",
+        "type": "Measurement"
+      },
+      {
+        "name": "rpm",
+        "type": "Measurement"
+      },
+      {
+        "name": "kHz",
+        "type": "Measurement"
+      },
+      {
+        "name": "in",
+        "type": "Measurement"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Drive End Bearing",
+        "predicate": "hasFailureMode",
+        "object": "Fault"
+      },
+      {
+        "subject": "Fault",
+        "predicate": "causes",
+        "object": "Vibration Data"
+      },
+      {
+        "subject": "Vibration Data",
+        "predicate": "indicates",
+        "object": "Fault"
+      },
+      {
+        "subject": "FFT",
+        "predicate": "measuredBy",
+        "object": "Vibration Data"
+      },
+      {
+        "subject": "DATF",
+        "predicate": "requiresMaintenance",
+        "object": "Drive End Bearing"
+      },
+      {
+        "subject": "k",
+        "predicate": "partOf",
+        "object": "DATF"
+      },
+      {
+        "subject": "λ",
+        "predicate": "partOf",
+        "object": "DATF"
+      },
+      {
+        "subject": "Load",
+        "predicate": "causes",
+        "object": "Fault"
+      },
+      {
+        "subject": "Training Domain",
+        "predicate": "causes",
+        "object": "Fault"
+      },
+      {
+        "subject": "Test Domain",
+        "predicate": "causes",
+        "object": "Fault"
+      },
+      {
+        "subject": "hp",
+        "predicate": "measuredBy",
+        "object": "Load"
+      },
+      {
+        "subject": "rpm",
+        "predicate": "measuredBy",
+        "object": "Load"
+      },
+      {
+        "subject": "kHz",
+        "predicate": "measuredBy",
+        "object": "Vibration Data"
+      },
+      {
+        "subject": "in",
+        "predicate": "measuredBy",
+        "object": "Fault"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_17"
+  },
+  {
+    "entities": [
+      {
+        "name": "L0",
+        "type": "Fault"
+      },
+      {
+        "name": "L1",
+        "type": "Fault"
+      },
+      {
+        "name": "L2",
+        "type": "Fault"
+      },
+      {
+        "name": "L3",
+        "type": "Fault"
+      },
+      {
+        "name": "NO",
+        "type": "Fault type"
+      },
+      {
+        "name": "IF",
+        "type": "Fault type"
+      },
+      {
+        "name": "BF",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "OF",
+        "type": "Failure Mode"
+      },
+      {
+        "name": "NN NA",
+        "type": "Method"
+      },
+      {
+        "name": "NN SA",
+        "type": "Method"
+      },
+      {
+        "name": "DATF",
+        "type": "Method"
+      },
+      {
+        "name": "A",
+        "type": "Symptom"
+      },
+      {
+        "name": "SA",
+        "type": "Symptom"
+      }
+    ],
+    "relations": [
+      {
+        "subject": "L0",
+        "predicate": "hasFailureMode",
+        "object": "BF"
+      },
+      {
+        "subject": "L0",
+        "predicate": "hasFailureMode",
+        "object": "OF"
+      },
+      {
+        "subject": "L1",
+        "predicate": "hasFailureMode",
+        "object": "BF"
+      },
+      {
+        "subject": "L1",
+        "predicate": "hasFailureMode",
+        "object": "OF"
+      },
+      {
+        "subject": "L2",
+        "predicate": "hasFailureMode",
+        "object": "BF"
+      },
+      {
+        "subject": "L2",
+        "predicate": "hasFailureMode",
+        "object": "OF"
+      },
+      {
+        "subject": "L3",
+        "predicate": "hasFailureMode",
+        "object": "BF"
+      },
+      {
+        "subject": "L3",
+        "predicate": "hasFailureMode",
+        "object": "OF"
+      },
+      {
+        "subject": "L0",
+        "predicate": "causes",
+        "object": "A"
+      },
+      {
+        "subject": "L0",
+        "predicate": "causes",
+        "object": "SA"
+      },
+      {
+        "subject": "L1",
+        "predicate": "causes",
+        "object": "A"
+      },
+      {
+        "subject": "L1",
+        "predicate": "causes",
+        "object": "SA"
+      },
+      {
+        "subject": "L2",
+        "predicate": "causes",
+        "object": "A"
+      },
+      {
+        "subject": "L2",
+        "predicate": "causes",
+        "object": "SA"
+      },
+      {
+        "subject": "L3",
+        "predicate": "causes",
+        "object": "A"
+      },
+      {
+        "subject": "L3",
+        "predicate": "causes",
+        "object": "SA"
+      },
+      {
+        "subject": "L0",
+        "predicate": "indicates",
+        "object": "A"
+      },
+      {
+        "subject": "L0",
+        "predicate": "indicates",
+        "object": "SA"
+      },
+      {
+        "subject": "L1",
+        "predicate": "indicates",
+        "object": "A"
+      },
+      {
+        "subject": "L1",
+        "predicate": "indicates",
+        "object": "SA"
+      },
+      {
+        "subject": "L2",
+        "predicate": "indicates",
+        "object": "A"
+      },
+      {
+        "subject": "L2",
+        "predicate": "indicates",
+        "object": "SA"
+      },
+      {
+        "subject": "L3",
+        "predicate": "indicates",
+        "object": "A"
+      },
+      {
+        "subject": "L3",
+        "predicate": "indicates",
+        "object": "SA"
+      },
+      {
+        "subject": "L0",
+        "predicate": "measuredBy",
+        "object": "NN NA"
+      },
+      {
+        "subject": "L0",
+        "predicate": "measuredBy",
+        "object": "NN SA"
+      },
+      {
+        "subject": "L0",
+        "predicate": "measuredBy",
+        "object": "DATF"
+      },
+      {
+        "subject": "L1",
+        "predicate": "measuredBy",
+        "object": "NN NA"
+      },
+      {
+        "subject": "L1",
+        "predicate": "measuredBy",
+        "object": "NN SA"
+      },
+      {
+        "subject": "L1",
+        "predicate": "measuredBy",
+        "object": "DATF"
+      },
+      {
+        "subject": "L2",
+        "predicate": "measuredBy",
+        "object": "NN NA"
+      },
+      {
+        "subject": "L2",
+        "predicate": "measuredBy",
+        "object": "NN SA"
+      },
+      {
+        "subject": "L2",
+        "predicate": "measuredBy",
+        "object": "DATF"
+      },
+      {
+        "subject": "L3",
+        "predicate": "measuredBy",
+        "object": "NN NA"
+      },
+      {
+        "subject": "L3",
+        "predicate": "measuredBy",
+        "object": "NN SA"
+      },
+      {
+        "subject": "L3",
+        "predicate": "measuredBy",
+        "object": "DATF"
+      },
+      {
+        "subject": "L0",
+        "predicate": "requiresMaintenance",
+        "object": "L0"
+      },
+      {
+        "subject": "L1",
+        "predicate": "requiresMaintenance",
+        "object": "L1"
+      },
+      {
+        "subject": "L2",
+        "predicate": "requiresMaintenance",
+        "object": "L2"
+      },
+      {
+        "subject": "L3",
+        "predicate": "requiresMaintenance",
+        "object": "L3"
+      }
+    ],
+    "chunk_id": "knowledge_base/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf::chunk_18"
+  }
+]

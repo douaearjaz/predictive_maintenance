@@ -1,0 +1,2081 @@
+{
+  "entities": [
+    {
+      "name": "Motor",
+      "type": "Component"
+    },
+    {
+      "name": "Temperature",
+      "type": "Measurement"
+    },
+    {
+      "name": "Vibration",
+      "type": "Measurement"
+    },
+    {
+      "name": "Event Log",
+      "type": "Sensor"
+    },
+    {
+      "name": "ATM",
+      "type": "Component"
+    },
+    {
+      "name": "Predictive Maintenance",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Unplanned Maintenance",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Failure",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "vibration monitoring",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "amplitude of vibrations",
+      "type": "Measurement"
+    },
+    {
+      "name": "pressure",
+      "type": "Measurement"
+    },
+    {
+      "name": "degradation",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "machine failure",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "stock part management",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "cost optimization",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "event logs",
+      "type": "Sensor"
+    },
+    {
+      "name": "temporal data",
+      "type": "Component"
+    },
+    {
+      "name": "hazard-rate models",
+      "type": "Component"
+    },
+    {
+      "name": "autoregressive models",
+      "type": "Component"
+    },
+    {
+      "name": "Markov models",
+      "type": "Component"
+    },
+    {
+      "name": "logs",
+      "type": "Component"
+    },
+    {
+      "name": "maintenance",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "malfunction",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "time series",
+      "type": "Component"
+    },
+    {
+      "name": "features",
+      "type": "Component"
+    },
+    {
+      "name": "ATM fleet",
+      "type": "Component"
+    },
+    {
+      "name": "time series data",
+      "type": "Component"
+    },
+    {
+      "name": "Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "Timestamp",
+      "type": "Measurement"
+    },
+    {
+      "name": "ATMs",
+      "type": "Component"
+    },
+    {
+      "name": "life cycles",
+      "type": "Component"
+    },
+    {
+      "name": "event codes",
+      "type": "Component"
+    },
+    {
+      "name": "hardware component",
+      "type": "Component"
+    },
+    {
+      "name": "distribution module",
+      "type": "Component"
+    },
+    {
+      "name": "failure state",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "problems on other modules",
+      "type": "Cause"
+    },
+    {
+      "name": "maintenance processes",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "updates",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "withdrawal events",
+      "type": "Symptom"
+    },
+    {
+      "name": "duration of life cycles",
+      "type": "Symptom"
+    },
+    {
+      "name": "mean daily number of withdrawal events",
+      "type": "Symptom"
+    },
+    {
+      "name": "infected interval",
+      "type": "Symptom"
+    },
+    {
+      "name": "Banknote",
+      "type": "Component"
+    },
+    {
+      "name": "Mechanism",
+      "type": "Component"
+    },
+    {
+      "name": "Event Code 6000",
+      "type": "Symptom"
+    },
+    {
+      "name": "Event Code 6001",
+      "type": "Symptom"
+    },
+    {
+      "name": "Event Code 6002",
+      "type": "Symptom"
+    },
+    {
+      "name": "Restart Process",
+      "type": "Cause"
+    },
+    {
+      "name": "Problem Recovery",
+      "type": "Cause"
+    },
+    {
+      "name": "Damaged Banknote",
+      "type": "Cause"
+    },
+    {
+      "name": "Resampling Frequency",
+      "type": "Measurement"
+    },
+    {
+      "name": "change point detection methods",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "unsupervised change point detection methods",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "vector",
+      "type": "Measurement"
+    },
+    {
+      "name": "data",
+      "type": "Measurement"
+    },
+    {
+      "name": "alert",
+      "type": "Symptom"
+    },
+    {
+      "name": "change",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "optimal system",
+      "type": "Component"
+    },
+    {
+      "name": "anomaly",
+      "type": "Symptom"
+    },
+    {
+      "name": "false positive",
+      "type": "Symptom"
+    },
+    {
+      "name": "false negative",
+      "type": "Symptom"
+    },
+    {
+      "name": "true positive",
+      "type": "Symptom"
+    },
+    {
+      "name": "true negative",
+      "type": "Symptom"
+    },
+    {
+      "name": "Precision",
+      "type": "Measurement"
+    },
+    {
+      "name": "Recall",
+      "type": "Measurement"
+    },
+    {
+      "name": "business constraints",
+      "type": "Cause"
+    },
+    {
+      "name": "parameter",
+      "type": "Measurement"
+    },
+    {
+      "name": "metric",
+      "type": "Measurement"
+    },
+    {
+      "name": "Error events",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Banknote storage",
+      "type": "Component"
+    },
+    {
+      "name": "Threshold",
+      "type": "Measurement"
+    },
+    {
+      "name": "Change point",
+      "type": "Cause"
+    },
+    {
+      "name": "Algorithm",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Fuzzy logic system",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Life cycle",
+      "type": "Measurement"
+    },
+    {
+      "name": "Batch protocol",
+      "type": "Measurement"
+    },
+    {
+      "name": "Characteristics",
+      "type": "Measurement"
+    },
+    {
+      "name": "LSTM Autoencoder",
+      "type": "Component"
+    },
+    {
+      "name": "ARM A",
+      "type": "Component"
+    },
+    {
+      "name": "Data Center",
+      "type": "Component"
+    },
+    {
+      "name": "Log",
+      "type": "Component"
+    },
+    {
+      "name": "Fuzzy Rule",
+      "type": "Component"
+    },
+    {
+      "name": "Rocket",
+      "type": "Component"
+    },
+    {
+      "name": "Random Convolutional Kernel",
+      "type": "Component"
+    },
+    {
+      "name": "Wild Binary Segmentation",
+      "type": "Component"
+    },
+    {
+      "name": "Matrix Profile",
+      "type": "Component"
+    },
+    {
+      "name": "Cyber-Physical Production System",
+      "type": "Component"
+    },
+    {
+      "name": "Fault Event",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Motor Failure",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Current",
+      "type": "Symptom"
+    },
+    {
+      "name": "Overheating",
+      "type": "Cause"
+    },
+    {
+      "name": "Wear and Tear",
+      "type": "Cause"
+    },
+    {
+      "name": "Insufficient Maintenance",
+      "type": "Cause"
+    },
+    {
+      "name": "Sensor Failure",
+      "type": "Cause"
+    },
+    {
+      "name": "Inspection",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Replacement",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Temperature Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Vibration Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Current Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Temperature Measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "Vibration Measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "Current Measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "Rolling Element Bearing",
+      "type": "Component"
+    },
+    {
+      "name": "Defect",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Wear",
+      "type": "Cause"
+    },
+    {
+      "name": "Accelerometer",
+      "type": "Sensor"
+    },
+    {
+      "name": "Voltage Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Speed Sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Power Consumption",
+      "type": "Measurement"
+    },
+    {
+      "name": "Vibration Level",
+      "type": "Measurement"
+    },
+    {
+      "name": "Voltage",
+      "type": "Measurement"
+    },
+    {
+      "name": "Speed",
+      "type": "Measurement"
+    },
+    {
+      "name": "Filtration Units",
+      "type": "Component"
+    },
+    {
+      "name": "Sensors",
+      "type": "Component"
+    },
+    {
+      "name": "Corrective Maintenance",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Preventive Maintenance",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Water Treatment Plant",
+      "type": "Component"
+    },
+    {
+      "name": "performance",
+      "type": "Symptom"
+    },
+    {
+      "name": "real-time remote monitoring",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "live tracking",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "production process",
+      "type": "Component"
+    },
+    {
+      "name": "faults",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "cost justifications",
+      "type": "Cause"
+    },
+    {
+      "name": "substantial costs",
+      "type": "Cause"
+    },
+    {
+      "name": "motors",
+      "type": "Component"
+    },
+    {
+      "name": "failure modes",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "symptoms",
+      "type": "Symptom"
+    },
+    {
+      "name": "causes",
+      "type": "Cause"
+    },
+    {
+      "name": "maintenance actions",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "measurements",
+      "type": "Measurement"
+    },
+    {
+      "name": "Physical Assets",
+      "type": "Component"
+    },
+    {
+      "name": "Time",
+      "type": "Symptom"
+    },
+    {
+      "name": "Length",
+      "type": "Symptom"
+    },
+    {
+      "name": "Mass",
+      "type": "Symptom"
+    },
+    {
+      "name": "Angle",
+      "type": "Symptom"
+    },
+    {
+      "name": "Outlier",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Gradient",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Distance",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Spike",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Stuck-at",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "High Noise",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Late Deliveries",
+      "type": "Cause"
+    },
+    {
+      "name": "Weaknesses of Corrective Maintenance",
+      "type": "Cause"
+    },
+    {
+      "name": "Weaknesses of Preventive Maintenance",
+      "type": "Cause"
+    },
+    {
+      "name": "External Network",
+      "type": "Component"
+    },
+    {
+      "name": "noise",
+      "type": "Symptom"
+    },
+    {
+      "name": "variance",
+      "type": "Symptom"
+    },
+    {
+      "name": "fault",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "physical malfunction",
+      "type": "Cause"
+    },
+    {
+      "name": "sensor reading",
+      "type": "Measurement"
+    },
+    {
+      "name": "rule-based method",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "estimation-based method",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "time-series-based method",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "learning-based method",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "sensor data",
+      "type": "Measurement"
+    },
+    {
+      "name": "fault signal",
+      "type": "Symptom"
+    },
+    {
+      "name": "estimation-based methods",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "time-series-based methods",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "learning-based methods",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "machine learning model",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "financial model",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "normal behavior",
+      "type": "Cause"
+    },
+    {
+      "name": "abnormal behavior",
+      "type": "Cause"
+    },
+    {
+      "name": "stationarity",
+      "type": "Cause"
+    },
+    {
+      "name": "autocorrelation",
+      "type": "Cause"
+    },
+    {
+      "name": "training data",
+      "type": "Measurement"
+    },
+    {
+      "name": "validation data",
+      "type": "Measurement"
+    },
+    {
+      "name": "Secure Water Treatment (SWaT) testbed",
+      "type": "Component"
+    },
+    {
+      "name": "PLCs",
+      "type": "Component"
+    },
+    {
+      "name": "Human Machine Interfaces (HMIs)",
+      "type": "Component"
+    },
+    {
+      "name": "Supervisory Control and Data Acquisition (SCADA) workstation",
+      "type": "Component"
+    },
+    {
+      "name": "Historian",
+      "type": "Component"
+    },
+    {
+      "name": "Differential pressure indicator transmitter (DPIT) sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "Simulation of values",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Attack scenarios",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Excessive noise factor",
+      "type": "Symptom"
+    },
+    {
+      "name": "Differential pressure",
+      "type": "Measurement"
+    },
+    {
+      "name": "PLC code",
+      "type": "Component"
+    },
+    {
+      "name": "DPIT",
+      "type": "Sensor"
+    },
+    {
+      "name": "predictive maintenance models",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "RMSE",
+      "type": "Measurement"
+    },
+    {
+      "name": "machine learning models",
+      "type": "Component"
+    },
+    {
+      "name": "downtime",
+      "type": "Symptom"
+    },
+    {
+      "name": "linear regression",
+      "type": "Component"
+    },
+    {
+      "name": "random forest regressor",
+      "type": "Component"
+    },
+    {
+      "name": "gradient boosting regressor",
+      "type": "Component"
+    },
+    {
+      "name": "differential pressure indicating transmitter",
+      "type": "Sensor"
+    },
+    {
+      "name": "pressure values",
+      "type": "Measurement"
+    },
+    {
+      "name": "sampling bias",
+      "type": "Cause"
+    },
+    {
+      "name": "lack of detailed information",
+      "type": "Cause"
+    },
+    {
+      "name": "loss of revenue",
+      "type": "Symptom"
+    },
+    {
+      "name": "rapid rise in pressure",
+      "type": "Symptom"
+    },
+    {
+      "name": "predictive maintenance program",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "cost-benefit analysis",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "pressure sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "pressure measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "Corrosion",
+      "type": "Cause"
+    },
+    {
+      "name": "Failure Mode",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Symptom",
+      "type": "Symptom"
+    },
+    {
+      "name": "Cause",
+      "type": "Cause"
+    },
+    {
+      "name": "Maintenance Action",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Sensor Network",
+      "type": "Sensor"
+    },
+    {
+      "name": "Fault Type",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Calibration",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Fault Detection",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Environmental Sensor Network",
+      "type": "Sensor"
+    },
+    {
+      "name": "Early Failure Detection",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Stock Prediction",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Financial Modeling",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Cost Benefit Analysis",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Mechanical systems",
+      "type": "Component"
+    },
+    {
+      "name": "Electrical systems",
+      "type": "Component"
+    },
+    {
+      "name": "Diagnosis system",
+      "type": "Component"
+    },
+    {
+      "name": "Fault symptoms",
+      "type": "Symptom"
+    },
+    {
+      "name": "Probable cause",
+      "type": "Cause"
+    },
+    {
+      "name": "AR application",
+      "type": "Component"
+    },
+    {
+      "name": "camera sensor",
+      "type": "Sensor"
+    },
+    {
+      "name": "HMD device",
+      "type": "Component"
+    },
+    {
+      "name": "support application",
+      "type": "Component"
+    },
+    {
+      "name": "AR HMD device",
+      "type": "Component"
+    },
+    {
+      "name": "personal computer",
+      "type": "Component"
+    },
+    {
+      "name": "faulty machine",
+      "type": "Component"
+    },
+    {
+      "name": "kitchen appliances",
+      "type": "Component"
+    },
+    {
+      "name": "Unity game engine",
+      "type": "Component"
+    },
+    {
+      "name": "PUN 2",
+      "type": "Component"
+    },
+    {
+      "name": "Flask",
+      "type": "Component"
+    },
+    {
+      "name": "server solutions",
+      "type": "Component"
+    },
+    {
+      "name": "Flask-SocketIO",
+      "type": "Component"
+    },
+    {
+      "name": "HoloLens 2",
+      "type": "Component"
+    },
+    {
+      "name": "AR Maintenance application",
+      "type": "Component"
+    },
+    {
+      "name": "Maintenance AR Application",
+      "type": "Component"
+    },
+    {
+      "name": "Bearings",
+      "type": "Component"
+    },
+    {
+      "name": "Shafts",
+      "type": "Component"
+    },
+    {
+      "name": "Winding",
+      "type": "Component"
+    },
+    {
+      "name": "Insulation",
+      "type": "Component"
+    },
+    {
+      "name": "Increased Temperature",
+      "type": "Symptom"
+    },
+    {
+      "name": "overload",
+      "type": "Cause"
+    },
+    {
+      "name": "lubrication failure",
+      "type": "Cause"
+    },
+    {
+      "name": "thermocouple",
+      "type": "Sensor"
+    },
+    {
+      "name": "microphone",
+      "type": "Sensor"
+    },
+    {
+      "name": "noise measurement",
+      "type": "Measurement"
+    },
+    {
+      "name": "VR",
+      "type": "Component"
+    },
+    {
+      "name": "AR",
+      "type": "Component"
+    },
+    {
+      "name": "desktop",
+      "type": "Component"
+    },
+    {
+      "name": "Bearing",
+      "type": "Component"
+    },
+    {
+      "name": "Vibration signal",
+      "type": "Measurement"
+    },
+    {
+      "name": "Fast Fourier transformation (FFT)",
+      "type": "Measurement"
+    },
+    {
+      "name": "Maximum mean discrepancy (MMD)",
+      "type": "Measurement"
+    },
+    {
+      "name": "Nearest-Neighbor (NN)",
+      "type": "Component"
+    },
+    {
+      "name": "Faulty bearings",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Normal bearing",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Rotating machinery",
+      "type": "Component"
+    },
+    {
+      "name": "Bearing failure",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "roller",
+      "type": "Component"
+    },
+    {
+      "name": "outer race",
+      "type": "Component"
+    },
+    {
+      "name": "inner race",
+      "type": "Component"
+    },
+    {
+      "name": "motor speeds",
+      "type": "Cause"
+    },
+    {
+      "name": "load conditions",
+      "type": "Cause"
+    },
+    {
+      "name": "cracks",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "spalls",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "NN classiﬁer",
+      "type": "Sensor"
+    },
+    {
+      "name": "Nearest-Neighbor (NN) classiﬁer",
+      "type": "Sensor"
+    },
+    {
+      "name": "transferable features",
+      "type": "Measurement"
+    },
+    {
+      "name": "bearing faults",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "genetic algorithm-based SVM (GA-SVM) model",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "DWT and ANN",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "PCA",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "time-domain statistical analysis",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "frequency-domain analysis",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "time-frequency domain analysis",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "heavy casualties",
+      "type": "Cause"
+    },
+    {
+      "name": "load",
+      "type": "Measurement"
+    },
+    {
+      "name": "classifier",
+      "type": "Component"
+    },
+    {
+      "name": "test data",
+      "type": "Component"
+    },
+    {
+      "name": "diagnosis model",
+      "type": "Component"
+    },
+    {
+      "name": "vibration signals",
+      "type": "Measurement"
+    },
+    {
+      "name": "nearest-neighbor classiﬁer",
+      "type": "Component"
+    },
+    {
+      "name": "working conditions",
+      "type": "Cause"
+    },
+    {
+      "name": "NN classifier",
+      "type": "Sensor"
+    },
+    {
+      "name": "Distribution",
+      "type": "Measurement"
+    },
+    {
+      "name": "Feature Space",
+      "type": "Measurement"
+    },
+    {
+      "name": "Model",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Maximum Mean Discrepancy",
+      "type": "Measurement"
+    },
+    {
+      "name": "domain adaptation",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "MMD",
+      "type": "Sensor"
+    },
+    {
+      "name": "distance metric",
+      "type": "Measurement"
+    },
+    {
+      "name": "adaptation matrix",
+      "type": "Sensor"
+    },
+    {
+      "name": "source instances",
+      "type": "Measurement"
+    },
+    {
+      "name": "target instances",
+      "type": "Measurement"
+    },
+    {
+      "name": "k-dimensional embedding",
+      "type": "Measurement"
+    },
+    {
+      "name": "Frequency domain",
+      "type": "Measurement"
+    },
+    {
+      "name": "FFT",
+      "type": "Sensor"
+    },
+    {
+      "name": "Training domain",
+      "type": "Component"
+    },
+    {
+      "name": "Test domain",
+      "type": "Component"
+    },
+    {
+      "name": "Inner race fault",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Ball fault",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Outer race fault",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Normal condition",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "Data acquisition",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Model revision",
+      "type": "Maintenance Action"
+    },
+    {
+      "name": "Pseudo-label",
+      "type": "Measurement"
+    },
+    {
+      "name": "NO",
+      "type": "Component"
+    },
+    {
+      "name": "IF",
+      "type": "Component"
+    },
+    {
+      "name": "BF",
+      "type": "Component"
+    },
+    {
+      "name": "OF",
+      "type": "Component"
+    },
+    {
+      "name": "FFT amplitudes",
+      "type": "Measurement"
+    },
+    {
+      "name": "MATLAB",
+      "type": "Component"
+    },
+    {
+      "name": "raw time series",
+      "type": "Measurement"
+    },
+    {
+      "name": "amplitudes",
+      "type": "Measurement"
+    },
+    {
+      "name": "fault types",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "X",
+      "type": "Component"
+    },
+    {
+      "name": "Xtr",
+      "type": "Component"
+    },
+    {
+      "name": "Xte",
+      "type": "Component"
+    },
+    {
+      "name": "Xc",
+      "type": "Component"
+    },
+    {
+      "name": "bearing test rig",
+      "type": "Component"
+    },
+    {
+      "name": "DATF",
+      "type": "Component"
+    },
+    {
+      "name": "subspace alignment",
+      "type": "Component"
+    },
+    {
+      "name": "NN NA",
+      "type": "Component"
+    },
+    {
+      "name": "NN SA",
+      "type": "Component"
+    },
+    {
+      "name": "torque sensor/encoder",
+      "type": "Sensor"
+    },
+    {
+      "name": "power meter",
+      "type": "Sensor"
+    },
+    {
+      "name": "accelerometers",
+      "type": "Sensor"
+    },
+    {
+      "name": "electronic control unit",
+      "type": "Component"
+    },
+    {
+      "name": "inner-race faults (IF)",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "outer-race faults (OF)",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "ball fault (BF)",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "electrosparking",
+      "type": "Cause"
+    },
+    {
+      "name": "dataset",
+      "type": "Measurement"
+    },
+    {
+      "name": "Drive End Bearing Fault Data",
+      "type": "Measurement"
+    },
+    {
+      "name": "12kHz",
+      "type": "Measurement"
+    },
+    {
+      "name": "0.007in",
+      "type": "Cause"
+    },
+    {
+      "name": "0.014in",
+      "type": "Cause"
+    },
+    {
+      "name": "0.021in",
+      "type": "Cause"
+    },
+    {
+      "name": "Drive End Bearing",
+      "type": "Component"
+    },
+    {
+      "name": "Vibration Data",
+      "type": "Symptom"
+    },
+    {
+      "name": "Fourier Coefficients",
+      "type": "Measurement"
+    },
+    {
+      "name": "k",
+      "type": "Measurement"
+    },
+    {
+      "name": "λ",
+      "type": "Measurement"
+    },
+    {
+      "name": "hp",
+      "type": "Measurement"
+    },
+    {
+      "name": "rpm",
+      "type": "Measurement"
+    },
+    {
+      "name": "kHz",
+      "type": "Measurement"
+    },
+    {
+      "name": "in",
+      "type": "Measurement"
+    },
+    {
+      "name": "L0",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "L1",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "L2",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "L3",
+      "type": "Failure Mode"
+    },
+    {
+      "name": "A",
+      "type": "Symptom"
+    },
+    {
+      "name": "SA",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Temperature",
+      "predicate": "indicates",
+      "object": "Failure",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration",
+      "predicate": "indicates",
+      "object": "Failure",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "malfunction",
+      "predicate": "causes",
+      "object": "failure",
+      "subject_type": "Failure Mode",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "partOf",
+      "object": "ATM",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "ATMs",
+      "predicate": "hasFailureMode",
+      "object": "failure state",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "problems on other modules",
+      "predicate": "causes",
+      "object": "failure state",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "distribution module",
+      "predicate": "partOf",
+      "object": "hardware component",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "business constraints",
+      "predicate": "causes",
+      "object": "failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "metric",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "Distribution module",
+      "predicate": "partOf",
+      "object": "ATMs",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Banknote storage",
+      "predicate": "partOf",
+      "object": "ATMs",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Threshold",
+      "predicate": "indicates",
+      "object": "Error events",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Motor Failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Fault Event",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Overheating",
+      "predicate": "causes",
+      "object": "Motor Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Wear and Tear",
+      "predicate": "causes",
+      "object": "Motor Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Insufficient Maintenance",
+      "predicate": "causes",
+      "object": "Motor Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Sensor Failure",
+      "predicate": "causes",
+      "object": "Motor Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "partOf",
+      "object": "Cyber-Physical Production System",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "partOf",
+      "object": "Data Center",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Defect",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Rolling Element Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Defect",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Failure",
+      "predicate": "causes",
+      "object": "Defect",
+      "subject_type": "Failure Mode",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Wear",
+      "predicate": "causes",
+      "object": "Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Overheating",
+      "predicate": "causes",
+      "object": "Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration",
+      "predicate": "indicates",
+      "object": "Defect",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "faults",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motors",
+      "predicate": "hasFailureMode",
+      "object": "failure modes",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "sensor reading",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "sensor data",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "sensor reading",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "data",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "Attack scenarios",
+      "predicate": "causes",
+      "object": "Failure Modes",
+      "subject_type": "Failure Mode",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "differential pressure",
+      "predicate": "measuredBy",
+      "object": "DPIT",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "pressure",
+      "predicate": "measuredBy",
+      "object": "sensor",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Wear",
+      "predicate": "causes",
+      "object": "Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Corrosion",
+      "predicate": "causes",
+      "object": "Failure",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration",
+      "predicate": "indicates",
+      "object": "Failure",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "requiresMaintenance",
+      "object": "Predictive Maintenance",
+      "subject_type": "Component",
+      "object_type": "Maintenance Action"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "requiresMaintenance",
+      "object": "Calibration",
+      "subject_type": "Component",
+      "object_type": "Maintenance Action"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "requiresMaintenance",
+      "object": "Fault Detection",
+      "subject_type": "Component",
+      "object_type": "Maintenance Action"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "failure mode",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "cause",
+      "predicate": "causes",
+      "object": "failure mode",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearings",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Shafts",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Winding",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Insulation",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "vibration",
+      "predicate": "indicates",
+      "object": "bearing failure",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motors",
+      "predicate": "hasFailureMode",
+      "object": "failure modes",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Bearing failure",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Faulty bearings",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Normal bearing",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "partOf",
+      "object": "Rotating machinery",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "bearings",
+      "predicate": "partOf",
+      "object": "rotating machinery",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "vibration signal",
+      "predicate": "indicates",
+      "object": "bearing faults",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motor speeds",
+      "predicate": "causes",
+      "object": "bearing faults",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "load conditions",
+      "predicate": "causes",
+      "object": "bearing faults",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "bearings",
+      "predicate": "hasFailureMode",
+      "object": "cracks",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "bearings",
+      "predicate": "hasFailureMode",
+      "object": "spalls",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motors",
+      "predicate": "hasFailureMode",
+      "object": "faults",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "bearings",
+      "predicate": "hasFailureMode",
+      "object": "faults",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "working conditions",
+      "predicate": "causes",
+      "object": "faults",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motors",
+      "predicate": "partOf",
+      "object": "bearings",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Motor",
+      "predicate": "hasFailureMode",
+      "object": "Fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "bearing",
+      "predicate": "hasFailureMode",
+      "object": "fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "working conditions",
+      "predicate": "causes",
+      "object": "fault",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Inner race fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Ball fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Outer race fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Normal condition",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration signals",
+      "predicate": "measuredBy",
+      "object": "FFT",
+      "subject_type": "Measurement",
+      "object_type": "Sensor"
+    },
+    {
+      "subject": "Training domain",
+      "predicate": "requiresMaintenance",
+      "object": "Model revision",
+      "subject_type": "Component",
+      "object_type": "Maintenance Action"
+    },
+    {
+      "subject": "Test domain",
+      "predicate": "requiresMaintenance",
+      "object": "Model revision",
+      "subject_type": "Component",
+      "object_type": "Maintenance Action"
+    },
+    {
+      "subject": "Pseudo-label",
+      "predicate": "indicates",
+      "object": "Failure Mode",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration signal",
+      "predicate": "indicates",
+      "object": "Inner race fault",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration signal",
+      "predicate": "indicates",
+      "object": "Ball fault",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Vibration signal",
+      "predicate": "indicates",
+      "object": "Outer race fault",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "NO",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "IF",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "BF",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "OF",
+      "predicate": "partOf",
+      "object": "Motor",
+      "subject_type": "Component",
+      "object_type": "Component"
+    },
+    {
+      "subject": "amplitudes",
+      "predicate": "indicates",
+      "object": "fault types",
+      "subject_type": "Measurement",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "inner-race faults (IF)",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "outer-race faults (OF)",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "motor",
+      "predicate": "hasFailureMode",
+      "object": "ball fault (BF)",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "electrosparking",
+      "predicate": "causes",
+      "object": "inner-race faults (IF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "electrosparking",
+      "predicate": "causes",
+      "object": "outer-race faults (OF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "electrosparking",
+      "predicate": "causes",
+      "object": "ball fault (BF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "0.007in",
+      "predicate": "causes",
+      "object": "inner-race faults (IF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "0.014in",
+      "predicate": "causes",
+      "object": "outer-race faults (OF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "0.021in",
+      "predicate": "causes",
+      "object": "ball fault (BF)",
+      "subject_type": "Cause",
+      "object_type": "Failure Mode"
+    },
+    {
+      "subject": "Drive End Bearing",
+      "predicate": "hasFailureMode",
+      "object": "Fault",
+      "subject_type": "Component",
+      "object_type": "Failure Mode"
+    }
+  ]
+}

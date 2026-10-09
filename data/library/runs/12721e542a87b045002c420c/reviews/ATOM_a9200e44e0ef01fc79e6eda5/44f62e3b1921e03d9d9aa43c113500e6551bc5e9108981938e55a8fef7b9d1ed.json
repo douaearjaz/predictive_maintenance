@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+  "candidate_hash": "5e48a3836a5f5d0addac56787b65468cbffdf3e7dfee63ea1301d1909c866f9e",
+  "decision": "uncertain",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Replacement is conditional on the diagnosis distinguishing a locked motor from a driven-load fault. This record loses that distinction.",
+  "reviewed_at": "2026-09-15T00:14:45.821496+00:00"
+}

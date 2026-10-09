@@ -1,0 +1,2653 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "source_kind": "llm",
+  "responses": 3,
+  "total_sections": 3,
+  "missing_sections": [],
+  "results": [
+    {
+      "section_id": "lincoln-controller",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_70241d0a2fd0601d48b91ba9",
+          "section_id": "lincoln-controller",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "The motor controller will not operate",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (No hum or heating.)",
+              "kind": "symptom"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              },
+              {
+                "paragraph_id": "P6_B1",
+                "quote": "Trouble 2: Motor will not start (No hum or heating.)"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "The motor controller will not operate",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (No hum or heating.)",
+              "kind": "symptom"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              },
+              {
+                "paragraph_id": "P6_B1",
+                "quote": "Trouble 2: Motor will not start (No hum or heating.)"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B24",
+              "quote": "Cause 2a: The motor controller will not operate.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 48,
+              "original_start": 0,
+              "original_end": 48,
+              "original_quote": "Cause 2a: The motor controller will not\noperate.",
+              "bbox": [
+                63.25,
+                198.52781677246094,
+                225.35206604003906,
+                218.3039093017578
+              ],
+              "source_paragraph_cleaned": "Cause 2a: The motor controller will not operate.",
+              "source_paragraph_original": "Cause 2a: The motor controller will not\noperate.\n"
+            },
+            {
+              "paragraph_id": "P6_B1",
+              "quote": "Trouble 2: Motor will not start (No hum or heating.)",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 52,
+              "original_start": 0,
+              "original_end": 52,
+              "original_quote": "Trouble 2: Motor will not start\n(No hum or heating.)",
+              "bbox": [
+                64.33000183105469,
+                140.68296813964844,
+                356.4462890625,
+                154.68296813964844
+              ],
+              "source_paragraph_cleaned": "Trouble 2: Motor will not start (No hum or heating.)",
+              "source_paragraph_original": "Trouble 2: Motor will not start\n(No hum or heating.)\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a9795516872c711f58c22ebd",
+          "section_id": "lincoln-controller",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "motor controller",
+              "kind": "component"
+            },
+            "relation": "HAS_FAILURE_MODE",
+            "object": {
+              "text": "will not operate",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "motor controller",
+              "kind": "component"
+            },
+            "relation": "HAS_FAILURE_MODE",
+            "object": {
+              "text": "will not operate",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B24",
+              "quote": "Cause 2a: The motor controller will not operate.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 48,
+              "original_start": 0,
+              "original_end": 48,
+              "original_quote": "Cause 2a: The motor controller will not\noperate.",
+              "bbox": [
+                63.25,
+                198.52781677246094,
+                225.35206604003906,
+                218.3039093017578
+              ],
+              "source_paragraph_cleaned": "Cause 2a: The motor controller will not operate.",
+              "source_paragraph_original": "Cause 2a: The motor controller will not\noperate.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4f2381cfd42492abf09a01fd",
+          "section_id": "lincoln-controller",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "defective controller",
+              "kind": "component"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the defective controller.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B16",
+                "quote": "Cure 2a: Replace the defective controller."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "defective controller",
+              "kind": "component"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the defective controller.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B16",
+                "quote": "Cure 2a: Replace the defective controller."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B16",
+              "quote": "Cure 2a: Replace the defective controller.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 42,
+              "original_start": 0,
+              "original_end": 42,
+              "original_quote": "Cure 2a: Replace the defective controller.",
+              "bbox": [
+                262.0,
+                198.52781677246094,
+                437.1153259277344,
+                208.52781677246094
+              ],
+              "source_paragraph_cleaned": "Cure 2a: Replace the defective controller.",
+              "source_paragraph_original": "Cure 2a: Replace the defective controller.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_693abdb8776b8a66fef81706",
+          "section_id": "lincoln-controller",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "overload relays",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B2",
+                "quote": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the conditions described."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "overload relays",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B2",
+                "quote": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the conditions described."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B2",
+              "quote": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the conditions described.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 141,
+              "original_start": 0,
+              "original_end": 141,
+              "original_quote": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the\nconditions described.",
+              "bbox": [
+                64.32958984375,
+                160.56422424316406,
+                542.692626953125,
+                179.56410217285156
+              ],
+              "source_paragraph_cleaned": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the conditions described.",
+              "source_paragraph_original": "NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the\nconditions described.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_24e620116b5709a1018bf5bf",
+          "section_id": "lincoln-controller",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "defective controller",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B16",
+                "quote": "Cure 2a: Replace the defective controller."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "defective controller",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B16",
+                "quote": "Cure 2a: Replace the defective controller."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B16",
+              "quote": "Cure 2a: Replace the defective controller.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 42,
+              "original_start": 0,
+              "original_end": 42,
+              "original_quote": "Cure 2a: Replace the defective controller.",
+              "bbox": [
+                262.0,
+                198.52781677246094,
+                437.1153259277344,
+                208.52781677246094
+              ],
+              "source_paragraph_cleaned": "Cure 2a: Replace the defective controller.",
+              "source_paragraph_original": "Cure 2a: Replace the defective controller.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_825ad84e3cf10dde6004c568",
+          "section_id": "lincoln-controller",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "motor controller",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "motor controller",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B24",
+                "quote": "Cause 2a: The motor controller will not operate."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B24",
+              "quote": "Cause 2a: The motor controller will not operate.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 48,
+              "original_start": 0,
+              "original_end": 48,
+              "original_quote": "Cause 2a: The motor controller will not\noperate.",
+              "bbox": [
+                63.25,
+                198.52781677246094,
+                225.35206604003906,
+                218.3039093017578
+              ],
+              "source_paragraph_cleaned": "Cause 2a: The motor controller will not operate.",
+              "source_paragraph_original": "Cause 2a: The motor controller will not\noperate.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "lincoln-hums",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "could have been a temporary condition",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "could have been a temporary condition",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B6",
+              "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 111,
+              "original_start": 0,
+              "original_end": 111,
+              "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+              "bbox": [
+                64.24970245361328,
+                523.8578491210938,
+                239.34375,
+                553.6337890625
+              ],
+              "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4cb87335d85843e10127ee8a",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B7",
+                "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B7",
+                "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B7",
+              "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 105,
+              "original_start": 0,
+              "original_end": 105,
+              "original_quote": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings.",
+              "bbox": [
+                64.24980163574219,
+                563.8579711914062,
+                230.39425659179688,
+                593.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "source_paragraph_original": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_5c23af82cefa1f323d0c789d",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B8",
+              "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 58,
+              "original_start": 0,
+              "original_end": 59,
+              "original_quote": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.",
+              "bbox": [
+                64.24970245361328,
+                613.8578491210938,
+                217.0615234375,
+                633.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "source_paragraph_original": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1587c8b5b280930c9f80b154",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "qualified technician check for the proper voltage in all three phases",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B9",
+                "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "qualified technician check for the proper voltage in all three phases",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B9",
+                "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B9",
+              "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 143,
+              "original_start": 0,
+              "original_end": 143,
+              "original_quote": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.",
+              "bbox": [
+                262.0,
+                523.8578491210938,
+                544.138916015625,
+                543.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "source_paragraph_original": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_c551a4182b5cfbb6c2e65b24",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B10",
+              "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 231,
+              "original_start": 0,
+              "original_end": 231,
+              "original_quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.",
+              "bbox": [
+                262.0,
+                563.8579711914062,
+                540.30029296875,
+                603.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "source_paragraph_original": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_e9e3622f927de365887e6d11",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B10",
+              "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 231,
+              "original_start": 0,
+              "original_end": 231,
+              "original_quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.",
+              "bbox": [
+                262.0,
+                563.8579711914062,
+                540.30029296875,
+                603.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "source_paragraph_original": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1fc7f06173ae855a0506ec4f",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Disconnect the motor from the driven load",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Disconnect the motor from the driven load",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B11",
+              "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 167,
+              "original_start": 0,
+              "original_end": 167,
+              "original_quote": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.",
+              "bbox": [
+                262.0,
+                613.8578491210938,
+                535.8641967773438,
+                643.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "source_paragraph_original": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B11",
+              "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 167,
+              "original_start": 0,
+              "original_end": 167,
+              "original_quote": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.",
+              "bbox": [
+                262.0,
+                613.8578491210938,
+                535.8641967773438,
+                643.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "source_paragraph_original": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_75b22eb2934e5969c254e18c",
+          "section_id": "lincoln-hums",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "adjust the driven load as needed",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "adjust the driven load as needed",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B11",
+              "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 167,
+              "original_start": 0,
+              "original_end": 167,
+              "original_quote": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.",
+              "bbox": [
+                262.0,
+                613.8578491210938,
+                535.8641967773438,
+                643.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "source_paragraph_original": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3a4cbb603639f3f03ac2e6f2",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B3",
+                "quote": "Trouble 3: Motor will not start (Just hums and heats up.)"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor will not start (Just hums and heats up.)",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B3",
+                "quote": "Trouble 3: Motor will not start (Just hums and heats up.)"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B3",
+              "quote": "Trouble 3: Motor will not start (Just hums and heats up.)",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 57,
+              "original_start": 0,
+              "original_end": 57,
+              "original_quote": "Trouble 3: Motor will not start\n(Just hums and heats up.)",
+              "bbox": [
+                64.33000183105469,
+                469.59295654296875,
+                379.3184509277344,
+                483.59295654296875
+              ],
+              "source_paragraph_cleaned": "Trouble 3: Motor will not start (Just hums and heats up.)",
+              "source_paragraph_original": "Trouble 3: Motor will not start\n(Just hums and heats up.)\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_e5d40c7c8ba77fdd36203dee",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Input circuit single phased",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B6",
+              "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 111,
+              "original_start": 0,
+              "original_end": 111,
+              "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+              "bbox": [
+                64.24970245361328,
+                523.8578491210938,
+                239.34375,
+                553.6337890625
+              ],
+              "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1e590c0c2bc09b348f118890",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B7",
+                "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor was single phased",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B7",
+                "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B7",
+              "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 105,
+              "original_start": 0,
+              "original_end": 105,
+              "original_quote": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings.",
+              "bbox": [
+                64.24980163574219,
+                563.8579711914062,
+                230.39425659179688,
+                593.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "source_paragraph_original": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_9e8710a0d09fd0a2d93a7bc9",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor rotor, bearings, or driven load is locked",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B8",
+              "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 58,
+              "original_start": 0,
+              "original_end": 59,
+              "original_quote": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.",
+              "bbox": [
+                64.24970245361328,
+                613.8578491210938,
+                217.0615234375,
+                633.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "source_paragraph_original": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b30cff94173829d731851155",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "qualified technician check for the proper voltage in all three phases",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B9",
+                "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "qualified technician check for the proper voltage in all three phases",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B9",
+                "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B9",
+              "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 143,
+              "original_start": 0,
+              "original_end": 143,
+              "original_quote": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.",
+              "bbox": [
+                262.0,
+                523.8578491210938,
+                544.138916015625,
+                543.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "source_paragraph_original": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1e44b0b3a39faef602870b2c",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Replace the motor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B10",
+              "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 231,
+              "original_start": 0,
+              "original_end": 231,
+              "original_quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.",
+              "bbox": [
+                262.0,
+                563.8579711914062,
+                540.30029296875,
+                603.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "source_paragraph_original": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_76aa1f3e7636190ee35008d8",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B10",
+                "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B10",
+              "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 231,
+              "original_start": 0,
+              "original_end": 231,
+              "original_quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.",
+              "bbox": [
+                262.0,
+                563.8579711914062,
+                540.30029296875,
+                603.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "source_paragraph_original": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_c299acfebda8ba2afb3f87b7",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Disconnect the motor from the driven load",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Disconnect the motor from the driven load",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B11",
+              "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 167,
+              "original_start": 0,
+              "original_end": 167,
+              "original_quote": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.",
+              "bbox": [
+                262.0,
+                613.8578491210938,
+                535.8641967773438,
+                643.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "source_paragraph_original": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_80928160f0368b376fe083db",
+          "section_id": "lincoln-hums",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "adjust the driven load as needed",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "adjust the driven load as needed",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B11",
+                "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B11",
+              "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 167,
+              "original_start": 0,
+              "original_end": 167,
+              "original_quote": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.",
+              "bbox": [
+                262.0,
+                613.8578491210938,
+                535.8641967773438,
+                643.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed.",
+              "source_paragraph_original": "Cure 3c: Disconnect the motor from the driven load. If the motor\nshaft turns freely, the trouble is in the load. Replace the motor or\nadjust the driven load as needed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_8d4d6a4facf7fb5a551918d5",
+          "section_id": "lincoln-hums",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Uncertainty whether the single phase condition was temporary",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ]
+          },
+          "record": {
+            "description": "Uncertainty whether the single phase condition was temporary",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B6",
+                "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition)."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B6",
+              "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 111,
+              "original_start": 0,
+              "original_end": 111,
+              "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+              "bbox": [
+                64.24970245361328,
+                523.8578491210938,
+                239.34375,
+                553.6337890625
+              ],
+              "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a22a31de8756b13a7b5d8338",
+          "section_id": "lincoln-hums",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Unclear which component (rotor, bearings, or driven load) is locked",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ]
+          },
+          "record": {
+            "description": "Unclear which component (rotor, bearings, or driven load) is locked",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B8",
+                "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B8",
+              "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 58,
+              "original_start": 0,
+              "original_end": 59,
+              "original_quote": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.",
+              "bbox": [
+                64.24970245361328,
+                613.8578491210938,
+                217.0615234375,
+                633.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3c: Motor rotor, bearings, or driven load is locked.",
+              "source_paragraph_original": "Cause 3c: Motor rotor, bearings, or \ndriven load is locked.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "lincoln-overload-relays",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_98576e2d603c9d61431a8db6",
+          "section_id": "lincoln-overload-relays",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              },
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              },
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B12",
+              "quote": "Cause 4a: Overload relays undersized.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 37,
+              "original_start": 0,
+              "original_end": 37,
+              "original_quote": "Cause 4a: Overload relays undersized.",
+              "bbox": [
+                62.5099983215332,
+                701.5978393554688,
+                228.08795166015625,
+                711.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4a: Overload relays undersized.",
+              "source_paragraph_original": "Cause 4a: Overload relays undersized.\n"
+            },
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Trouble 4: Overload relays trip during starting",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 47,
+              "original_start": 0,
+              "original_end": 47,
+              "original_quote": "Trouble 4: Overload relays trip during starting",
+              "bbox": [
+                64.33000183105469,
+                664.7130737304688,
+                373.95819091796875,
+                678.7130737304688
+              ],
+              "source_paragraph_cleaned": "Trouble 4: Overload relays trip during starting",
+              "source_paragraph_original": "Trouble 4: Overload relays trip during starting\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7d004ce496147effb3349d81",
+          "section_id": "lincoln-overload-relays",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor takes too long to start",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              },
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor takes too long to start",
+              "kind": "failure_mode"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              },
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B13",
+              "quote": "Cause 4b: Motor takes too long to start.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 40,
+              "original_start": 0,
+              "original_end": 40,
+              "original_quote": "Cause 4b: Motor takes too long to start.",
+              "bbox": [
+                62.5099983215332,
+                731.5978393554688,
+                231.3973388671875,
+                741.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4b: Motor takes too long to start.",
+              "source_paragraph_original": "Cause 4b: Motor takes too long to start.\n"
+            },
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Trouble 4: Overload relays trip during starting",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 47,
+              "original_start": 0,
+              "original_end": 47,
+              "original_quote": "Trouble 4: Overload relays trip during starting",
+              "bbox": [
+                64.33000183105469,
+                664.7130737304688,
+                373.95819091796875,
+                678.7130737304688
+              ],
+              "source_paragraph_cleaned": "Trouble 4: Overload relays trip during starting",
+              "source_paragraph_original": "Trouble 4: Overload relays trip during starting\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_00351e2076a016e26961305a",
+          "section_id": "lincoln-overload-relays",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              },
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              },
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B14",
+              "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 125,
+              "original_start": 0,
+              "original_end": 125,
+              "original_quote": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.",
+              "bbox": [
+                262.0,
+                700.52783203125,
+                538.1279296875,
+                720.303955078125
+              ],
+              "source_paragraph_cleaned": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "source_paragraph_original": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.\n"
+            },
+            {
+              "paragraph_id": "P6_B12",
+              "quote": "Cause 4a: Overload relays undersized.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 37,
+              "original_start": 0,
+              "original_end": 37,
+              "original_quote": "Cause 4a: Overload relays undersized.",
+              "bbox": [
+                62.5099983215332,
+                701.5978393554688,
+                228.08795166015625,
+                711.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4a: Overload relays undersized.",
+              "source_paragraph_original": "Cause 4a: Overload relays undersized.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_9565136baaa842449b5425e1",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Overload relays",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              },
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Overload relays",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              },
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Trouble 4: Overload relays trip during starting",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 47,
+              "original_start": 0,
+              "original_end": 47,
+              "original_quote": "Trouble 4: Overload relays trip during starting",
+              "bbox": [
+                64.33000183105469,
+                664.7130737304688,
+                373.95819091796875,
+                678.7130737304688
+              ],
+              "source_paragraph_cleaned": "Trouble 4: Overload relays trip during starting",
+              "source_paragraph_original": "Trouble 4: Overload relays trip during starting\n"
+            },
+            {
+              "paragraph_id": "P6_B12",
+              "quote": "Cause 4a: Overload relays undersized.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 37,
+              "original_start": 0,
+              "original_end": 37,
+              "original_quote": "Cause 4a: Overload relays undersized.",
+              "bbox": [
+                62.5099983215332,
+                701.5978393554688,
+                228.08795166015625,
+                711.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4a: Overload relays undersized.",
+              "source_paragraph_original": "Cause 4a: Overload relays undersized.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_e055ed8cd5fe4b33262cf3fb",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Overload relays trip during starting",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B5",
+                "quote": "Trouble 4: Overload relays trip during starting"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Trouble 4: Overload relays trip during starting",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 47,
+              "original_start": 0,
+              "original_end": 47,
+              "original_quote": "Trouble 4: Overload relays trip during starting",
+              "bbox": [
+                64.33000183105469,
+                664.7130737304688,
+                373.95819091796875,
+                678.7130737304688
+              ],
+              "source_paragraph_cleaned": "Trouble 4: Overload relays trip during starting",
+              "source_paragraph_original": "Trouble 4: Overload relays trip during starting\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_62534d3fbc8eee378c4a4cd2",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Overload relays undersized",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B12",
+                "quote": "Cause 4a: Overload relays undersized."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B12",
+              "quote": "Cause 4a: Overload relays undersized.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 37,
+              "original_start": 0,
+              "original_end": 37,
+              "original_quote": "Cause 4a: Overload relays undersized.",
+              "bbox": [
+                62.5099983215332,
+                701.5978393554688,
+                228.08795166015625,
+                711.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4a: Overload relays undersized.",
+              "source_paragraph_original": "Cause 4a: Overload relays undersized.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_22e761a542d9ce58ebf070b0",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B13",
+              "quote": "Cause 4b: Motor takes too long to start.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 40,
+              "original_start": 0,
+              "original_end": 40,
+              "original_quote": "Cause 4b: Motor takes too long to start.",
+              "bbox": [
+                62.5099983215332,
+                731.5978393554688,
+                231.3973388671875,
+                741.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4b: Motor takes too long to start.",
+              "source_paragraph_original": "Cause 4b: Motor takes too long to start.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4a1b3b0f2ada62d7747dd3f8",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor takes too long to start",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor takes too long to start",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B13",
+                "quote": "Cause 4b: Motor takes too long to start."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B13",
+              "quote": "Cause 4b: Motor takes too long to start.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 40,
+              "original_start": 0,
+              "original_end": 40,
+              "original_quote": "Cause 4b: Motor takes too long to start.",
+              "bbox": [
+                62.5099983215332,
+                731.5978393554688,
+                231.3973388671875,
+                741.5978393554688
+              ],
+              "source_paragraph_cleaned": "Cause 4b: Motor takes too long to start.",
+              "source_paragraph_original": "Cause 4b: Motor takes too long to start.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_82cbde9f05e0e6ee2f821902",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B14",
+              "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 125,
+              "original_start": 0,
+              "original_end": 125,
+              "original_quote": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.",
+              "bbox": [
+                262.0,
+                700.52783203125,
+                538.1279296875,
+                720.303955078125
+              ],
+              "source_paragraph_cleaned": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "source_paragraph_original": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_8d2a1feba9fa341d36372acc",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "National Electric Code (NEC)",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "National Electric Code (NEC)",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B14",
+                "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B14",
+              "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 125,
+              "original_start": 0,
+              "original_end": 125,
+              "original_quote": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.",
+              "bbox": [
+                262.0,
+                700.52783203125,
+                538.1279296875,
+                720.303955078125
+              ],
+              "source_paragraph_cleaned": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.",
+              "source_paragraph_original": "Cure 4a: Use the relay size specified by the National Electric Code\n(NEC) for the motor nameplate current and service factor.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_77506f73874171fc82be4bd6",
+          "section_id": "lincoln-overload-relays",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Trouble 5",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B15",
+                "quote": "Cure 4b: See Trouble 5, page 7."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Trouble 5",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P6_B15",
+                "quote": "Cure 4b: See Trouble 5, page 7."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B15",
+              "quote": "Cure 4b: See Trouble 5, page 7.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 31,
+              "original_start": 0,
+              "original_end": 31,
+              "original_quote": "Cure 4b:\nSee Trouble 5, page 7.",
+              "bbox": [
+                262.0,
+                730.52783203125,
+                403.67547607421875,
+                740.52783203125
+              ],
+              "source_paragraph_cleaned": "Cure 4b: See Trouble 5, page 7.",
+              "source_paragraph_original": "Cure 4b:\nSee Trouble 5, page 7.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_f9ecebcd66da40061e700854",
+          "section_id": "lincoln-overload-relays",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Cure 4b references Trouble 5 without providing a specific corrective action, making the mitigation unclear.",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B15",
+                "quote": "Cure 4b: See Trouble 5, page 7."
+              }
+            ]
+          },
+          "record": {
+            "description": "Cure 4b references Trouble 5 without providing a specific corrective action, making the mitigation unclear.",
+            "evidence": [
+              {
+                "paragraph_id": "P6_B15",
+                "quote": "Cure 4b: See Trouble 5, page 7."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P6_B15",
+              "quote": "Cure 4b: See Trouble 5, page 7.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-overload-relays",
+              "section": "Overload relays trip during starting",
+              "clean_start": 0,
+              "clean_end": 31,
+              "original_start": 0,
+              "original_end": 31,
+              "original_quote": "Cure 4b:\nSee Trouble 5, page 7.",
+              "bbox": [
+                262.0,
+                730.52783203125,
+                403.67547607421875,
+                740.52783203125
+              ],
+              "source_paragraph_cleaned": "Cure 4b: See Trouble 5, page 7.",
+              "source_paragraph_original": "Cure 4b:\nSee Trouble 5, page 7.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "validator_version": "atomic-evidence-v1",
+  "validator_code_hash": "edffa316cffa510469455b6187b47543724a6ce9bc0c5500d2e95dc0a7c287c8"
+}

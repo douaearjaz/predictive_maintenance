@@ -1,0 +1,2242 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v1",
+  "allow_assistant": true,
+  "run_id": "c7f8842146507b286f377664",
+  "records": [
+    {
+      "fmea_record_id": "FMEA_ff8c1ec6e98fa0ce31789cb8",
+      "section_id": "fault-02",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "insulation breakdown",
+          "statement_id": "ATOM_2ae450641edcff529e874cbe",
+          "qualifier": "leading to",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "leading to insulation breakdown",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 2,
+              "section_id": "fault-02",
+              "section": "2 Voltage imbalance",
+              "clean_start": 114,
+              "clean_end": 145,
+              "original_start": 115,
+              "original_end": 148,
+              "original_quote": "leading to  \ninsulation breakdown",
+              "bbox": [
+                268.71429443359375,
+                523.3394165039062,
+                547.9678344726562,
+                556.6939086914062
+              ],
+              "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+              "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "increased operating temperatures",
+          "statement_id": "ATOM_2ae450641edcff529e874cbe",
+          "qualifier": "leading to",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "leading to insulation breakdown",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 2,
+              "section_id": "fault-02",
+              "section": "2 Voltage imbalance",
+              "clean_start": 114,
+              "clean_end": 145,
+              "original_start": 115,
+              "original_end": 148,
+              "original_quote": "leading to  \ninsulation breakdown",
+              "bbox": [
+                268.71429443359375,
+                523.3394165039062,
+                547.9678344726562,
+                556.6939086914062
+              ],
+              "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+              "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_2ae450641edcff529e874cbe"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_2ae450641edcff529e874cbe",
+          "candidate_hash": "518d713b0949346108f5ddc00dbb59a228a54092e13b1eb5dd306e69c7163f0a",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Checked full page 2 impact paragraph P2_B6: increased temperature leads to insulation breakdown. Preserve this immediate cause; do not substitute upstream voltage imbalance.",
+          "reviewed_at": "2026-09-14T21:02:35.047429+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_e3f22fc14cc880dc3a5c06c4",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_a210b5cb56386af10442e6d1",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A heavier load than designed for",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 185,
+              "clean_end": 217,
+              "original_start": 190,
+              "original_end": 222,
+              "original_quote": "A heavier load than designed for",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "heavier load than designed for",
+          "statement_id": "ATOM_a210b5cb56386af10442e6d1",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A heavier load than designed for",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 185,
+              "clean_end": 217,
+              "original_start": 190,
+              "original_end": 222,
+              "original_quote": "A heavier load than designed for",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_a210b5cb56386af10442e6d1"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_a210b5cb56386af10442e6d1",
+          "candidate_hash": "34359a01549a642d36e7c024a198c6d78c81c225916149b2a7bf57474b616f84",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 Bearing wear: the list is explicitly introduced by Bearing failure can be caused by several things. Heavier-than-designed load is an item. Reviewed introductory context as well as quoted item; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.071143+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_be9f74aaeb44ea75765d49ed",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_b16354a2d4283e594ec23a22",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Inadequate or incorrect lubrication",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 220,
+              "clean_end": 255,
+              "original_start": 226,
+              "original_end": 261,
+              "original_quote": "Inadequate or incorrect lubrication",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "inadequate or incorrect lubrication",
+          "statement_id": "ATOM_b16354a2d4283e594ec23a22",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Inadequate or incorrect lubrication",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 220,
+              "clean_end": 255,
+              "original_start": 226,
+              "original_end": 261,
+              "original_quote": "Inadequate or incorrect lubrication",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_b16354a2d4283e594ec23a22"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_b16354a2d4283e594ec23a22",
+          "candidate_hash": "cc3c2bd8e1da12441f94d5aa1f5fda94a2122f4203b5072f49896ae30d9e9ac2",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces causes of bearing failure and lists inadequate or incorrect lubrication. Quotation is a list item; full paragraph supplies the causal introduction. Retain can, not deterministic causality.",
+          "reviewed_at": "2026-09-14T21:02:35.094692+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_be39e1e655b426b2890e3f2d",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_3f7b6855b073913b30652f77",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Ineffective bearing sealing",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 258,
+              "clean_end": 285,
+              "original_start": 265,
+              "original_end": 292,
+              "original_quote": "Ineffective bearing sealing",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "ineffective bearing sealing",
+          "statement_id": "ATOM_3f7b6855b073913b30652f77",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Ineffective bearing sealing",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 258,
+              "clean_end": 285,
+              "original_start": 265,
+              "original_end": 292,
+              "original_quote": "Ineffective bearing sealing",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_3f7b6855b073913b30652f77"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_3f7b6855b073913b30652f77",
+          "candidate_hash": "8b6815e6852825a4c49eb129550d062be93035b55fef0dc6e1fac6126403a089",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists ineffective bearing sealing. Full paragraph checked; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.118311+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_b253f711c64424ecb693e934",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_fca9a4e8e9397c8c68d9b264",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Shaft misalignment",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 288,
+              "clean_end": 306,
+              "original_start": 296,
+              "original_end": 314,
+              "original_quote": "Shaft misalignment",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "shaft misalignment",
+          "statement_id": "ATOM_fca9a4e8e9397c8c68d9b264",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Shaft misalignment",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 288,
+              "clean_end": 306,
+              "original_start": 296,
+              "original_end": 314,
+              "original_quote": "Shaft misalignment",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_fca9a4e8e9397c8c68d9b264"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_fca9a4e8e9397c8c68d9b264",
+          "candidate_hash": "ee30ebfe24d40badf45c52d274d18469f4fa4d30f48f7324b262f48939104cc2",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists shaft misalignment. Full paragraph checked; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.148146+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_5e8b7c24ece7232ceea03f12",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_0153036d6c027108276dbfc6",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Incorrect fit",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 309,
+              "clean_end": 322,
+              "original_start": 319,
+              "original_end": 332,
+              "original_quote": "Incorrect fit",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "incorrect fit",
+          "statement_id": "ATOM_0153036d6c027108276dbfc6",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Incorrect fit",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 309,
+              "clean_end": 322,
+              "original_start": 319,
+              "original_end": 332,
+              "original_quote": "Incorrect fit",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_0153036d6c027108276dbfc6"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_0153036d6c027108276dbfc6",
+          "candidate_hash": "e99b0bbed22b2bd25145a11ee6ccd9ade67c32e4e6100c4b7f99e1016069a1c7",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists incorrect fit. Full paragraph checked; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.183913+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_c6bd32c57f3d7c5a7833f90c",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_005ca5c0d2533e43830fb72a",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Normal wear",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 325,
+              "clean_end": 336,
+              "original_start": 336,
+              "original_end": 347,
+              "original_quote": "Normal wear",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "normal wear",
+          "statement_id": "ATOM_005ca5c0d2533e43830fb72a",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Normal wear",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 325,
+              "clean_end": 336,
+              "original_start": 336,
+              "original_end": 347,
+              "original_quote": "Normal wear",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_005ca5c0d2533e43830fb72a"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_005ca5c0d2533e43830fb72a",
+          "candidate_hash": "7926e28a495929f5bcdb7ec995d042c331a6efbfad3f0916ef11cf77c9c23ee1",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists normal wear. Full paragraph checked; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.221696+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_77a5fe7f9381ae62b6ae4c90",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "statement_id": "ATOM_b30d0f7e0f5a51c6d5b5647f",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Induced shaft voltages",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 339,
+              "clean_end": 361,
+              "original_start": 351,
+              "original_end": 373,
+              "original_quote": "Induced shaft voltages",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "induced shaft voltages",
+          "statement_id": "ATOM_b30d0f7e0f5a51c6d5b5647f",
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "Induced shaft voltages",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 339,
+              "clean_end": 361,
+              "original_start": 351,
+              "original_end": 373,
+              "original_quote": "Induced shaft voltages",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_b30d0f7e0f5a51c6d5b5647f"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_b30d0f7e0f5a51c6d5b5647f",
+          "candidate_hash": "230579ca6220dd7376f79fc9b156ee8c3bf9e55eea32e28a1ec49bdd148629ca",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists induced shaft voltages. Full paragraph checked; retain can.",
+          "reviewed_at": "2026-09-14T21:02:35.244893+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_d0ae2bb0b035ed20b165c709",
+      "section_id": "fault-10",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "failed bearing",
+          "statement_id": "ATOM_e9a5a736ae89891d593e3a35",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A failed bearing has increased drag",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 0,
+              "clean_end": 35,
+              "original_start": 0,
+              "original_end": 35,
+              "original_quote": "A failed bearing has increased drag",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        },
+        {
+          "value": "failed bearing",
+          "statement_id": "ATOM_efdd526554c2c30dfa54cc1b",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "emits more heat",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 37,
+              "clean_end": 52,
+              "original_start": 37,
+              "original_end": 52,
+              "original_quote": "emits more heat",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        },
+        {
+          "value": "failed bearing",
+          "statement_id": "ATOM_37a447ce5adb783797c70218",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "has lower efficiency",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 58,
+              "clean_end": 78,
+              "original_start": 58,
+              "original_end": 79,
+              "original_quote": "has \nlower efficiency",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": [
+        {
+          "value": "increased drag",
+          "statement_id": "ATOM_e9a5a736ae89891d593e3a35",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A failed bearing has increased drag",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 0,
+              "clean_end": 35,
+              "original_start": 0,
+              "original_end": 35,
+              "original_quote": "A failed bearing has increased drag",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        },
+        {
+          "value": "emits more heat",
+          "statement_id": "ATOM_efdd526554c2c30dfa54cc1b",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "emits more heat",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 37,
+              "clean_end": 52,
+              "original_start": 37,
+              "original_end": 52,
+              "original_quote": "emits more heat",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        },
+        {
+          "value": "lower efficiency",
+          "statement_id": "ATOM_37a447ce5adb783797c70218",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "has lower efficiency",
+              "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+              "document_name": "13-common-causes.pdf",
+              "page": 6,
+              "section_id": "fault-10",
+              "section": "10 Bearing wear",
+              "clean_start": 58,
+              "clean_end": 78,
+              "original_start": 58,
+              "original_end": 79,
+              "original_quote": "has \nlower efficiency",
+              "bbox": [
+                268.7143249511719,
+                393.11505126953125,
+                542.9324951171875,
+                576.4556274414062
+              ],
+              "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+              "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+            }
+          ]
+        }
+      ],
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_37a447ce5adb783797c70218",
+        "ATOM_e9a5a736ae89891d593e3a35",
+        "ATOM_efdd526554c2c30dfa54cc1b"
+      ],
+      "reviews": [
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_e9a5a736ae89891d593e3a35",
+          "candidate_hash": "62a5091d2a59a1726a57e6e7920ad47343bf2569f0810c28c15eec11756972ad",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 opening sentence states a failed bearing has increased drag. This is an observed symptom, not an upstream cause.",
+          "reviewed_at": "2026-09-14T21:02:35.269140+00:00"
+        },
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_efdd526554c2c30dfa54cc1b",
+          "candidate_hash": "bc8dd8fd40a8da757b3818d7fabcdb9f9e0584793cb46cd612c196f4e0513277",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 opening sentence states a failed bearing emits more heat. Full P6_B5 paragraph resolves the subject omitted from the short quote.",
+          "reviewed_at": "2026-09-14T21:02:35.292812+00:00"
+        },
+        {
+          "run_id": "c7f8842146507b286f377664",
+          "candidate_id": "ATOM_37a447ce5adb783797c70218",
+          "candidate_hash": "273d6b2e0f3f5c14b2f2abf802b36b9634504f4f050dcaa77e8f4405ebd04463",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Assistant verification only; human review pending. Page 6 opening sentence states a failed bearing has lower efficiency. Full P6_B5 paragraph resolves the subject omitted from the short quote.",
+          "reviewed_at": "2026-09-14T21:02:35.316324+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_64e0241b432be2fc56c5e05f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_4c5a97b9205afccddd79f2a2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_533889e4482ea3f91d1d46c8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_00f2c2c37942f6653d599b26",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_9fb6d393bb58b2ad5faa4724",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_05cb218306ba6a8914057327",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_381006c05efa61a3f3f58f1e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e26640c955a352da4ff825fb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a221ea99425bb70631ee8a6f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_061853c2f062707e3b754d7f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_91531ca4cc7ada9c877d9bdd",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_59c8f0bf2e97d6d9cebdd053",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2333005782a02931e42c5672",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_357bce2cda9392fa49b7691c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5d265028ca99119e7b83dabf",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ba43670ef4a4c5e1c335b9db",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c95d13278c504d5a7f442b58",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_12b5fa03dd2c0eb6dfa1edba",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b44e75f54c3d2c9066aa0538",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8c7c1f20639da40f96cbf476",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_921f45d8cc19fbac7dc88cc6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2516421352515eed91bc4914",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_6c0f036d32a9e6dd974fb61d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_8dee053468394ca9d65c4f59",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_dc1043d711af2170cd880cb6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1082a36bc884544041b28218",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_13e287166d0839d9ed993161",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_63e14c8d0b7c76326e747b19",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_b72e19a1040efe6b18364b93",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_398bd9843fe40d5f3326fef7",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_254803f802475b0fd892c8fe",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3232f93b1a5129af1e7a842b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_edd6d4d530f43cbc0301957c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_85809f5dff7fc870b90adaf6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_cc7984d40fa64b8cd3e76e23",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_51b2087254eee95ab7cc8c14",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_bcb473f352f7293e560986ae",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0ce243b3177c55a3ac6b5618",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_aed3dfada20abe7329cc577f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_898e739a54b82e863d3ed2ae",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_cf10d084c4dcde2a6980c9b3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ac9fcb31dbb26675a4110d26",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_95ba39f18422077526b956ef",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_491cbc19b518d44714ce4b83",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5b2418d7b3e122d4aa67486e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1c629423f26b38f6f2dbe5be",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_65961629bdd084c332a48bdf",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_abcd39c81b5073f7ae8710da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_42c5064847623baac56e7792",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_78cd9116b157067143561645",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_627eea6fa97d6d1d49ed0838",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b9943fd1929cddf6f10cfa83",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1f892236b11100ea0a3e11d5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_199053a73e6d83d87d58d933",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_33a08ba26fe047770cee641e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_eab94f68a1beb38edb91dc74",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c9abc7f4df90154b89977fe7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9de6d911a8a1285c84442617",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4ae9b0757de5aa7427991993",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_42178759e06a1653b985d87c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a4e7d39364392f9c08c07756",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_03489407cd9d7366857d9aa1",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_81bca3478f0fc239d066423e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_00525d80db8d0d68b18e578f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_c0ff694bc59648e79ffeb45b",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_eeac3dec6c660e84a4b58fba",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7469a279de12c236fc64a59b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0a599e64c6caf39345aa76c7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c7b682ce2df1ca651949016b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_39235a5a5fc6c08bf1e726fe",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_13220cbbcfff2e7af2f7eac4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e5c42a3667d86afb29bb55b8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_fbc3cf016c68e271b780c197",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ee870d502c93934fd3f5759b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f88bd3e870b51d64518c18fe",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8201746b54f4cff2c0de277a",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_bf634470198be5923656b6bc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_eb2da56f2206edf81b1409ff",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7935205c2cb59e07e40479a4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4e5b46711af279cb6394f0f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4f2198e08cf5cb66234f5ca5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_4217658f02f7cf6cc230c9dc",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_414faf56a505b04abc49c45d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_173f42ea194e31f9a8ddccf3",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1b7a80e29928e155ffc59f70",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_eaf603b4667c3c057434f1c7",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_cd464726f20d5c3509e3d0cd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_30f69fd3308eee1fec0bac8b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b2174d077e6628a9fdc29f4d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_89521ca4ee74e03301037efc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_85c7e571582c1c661ba17b12",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_cdaa6835c7ae0fbdcd713e2c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_59552723850aadc45443f7e1",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_89650815a0ebee75f634e2a7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ec20dceff63de45368305673",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b692110d2ded1e30956f7554",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_db5dbfd9c15f90e40ee6bb90",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_88191a6bb758df9b7ec03ac9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_619f02a91787915380c69781",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e0f85fc5b9d767e3d3a31fed",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_aa0ee3c2f25f70539668d0d1",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_0f3a02a41eec8b4da9d38498",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_b7f28ebf3e167223c41256a9",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_834b672bd8e35bd5002be9b6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1f9f3661e052654a8f5252c2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_611e4b6ab194aebb6da56954",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_723ff9f6c93949af647b0478",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_fd186099c22ff6cf101b973c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_03a512049f14e0bc29205b25",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a25290fd32f28d6b9ca2c5c8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_59dbc777d85e13cdfd4863fe",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_66cbe92e432be70e99468c14",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_27b797206454bfb814de0b33",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f13c0a21e48abdbdcaa5be5d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_14dc68afed2c40d9d3b82b13",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6fc2e1926c06472938ccf6d0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_72c15b62f10a528a51b19110",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_080244ca59698c90105dfd51",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_63e3a3f208b7869d17319c32",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_223490eadd69b6364efb36ec",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_95546aee9a6baafce445fbec",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ad8232684726a7ec7895fe30",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_945dbef92ff3204403121f9e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_95bed388e8c9125fba18d5ac",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_50430779572e1beca1a6c1dc",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_2ba084de4b45668082d26b87",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_b928f44de2f75bb597eed2dd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_0c2fc639e806db2784159aa2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_c89ff3aed671d97b3f74d644",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_8dcb03ecdd48f0a7a8089d1d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_2d1b9e6256bd0c188358d546",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1173d8f190f8f774a88efc7c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a3c7da27a6fee435e3ce3412",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_dc833cf98303b32f29f3351b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f1aa7f243a6fe053a8e06bdb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2c8a0a923e0b9b458e8ddeae",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c96a681fda742e047dcdac88",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_82bb2a4c197d5e5479244364",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d242c1139cf83dd86373c820",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a8fea398be72fbe530db722",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f5a08c4c41492ae984d56f0a",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_af5a969dc8f1ae71c06a2eec",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_05c4b60c3973d77a67787e76",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_710b139589fe7a643233f5a0",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_21f907bf2521581aa2b5eaa6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7a7353246cec1b804d7ac1c7",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_6e315435d8a3fe95fb9d38e8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_689a623b987a750c915b2595",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d0d12616e0772dbd87256c1a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_32eecf849adec80df9a00511",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_2a1b558ef8bf01e74f7c3e91",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_383b9b1c002bb80af0f7b169",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f1593f41b66df1af6b5b1de4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_bb2a0ae59a222e006bf3573d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8d95b7f40a1b4987aa63a6a2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_98131766988e850b4bad1c99",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_60281e5a721e45db73f354f7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_16dcd1fe1c47e103fb78b45e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3afade5a6ea0fbbba64b4505",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6c19b4628f81204386ba31ea",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2d59e6a71f4d4749cad3c1c9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2f01e663a7ad3e981247276a",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3e05a52bd5db6040f198afed",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a334ba71b68617a9259fdb60",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ad562c164526d11dc7b3dd5e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9b73a8d84953e0bbf0b8076f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2d12d7e2853863dd4b880ed8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ed63b7ca76d465de5e33438d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ac6574f143c8cc615f1d3ef5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_add20480139b6d4ad8afcbff",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d078e3d2ffe328fdc9d3401d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_f319d2740ec190743eca7147",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d3948c3101b03a58fc952ab5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a322dcb99b942b43d9b40f9f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_6fa4c3707bc57bc1d80bc1ab",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c33f00fec9eb7a8a4b167b22",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5b60866634e151e0607ad8ba",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c42ac656258e3c6c49df2fa6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7a6aca917dc982ab1b1e17f3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_48fc34e12834619710465709",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_dee9d342836b8835916a4999",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ca01c88d5dddea6b6e5bdbff",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2519afe4c543217f43ff9dd3",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ce52637d869668ecf01bfd51",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_bf7e2bcf53f404b0c071bebc",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_0318accc92ed5b5a085317d6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_f0f80aae53dcd90bd5ba08af",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_84f5b8deefbff25f93d92c9b",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_5b46deec03d8d9affbea91d9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_04e6168048bf0afc042a63b4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_93baf7c5ac0c4daf5e90be74",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_945aa5fc85b8f287d2aff3d2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9595acee65876c3c06dbf385",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3d114b8ab4967cde27b9242b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_23040723c992e386f91a1da3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7a82977c4da97a44ec93b12b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6f7025267956f54d2d4dee36",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1780da1803383953ec3824f4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_00a36ba9a45a124ffe8245b4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2fada1f4bec2ca9e8b5d5583",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8ee626150c69ad039671a1c0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_767ae29959c9b3171475300c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_896a5ce85ac7ee579341e372",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c3872dfa4e86a786dae48a1c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_8308e306b64cd75d49374c93",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_126fb53d981a54b5e5513afe",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_18d6471281dba0ac567a7608",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_e41c9733a891f37586b0b1bb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8f2aee1d569cb14bb8a66d28",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_429de37d00a44dd37a764cd9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_873d43cb6a532bd9d48dd5c7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7241359d5fdacf8bed04c86f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_27cb7787e4e0f9dbf4d818bb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d7f01d1b47fcc3fe1a139301",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_005c2de68457363f837043b2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4377fc58e187a5599a740af4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d1a1ea99f1d60e811ced2096",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5cb893a1dc9aaaa402e509f0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9eaf643842c418c564cdc23d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c742cfacfa49c6643cb9f16f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c3c98d19a70a4bb9a769d661",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7e025cea3dbd8db257f562da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b0c5fd0c35b669e14aa57850",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6725ebbf6df527df1c7817da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_30f772aa8ae42d379615db77",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_0827dbdd53fe5a56df373aa0",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_99952048179300c2ee3170e5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_5c8114606954c22a0cba144e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_0cc105ae3918937a7dfd1a76",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_135b43013d2d102347fcfb79",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_62e32c8827340626a3283f7f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_02646700072f1679ad26bdb5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4db32940f2561ac94188d2cb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_814b47788421cdf7072ecc8b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e309c3a09ea7045fd5c91116",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c6a483e977e9d1f8ba68b17e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_11c09e8e47fd305cfd0d1f49",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3d9b51bb25fbe7eb229c1326",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c675ca4502df07a639b37aad",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a134a6976f2648fc59e9ad81",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_bf2237ce888a4911ff4cec14",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6c568d26e2c7657fc8154894",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ec19a9ae53f142758567f884",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_bb43a78d5fc0d0ee6ec68a7d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_31bd32d1038117358caf8fa7",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_736359ddc63390745341d3d4",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_423526e1653154aad4c23943",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1a071d9849666323ad1892cf",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_fcfddefd5adf434b7b53fb95",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1f680152139708037f087b12",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ffe24367b256632bc62dd6da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e4987b5d67d6eec8de8fecff",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_050b4d3e36e83a56829b48fe",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f56dcd11e09b94f736e730bc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_de5ed199a1387dfc8ab7441d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ff45ef758031e073920e3772",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c9e41b1ac994ccb7a24b50ea",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_480451a22d73c263ca02bde1",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a8c8f675e0f2eaac3c71d8e0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7dbe43675f0661e29cf23423",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_6f60e32c66f7790050fa71ad",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_86fa8aad31bf86a63175e61e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ed91b40129aa2d4097e1cc99",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_25928b85e6393e92cfe1b3a2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_685119ed653a3fef3f089253",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_500d86304fb264d2244fdda8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_39aa0a533e55eef7258234fd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_264f02c043a1241f90ace6b6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_56433038f07e8268ca79563b",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_af4920215d8a37737448242e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a8efd1b20284574f0cec18ed",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_6c2275e70cb1ffe20ae172a0",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_3883adfab75d0a29200e4530",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d77bac25e96a5c9056840d2e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ff98ef2b5c60f99baaeceb37",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_2bb87703c490213e0c443f82",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8419137d46aec0464fc62e86",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ffaa1a86a6ca645de0eb2fff",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9c0d25c553d140e3b51d72a0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0302fd4039949fd66b84c37d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8cc19094806d69aaa6e69c2e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_24969a773169fc5fc9b68cc3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_01ac2df29313f3ff70ac6e02",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_40c322dfefa66f230b0c3f22",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d7402c18a96b691941db26e4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1a41b96f0730a93b510ca983",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_616d4b3c7e96c6b9b97674b1",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a1cb8141608b016f361b933",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_74f5c8f6cb2fa4e122c68a5c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8b51c2d492a807a7cf38f8fa",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_51b48a65c6e5a4158a794f65",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1619deaf8903998ce767e3aa",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_dcd7e624e84704e3a573d639",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_95a610d4c85b290b7eff00ed",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_947644ac05c2e771f65f3642",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_dc8ab9aec79e264d9840af4c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_de8c30b45647f7b7a8ed7cb1",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ed000af9243cf2f613f15850",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d48f6b7e2f14ab2ed5c7ec54",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d37f7f4c8cd24af369ee0cfc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_46150fbf58b8f95777c68b5d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0dd59aa81f3b8ca860bddcd3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b9e07c452e8e4188c96bab94",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_72d9efda338a12b647f77081",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1ed83252108695d7a529347a",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_fd4c9e06cae4b19aedfa99bf",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b319efb7f7d8a3a0c598f55c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_abb6c7acc84a0d02884ded3f",
+      "reason": "accepted_statement_has_no_direct_fmea_mapping"
+    },
+    {
+      "candidate_id": "ATOM_3810321fad34eaf8edb83f50",
+      "reason": "accepted_statement_has_no_direct_fmea_mapping"
+    },
+    {
+      "candidate_id": "ATOM_ec7ecb62b448bc866e8ca0f0",
+      "reason": "accepted_statement_has_no_direct_fmea_mapping"
+    },
+    {
+      "candidate_id": "ATOM_d75d8df86607fbd2b7ae66d5",
+      "reason": "accepted_statement_has_no_direct_fmea_mapping"
+    }
+  ],
+  "created_at": "2026-09-14T21:03:04.038070+00:00"
+}

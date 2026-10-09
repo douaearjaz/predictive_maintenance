@@ -1,0 +1,2363 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "source_kind": "llm",
+  "responses": 3,
+  "total_sections": 3,
+  "missing_sections": [],
+  "results": [
+    {
+      "section_id": "timken-repair",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_dd944fb48c53ba6d62785103",
+          "section_id": "timken-repair",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Small areas of damage on bearing races",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "grinding out the loose metal",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can sometimes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Small areas of damage on bearing races",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "grinding out the loose metal",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can sometimes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_746f878784f5f3466d623b82",
+          "section_id": "timken-repair",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Small areas of damage on the contact surface of the rolling elements",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "grinding out the loose metal",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can sometimes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Small areas of damage on the contact surface of the rolling elements",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "grinding out the loose metal",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can sometimes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_360127dc050b6c470eb1f110",
+          "section_id": "timken-repair",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "raised or rough areas",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "smoothing flat with grinding and polishing tools",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "should",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "raised or rough areas",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "smoothing flat with grinding and polishing tools",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "should",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 155,
+              "clean_end": 239,
+              "original_start": 155,
+              "original_end": 240,
+              "original_quote": "Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3bed7679bf1ef121ae9d471c",
+          "section_id": "timken-repair",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Light rust or corrosion",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "removal with emery paper (240 – 320 # grit)",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "should",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit)."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Light rust or corrosion",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "removal with emery paper (240 – 320 # grit)",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "should",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit)."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B6",
+              "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit).",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 78,
+              "original_start": 0,
+              "original_end": 79,
+              "original_quote": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit).",
+              "bbox": [
+                308.99884033203125,
+                269.972412109375,
+                560.1600341796875,
+                320.7309265136719
+              ],
+              "source_paragraph_cleaned": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit). As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "source_paragraph_original": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit). As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_325347485efaf16b317356a7",
+          "section_id": "timken-repair",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearing races",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearing races",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_d0972c25ce7e150244e2900d",
+          "section_id": "timken-repair",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "contact surface of the rolling elements",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "contact surface of the rolling elements",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_aeeb09d2bfeb635f2076ff0c",
+          "section_id": "timken-repair",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "grinding and polishing tools",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "grinding and polishing tools",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B5",
+                "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 155,
+              "clean_end": 239,
+              "original_start": 155,
+              "original_end": 240,
+              "original_quote": "Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_536c021dad26756ed49a6c11",
+          "section_id": "timken-repair",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "emery paper (240 – 320 # grit)",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit)."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "emery paper (240 – 320 # grit)",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit)."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B6",
+              "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit).",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 78,
+              "original_start": 0,
+              "original_end": 79,
+              "original_quote": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit).",
+              "bbox": [
+                308.99884033203125,
+                269.972412109375,
+                560.1600341796875,
+                320.7309265136719
+              ],
+              "source_paragraph_cleaned": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit). As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "source_paragraph_original": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit). As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_972a8c0afa2aa72d92862eed",
+          "section_id": "timken-repair",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Timken",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B7",
+                "quote": "For more complex bearing repairs, Timken offers remanufacture and repair services."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Timken",
+              "kind": "unknown"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B7",
+                "quote": "For more complex bearing repairs, Timken offers remanufacture and repair services."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B7",
+              "quote": "For more complex bearing repairs, Timken offers remanufacture and repair services.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 82,
+              "original_start": 0,
+              "original_end": 83,
+              "original_quote": "For more complex bearing repairs, Timken offers remanufacture \nand repair services.",
+              "bbox": [
+                308.99884033203125,
+                330.96240234375,
+                560.0933837890625,
+                355.7289123535156
+              ],
+              "source_paragraph_cleaned": "For more complex bearing repairs, Timken offers remanufacture and repair services.",
+              "source_paragraph_original": "For more complex bearing repairs, Timken offers remanufacture \nand repair services. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_efbfed9ac73f5f9472f6bbf3",
+          "section_id": "timken-repair",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Unclear causal relationship about removing damage to prevent contamination of the bearing when returned to service.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service."
+              }
+            ]
+          },
+          "record": {
+            "description": "Unclear causal relationship about removing damage to prevent contamination of the bearing when returned to service.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B6",
+                "quote": "As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B6",
+              "quote": "As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 79,
+              "clean_end": 207,
+              "original_start": 80,
+              "original_end": 210,
+              "original_quote": "As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.",
+              "bbox": [
+                308.99884033203125,
+                269.972412109375,
+                560.1600341796875,
+                320.7309265136719
+              ],
+              "source_paragraph_cleaned": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit). As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "source_paragraph_original": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit). As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "timken-damage",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_9703975396b62ed6201b3224",
+          "section_id": "timken-damage",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "improper storage and handling",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "improper storage and handling"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "improper storage and handling",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "improper storage and handling"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "improper storage and handling",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 80,
+              "clean_end": 109,
+              "original_start": 80,
+              "original_end": 109,
+              "original_quote": "improper storage and handling",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_cf35cf7bbbdabd7191e5835f",
+          "section_id": "timken-damage",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "normal wear in use",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "normal wear in use"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "normal wear in use",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "normal wear in use"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "normal wear in use",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 121,
+              "clean_end": 139,
+              "original_start": 122,
+              "original_end": 140,
+              "original_quote": "normal wear in use",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_63a773250aa608fceab198ca",
+          "section_id": "timken-damage",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "repair or refurbishment",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "may still be returned to service after repair or refurbishment"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "repair or refurbishment",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "may still be returned to service after repair or refurbishment"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "may still be returned to service after repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 212,
+              "clean_end": 274,
+              "original_start": 214,
+              "original_end": 277,
+              "original_quote": "may still be returned to service after \nrepair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_9cd0e8ea98b2ab1585568da8",
+          "section_id": "timken-damage",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "sufficient wear or damage",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "bearing replacement",
+              "kind": "effect"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "sustain sufficient wear or damage and will have to be replaced"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "sufficient wear or damage",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "bearing replacement",
+              "kind": "effect"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "sustain sufficient wear or damage and will have to be replaced"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "sustain sufficient wear or damage and will have to be replaced",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 354,
+              "clean_end": 416,
+              "original_start": 358,
+              "original_end": 421,
+              "original_quote": "sustain sufficient wear or \ndamage and will have to be replaced",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_fce1b5f8df040fdc38ad8709",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B23",
+                "quote": "Damaged bearings"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B23",
+                "quote": "Damaged bearings"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B23",
+              "quote": "Damaged bearings",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 0,
+              "clean_end": 16,
+              "original_start": 0,
+              "original_end": 16,
+              "original_quote": "Damaged bearings",
+              "bbox": [
+                41.99760055541992,
+                582.30810546875,
+                143.43959045410156,
+                595.7171020507812
+              ],
+              "source_paragraph_cleaned": "Damaged bearings",
+              "source_paragraph_original": "Damaged bearings \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b29fdb00fd9b2b9e7dea47f8",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "improper storage and handling",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "improper storage and handling"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "improper storage and handling",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "improper storage and handling"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "improper storage and handling",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 80,
+              "clean_end": 109,
+              "original_start": 80,
+              "original_end": 109,
+              "original_quote": "improper storage and handling",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_42554991b1e580afc3262448",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "normal wear in use",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "normal wear in use"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "normal wear in use",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "normal wear in use"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "normal wear in use",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 121,
+              "clean_end": 139,
+              "original_start": 122,
+              "original_end": 140,
+              "original_quote": "normal wear in use",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_882745b31b12548f88a176b6",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "bearings may become dam- aged"
+              },
+              {
+                "paragraph_id": "P12_B25",
+                "quote": "If a bearing is damaged or worn beyond repair"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "damaged bearing",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "bearings may become dam- aged"
+              },
+              {
+                "paragraph_id": "P12_B25",
+                "quote": "If a bearing is damaged or worn beyond repair"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "bearings may become dam- aged",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 35,
+              "clean_end": 64,
+              "original_start": 35,
+              "original_end": 64,
+              "original_quote": "bearings may become dam-\naged",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            },
+            {
+              "paragraph_id": "P12_B25",
+              "quote": "If a bearing is damaged or worn beyond repair",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 0,
+              "clean_end": 45,
+              "original_start": 0,
+              "original_end": 45,
+              "original_quote": "If a bearing is damaged or worn beyond repair",
+              "bbox": [
+                41.99760055541992,
+                701.0496215820312,
+                293.0920715332031,
+                725.8161010742188
+              ],
+              "source_paragraph_cleaned": "If a bearing is damaged or worn beyond repair sooner than ex- pected, do not discard it. The nature of the damage can provide",
+              "source_paragraph_original": "If a bearing is damaged or worn beyond repair sooner than ex-\npected, do not discard it. The nature of the damage can provide \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_d2f72f494820ec757b75386c",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "repair or refurbishment",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "repair or refurbishment"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "repair or refurbishment",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "repair or refurbishment"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 251,
+              "clean_end": 274,
+              "original_start": 254,
+              "original_end": 277,
+              "original_quote": "repair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4290781802573cec9e3dd330",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "sufficient wear or damage",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "sustain sufficient wear or damage"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "sufficient wear or damage",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "sustain sufficient wear or damage"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "sustain sufficient wear or damage",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 354,
+              "clean_end": 387,
+              "original_start": 358,
+              "original_end": 392,
+              "original_quote": "sustain sufficient wear or \ndamage",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_2336633ccb9ce908530df609",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearing replacement",
+              "kind": "effect"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "will have to be replaced"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearing replacement",
+              "kind": "effect"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B24",
+                "quote": "will have to be replaced"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "will have to be replaced",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 392,
+              "clean_end": 416,
+              "original_start": 397,
+              "original_end": 421,
+              "original_quote": "will have to be replaced",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4a2c6bdf2688564b342a3a22",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "nature of the damage",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "The nature of the damage can provide"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "nature of the damage",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "The nature of the damage can provide"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": false,
+          "semantic_review_status": "pending",
+          "issues": [
+            "Quote is not an exact nonempty cleaned-text substring"
+          ],
+          "warnings": [],
+          "resolved_evidence": []
+        },
+        {
+          "candidate_id": "ATOM_da8ea25916b033d49ce15c1f",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "valuable clues",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "valuable clues that can help analyze"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "valuable clues",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "valuable clues that can help analyze"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B2",
+              "quote": "valuable clues that can help analyze",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 0,
+              "clean_end": 36,
+              "original_start": 0,
+              "original_end": 36,
+              "original_quote": "valuable clues that can help analyze",
+              "bbox": [
+                308.9950866699219,
+                60.44800567626953,
+                560.1373291015625,
+                98.21044921875
+              ],
+              "source_paragraph_cleaned": "valuable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing.",
+              "source_paragraph_original": "valuable clues that can help analyze and identify possible causes, \nleading to corrective actions that will help ensure longer bearing \nlife in the replacement bearing. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_86adaf8c0d884d001e4f36c6",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "corrective actions",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "leading to corrective actions"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "corrective actions",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "leading to corrective actions"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B2",
+              "quote": "leading to corrective actions",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 67,
+              "clean_end": 96,
+              "original_start": 68,
+              "original_end": 97,
+              "original_quote": "leading to corrective actions",
+              "bbox": [
+                308.9950866699219,
+                60.44800567626953,
+                560.1373291015625,
+                98.21044921875
+              ],
+              "source_paragraph_cleaned": "valuable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing.",
+              "source_paragraph_original": "valuable clues that can help analyze and identify possible causes, \nleading to corrective actions that will help ensure longer bearing \nlife in the replacement bearing. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_cb23763d59bd4bf396dc1971",
+          "section_id": "timken-damage",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "longer bearing life",
+              "kind": "function"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "ensure longer bearing life"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "longer bearing life",
+              "kind": "function"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "ensure longer bearing life"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B2",
+              "quote": "ensure longer bearing life",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 112,
+              "clean_end": 138,
+              "original_start": 113,
+              "original_end": 140,
+              "original_quote": "ensure longer bearing \nlife",
+              "bbox": [
+                308.9950866699219,
+                60.44800567626953,
+                560.1373291015625,
+                98.21044921875
+              ],
+              "source_paragraph_cleaned": "valuable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing.",
+              "source_paragraph_original": "valuable clues that can help analyze and identify possible causes, \nleading to corrective actions that will help ensure longer bearing \nlife in the replacement bearing. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_13ac80bb01eee14a0dba45b5",
+          "section_id": "timken-damage",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Conditional instruction \"If a bearing is damaged or worn beyond repair sooner than expected, do not discard it\" does not map to a supported relation type.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B25",
+                "quote": "If a bearing is damaged or worn beyond repair sooner than expected, do not discard it."
+              }
+            ]
+          },
+          "record": {
+            "description": "Conditional instruction \"If a bearing is damaged or worn beyond repair sooner than expected, do not discard it\" does not map to a supported relation type.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B25",
+                "quote": "If a bearing is damaged or worn beyond repair sooner than expected, do not discard it."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": false,
+          "semantic_review_status": "pending",
+          "issues": [
+            "Quote is not an exact nonempty cleaned-text substring"
+          ],
+          "warnings": [],
+          "resolved_evidence": []
+        },
+        {
+          "candidate_id": "ATOM_476198932693cba172563ed3",
+          "section_id": "timken-damage",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Statement that \"The nature of the damage can provide valuable clues that can help analyze and identify possible causes, leading to corrective actions\" mixes analysis, cause identification, and corrective actions without a clear single causal link.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "The nature of the damage can provide valuable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing."
+              }
+            ]
+          },
+          "record": {
+            "description": "Statement that \"The nature of the damage can provide valuable clues that can help analyze and identify possible causes, leading to corrective actions\" mixes analysis, cause identification, and corrective actions without a clear single causal link.",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B2",
+                "quote": "The nature of the damage can provide valuable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": false,
+          "semantic_review_status": "pending",
+          "issues": [
+            "Quote is not an exact nonempty cleaned-text substring"
+          ],
+          "warnings": [],
+          "resolved_evidence": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "timken-installation",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_81104206b3c61159ed15c0dd",
+          "section_id": "timken-installation",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "packaging",
+              "kind": "component"
+            },
+            "relation": "HAS_FUNCTION",
+            "object": {
+              "text": "protection from contamination",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "The packaging provides protection from contamination."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "packaging",
+              "kind": "component"
+            },
+            "relation": "HAS_FUNCTION",
+            "object": {
+              "text": "protection from contamination",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "The packaging provides protection from contamination."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [
+            "HAS_FUNCTION requires component → function"
+          ],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B9",
+              "quote": "The packaging provides protection from contamination.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 78,
+              "clean_end": 131,
+              "original_start": 79,
+              "original_end": 132,
+              "original_quote": "The packaging provides protection from contamination.",
+              "bbox": [
+                308.9988098144531,
+                401.48248291015625,
+                560.1029052734375,
+                426.2489929199219
+              ],
+              "source_paragraph_cleaned": "Do not remove the bearing from its packaging until you are ready to mount it. The packaging provides protection from contamination.",
+              "source_paragraph_original": "Do not remove the bearing from its packaging until you are ready to \nmount it. The packaging provides protection from contamination.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_782a7423cc77a411ea85679c",
+          "section_id": "timken-installation",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "preservatives",
+              "kind": "component"
+            },
+            "relation": "HAS_FUNCTION",
+            "object": {
+              "text": "protect the bearing from fingerprints and corrosion",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B10",
+                "quote": "Leaving it in place will protect the bearing from fingerprints and corrosion."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "preservatives",
+              "kind": "component"
+            },
+            "relation": "HAS_FUNCTION",
+            "object": {
+              "text": "protect the bearing from fingerprints and corrosion",
+              "kind": "phenomenon"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B10",
+                "quote": "Leaving it in place will protect the bearing from fingerprints and corrosion."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [
+            "HAS_FUNCTION requires component → function"
+          ],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B10",
+              "quote": "Leaving it in place will protect the bearing from fingerprints and corrosion.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 219,
+              "clean_end": 296,
+              "original_start": 221,
+              "original_end": 299,
+              "original_quote": "Leaving it in place will protect the bearing \nfrom fingerprints and corrosion.",
+              "bbox": [
+                308.9988098144531,
+                436.48046875,
+                560.093505859375,
+                500.2349853515625
+              ],
+              "source_paragraph_cleaned": "When installing a new bearing, do not remove the lubricant or pre- servative applied by the manufacturer. The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants. Leaving it in place will protect the bearing from fingerprints and corrosion.",
+              "source_paragraph_original": "When installing a new bearing, do not remove the lubricant or pre-\nservative applied by the manufacturer. The preservatives used on \nalmost all bearings are fully compatible with commonly used oils \nand other lubricants. Leaving it in place will protect the bearing \nfrom fingerprints and corrosion. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_e9f584cf017320de2b3f3cdb",
+          "section_id": "timken-installation",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "faster installation with few delays",
+              "kind": "phenomenon"
+            },
+            "qualifier": "will enable",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "Planning your work will enable you to perform the installation more quickly with few delays"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "faster installation with few delays",
+              "kind": "phenomenon"
+            },
+            "qualifier": "will enable",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "Planning your work will enable you to perform the installation more quickly with few delays"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B12",
+              "quote": "Planning your work will enable you to perform the installation more quickly with few delays",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 398,
+              "clean_end": 489,
+              "original_start": 401,
+              "original_end": 493,
+              "original_quote": "Planning your work will enable you to perform the installation \nmore quickly with few delays",
+              "bbox": [
+                308.9988098144531,
+                597.448486328125,
+                560.1409301757812,
+                726.1830444335938
+              ],
+              "source_paragraph_cleaned": "Before beginning the installation, plan your work. Be certain that you have the correct replacement bearing and necessary addi- tional components. Also determine what tools will be required, in- cluding adjustment tools if appropriate, and have them on hand. Finally, if the bearing needs to be lubricated as part of the installa- tion process, have the appropriate lubricants and tools available. Planning your work will enable you to perform the installation more quickly with few delays, shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage.",
+              "source_paragraph_original": "Before beginning the installation, plan your work. Be certain that \nyou have the correct replacement bearing and necessary addi-\ntional components. Also determine what tools will be required, in-\ncluding adjustment tools if appropriate, and have them on hand. \nFinally, if the bearing needs to be lubricated as part of the installa-\ntion process, have the appropriate lubricants and tools available. \nPlanning your work will enable you to perform the installation \nmore quickly with few delays, shortening the amount of time the \nbearing is out of the equipment and exposed to contamination and \npossible handling damage. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7e77eface9cdcaffe0bbf760",
+          "section_id": "timken-installation",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "reduced exposure of bearing to contamination and handling damage",
+              "kind": "phenomenon"
+            },
+            "qualifier": "will shorten",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "reduced exposure of bearing to contamination and handling damage",
+              "kind": "phenomenon"
+            },
+            "qualifier": "will shorten",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B12",
+              "quote": "shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 491,
+              "clean_end": 614,
+              "original_start": 495,
+              "original_end": 620,
+              "original_quote": "shortening the amount of time the \nbearing is out of the equipment and exposed to contamination and \npossible handling damage",
+              "bbox": [
+                308.9988098144531,
+                597.448486328125,
+                560.1409301757812,
+                726.1830444335938
+              ],
+              "source_paragraph_cleaned": "Before beginning the installation, plan your work. Be certain that you have the correct replacement bearing and necessary addi- tional components. Also determine what tools will be required, in- cluding adjustment tools if appropriate, and have them on hand. Finally, if the bearing needs to be lubricated as part of the installa- tion process, have the appropriate lubricants and tools available. Planning your work will enable you to perform the installation more quickly with few delays, shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage.",
+              "source_paragraph_original": "Before beginning the installation, plan your work. Be certain that \nyou have the correct replacement bearing and necessary addi-\ntional components. Also determine what tools will be required, in-\ncluding adjustment tools if appropriate, and have them on hand. \nFinally, if the bearing needs to be lubricated as part of the installa-\ntion process, have the appropriate lubricants and tools available. \nPlanning your work will enable you to perform the installation \nmore quickly with few delays, shortening the amount of time the \nbearing is out of the equipment and exposed to contamination and \npossible handling damage. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_65b4c7d5f6306c6303d873da",
+          "section_id": "timken-installation",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearing",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "Do not remove the bearing from its packaging until you are ready to mount it."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearing",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "Do not remove the bearing from its packaging until you are ready to mount it."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B9",
+              "quote": "Do not remove the bearing from its packaging until you are ready to mount it.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 0,
+              "clean_end": 77,
+              "original_start": 0,
+              "original_end": 78,
+              "original_quote": "Do not remove the bearing from its packaging until you are ready to \nmount it.",
+              "bbox": [
+                308.9988098144531,
+                401.48248291015625,
+                560.1029052734375,
+                426.2489929199219
+              ],
+              "source_paragraph_cleaned": "Do not remove the bearing from its packaging until you are ready to mount it. The packaging provides protection from contamination.",
+              "source_paragraph_original": "Do not remove the bearing from its packaging until you are ready to \nmount it. The packaging provides protection from contamination.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_38af60f7fe30df38f833c26f",
+          "section_id": "timken-installation",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "packaging",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "The packaging provides protection from contamination."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "packaging",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B9",
+                "quote": "The packaging provides protection from contamination."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B9",
+              "quote": "The packaging provides protection from contamination.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 78,
+              "clean_end": 131,
+              "original_start": 79,
+              "original_end": 132,
+              "original_quote": "The packaging provides protection from contamination.",
+              "bbox": [
+                308.9988098144531,
+                401.48248291015625,
+                560.1029052734375,
+                426.2489929199219
+              ],
+              "source_paragraph_cleaned": "Do not remove the bearing from its packaging until you are ready to mount it. The packaging provides protection from contamination.",
+              "source_paragraph_original": "Do not remove the bearing from its packaging until you are ready to \nmount it. The packaging provides protection from contamination.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_0b7eefb5a5ab04ea73349ca5",
+          "section_id": "timken-installation",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "preservatives",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B10",
+                "quote": "The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "preservatives",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B10",
+                "quote": "The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B10",
+              "quote": "The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 106,
+              "clean_end": 218,
+              "original_start": 106,
+              "original_end": 220,
+              "original_quote": "The preservatives used on \nalmost all bearings are fully compatible with commonly used oils \nand other lubricants.",
+              "bbox": [
+                308.9988098144531,
+                436.48046875,
+                560.093505859375,
+                500.2349853515625
+              ],
+              "source_paragraph_cleaned": "When installing a new bearing, do not remove the lubricant or pre- servative applied by the manufacturer. The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants. Leaving it in place will protect the bearing from fingerprints and corrosion.",
+              "source_paragraph_original": "When installing a new bearing, do not remove the lubricant or pre-\nservative applied by the manufacturer. The preservatives used on \nalmost all bearings are fully compatible with commonly used oils \nand other lubricants. Leaving it in place will protect the bearing \nfrom fingerprints and corrosion. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_f908f498b303c536edb65d15",
+          "section_id": "timken-installation",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "protective screens",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B11",
+                "quote": "Use protective screens around the work area"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "protective screens",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B11",
+                "quote": "Use protective screens around the work area"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B11",
+              "quote": "Use protective screens around the work area",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 194,
+              "clean_end": 237,
+              "original_start": 197,
+              "original_end": 240,
+              "original_quote": "Use protective screens around the work area",
+              "bbox": [
+                308.9988098144531,
+                510.46649169921875,
+                560.1505126953125,
+                587.217041015625
+              ],
+              "source_paragraph_cleaned": "Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants. When installing a bearing in the field, make an effort to ensure a clean work area. Use protective screens around the work area, and provide a clean resting surface for the bearing and other components until they can be installed.",
+              "source_paragraph_original": "Bearings should be installed in a clean environment, free from \ndust, debris, moisture and other contaminants. When installing a \nbearing in the field, make an effort to ensure a clean work area. \nUse protective screens around the work area, and provide a clean \nresting surface for the bearing and other components until they \ncan be installed.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a840c18931182eb081910da4",
+          "section_id": "timken-installation",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "Planning your work will enable you to perform the installation more quickly with few delays"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "planning your work",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P12_B12",
+                "quote": "Planning your work will enable you to perform the installation more quickly with few delays"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B12",
+              "quote": "Planning your work will enable you to perform the installation more quickly with few delays",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 398,
+              "clean_end": 489,
+              "original_start": 401,
+              "original_end": 493,
+              "original_quote": "Planning your work will enable you to perform the installation \nmore quickly with few delays",
+              "bbox": [
+                308.9988098144531,
+                597.448486328125,
+                560.1409301757812,
+                726.1830444335938
+              ],
+              "source_paragraph_cleaned": "Before beginning the installation, plan your work. Be certain that you have the correct replacement bearing and necessary addi- tional components. Also determine what tools will be required, in- cluding adjustment tools if appropriate, and have them on hand. Finally, if the bearing needs to be lubricated as part of the installa- tion process, have the appropriate lubricants and tools available. Planning your work will enable you to perform the installation more quickly with few delays, shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage.",
+              "source_paragraph_original": "Before beginning the installation, plan your work. Be certain that \nyou have the correct replacement bearing and necessary addi-\ntional components. Also determine what tools will be required, in-\ncluding adjustment tools if appropriate, and have them on hand. \nFinally, if the bearing needs to be lubricated as part of the installa-\ntion process, have the appropriate lubricants and tools available. \nPlanning your work will enable you to perform the installation \nmore quickly with few delays, shortening the amount of time the \nbearing is out of the equipment and exposed to contamination and \npossible handling damage. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_c150cf391751ec96d7aab3c1",
+          "section_id": "timken-installation",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Unclear causal link between clean environment and bearing performance",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B11",
+                "quote": "Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants."
+              }
+            ]
+          },
+          "record": {
+            "description": "Unclear causal link between clean environment and bearing performance",
+            "evidence": [
+              {
+                "paragraph_id": "P12_B11",
+                "quote": "Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P12_B11",
+              "quote": "Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-installation",
+              "section": "Installation and contamination prevention",
+              "clean_start": 0,
+              "clean_end": 109,
+              "original_start": 0,
+              "original_end": 110,
+              "original_quote": "Bearings should be installed in a clean environment, free from \ndust, debris, moisture and other contaminants.",
+              "bbox": [
+                308.9988098144531,
+                510.46649169921875,
+                560.1505126953125,
+                587.217041015625
+              ],
+              "source_paragraph_cleaned": "Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants. When installing a bearing in the field, make an effort to ensure a clean work area. Use protective screens around the work area, and provide a clean resting surface for the bearing and other components until they can be installed.",
+              "source_paragraph_original": "Bearings should be installed in a clean environment, free from \ndust, debris, moisture and other contaminants. When installing a \nbearing in the field, make an effort to ensure a clean work area. \nUse protective screens around the work area, and provide a clean \nresting surface for the bearing and other components until they \ncan be installed.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "validator_version": "atomic-evidence-v1",
+  "validator_code_hash": "edffa316cffa510469455b6187b47543724a6ce9bc0c5500d2e95dc0a7c287c8"
+}

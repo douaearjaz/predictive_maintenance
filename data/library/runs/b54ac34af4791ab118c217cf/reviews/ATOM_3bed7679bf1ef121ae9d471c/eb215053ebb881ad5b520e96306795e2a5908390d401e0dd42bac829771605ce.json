@@ -1,0 +1,10 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "candidate_id": "ATOM_3bed7679bf1ef121ae9d471c",
+  "candidate_hash": "02a7cd51406238e539466f906a7d7ff16e47276c5083148b8fcd0b05afb58b2a",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Timken explicitly limits this recommendation to LIGHT rust/corrosion and specifies emery paper 240–320 grit. Wording and scope retained.",
+  "reviewed_at": "2026-09-15T00:14:45.730906+00:00"
+}

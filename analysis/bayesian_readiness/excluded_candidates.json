@@ -1,0 +1,4562 @@
+[
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_70241d0a2fd0601d48b91ba9",
+    "section_id": "lincoln-controller",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "The motor controller will not operate",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Motor will not start (No hum or heating.)",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B24",
+          "quote": "Cause 2a: The motor controller will not operate."
+        },
+        {
+          "paragraph_id": "P6_B1",
+          "quote": "Trouble 2: Motor will not start (No hum or heating.)"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_4f2381cfd42492abf09a01fd",
+    "section_id": "lincoln-controller",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "defective controller",
+        "kind": "component"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Replace the defective controller.",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B16",
+          "quote": "Cure 2a: Replace the defective controller."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_5c23af82cefa1f323d0c789d",
+    "section_id": "lincoln-hums",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor rotor, bearings, or driven load is locked",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Motor will not start (Just hums and heats up.)",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B8",
+          "quote": "Cause 3c: Motor rotor, bearings, or driven load is locked."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_c551a4182b5cfbb6c2e65b24",
+    "section_id": "lincoln-hums",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor was single phased",
+        "kind": "cause"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Replace the motor",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B10",
+          "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_1fc7f06173ae855a0506ec4f",
+    "section_id": "lincoln-hums",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor rotor, bearings, or driven load is locked",
+        "kind": "cause"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Disconnect the motor from the driven load",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B11",
+          "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+    "section_id": "lincoln-hums",
+    "review_decision": "uncertain",
+    "review": {
+      "run_id": "12721e542a87b045002c420c",
+      "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+      "candidate_hash": "5e48a3836a5f5d0addac56787b65468cbffdf3e7dfee63ea1301d1909c866f9e",
+      "decision": "uncertain",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "Replacement is conditional on the diagnosis distinguishing a locked motor from a driven-load fault. This record loses that distinction.",
+      "reviewed_at": "2026-09-15T00:14:45.821496+00:00"
+    },
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor rotor, bearings, or driven load is locked",
+        "kind": "cause"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Replace the motor",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B11",
+          "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_75b22eb2934e5969c254e18c",
+    "section_id": "lincoln-hums",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor rotor, bearings, or driven load is locked",
+        "kind": "cause"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "adjust the driven load as needed",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B11",
+          "quote": "Cure 3c: Disconnect the motor from the driven load. If the motor shaft turns freely, the trouble is in the load. Replace the motor or adjust the driven load as needed."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_98576e2d603c9d61431a8db6",
+    "section_id": "lincoln-overload-relays",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Overload relays undersized",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Overload relays trip during starting",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B12",
+          "quote": "Cause 4a: Overload relays undersized."
+        },
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Trouble 4: Overload relays trip during starting"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_7d004ce496147effb3349d81",
+    "section_id": "lincoln-overload-relays",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor takes too long to start",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Overload relays trip during starting",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B13",
+          "quote": "Cause 4b: Motor takes too long to start."
+        },
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Trouble 4: Overload relays trip during starting"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "12721e542a87b045002c420c",
+    "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+    "candidate_id": "ATOM_00351e2076a016e26961305a",
+    "section_id": "lincoln-overload-relays",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Overload relays undersized",
+        "kind": "failure_mode"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B14",
+          "quote": "Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor."
+        },
+        {
+          "paragraph_id": "P6_B12",
+          "quote": "Cause 4a: Overload relays undersized."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "2cc983acb246bd929a89ac82",
+    "document": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+    "candidate_id": "ATOM_3dd93359052ad14494d279a2",
+    "section_id": "abb-power-failure",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Power failure",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Motor runs then dies down",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B22",
+          "quote": "Power failure"
+        },
+        {
+          "paragraph_id": "P25_B21",
+          "quote": "Motor runs and then dies down"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "2cc983acb246bd929a89ac82",
+    "document": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+    "candidate_id": "ATOM_3cac53691a57b2512a884c41",
+    "section_id": "abb-power-failure",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Power failure",
+        "kind": "cause"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Check for loose connections to line, fuses and control.",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B22",
+          "quote": "Power failure Check for loose connections to line, fuses and control."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "candidate_id": "ATOM_9cd0e8ea98b2ab1585568da8",
+    "section_id": "timken-damage",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "sufficient wear or damage",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "bearing replacement",
+        "kind": "effect"
+      },
+      "qualifier": "will",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B24",
+          "quote": "sustain sufficient wear or damage and will have to be replaced"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "candidate_id": "ATOM_81104206b3c61159ed15c0dd",
+    "section_id": "timken-installation",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "HAS_FUNCTION requires component → function"
+    ],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "packaging",
+        "kind": "component"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "protection from contamination",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B9",
+          "quote": "The packaging provides protection from contamination."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "candidate_id": "ATOM_782a7423cc77a411ea85679c",
+    "section_id": "timken-installation",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "HAS_FUNCTION requires component → function"
+    ],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "preservatives",
+        "kind": "component"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "protect the bearing from fingerprints and corrosion",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B10",
+          "quote": "Leaving it in place will protect the bearing from fingerprints and corrosion."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "candidate_id": "ATOM_e9f584cf017320de2b3f3cdb",
+    "section_id": "timken-installation",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "planning your work",
+        "kind": "maintenance_action"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "faster installation with few delays",
+        "kind": "phenomenon"
+      },
+      "qualifier": "will enable",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B12",
+          "quote": "Planning your work will enable you to perform the installation more quickly with few delays"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "candidate_id": "ATOM_7e77eface9cdcaffe0bbf760",
+    "section_id": "timken-installation",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "planning your work",
+        "kind": "maintenance_action"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "reduced exposure of bearing to contamination and handling damage",
+        "kind": "phenomenon"
+      },
+      "qualifier": "will shorten",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B12",
+          "quote": "shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "db43916284bc11e8e0ea9566",
+    "document": "ac-troubleshooting-guide.pdf",
+    "candidate_id": "ATOM_39b3450b5149f4c7919e96b3",
+    "section_id": "ac-bearings",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "defective motor bearings",
+        "kind": "failure_mode"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "noises",
+        "kind": "symptom"
+      },
+      "qualifier": "will",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B6",
+          "quote": "you will hear noises"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "db43916284bc11e8e0ea9566",
+    "document": "ac-troubleshooting-guide.pdf",
+    "candidate_id": "ATOM_d293f75f35230432cb00aa7f",
+    "section_id": "ac-bearings",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "defective motor bearings",
+        "kind": "failure_mode"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "roughness",
+        "kind": "symptom"
+      },
+      "qualifier": "will",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B6",
+          "quote": "feel roughness"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_e22a9291f51ee44f788b5384",
+    "section_id": "epri-moisture",
+    "review_decision": "uncertain",
+    "review": {
+      "run_id": "fbbf87da083d3d923af71181",
+      "candidate_id": "ATOM_e22a9291f51ee44f788b5384",
+      "candidate_hash": "6b0e7bebc40dece7b48177c4968da1426d140b2c8fa6d4558009c9e36cdb58be",
+      "decision": "uncertain",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "The source conditions gross failure on energizing a moist winding; operating_conditions is null and this essential condition must be preserved.",
+      "reviewed_at": "2026-09-15T00:14:45.814006+00:00"
+    },
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "moisture in the groundwall insulation of the winding",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "gross failure of the winding",
+        "kind": "failure_mode"
+      },
+      "qualifier": "could cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B4",
+          "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_9c123343a2b9cdd7af5ac040",
+    "section_id": "epri-moisture",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "wet winding",
+        "kind": "failure_mode"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "applying external heat",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "can be dried out by",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B4",
+          "quote": "Often a wet winding can be dried out by applying external heat"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_722e3eda2a3d77837bf5b2ce",
+    "section_id": "epri-moisture",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "wet winding",
+        "kind": "failure_mode"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "circulating low level DC current through the windings",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "can be dried out by",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B4",
+          "quote": "or by circulating low level DC current through the windings"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_5ea5fa08644f1242afacb7e3",
+    "section_id": "epri-corrosion",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Corrosion",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "serious damage to motor parts",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B5",
+          "quote": "Corrosion can cause serious damage to motor parts."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_cda2599aabc1c7c795fc9ca0",
+    "section_id": "epri-corrosion",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Corrosion",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "pitting and holes in oil cooling coils",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B5",
+          "quote": "Oil cooling coils can develop pitting and holes from corrosion."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_671b7c35a9d7a964d21b0277",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "adequate lubrication",
+        "kind": "function"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "reliable operation of bearings",
+        "kind": "function"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Reliable operation of bearings depends on adequate lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_1a088c898690ea331de7469b",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "degradation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of oil-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_d144ad7769b327b616913a80",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "degradation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of greased-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_1426420c5e96615c13039ccb",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "contamination",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of oil-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_3274ddd30c988e88df84bfad",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "contamination",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of greased-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_b96adf00a7f1fa2188fae7db",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "lack of lubricating medium",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of oil-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_b3496e4d7712f9312a00cfec",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "lack of lubricating medium",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of greased-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_9cb292b53d895d025c8edf12",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "over-lubrication",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of oil-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "candidate_id": "ATOM_b110527a2f5e58818af68ada",
+    "section_id": "epri-lubrication",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "over-lubrication",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "failure of greased-based system",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B9",
+          "quote": "Both oil-based and greased-based systems can fail from degradation, contamination, lack of lubricating medium, or over-lubrication."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_64e0241b432be2fc56c5e05f",
+    "section_id": "overview",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Winding insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P1_B7",
+          "quote": "Winding insulation breakdown and bearing wear are the two most common causes of motor failure, but those conditions arise for many different reasons."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_4c5a97b9205afccddd79f2a2",
+    "section_id": "overview",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Bearing wear",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P1_B7",
+          "quote": "Winding insulation breakdown and bearing wear are the two most common causes of motor failure, but those conditions arise for many different reasons."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_533889e4482ea3f91d1d46c8",
+    "section_id": "overview",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "mechanical issues",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P1_B6",
+          "quote": "the causes of motor and drive issues are not confined to a single domain of expertise–both mechanical and electrical issues can lead to motor failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_00f2c2c37942f6653d599b26",
+    "section_id": "overview",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "electrical issues",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P1_B6",
+          "quote": "the causes of motor and drive issues are not confined to a single domain of expertise–both mechanical and electrical issues can lead to motor failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_2516421352515eed91bc4914",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Adjacent loads turning on or off",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Transient voltages on distribution systems",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can generate",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "Adjacent loads turning on or off, power factor correction capacitor banks or even distant weather can generate transient voltages on distribution systems"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_6c0f036d32a9e6dd974fb61d",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Power factor correction capacitor banks",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Transient voltages on distribution systems",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can generate",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "Adjacent loads turning on or off, power factor correction capacitor banks or even distant weather can generate transient voltages on distribution systems"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_8dee053468394ca9d65c4f59",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Distant weather",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Transient voltages on distribution systems",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can generate",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "Adjacent loads turning on or off, power factor correction capacitor banks or even distant weather can generate transient voltages on distribution systems"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_dc1043d711af2170cd880cb6",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Transient voltages",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "insulation breakdown in motor windings",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can erode or cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "These transients, which vary in amplitude and frequency, can erode or cause insulation breakdown in motor windings"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1082a36bc884544041b28218",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Transient voltage",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "appearance on control cables",
+        "kind": "symptom"
+      },
+      "qualifier": "may",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "a transient may appear on control cables that don’t necessarily cause equipment damage directly, but may disrupt operations"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_13e287166d0839d9ed993161",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "appearance on control cables",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "disruption of operations",
+        "kind": "effect"
+      },
+      "qualifier": "may",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B1",
+          "quote": "a transient may appear on control cables that don’t necessarily cause equipment damage directly, but may disrupt operations"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_63e14c8d0b7c76326e747b19",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor winding insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "early motor failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B2",
+          "quote": "Motor winding insulation breakdown leads to early motor failure and unplanned downtime"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_b72e19a1040efe6b18364b93",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor winding insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "unplanned downtime",
+        "kind": "effect"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B2",
+          "quote": "Motor winding insulation breakdown leads to early motor failure and unplanned downtime"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_398bd9843fe40d5f3326fef7",
+    "section_id": "fault-01",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Transient voltages",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 435-II Three-Phase Power Quality Analyzer",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B3",
+          "quote": "Fluke 435-II Three-Phase Power Quality Analyzer"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_5b2418d7b3e122d4aa67486e",
+    "section_id": "fault-02",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "An imbalance in impedance or load distribution",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "imbalance across all three phases",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can contribute to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B5",
+          "quote": "An imbalance in impedance or load distribution can contribute to imbalance across all three of the phases."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1c629423f26b38f6f2dbe5be",
+    "section_id": "fault-02",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "stresses in each of the phase circuits in a three-phase power system",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can lead to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B5",
+          "quote": "This imbalance can lead to stresses in each of the phase circuits in a three-phase power system."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_65961629bdd084c332a48bdf",
+    "section_id": "fault-02",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Voltage imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 435-II Three-Phase Power Quality Analyzer",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B15",
+          "quote": "2 Voltage imbalance"
+        },
+        {
+          "paragraph_id": "P2_B7",
+          "quote": "Instrument to measure and diagnose: Fluke 435-II Three-Phase Power Quality Analyzer"
+        }
+      ],
+      "needs_context_review": true,
+      "review_note": "Association inferred from heading and instrument paragraph"
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_a4e7d39364392f9c08c07756",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "additional energy",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "internal energy losses",
+        "kind": "failure_mode"
+      },
+      "qualifier": "ultimately",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B1",
+          "quote": "additional energy ... circulates in the windings and ultimately contributes to internal energy losses"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_03489407cd9d7366857d9aa1",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "internal energy losses",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "heat",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B1",
+          "quote": "These losses dissipate in the form of heat"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_81bca3478f0fc239d066423e",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "heat",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "deterioration of insulation capability of the windings",
+        "kind": "failure_mode"
+      },
+      "qualifier": "will",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B1",
+          "quote": "heat, which, over time, will deteriorate the insulation capability of the windings"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_00525d80db8d0d68b18e578f",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "decrease in motor efficiency",
+        "kind": "effect"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "added cost",
+        "kind": "effect"
+      },
+      "qualifier": "results in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B2",
+          "quote": "Decrease in motor efficiency results in added cost"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_c0ff694bc59648e79ffeb45b",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "decrease in motor efficiency",
+        "kind": "effect"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "increase in operating temperatures",
+        "kind": "effect"
+      },
+      "qualifier": "results in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B2",
+          "quote": "Decrease in motor efficiency results in ... an increase in operating temperatures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_eeac3dec6c660e84a4b58fba",
+    "section_id": "fault-03",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "harmonic distortion",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 435-II Three-Phase Power Quality Analyzer",
+        "kind": "detection_method"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B3",
+          "quote": "Instrument to measure and diagnose: Fluke 435-II Three-Phase Power Quality Analyzer"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_4f2198e08cf5cb66234f5ca5",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Variable frequency drives",
+        "kind": "component"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "pulse width modulation (PWM) technique to control the output voltage and frequency to a motor",
+        "kind": "function"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B5",
+          "quote": "Variable frequency drives employ a pulse width modulation (PWM) technique to control the output voltage and frequency to a motor."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_4217658f02f7cf6cc230c9dc",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Impedance mismatch",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Reflections",
+        "kind": "phenomenon"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B5",
+          "quote": "Reflections are generated when there is an impedance mismatch between the source and load."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_414faf56a505b04abc49c45d",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Improper installation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Impedance mismatch",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can occur as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B5",
+          "quote": "Impedance mismatches can occur as a result of improper installation, improper component selection or equipment degradation over time."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_173f42ea194e31f9a8ddccf3",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Improper component selection",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Impedance mismatch",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can occur as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B5",
+          "quote": "Impedance mismatches can occur as a result of improper installation, improper component selection or equipment degradation over time."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1b7a80e29928e155ffc59f70",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Equipment degradation over time",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Impedance mismatch",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can occur as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B5",
+          "quote": "Impedance mismatches can occur as a result of improper installation, improper component selection or equipment degradation over time."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_eaf603b4667c3c057434f1c7",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor winding insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "unplanned downtime",
+        "kind": "effect"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B6",
+          "quote": "Motor winding insulation breakdown leads to unplanned downtime"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_cd464726f20d5c3509e3d0cd",
+    "section_id": "fault-04",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Reflections",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 190-204 ScopeMeter® fast sampling 4 channel portable oscilloscope",
+        "kind": "detection_method"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B14",
+          "quote": "4 Reflections on drive output PWM signals"
+        },
+        {
+          "paragraph_id": "P3_B7",
+          "quote": "Instrument to measure and diagnose: Fluke 190-204 ScopeMeter® fast sampling 4 channel portable oscilloscope, Fluke 1587 Insulation Resistance Tester."
+        }
+      ],
+      "needs_context_review": true,
+      "review_note": "Association inferred from heading and instrument list; requires context verification."
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_e0f85fc5b9d767e3d3a31fed",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "signal frequency",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "qualifier": "as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "The sigma currents are created as a result of the signal frequency, voltage level, capacitance and inductance in conductors."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_aa0ee3c2f25f70539668d0d1",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "voltage level",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "qualifier": "as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "The sigma currents are created as a result of the signal frequency, voltage level, capacitance and inductance in conductors."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_0f3a02a41eec8b4da9d38498",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "capacitance",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "qualifier": "as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "The sigma currents are created as a result of the signal frequency, voltage level, capacitance and inductance in conductors."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_b7f28ebf3e167223c41256a9",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "inductance",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "qualifier": "as a result of",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "The sigma currents are created as a result of the signal frequency, voltage level, capacitance and inductance in conductors."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_834b672bd8e35bd5002be9b6",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "nuisance tripping",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "These circulating currents can find their way through protective earth systems causing nuisance tripping or in some cases excess heat in windings."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1f9f3661e052654a8f5252c2",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "excess heat in windings",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "These circulating currents can find their way through protective earth systems causing nuisance tripping or in some cases excess heat in windings."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_611e4b6ab194aebb6da56954",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "asymmetrical signals",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "capacitively coupled currents into the ground conductor",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "Sigma current can also be understood as asymmetrical signals in multiple conductors that can capacitively couple currents into the ground conductor."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_723ff9f6c93949af647b0478",
+    "section_id": "fault-05",
+    "review_decision": "rejected",
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_723ff9f6c93949af647b0478",
+      "candidate_hash": "475c0cbbdc159531cc474613c37b5cdc24a3b1ffe6d8f5feb15bcaa5fd5233f5",
+      "decision": "rejected",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "A definition of stray current is not a component function. Wrong HAS_FUNCTION relation.",
+      "reviewed_at": "2026-09-14T21:02:35.456216+00:00"
+    },
+    "issues": [
+      "HAS_FUNCTION requires component → function"
+    ],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "stray currents that circulate in a system",
+        "kind": "function"
+      },
+      "qualifier": "essentially",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B1",
+          "quote": "Sigma currents are essentially stray currents that circulate in a system."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_fd186099c22ff6cf101b973c",
+    "section_id": "fault-05",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "sigma currents",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 190-204 ScopeMeter isolated 4 channel portable oscilloscope with wide bandwidth (10kHz) current clamp (Fluke i400S or similar)",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B3",
+          "quote": "Instrument to measure and diagnose: Fluke 190-204 ScopeMeter isolated 4 channel portable oscilloscope with wide bandwidth (10kHz) current clamp (Fluke i400S or similar)."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_945dbef92ff3204403121f9e",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "excessive current draw",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B5",
+          "quote": "The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_95bed388e8c9125fba18d5ac",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "insufficient torque",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B5",
+          "quote": "The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_50430779572e1beca1a6c1dc",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "overheating",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B5",
+          "quote": "The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_2ba084de4b45668082d26b87",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Excessive motor heat",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "major",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B5",
+          "quote": "Excessive motor heat is a major cause of motor failure."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_b928f44de2f75bb597eed2dd",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "30% of motor failures are caused by overloading",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B5",
+          "quote": "Because 30 % of motor failures are caused by overloading, it is important to understand how to measure for and identify motor overloading."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_0c2fc639e806db2784159aa2",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Premature wear on motor electrical and mechanical components",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "permanent failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B6",
+          "quote": "Premature wear on motor electrical and mechanical components leading to permanent failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_c89ff3aed671d97b3f74d644",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke Ti400 Infrared Camera",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B7",
+          "quote": "Fluke Ti400 Infrared Camera, Fluke 289 Digital Multimeter"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_8dcb03ecdd48f0a7a8089d1d",
+    "section_id": "fault-06",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Motor overload",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 289 Digital Multimeter",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P4_B7",
+          "quote": "Fluke Ti400 Infrared Camera, Fluke 289 Digital Multimeter"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_af5a969dc8f1ae71c06a2eec",
+    "section_id": "fault-07",
+    "review_decision": "rejected",
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_af5a969dc8f1ae71c06a2eec",
+      "candidate_hash": "deea862cc5be2c4c20244f501d1823f398ef05fb196cd61c3d4f0a619eaace94",
+      "decision": "rejected",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "The shaft itself is not the cause stated. Source defines misalignment as its incorrect alignment; reject component-to-fault causal assertion.",
+      "reviewed_at": "2026-09-14T21:02:35.405911+00:00"
+    },
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "motor drive shaft",
+        "kind": "component"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Misalignment",
+        "kind": "phenomenon"
+      },
+      "qualifier": "when not correctly aligned with the load",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "Misalignment occurs when the motor drive shaft is not in correct alignment with the load"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_05c4b60c3973d77a67787e76",
+    "section_id": "fault-07",
+    "review_decision": "rejected",
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_05c4b60c3973d77a67787e76",
+      "candidate_hash": "38701bfff9b8fb68d95115ecfacd6e71e0333f6ce0d0a4dc14a9c19b5349860c",
+      "decision": "rejected",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "The coupling component itself is not the cause stated; its misalignment is the condition. Endpoint loses the defining condition.",
+      "reviewed_at": "2026-09-14T21:02:35.431116+00:00"
+    },
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "coupling component",
+        "kind": "component"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Misalignment",
+        "kind": "phenomenon"
+      },
+      "qualifier": "when the component that couples the motor to the load is misaligned",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "or the component that couples the motor to the load is misaligned"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_710b139589fe7a643233f5a0",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Flexible coupling",
+        "kind": "component"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "protects the coupling from misalignment",
+        "kind": "function"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "a flexible coupling only protects the coupling from misalignment"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_21f907bf2521581aa2b5eaa6",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Misaligned shaft",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "damaging cyclical forces",
+        "kind": "effect"
+      },
+      "qualifier": "will transmit",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "a misaligned shaft will transmit damaging cyclical forces along the shaft and into the motor"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_7a7353246cec1b804d7ac1c7",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "damaging cyclical forces",
+        "kind": "effect"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "excess wear on the motor",
+        "kind": "failure_mode"
+      },
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "leading to excess wear on the motor"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_6e315435d8a3fe95fb9d38e8",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "damaging cyclical forces",
+        "kind": "effect"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "increasing the apparent mechanical load",
+        "kind": "phenomenon"
+      },
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "increasing the apparent mechanical load"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_689a623b987a750c915b2595",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Misalignment",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "vibration in the load",
+        "kind": "phenomenon"
+      },
+      "qualifier": "may feed",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "misalignment may feed vibration into both the load"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_d0d12616e0772dbd87256c1a",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Misalignment",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "vibration in the motor drive shaft",
+        "kind": "phenomenon"
+      },
+      "qualifier": "may feed",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B1",
+          "quote": "misalignment may feed vibration into both the load and the motor drive shaft"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_32eecf849adec80df9a00511",
+    "section_id": "fault-07",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Premature wear in mechanical drive components",
+        "kind": "failure_mode"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "premature failures",
+        "kind": "effect"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B2",
+          "quote": "Premature wear in mechanical drive components that leads to premature failures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_2a1b558ef8bf01e74f7c3e91",
+    "section_id": "fault-07",
+    "review_decision": "rejected",
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_2a1b558ef8bf01e74f7c3e91",
+      "candidate_hash": "352dc8a78e23ec9d9d03d8e9a663d9243163ac0470356cac5a607228ea8c9f5f",
+      "decision": "rejected",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "Target is an instrument name labeled as a maintenance action. A correction operation must be represented explicitly; do not export this endpoint as an action.",
+      "reviewed_at": "2026-09-14T21:02:35.481273+00:00"
+    },
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Misalignment",
+        "kind": "phenomenon"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Fluke 830 Laser Shaft Alignment Tool",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "to diagnose and correct misalignment",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B3",
+          "quote": "Fluke 830 Laser Shaft Alignment Tool to diagnose and correct misalignment"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ed63b7ca76d465de5e33438d",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Dirt accumulation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B6",
+          "quote": "Dirt accumulation"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ac6574f143c8cc615f1d3ef5",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Missing balance weights",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B6",
+          "quote": "Missing balance weights"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_add20480139b6d4ad8afcbff",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Manufacturing variations",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B6",
+          "quote": "Manufacturing variations"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_d078e3d2ffe328fdc9d3401d",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Uneven mass in motor windings and other wear-related factors",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B7",
+          "quote": "Uneven mass in motor windings and other wear-related factors"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_f319d2740ec190743eca7147",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "Premature wear in mechanical drive components",
+        "kind": "effect"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B8",
+          "quote": "Premature wear in mechanical drive components that leads to premature failures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_d3948c3101b03a58fc952ab5",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Premature wear in mechanical drive components",
+        "kind": "effect"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "Premature failures",
+        "kind": "effect"
+      },
+      "qualifier": "leads to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B8",
+          "quote": "Premature wear in mechanical drive components that leads to premature failures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_a322dcb99b942b43d9b40f9f",
+    "section_id": "fault-08",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 810 Vibration Tester",
+        "kind": "detection_method"
+      },
+      "qualifier": "can be detected by",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P5_B9",
+          "quote": "Fluke 810 Vibration Tester"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_2519afe4c543217f43ff9dd3",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "excessive clearance between parts",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Looseness",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B1",
+          "quote": "Looseness occurs when there is excessive clearance between parts."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ce52637d869668ecf01bfd51",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "excessive clearance between rotating and stationary elements of the machine",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Rotating looseness",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B1",
+          "quote": "Rotating looseness is caused by excessive clearance between rotating and stationary elements of the machine, such as in a bearing."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_bf7e2bcf53f404b0c071bebc",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "excessive clearance between two normally stationary parts",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Non-rotating looseness",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B1",
+          "quote": "Non-rotating looseness happens between two normally stationary parts, such as a foot and a foundation, or a bearing housing and a machine."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_0318accc92ed5b5a085317d6",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Looseness",
+        "kind": "failure_mode"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 810 Vibration Tester",
+        "kind": "detection_method"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B1",
+          "quote": "A vibration tester or analyzer can determine whether or not a rotating machine is suffering from looseness."
+        },
+        {
+          "paragraph_id": "P6_B3",
+          "quote": "Instrument to measure and diagnose: Fluke 810 Vibration Tester"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_f0f80aae53dcd90bd5ba08af",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Looseness",
+        "kind": "failure_mode"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "Accelerated wear on rotating components",
+        "kind": "symptom"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B2",
+          "quote": "Impact: Accelerated wear on rotating components resulting in mechanical failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_84f5b8deefbff25f93d92c9b",
+    "section_id": "fault-09",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Accelerated wear on rotating components",
+        "kind": "symptom"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Mechanical failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B2",
+          "quote": "Impact: Accelerated wear on rotating components resulting in mechanical failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_c3872dfa4e86a786dae48a1c",
+    "section_id": "fault-10",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "bearing failure",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "creates cascade effect that accelerates",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "creates a cascade effect that accelerates motor failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_8308e306b64cd75d49374c93",
+    "section_id": "fault-10",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "bearing failure",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "13 % of motor failures are caused by",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "13 % of motor failures are caused by bearing failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_126fb53d981a54b5e5513afe",
+    "section_id": "fault-10",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "bearing wear",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "mechanical failures",
+        "kind": "failure_mode"
+      },
+      "qualifier": "more than 60 % of the mechanical failures ... are caused by",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "more than 60 % of the mechanical failures in a facility are caused by bearing wear"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_18d6471281dba0ac567a7608",
+    "section_id": "fault-10",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "bearing wear",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 810 Vibration Tester",
+        "kind": "detection_method"
+      },
+      "qualifier": "instrument to measure and diagnose",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B7",
+          "quote": "Instrument to measure and diagnose: Fluke 810 Vibration Tester"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_30f772aa8ae42d379615db77",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Irregularity in machine mounting feet",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can be caused",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B1",
+          "quote": "soft foot can be caused either by an irregularity in the machine mounting feet"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_0827dbdd53fe5a56df373aa0",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Irregularity in mounting foundation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can be caused",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B1",
+          "quote": "soft foot can be caused either by ... in the mounting foundation"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_99952048179300c2ee3170e5",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Misalignment of mechanical drive components",
+        "kind": "effect"
+      },
+      "qualifier": "Impact",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B2",
+          "quote": "Impact: Misalignment of mechanical drive components"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_5c8114606954c22a0cba144e",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 830 Laser Shaft Alignment Tool",
+        "kind": "detection_method"
+      },
+      "qualifier": "can typically determine whether or not there is a soft foot problem",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B1",
+          "quote": "A quality laser alignment tool can typically determine whether or not there is a soft foot problem on a particular rotating machine"
+        },
+        {
+          "paragraph_id": "P7_B3",
+          "quote": "Instrument to measure and diagnose: Fluke 830 Laser Shaft Alignment Tool"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_0cc105ae3918937a7dfd1a76",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "relation": "HAS_SYMPTOM",
+      "object": {
+        "text": "new strains and misalignment when tightening mounting bolts",
+        "kind": "symptom"
+      },
+      "qualifier": "can create a frustrating situation in which tightening the mounting bolts on the feet actually introduces new strains and misalignment",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B1",
+          "quote": "tightening the mounting bolts on the feet actually introduces new strains and misalignment"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_135b43013d2d102347fcfb79",
+    "section_id": "fault-11",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Soft foot",
+        "kind": "phenomenon"
+      },
+      "relation": "AFFECTS",
+      "object": {
+        "text": "proper shaft alignment",
+        "kind": "function"
+      },
+      "qualifier": "must be discovered and remedied before proper shaft alignment can be achieved",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B1",
+          "quote": "any soft foot condition must be discovered and remedied before proper shaft alignment can be achieved"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ec19a9ae53f142758567f884",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Pipe strain",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "misalignment condition",
+        "kind": "failure_mode"
+      },
+      "qualifier": "can induce",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "Pipe strain refers to the condition in which new stresses, strains, and forces, acting on the rest of the equipment and infrastructure transfer backward onto the motor and drive to induce a misalign- ment condition."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_bb43a78d5fc0d0ee6ec68a7d",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "angular or offset force on the pump",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "motor/pump shaft misalignment",
+        "kind": "failure_mode"
+      },
+      "qualifier": "causes",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "Those forces can put an angular or offset force on the pump, which in turn causes the motor/pump shaft to be misaligned."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_31bd32d1038117358caf8fa7",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Shaft misalignment",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "premature failures",
+        "kind": "failure_mode"
+      },
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B6",
+          "quote": "Impact: Shaft misalignment and subsequent stresses on rotating components, leading the premature failures."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_736359ddc63390745341d3d4",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Shaft misalignment",
+        "kind": "failure_mode"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "Fluke 830 Laser Shaft Alignment Tool",
+        "kind": "detection_method"
+      },
+      "qualifier": "can be measured with",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B7",
+          "quote": "Instrument to measure and diagnose: Fluke 830 Laser Shaft Alignment Tool"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_423526e1653154aad4c23943",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Shift in the foundation",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Pipe strain",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can apply force to pipeworks causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "A shift in the foundation"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1a071d9849666323ad1892cf",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Newly installed valve or other component",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Pipe strain",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can apply force to pipeworks causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "A newly installed valve or other component"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_fcfddefd5adf434b7b53fb95",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Object striking, bending, or simply pressing on a pipe",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Pipe strain",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can apply force to pipeworks causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "An object striking, bending, or simply pressing on a pipe"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_1f680152139708037f087b12",
+    "section_id": "fault-12",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Broken or lack-of pipe hangers or wall-mounting hardware",
+        "kind": "cause"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "Pipe strain",
+        "kind": "phenomenon"
+      },
+      "qualifier": "can apply force to pipeworks causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P7_B5",
+          "quote": "Broken or lack-of pipe hangers or wall-mounting hardware"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ed91b40129aa2d4097e1cc99",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "motor shaft voltage",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "flashover currents to outer bearing",
+        "kind": "phenomenon"
+      },
+      "qualifier": "when motor shaft voltages exceed the insulating capability of the bearing grease",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "When motor shaft voltages exceed the insulating capability of the bearing grease, flash... currents to the outer bearing will occur"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_25928b85e6393e92cfe1b3a2",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "flashover currents to outer bearing",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "pitting to bearing races",
+        "kind": "phenomenon"
+      },
+      "qualifier": "thereby causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "flashover currents to the outer bearing will occur, thereby causing pitting and grooving to the bearing races"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_685119ed653a3fef3f089253",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "flashover currents to outer bearing",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "grooving to bearing races",
+        "kind": "phenomenon"
+      },
+      "qualifier": "thereby causing",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "flashover currents to the outer bearing will occur, thereby causing pitting and grooving to the bearing races"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_500d86304fb264d2244fdda8",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "metal fragments mixing with grease",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "increased bearing friction",
+        "kind": "effect"
+      },
+      "qualifier": "increase bearing friction",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "metal fragments mix with the grease and increase bearing friction"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_39aa0a533e55eef7258234fd",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "increased bearing friction",
+        "kind": "effect"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "bearing destruction",
+        "kind": "failure_mode"
+      },
+      "qualifier": "This can lead to bearing destruction within a few months of motor operation",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "This can lead to bear- ing destruction within a few months of motor operation"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_264f02c043a1241f90ace6b6",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "bearing failure",
+        "kind": "failure_mode"
+      },
+      "relation": "DETECTED_BY",
+      "object": {
+        "text": "measurement of shaft voltage and bearing current",
+        "kind": "detection_method"
+      },
+      "qualifier": "important diagnostic step",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "helping to prevent this by measuring shaft voltage and bearing current is an important diagnostic step"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_56433038f07e8268ca79563b",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "carbon brush probe attachment",
+        "kind": "component"
+      },
+      "relation": "HAS_FUNCTION",
+      "object": {
+        "text": "measure shaft voltage while motor is rotating",
+        "kind": "function"
+      },
+      "qualifier": "allows you to measure shaft voltage while a motor is rotating",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B11",
+          "quote": "A carbon brush probe attachment allows you to measure shaft voltage while a motor is rotating"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_af4920215d8a37737448242e",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "arcing across bearing surfaces",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "pitting",
+        "kind": "phenomenon"
+      },
+      "qualifier": "create",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "Arcing across bearing surfaces create pitting and fluting"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_a8efd1b20284574f0cec18ed",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "arcing across bearing surfaces",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "fluting",
+        "kind": "phenomenon"
+      },
+      "qualifier": "create",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "Arcing across bearing surfaces create pitting and fluting"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_6c2275e70cb1ffe20ae172a0",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "pitting",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "excessive vibration",
+        "kind": "effect"
+      },
+      "qualifier": "resulting in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "pitting ... resulting in excessive vibration"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_3883adfab75d0a29200e4530",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "fluting",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "excessive vibration",
+        "kind": "effect"
+      },
+      "qualifier": "resulting in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "fluting ... resulting in excessive vibration"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_d77bac25e96a5c9056840d2e",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "pitting",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "eventual bearing failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "resulting in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "pitting ... eventual bearing failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_ff98ef2b5c60f99baaeceb37",
+    "section_id": "fault-13",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "fluting",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "eventual bearing failure",
+        "kind": "failure_mode"
+      },
+      "qualifier": "resulting in",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B12",
+          "quote": "fluting ... eventual bearing failure"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_dcd7e624e84704e3a573d639",
+    "section_id": "strategies",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [],
+    "schema_valid": true,
+    "evidence_valid": true,
+    "record": {
+      "subject": {
+        "text": "Equipment failure",
+        "kind": "failure_mode"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "high monetary losses",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B8",
+          "quote": "Equipment failure can result in high monetary losses both from potential motor, or parts, replacement and from equipment downtime for the system the motor powers."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_95a610d4c85b290b7eff00ed",
+    "section_id": "strategies",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Failures due to normal system operating stresses",
+        "kind": "failure_mode"
+      },
+      "relation": "MITIGATED_BY",
+      "object": {
+        "text": "Arming maintenance engineers and technicians with the right knowledge, prioritizing workload and managing preventative maintenance to monitor equipment and troubleshoot intermittent, elusive problems",
+        "kind": "maintenance_action"
+      },
+      "qualifier": "can, in some cases",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B8",
+          "quote": "Arming maintenance engineers and technicians with the right knowledge, prioritizing workload and managing preventative maintenance to monitor equipment and troubleshoot intermittent, elusive problems can, in some cases, avoid failures due to normal system operating stresses"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_947644ac05c2e771f65f3642",
+    "section_id": "strategies",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Arming maintenance engineers and technicians with the right knowledge, prioritizing workload and managing preventative maintenance to monitor equipment and troubleshoot intermittent, elusive problems",
+        "kind": "maintenance_action"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "reduction of overall downtime costs",
+        "kind": "effect"
+      },
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B8",
+          "quote": "Arming maintenance engineers and technicians with the right knowledge, prioritizing workload and managing preventative maintenance to monitor equipment and troubleshoot intermittent, elusive problems can, in some cases, avoid failures due to normal system operating stresses and reduce overall downtime costs."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_dc8ab9aec79e264d9840af4c",
+    "section_id": "strategies",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Creating an archive reference of measurements",
+        "kind": "maintenance_action"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "trend analysis",
+        "kind": "phenomenon"
+      },
+      "qualifier": "to facilitate",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B10",
+          "quote": "Create an archive reference of measurements to facilitate trend analysis and identify change of state conditions."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "candidate_id": "ATOM_de8c30b45647f7b7a8ed7cb1",
+    "section_id": "strategies",
+    "review_decision": "unreviewed",
+    "review": null,
+    "issues": [
+      "Quote is not an exact nonempty cleaned-text substring"
+    ],
+    "schema_valid": true,
+    "evidence_valid": false,
+    "record": {
+      "subject": {
+        "text": "Creating an archive reference of measurements",
+        "kind": "maintenance_action"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "identification of change of state conditions",
+        "kind": "phenomenon"
+      },
+      "qualifier": "to identify",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P8_B10",
+          "quote": "Create an archive reference of measurements to facilitate trend analysis and identify change of state conditions."
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    }
+  }
+]

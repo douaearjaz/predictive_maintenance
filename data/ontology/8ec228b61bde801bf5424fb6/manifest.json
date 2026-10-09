@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-15T09:04:52.193136+00:00",
+  "generator_version": "maintenance-ontology-v1",
+  "input_digest": "8ec228b61bde801bf5424fb606e12dc7b46440a6265f2aa00e9a1649f8386e3b",
+  "allow_assistant": true,
+  "concepts": 62,
+  "statements": 47,
+  "excluded": 138,
+  "triples": 1047,
+  "serialization_roundtrip": "passed"
+}

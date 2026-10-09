@@ -1,0 +1,37 @@
+variable,source_label,present_definition,absent_definition,measurement_or_threshold,time_window,expert,review_status
+insulation_breakdown,insulation breakdown,,,,,,pending
+overload,Overload,,,,,,pending
+deterioration_of_motor_parts_both_electrical_and_mechanical,"deterioration of motor parts, both electrical and mechanical",,,,,,pending
+wrong_application,Wrong application,,,,,,pending
+damaged_bearing,damaged bearing,,,,,,pending
+motor_will_not_start_just_hums_and_heats_up,Motor will not start (Just hums and heats up.),,,,,,pending
+loss_of_lubrication_capability_in_bearing_oil_systems,loss of lubrication capability in bearing oil systems,,,,,,pending
+emits_more_heat,emits more heat,,,,,,pending
+heavier_load_than_designed_for,heavier load than designed for,,,,,,pending
+lower_efficiency,lower efficiency,,,,,,pending
+improper_storage_and_handling,improper storage and handling,,,,,,pending
+imbalance,Imbalance,,,,,,pending
+unbalanced_load,unbalanced load,,,,,,pending
+low_voltage,Low voltage,,,,,,pending
+one_phase_may_be_open,One phase may be open,,,,,,pending
+incorrect_fit,incorrect fit,,,,,,pending
+induced_shaft_voltages,induced shaft voltages,,,,,,pending
+excessive_moisture,excessive moisture,,,,,,pending
+defective_winding,Defective winding,,,,,,pending
+normal_wear,normal wear,,,,,,pending
+increased_operating_temperatures,increased operating temperatures,,,,,,pending
+motor_fails_to_start,Motor fails to start,,,,,,pending
+ineffective_bearing_sealing,ineffective bearing sealing,,,,,,pending
+input_circuit_single_phased,Input circuit single phased,,,,,,pending
+failures_in_motor_leads,failures in motor leads,,,,,,pending
+failures_in_motor_winding_insulation,failures in motor winding insulation,,,,,,pending
+high_amps,high amps,,,,,,pending
+inadequate_or_incorrect_lubrication,inadequate or incorrect lubrication,,,,,,pending
+blown_fuses,Blown fuses,,,,,,pending
+excessive_current_flow_in_one_or_more_phases,excessive current flow in one or more phases,,,,,,pending
+normal_wear_in_use,normal wear in use,,,,,,pending
+motor_stalls,Motor stalls,,,,,,pending
+motor_was_single_phased,Motor was single phased,,,,,,pending
+increased_drag,increased drag,,,,,,pending
+bearing_failure,Bearing failure,,,,,,pending
+shaft_misalignment,Shaft misalignment,,,,,,pending

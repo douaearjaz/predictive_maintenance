@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_27cd90f90e7302652c53d5b8",
+  "candidate_hash": "f227fa8fca18c90ac8505ce586b8dcb7461315f6c99d59989b7711d371d68559",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB Motor stalls row says One phase may be open. Checked fault and cause cells; preserve may.",
+  "reviewed_at": "2026-09-15T00:14:45.670801+00:00"
+}

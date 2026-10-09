@@ -1,0 +1,10 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "candidate_id": "ATOM_0535a0cb0182be1d547bc08e",
+  "candidate_hash": "b31ceeff9af46307c0a3f01b34329c8a5c70661cd24e80bc81f1f1bca3d5d59c",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. EPRI physical page 54 moisture paragraph explicitly states insulation resistance testing can often indicate a wet winding. Qualifier can often retained.",
+  "reviewed_at": "2026-09-15T00:14:45.776777+00:00"
+}

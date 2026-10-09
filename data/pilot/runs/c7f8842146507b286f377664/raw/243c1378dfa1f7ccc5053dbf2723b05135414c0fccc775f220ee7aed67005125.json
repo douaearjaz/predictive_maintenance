@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Dirt accumulation\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"qualifier\":\"can cause\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Dirt accumulation\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Missing balance weights\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"qualifier\":\"can cause\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Missing balance weights\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Manufacturing variations\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"qualifier\":\"can cause\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Manufacturing variations\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Uneven mass in motor windings and other wear-related factors\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"qualifier\":\"can cause\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B7\",\"quote\":\"Uneven mass in motor windings and other wear-related factors\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"relation\":\"LEADS_TO\",\"object\":{\"text\":\"Premature wear in mechanical drive components\",\"kind\":\"effect\"},\"qualifier\":\"leads to\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B8\",\"quote\":\"Premature wear in mechanical drive components that leads to premature failures\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Premature wear in mechanical drive components\",\"kind\":\"effect\"},\"relation\":\"LEADS_TO\",\"object\":{\"text\":\"Premature failures\",\"kind\":\"effect\"},\"qualifier\":\"leads to\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B8\",\"quote\":\"Premature wear in mechanical drive components that leads to premature failures\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"relation\":\"DETECTED_BY\",\"object\":{\"text\":\"Fluke 810 Vibration Tester\",\"kind\":\"detection_method\"},\"qualifier\":\"can be detected by\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P5_B9\",\"quote\":\"Fluke 810 Vibration Tester\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"Imbalance\",\"kind\":\"phenomenon\"},\"evidence\":[{\"paragraph_id\":\"P5_B5\",\"quote\":\"Imbalance is a condition of a rotating part where the center of mass does not lie on the axis of rotation.\"}]},{\"concept\":{\"text\":\"Dirt accumulation\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Dirt accumulation\"}]},{\"concept\":{\"text\":\"Missing balance weights\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Missing balance weights\"}]},{\"concept\":{\"text\":\"Manufacturing variations\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P5_B6\",\"quote\":\"Manufacturing variations\"}]},{\"concept\":{\"text\":\"Uneven mass in motor windings and other wear-related factors\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P5_B7\",\"quote\":\"Uneven mass in motor windings and other wear-related factors\"}]},{\"concept\":{\"text\":\"Premature wear in mechanical drive components\",\"kind\":\"effect\"},\"evidence\":[{\"paragraph_id\":\"P5_B8\",\"quote\":\"Premature wear in mechanical drive components that leads to premature failures\"}]},{\"concept\":{\"text\":\"Premature failures\",\"kind\":\"effect\"},\"evidence\":[{\"paragraph_id\":\"P5_B8\",\"quote\":\"Premature wear in mechanical drive components that leads to premature failures\"}]},{\"concept\":{\"text\":\"Fluke 810 Vibration Tester\",\"kind\":\"detection_method\"},\"evidence\":[{\"paragraph_id\":\"P5_B9\",\"quote\":\"Fluke 810 Vibration Tester\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-2d73acfc-78ed-445e-878a-cf8e71173cb1",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 2619,
+    "prompt_tokens": 1844,
+    "total_tokens": 4463,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1685,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.061704086,
+    "prompt_time": 0.226661115,
+    "completion_time": 5.537526973,
+    "total_time": 5.764188088
+  },
+  "created_at": "2026-09-14T20:58:02.302323+00:00",
+  "section_id": "fault-08"
+}

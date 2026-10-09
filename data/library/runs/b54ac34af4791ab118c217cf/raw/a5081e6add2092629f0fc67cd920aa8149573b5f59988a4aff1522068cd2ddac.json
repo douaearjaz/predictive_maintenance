@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"packaging\",\"kind\":\"component\"},\"relation\":\"HAS_FUNCTION\",\"object\":{\"text\":\"protection from contamination\",\"kind\":\"phenomenon\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B9\",\"quote\":\"The packaging provides protection from contamination.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"preservatives\",\"kind\":\"component\"},\"relation\":\"HAS_FUNCTION\",\"object\":{\"text\":\"protect the bearing from fingerprints and corrosion\",\"kind\":\"phenomenon\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B10\",\"quote\":\"Leaving it in place will protect the bearing from fingerprints and corrosion.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"planning your work\",\"kind\":\"maintenance_action\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"faster installation with few delays\",\"kind\":\"phenomenon\"},\"qualifier\":\"will enable\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B12\",\"quote\":\"Planning your work will enable you to perform the installation more quickly with few delays\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"planning your work\",\"kind\":\"maintenance_action\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"reduced exposure of bearing to contamination and handling damage\",\"kind\":\"phenomenon\"},\"qualifier\":\"will shorten\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B12\",\"quote\":\"shortening the amount of time the bearing is out of the equipment and exposed to contamination and possible handling damage\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"bearing\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B9\",\"quote\":\"Do not remove the bearing from its packaging until you are ready to mount it.\"}]},{\"concept\":{\"text\":\"packaging\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B9\",\"quote\":\"The packaging provides protection from contamination.\"}]},{\"concept\":{\"text\":\"preservatives\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B10\",\"quote\":\"The preservatives used on almost all bearings are fully compatible with commonly used oils and other lubricants.\"}]},{\"concept\":{\"text\":\"protective screens\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B11\",\"quote\":\"Use protective screens around the work area\"}]},{\"concept\":{\"text\":\"planning your work\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P12_B12\",\"quote\":\"Planning your work will enable you to perform the installation more quickly with few delays\"}]}],\"ambiguities\":[{\"description\":\"Unclear causal link between clean environment and bearing performance\",\"evidence\":[{\"paragraph_id\":\"P12_B11\",\"quote\":\"Bearings should be installed in a clean environment, free from dust, debris, moisture and other contaminants.\"}]}]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-76f26c6c-4322-4e48-a4af-4ceb47842c17",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 2018,
+    "prompt_tokens": 2046,
+    "total_tokens": 4064,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1376,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.089689327,
+    "prompt_time": 0.103861265,
+    "completion_time": 4.210855036,
+    "total_time": 4.314716301
+  },
+  "created_at": "2026-09-15T00:08:39.790326+00:00",
+  "section_id": "timken-installation"
+}

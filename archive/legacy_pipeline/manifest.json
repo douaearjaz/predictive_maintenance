@@ -1,0 +1,482 @@
+[
+  {
+    "original_path": "academic_corpus_collector.py",
+    "archived_or_active_path": "archive/legacy_pipeline/academic_corpus_collector.py",
+    "sha256": "08ba603a844ce07ab7fed90a81297780050f72819f4bba03fa0c76e1bdfee8c2",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "pdf_parser.py",
+    "archived_or_active_path": "archive/legacy_pipeline/pdf_parser.py",
+    "sha256": "104da0d5040077ee797d73aa10da02b7f74440f570a9932b8f2a8d1edd5f3954",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "validator.py",
+    "archived_or_active_path": "archive/legacy_pipeline/validator.py",
+    "sha256": "707b43d45fc9f0849275abc0d04db3c2db78e759050d2ebea366cc77db42649b",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "clean_kg.py",
+    "archived_or_active_path": "archive/legacy_pipeline/clean_kg.py",
+    "sha256": "2a5d02dcc9e3d7d7ba71f3117d1fadf9f43d95eebe34baada3cfa40c0c8a3e72",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "ontology_generator.py",
+    "archived_or_active_path": "archive/legacy_pipeline/ontology_generator.py",
+    "sha256": "2da77e4250891a4e92a6f24651c0c4554d9d3a9561a14679d71e24017e1c2f52",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "to_bn.py",
+    "archived_or_active_path": "archive/legacy_pipeline/to_bn.py",
+    "sha256": "a1066c72e6f812b84b4b97eae8dd23743382afe11a5f12675a4aa456bc8444fe",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "build_bn.py",
+    "archived_or_active_path": "archive/legacy_pipeline/build_bn.py",
+    "sha256": "ed813a2fb1518f909042a0c25f534ee962bedf588ebb1809cf38a42b9a3b916c",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "ontology.owl",
+    "archived_or_active_path": "archive/legacy_pipeline/ontology.owl",
+    "sha256": "558ec961ad84587c9bfe047eec764bf5fbe08911a5a0c6df115e50a8977713ef",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "bayesian_structure_dag.json",
+    "archived_or_active_path": "archive/legacy_pipeline/bayesian_structure_dag.json",
+    "sha256": "0a3fec73e08513181257ad2bcdc7dd7e4115bf3b6f0ee69efd0e111c8a02975d",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "bn_graph.png",
+    "archived_or_active_path": "archive/legacy_pipeline/bn_graph.png",
+    "sha256": "e8cf6e84876f73b13e71e6198eb0c12a9c7c8f6d0286331532930f8fc62b3854",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "ai4i2020.csv",
+    "archived_or_active_path": "archive/legacy_pipeline/ai4i2020.csv",
+    "sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "knowledge_graph_partial.json",
+    "archived_or_active_path": "archive/legacy_pipeline/knowledge_graph_partial.json",
+    "sha256": "2ea4b5d1e86b2425f425c886e45188dd7698e062b7b99098bb810abb62aa286f",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "knowledge_graph_validated.json",
+    "archived_or_active_path": "archive/legacy_pipeline/knowledge_graph_validated.json",
+    "sha256": "6b3f92458c41c0f1cade8204686ad213105174bb736e5b84c4673071aec30a0a",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "filtered_chunks.json",
+    "archived_or_active_path": "archive/legacy_pipeline/filtered_chunks.json",
+    "sha256": "e908acfefc695a8926cc1da4b37634f78e3530171cf55b16591a297ca175719c",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "rejected_relations.json",
+    "archived_or_active_path": "archive/legacy_pipeline/rejected_relations.json",
+    "sha256": "5d2e5ca82909d245de1d116fbf7e41d63a3fa90f4223af8863c0ea7f34caa7cb",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "rejected_relations_after_normalization.json",
+    "archived_or_active_path": "archive/legacy_pipeline/rejected_relations_after_normalization.json",
+    "sha256": "27a65cce84d3a903310891ef33313c4cf62cdc5da20e6fdc6413e76adbbd3283",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "rejected_relations_final.json",
+    "archived_or_active_path": "archive/legacy_pipeline/rejected_relations_final.json",
+    "sha256": "27a65cce84d3a903310891ef33313c4cf62cdc5da20e6fdc6413e76adbbd3283",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "jj.png",
+    "archived_or_active_path": "archive/legacy_pipeline/jj.png",
+    "sha256": "7a4dd82f46052f6ff17ac429bdf12060e6d86d21fc2b8fd7db9cdf69c994f7c4",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "ijwtkwit.png",
+    "archived_or_active_path": "archive/legacy_pipeline/ijwtkwit.png",
+    "sha256": "7a4dd82f46052f6ff17ac429bdf12060e6d86d21fc2b8fd7db9cdf69c994f7c4",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/chunk_classifier.py",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/chunk_classifier.py",
+    "sha256": "ddf4bfbd65b5f2e532ad2667cf1d37463e0a92cdf7108985aa2aa6d6f5dce318",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/document_categories.json",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/document_categories.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/corpus_audit.py",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/corpus_audit.py",
+    "sha256": "cf599bce446dad975b3ce40cc25347b9ea1370d64566d6c9fbf713bf8a62e803",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/chunk_filter.py",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/chunk_filter.py",
+    "sha256": "2dbe3aa41adbb6b07c79fa87d97a8175f0d04475df5f2ded24e49244e8aaad9e",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/corpus_audit.json",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/corpus_audit.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/filtered_chunks.json",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/filtered_chunks.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/doc_classifier.py",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/doc_classifier.py",
+    "sha256": "df0fbe64dced8959413f20504ccf0b76163926cbe9b038c4b962c22d9582ede1",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "phase_cleaning/__pycache__/chunk_classifier.cpython-312.pyc",
+    "archived_or_active_path": "archive/legacy_pipeline/phase_cleaning/__pycache__/chunk_classifier.cpython-312.pyc",
+    "sha256": "d17237fcc2f804c9c6812528db6031dd84d3fe6bfd9db66a9d5384c6c9eeaca1",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers_metadata.json",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers_metadata.json",
+    "sha256": "45fdc7077321365ae84a23c71021557dee7033bae9d9163bf54a5851c8070d8e",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/phase2_metadata.json",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/phase2_metadata.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Predictive_maintenance_on_event_logs_Application_on_an_ATM_fleet.pdf",
+    "sha256": "edb33927afa24adf3895b99fca81d5cf6540033ee679e65097bb5078f6438380",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/An_Economic_Perspective_on_Predictive_Maintenance_of_Filtration_Units.pdf",
+    "sha256": "b6102485da289b1ab4371d27d93f5d7b12778a2f28ce44e9b9c9d3748d873aaf",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Similarity_Matching_Techniques_for_Fault_Diagnosis_in_Automotive_Infotainment_El.pdf",
+    "sha256": "c429be56ea384f0807c9de36b473c9efc2d3b9e79e141cb34abc7673daec357f",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/User_Experience_Evaluation_of_AR_Assisted_Industrial_Maintenance_and_Support_App.pdf",
+    "sha256": "96becb46ae8d068a7ec0025980921366ebafc4c7aaa824bff6e53c64a96ea22e",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/User-Centric_Evaluation_Methods_for_Digital_Twin_Applications_in_Extended_Realit.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/User-Centric_Evaluation_Methods_for_Digital_Twin_Applications_in_Extended_Realit.pdf",
+    "sha256": "410f99b2bb0b0d0f8629481c6392f77dfe34fff4b628b696e1c13fcaea5f8b8c",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Bearing_fault_diagnosis_based_on_domain_adaptation_using_transferable_features_u.pdf",
+    "sha256": "1ab5fef0dc3a772ab13224147e789152b6e127cad5bc9efb5a69bec026119beb",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Evidence-Driven_Reasoning_for_Industrial_Maintenance_Using_Heterogeneous_Data.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Evidence-Driven_Reasoning_for_Industrial_Maintenance_Using_Heterogeneous_Data.pdf",
+    "sha256": "acbf2d6df540ec01351bd439ce936491264eea75cefe6ff2bc6e60fb54576515",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/A_dissimilarity-based_approach_to_predictive_maintenance_with_application_to_HVA.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/A_dissimilarity-based_approach_to_predictive_maintenance_with_application_to_HVA.pdf",
+    "sha256": "aff070b9079e405c2b7115e41dc9809461cc0c864f057349c10c43ae84e25b27",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Cost-Sensitive_Learning_for_Predictive_Maintenance.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Cost-Sensitive_Learning_for_Predictive_Maintenance.pdf",
+    "sha256": "17f48a086a96427ea6290c0eab9788043ac51fae182837a7c0646f45f1edaa2c",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Applications_of_machine_learning_to_machine_fault_diagnosis_A_review_and_roadma.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Applications_of_machine_learning_to_machine_fault_diagnosis_A_review_and_roadma.pdf",
+    "sha256": "932965113395e2a34edafcd6d109a5f99ea4bbe2957cca5ba0cbc3d977506e4a",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Survey_of_modern_Fault_Diagnosis_methods_in_networks.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Survey_of_modern_Fault_Diagnosis_methods_in_networks.pdf",
+    "sha256": "9807988cd25c63e25b67dc1c4f3b8f9599767df3c083b5d19cc1610f8bd782fb",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/DiagnosticIQ_A_Benchmark_for_LLM-Based_Industrial_Maintenance_Action_Recommenda.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/DiagnosticIQ_A_Benchmark_for_LLM-Based_Industrial_Maintenance_Action_Recommenda.pdf",
+    "sha256": "c445f6c18a7e7de6fdf54a0cc48ab99b0fe5c7fa0313bdfc3cc81e514f731e20",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Multi-output_Classification_Framework_and_Frequency_Layer_Normalization_for_Comp.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Multi-output_Classification_Framework_and_Frequency_Layer_Normalization_for_Comp.pdf",
+    "sha256": "207ad134e65db3741f8533cc231d7b29bf1e06b49a9e4e057b5f1afa693eca71",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Explainable_Predictive_Maintenance.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Explainable_Predictive_Maintenance.pdf",
+    "sha256": "c5f0ecf85404946d3be967dcff34690217120bda2b5982d3a917aae3fd5e8770",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/A_Hybrid_Method_for_Condition_Monitoring_and_Fault_Diagnosis_of_Rolling_Bearings.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/A_Hybrid_Method_for_Condition_Monitoring_and_Fault_Diagnosis_of_Rolling_Bearings.pdf",
+    "sha256": "4548b424fb8b4b55a34cbfb678905e1cf4a32df8fa4776e9685eafb11a9b2e73",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Human-centric_Maintenance_Process_Through_Integration_of_AI,_Speech,_and_AR.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Human-centric_Maintenance_Process_Through_Integration_of_AI,_Speech,_and_AR.pdf",
+    "sha256": "ece03b04f708eb8589fcfda35253c79b28fdbd69975cc2dba3f13f535f7d02f2",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/Evaluating_the_Complementarity_of_Taxonomic_Relation_Extraction_Methods_Across_D.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/Evaluating_the_Complementarity_of_Taxonomic_Relation_Extraction_Methods_Across_D.pdf",
+    "sha256": "23d7286ac93a3e4136b0df32f92c8fd800ba86d1a59ac802d3a7c14bc9d2b46b",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/Architectural_Innovation_The_Reconfiguration_of_Existing_Product_Technologies_a.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/Architectural_Innovation_The_Reconfiguration_of_Existing_Product_Technologies_a.pdf",
+    "sha256": "5741aefd1118387e19a549520b06edd9bca691aaccb0897dffe16fe9c90c61b1",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/Rotor-Failure-Aware_Quadrotors_Flight_in_Unknown_Environments.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/Rotor-Failure-Aware_Quadrotors_Flight_in_Unknown_Environments.pdf",
+    "sha256": "6be0a197188bc2437654dee49c5870062b48bbeec123604dbc49b2a36cdfc5b1",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/Deep_Generative_and_Discriminative_Digital_Twin_endowed_with_Variational_Autoenc.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/Deep_Generative_and_Discriminative_Digital_Twin_endowed_with_Variational_Autoenc.pdf",
+    "sha256": "2c856c32cf4878b5924bc50f09f1c36fdeffd3392db80a7e3f230a6365b98144",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/DreamFLEX_Learning_Fault-Aware_Quadrupedal_Locomotion_Controller_for_Anomaly_Si.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/DreamFLEX_Learning_Fault-Aware_Quadrupedal_Locomotion_Controller_for_Anomaly_Si.pdf",
+    "sha256": "15b1d404f791cc4dd8275bf9df2e5b51dcbc573aba85eb51bcda5a0f49f38505",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/A_Framework_for_Imbalanced_Time-series_Forecasting.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/A_Framework_for_Imbalanced_Time-series_Forecasting.pdf",
+    "sha256": "c44450527555f79ce7542376d263fb190c6d3c324f53f309274bc8c8c5036540",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/misc/Rotor_imbalance_suppression_by_optimal_control.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/misc/Rotor_imbalance_suppression_by_optimal_control.pdf",
+    "sha256": "5d4f6b04b2e50a361a3f03b8eb330aab71149fd2871fd88ada74d3af27e75c2b",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/gearboxes/Variability_of_Critical_Rotational_Speeds_of_Gearbox_by_Misalignement_and_Manufa.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/gearboxes/Variability_of_Critical_Rotational_Speeds_of_Gearbox_by_Misalignement_and_Manufa.pdf",
+    "sha256": "09bd79b2ab98d560ac92f0fc575caaa9ec1e92897b9f4c6c69e51bf6bf0ded0f",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/fmea/Combining_FMEA_with_DEMATEL_models_to_solve_production_process_problems.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/fmea/Combining_FMEA_with_DEMATEL_models_to_solve_production_process_problems.pdf",
+    "sha256": "5cc89eda557d8ece41aa4f4db5f5ce7e95f40ef1a1afa21220b2153587907962",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/fmea/Analisis_Penyebab_Kerusakan_Hot_Rooler_Table_dengan_Menggunakan_Metode_Failure_M.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/fmea/Analisis_Penyebab_Kerusakan_Hot_Rooler_Table_dengan_Menggunakan_Metode_Failure_M.pdf",
+    "sha256": "1e58b7b00447ee616ff183306485def7e1d021272305f71ece385d2a64a440f0",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Neural_Factorization-based_Bearing_Fault_Diagnosis.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Neural_Factorization-based_Bearing_Fault_Diagnosis.pdf",
+    "sha256": "b1787c57fe745d3bcada1df8ee82df7822691c4f15966538fa756908a94de4d6",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Bearing_Fault_Diagnosis_using_Graph_Sampling_and_Aggregation_Network.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Bearing_Fault_Diagnosis_using_Graph_Sampling_and_Aggregation_Network.pdf",
+    "sha256": "12b871edab1f238f17c6c2e4b042a90916b2a2125c975e7a5adeaddff37e035e",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Source-free_domain_adaptation_based_on_label_reliability_for_cross-domain_bearin.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Source-free_domain_adaptation_based_on_label_reliability_for_cross-domain_bearin.pdf",
+    "sha256": "4844c8cd558b8e13024f41d4a41be867eb8081c68bae455dddf5635d5409ec18",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Condition_Monitoring_of_Bearing_Damage_in_Electromechanical_Drive_Systems_by_Usi.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Condition_Monitoring_of_Bearing_Damage_in_Electromechanical_Drive_Systems_by_Usi.pdf",
+    "sha256": "c1f75c79cfbcbcbfd24b32bf034cebb76d1c3ff7864827575d37387bb0955f84",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Attention-embedded_Quadratic_Network_(Qttention)_for_Effective_and_Interpretable.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Attention-embedded_Quadratic_Network_(Qttention)_for_Effective_and_Interpretable.pdf",
+    "sha256": "867720b9df1ec6b76d280e8f499f999d284f75078bd61304c2346c74e3f33230",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/A_Comparative_Analysis_of_Reinforcement_Learning_and_Conventional_Deep_Learning_.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/A_Comparative_Analysis_of_Reinforcement_Learning_and_Conventional_Deep_Learning_.pdf",
+    "sha256": "b831d60029627b70887bdf12466424d94029c6b3948c4c1f7e07ecf9329e76c8",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/bearings/Coupled_computation_of_meshing_and_bearings_stiffnesses_effect_on_radiated_gea.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/bearings/Coupled_computation_of_meshing_and_bearings_stiffnesses_effect_on_radiated_gea.pdf",
+    "sha256": "544434903e23098b9187f1f5247b603a36b82a6efcf1c1fe3b36e85757ce961f",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/reliability/Time_Series_Data_for_Equipment_Reliability_Analysis_With_Deep_Learning.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/reliability/Time_Series_Data_for_Equipment_Reliability_Analysis_With_Deep_Learning.pdf",
+    "sha256": "c259cc49d058ba12be0c63b403dc5ece111b56187e9905a70bc49df6e828ac84",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/motors/Learning_to_Balance_Motor_Thermal_Safety_and_Quadrupedal_Locomotion_Performance_.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/motors/Learning_to_Balance_Motor_Thermal_Safety_and_Quadrupedal_Locomotion_Performance_.pdf",
+    "sha256": "4d6ff95b91a36cbb96447d434cc10e43d271dd49eb237fafe89111d0c8306240",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/motors/Condition_monitoring_of_induction_motor-vibration_analysis_technique.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/motors/Condition_monitoring_of_induction_motor-vibration_analysis_technique.pdf",
+    "sha256": "c75cfa26a2c19aece6fae2824d989f02495247738dbe26b25f8373dddb59481d",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/motors/Cyclostationary_analysis_of_vibration_signals_from_electric_motor_\u2013_understandin.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/motors/Cyclostationary_analysis_of_vibration_signals_from_electric_motor_\u2013_understandin.pdf",
+    "sha256": "abb582e40fb038fcfdcf98ea272e6bc445d52bb6113f4f3ba294ac900f5fcda8",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/motors/Mechanical_Failure_Mode_Causes_of_In-Wheel_Motors.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/motors/Mechanical_Failure_Mode_Causes_of_In-Wheel_Motors.pdf",
+    "sha256": "530ff1a93caf1bde457fa059632b252947f82c3e1b9741c2730f92f0d3231998",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "scraped_data/papers/motors/Electric_motor_design_for_steer-by-wire_systems_and_functional_safety_analysis.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/scraped_data/papers/motors/Electric_motor_design_for_steer-by-wire_systems_and_functional_safety_analysis.pdf",
+    "sha256": "96444d95491672541df1bc7c9e0395478b9a8ec281ea7041e5626ed278f71292",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "notebooks/eda_corpus.ipynb",
+    "archived_or_active_path": "archive/legacy_pipeline/notebooks/eda_corpus.ipynb",
+    "sha256": "92907d7241ed72451efbd0089a43305519af8b2cc22db570e231f03d71232dfa",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": ".ipynb_checkpoints/EDA_1-checkpoint.ipynb",
+    "archived_or_active_path": "archive/legacy_pipeline/.ipynb_checkpoints/EDA_1-checkpoint.ipynb",
+    "sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "requirements.txt",
+    "archived_or_active_path": "archive/legacy_pipeline/requirements.txt",
+    "sha256": "623e18722660484db071d87610ed4fc8daa42baef487dc83d2990a9e1dee9403",
+    "reason": "Preserved legacy experiment; inactive in new pipeline"
+  },
+  {
+    "original_path": "documentations/13-common-causes.pdf",
+    "archived_or_active_path": "data/documents/trusted/13-common-causes.pdf",
+    "sha256": "bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  },
+  {
+    "original_path": "documentations/3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+    "archived_or_active_path": "data/documents/trusted/3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+    "sha256": "90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  },
+  {
+    "original_path": "documentations/Electric Motor Troubleshooting (Polyphase).pdf",
+    "archived_or_active_path": "data/documents/trusted/Electric Motor Troubleshooting (Polyphase).pdf",
+    "sha256": "775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  },
+  {
+    "original_path": "documentations/FOURNIER_Etienne2.pdf",
+    "archived_or_active_path": "data/documents/reference/FOURNIER_Etienne2.pdf",
+    "sha256": "d3d7c14546a741f4ff6fca2dd5d5493a1db10b22e996837c62cd948479023c26",
+    "reason": "Supporting reference; select relevant sections before promotion"
+  },
+  {
+    "original_path": "documentations/Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "archived_or_active_path": "data/documents/trusted/Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "sha256": "eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  },
+  {
+    "original_path": "documentations/NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "archived_or_active_path": "data/documents/trusted/NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "sha256": "cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  },
+  {
+    "original_path": "documentations/Polyphase AC Induction Motor TROUBLESHOOTING GUIDE.pdf",
+    "archived_or_active_path": "archive/legacy_pipeline/documentations/Polyphase AC Induction Motor TROUBLESHOOTING GUIDE.pdf",
+    "sha256": "4d9fc87bd7521a4d31b08e235231ac2cbc303b24ad6711f6fd740ff3d3d800f2",
+    "reason": "Same extracted text as active Electric Motor Troubleshooting (Polyphase).pdf; original preserved"
+  },
+  {
+    "original_path": "documentations/TechnicalGuideBook_EN_3AFE64514482_RevH.pdf",
+    "archived_or_active_path": "data/documents/reference/TechnicalGuideBook_EN_3AFE64514482_RevH.pdf",
+    "sha256": "d1fb44893efc7951447160eddc99c9cf89e65efc2c74891691cfdfec5d321b28",
+    "reason": "Supporting reference; select relevant sections before promotion"
+  },
+  {
+    "original_path": "documentations/ac-troubleshooting-guide.pdf",
+    "archived_or_active_path": "data/documents/trusted/ac-troubleshooting-guide.pdf",
+    "sha256": "db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+    "reason": "Technical maintenance/troubleshooting source selected for active ingestion"
+  }
+]

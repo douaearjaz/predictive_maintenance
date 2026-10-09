@@ -1,0 +1,47 @@
+{
+  "recording_id": "105",
+  "channel": "X105_DE_time",
+  "segment_index": 0,
+  "start_sample": 0,
+  "end_sample_exclusive": 3000,
+  "operating_context": {
+    "load_hp": 0.0,
+    "rpm": 1797.0
+  },
+  "measurements": [
+    {
+      "property": "vibration_rms",
+      "value": 0.2887868187692578,
+      "unit": "original_mat_amplitude_unit",
+      "ontology_context_id": "equipment_bearing",
+      "relation": "measurement_about_component",
+      "fuzzy_state": null
+    },
+    {
+      "property": "vibration_peak_to_peak",
+      "value": 2.6639361277445115,
+      "unit": "original_mat_amplitude_unit",
+      "ontology_context_id": "equipment_bearing",
+      "relation": "measurement_about_component",
+      "fuzzy_state": null
+    },
+    {
+      "property": "vibration_pearson_kurtosis",
+      "value": 5.530933418611197,
+      "unit": "dimensionless",
+      "ontology_context_id": "equipment_bearing",
+      "relation": "measurement_about_component",
+      "fuzzy_state": null
+    },
+    {
+      "property": "vibration_crest_factor",
+      "value": 5.080460117981463,
+      "unit": "dimensionless",
+      "ontology_context_id": "equipment_bearing",
+      "relation": "measurement_about_component",
+      "fuzzy_state": null
+    }
+  ],
+  "diagnosis": null,
+  "note": "Fault label is deliberately excluded from inference evidence. No ontology fact is asserted."
+}

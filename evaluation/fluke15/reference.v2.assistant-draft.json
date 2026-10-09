@@ -1,0 +1,819 @@
+{
+  "reference_version": 2,
+  "batch_id": "25fa319e05cce5f5489e5d05",
+  "review_status": "assistant_draft",
+  "reviewer": "Codex/source-text inspection; human verification pending",
+  "aliases": {},
+  "sections": [
+    {
+      "section_id": "overview",
+      "title": "Overview and contents",
+      "tags": [
+        "bullet/list",
+        "mentions",
+        "introductory_causal_sentence"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [
+        {
+          "text": "Misalignment",
+          "kind": "phenomenon"
+        },
+        {
+          "text": "Bearing wear",
+          "kind": "failure_mode"
+        }
+      ],
+      "expected_relations": [],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels. Contents entries alone do not establish causality. The introductory paragraph does contain a separate causal assertion.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-01",
+      "title": "1 Transient voltage",
+      "tags": [
+        "simple_causal_relation",
+        "diagnostic_instrument",
+        "ambiguous_association"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "transient voltages",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "insulation breakdown",
+            "kind": "failure_mode"
+          },
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B1",
+              "quote": "Transient voltages can come from a number of sources either inside or outside of the plant. Adjacent loads turning on or off, power factor correction capacitor banks or even distant weather can generate transient voltages on distribution systems. These tran- sients, which vary in amplitude and frequency, can erode or cause insulation breakdown in motor windings. Finding the source of these transients can be difficult because of the infrequency of the occurrences and the fact that the symptoms can present themselves in different ways. For example, a transient may appear on control cables that don’t necessarily cause equipment damage directly, but may disrupt operations."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "insulation breakdown",
+            "kind": "failure_mode"
+          },
+          "relation": "LEADS_TO",
+          "object": {
+            "text": "early motor failure",
+            "kind": "effect"
+          },
+          "qualifier": "leads to",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B2",
+              "quote": "Impact: Motor winding insulation breakdown leads to early motor failure and unplanned downtime"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "transient voltages",
+            "kind": "phenomenon"
+          },
+          "relation": "DETECTED_BY",
+          "object": {
+            "text": "Fluke 435-II Three-Phase Power Quality Analyzer",
+            "kind": "detection_method"
+          },
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B14",
+              "quote": "1 Transient voltage"
+            },
+            {
+              "paragraph_id": "P2_B3",
+              "quote": "Instrument to measure and diagnose: Fluke 435-II Three-Phase Power Quality Analyzer"
+            }
+          ],
+          "needs_context_review": true,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [
+        {
+          "subject": {
+            "text": "insulation breakdown",
+            "kind": "failure_mode"
+          },
+          "relation": "DETECTED_BY",
+          "object": {
+            "text": "Fluke 435-II Three-Phase Power Quality Analyzer",
+            "kind": "detection_method"
+          },
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B14",
+              "quote": "1 Transient voltage"
+            },
+            {
+              "paragraph_id": "P2_B3",
+              "quote": "Instrument to measure and diagnose: Fluke 435-II Three-Phase Power Quality Analyzer"
+            }
+          ],
+          "needs_context_review": true,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {
+        "transient voltage": "transient voltages",
+        "motor winding insulation breakdown": "insulation breakdown",
+        "insulation breakdown in motor windings": "insulation breakdown"
+      }
+    },
+    {
+      "section_id": "fault-02",
+      "title": "2 Voltage imbalance",
+      "tags": [
+        "multi_step_causal_chain",
+        "difficult_layout"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "voltage imbalance",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "excessive current flow",
+            "kind": "phenomenon"
+          },
+          "qualifier": "creates",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "excessive current flow",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "increased operating temperatures",
+            "kind": "phenomenon"
+          },
+          "qualifier": "increases",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "increased operating temperatures",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "insulation breakdown",
+            "kind": "failure_mode"
+          },
+          "qualifier": "leading to",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [
+        {
+          "subject": {
+            "text": "voltage imbalance",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "insulation breakdown",
+            "kind": "failure_mode"
+          },
+          "qualifier": "creates",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P2_B6",
+              "quote": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {
+        "imbalance": "voltage imbalance",
+        "excessive current flow in one or more phases": "excessive current flow"
+      }
+    },
+    {
+      "section_id": "fault-03",
+      "title": "3 Harmonic distortion",
+      "tags": [
+        "simple_causal_relation",
+        "technical_units"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "decrease in motor efficiency",
+            "kind": "phenomenon"
+          },
+          "relation": "LEADS_TO",
+          "object": {
+            "text": "added cost",
+            "kind": "effect"
+          },
+          "qualifier": "results in",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B2",
+              "quote": "Impact: Decrease in motor efficiency results in added cost and an increase in operating temperatures"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-04",
+      "title": "4 Reflections on drive output PWM signals",
+      "tags": [
+        "causal_relation",
+        "ambiguous_diagnostic_scope"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "impedance mismatch between source and load",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "reflections",
+            "kind": "phenomenon"
+          },
+          "qualifier": "when",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B5",
+              "quote": "Variable frequency drives employ a pulse width modulation (PWM) technique to control the output voltage and frequency to a motor. Reflections are generated when there is an impedance mismatch between the source and load. Impedance mismatches can occur as a result of improper installation, improper component selection or equipment degradation over time. In a motor drive circuit, the peak of the reflection could be as high as the DC bus voltage level."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {
+        "impedance mismatch": "impedance mismatch between source and load"
+      }
+    },
+    {
+      "section_id": "fault-05",
+      "title": "5 Sigma current",
+      "tags": [
+        "simple_causal_relation",
+        "difficult_layout"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "protective earth current flow",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "circuit trip",
+            "kind": "failure_mode"
+          },
+          "qualifier": "due to",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P4_B2",
+              "quote": "Impact: Mysterious circuit trip due to protective earth current flow"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-06",
+      "title": "6 Operational overloads",
+      "tags": [
+        "symptoms",
+        "role_distinction"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "motor overload",
+            "kind": "failure_mode"
+          },
+          "relation": "HAS_SYMPTOM",
+          "object": {
+            "text": "excessive current draw",
+            "kind": "symptom"
+          },
+          "qualifier": "accompany",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P4_B5",
+              "quote": "Motor overload occurs when a motor is under excessive load. The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating. Excessive motor heat is a major cause of motor failure. In the case of an overloaded motor individual motor components including bearings, motor windings, and other components may be working fine, but the motor will continue to run hot. For this reason, it makes sense to begin your troubleshooting by checking for motor overload. Because 30 % of motor failures are caused by overloading, it is important to understand how to measure for and identify motor overloading."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "motor overload",
+            "kind": "failure_mode"
+          },
+          "relation": "HAS_SYMPTOM",
+          "object": {
+            "text": "insufficient torque",
+            "kind": "symptom"
+          },
+          "qualifier": "accompany",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P4_B5",
+              "quote": "Motor overload occurs when a motor is under excessive load. The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating. Excessive motor heat is a major cause of motor failure. In the case of an overloaded motor individual motor components including bearings, motor windings, and other components may be working fine, but the motor will continue to run hot. For this reason, it makes sense to begin your troubleshooting by checking for motor overload. Because 30 % of motor failures are caused by overloading, it is important to understand how to measure for and identify motor overloading."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "motor overload",
+            "kind": "failure_mode"
+          },
+          "relation": "HAS_SYMPTOM",
+          "object": {
+            "text": "overheating",
+            "kind": "symptom"
+          },
+          "qualifier": "accompany",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P4_B5",
+              "quote": "Motor overload occurs when a motor is under excessive load. The primary symptoms that accompany a motor overload are excessive current draw, insufficient torque and overheating. Excessive motor heat is a major cause of motor failure. In the case of an overloaded motor individual motor components including bearings, motor windings, and other components may be working fine, but the motor will continue to run hot. For this reason, it makes sense to begin your troubleshooting by checking for motor overload. Because 30 % of motor failures are caused by overloading, it is important to understand how to measure for and identify motor overloading."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-07",
+      "title": "7 Misalignment",
+      "tags": [
+        "diagnostic_instrument",
+        "maintenance_recommendation",
+        "bullet/list"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "misalignment",
+            "kind": "failure_mode"
+          },
+          "relation": "DETECTED_BY",
+          "object": {
+            "text": "Fluke 810 Vibration Tester",
+            "kind": "detection_method"
+          },
+          "qualifier": "potential",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P5_B3",
+              "quote": "Instrument to measure and diagnose: Fluke 810 Vibration Tester to identify potential misalignment issues, Fluke 830 Laser Shaft Alignment Tool to diagnose and correct misalignment"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "misalignment",
+            "kind": "failure_mode"
+          },
+          "relation": "MITIGATED_BY",
+          "object": {
+            "text": "correction using Fluke 830 Laser Shaft Alignment Tool",
+            "kind": "maintenance_action"
+          },
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P5_B3",
+              "quote": "Instrument to measure and diagnose: Fluke 810 Vibration Tester to identify potential misalignment issues, Fluke 830 Laser Shaft Alignment Tool to diagnose and correct misalignment"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-08",
+      "title": "8 Shaft imbalance",
+      "tags": [
+        "explicit_causal_list",
+        "multi_paragraph_evidence"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "Dirt accumulation",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "Imbalance",
+            "kind": "failure_mode"
+          },
+          "qualifier": "can",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P5_B5",
+              "quote": "Imbalance is a condition of a rotating part where the center of mass does not lie on the axis of rotation. In other words, there is a “heavy spot” somewhere on the rotor. Although you can never com- pletely eliminate motor imbalance, you can identify when it is out of normal range, and take action to rectify the problem. Imbalance can be caused by numerous factors, including:"
+            },
+            {
+              "paragraph_id": "P5_B6",
+              "quote": "• Dirt accumulation • Missing balance weights • Manufacturing variations"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-09",
+      "title": "9 Shaft looseness",
+      "tags": [
+        "bullet/list",
+        "cause_vs_definition"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "excessive clearance between rotating and stationary elements",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "rotating looseness",
+            "kind": "failure_mode"
+          },
+          "qualifier": "is caused by",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B1",
+              "quote": "Looseness occurs when there is excessive clearance between parts. Looseness can occur in several places: • Rotating looseness is caused by excessive clearance between rotating and stationary elements of the machine, such as in a bearing. • Non-rotating looseness happens between two normally stationary parts, such as a foot and a foundation, or a bearing housing and a machine. As with all other sources of vibration, it is important to know how to identify looseness and resolve the issue to avoid losing money. A vibration tester or analyzer can determine whether or not a rotating machine is suffering from looseness."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-10",
+      "title": "10 Bearing wear",
+      "tags": [
+        "explicit_causal_list",
+        "symptoms",
+        "fmea_seed"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "Inadequate or incorrect lubrication",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "bearing failure",
+            "kind": "failure_mode"
+          },
+          "qualifier": "can be caused",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "Shaft misalignment",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "bearing failure",
+            "kind": "failure_mode"
+          },
+          "qualifier": "can be caused",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        },
+        {
+          "subject": {
+            "text": "bearing failure",
+            "kind": "failure_mode"
+          },
+          "relation": "HAS_SYMPTOM",
+          "object": {
+            "text": "increased drag",
+            "kind": "symptom"
+          },
+          "qualifier": "has",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B5",
+              "quote": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {
+        "failed bearing": "bearing failure"
+      }
+    },
+    {
+      "section_id": "fault-11",
+      "title": "11 Soft foot",
+      "tags": [
+        "conditional_context",
+        "bullet/list"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "irregularity in machine mounting feet",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "soft foot",
+            "kind": "failure_mode"
+          },
+          "qualifier": "can be caused",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P7_B1",
+              "quote": "Soft foot refers to a condition in which the mounting feet of a motor or driven component are not even, or the mounting surface upon which the mounting feet sit is not even. This condition can create a frustrating situation in which tightening the mounting bolts on the feet actually introduces new strains and misalignment. Soft foot is often manifested between two diagonally positioned mounting bolts, similar to the way that an uneven chair or table tends to rock in a diagonal direction. There are two kinds of soft foot: • Parallel soft foot—parallel soft foot occurs when one of the mounting feet sits higher than the other three • Angular soft foot—angular soft foot occurs when one of the mounting feet is not parallel or “normal” to the mounting surface. In both cases, soft foot can be caused either by an irregularity in the machine mounting feet, or in the mounting foundation upon which the feet rest. In either case, any soft foot condition must be discovered and remedied before proper shaft alignment can be achieved. A quality laser alignment tool can typically determine whether or not there is a soft foot problem on a particular rotating machine."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-12",
+      "title": "12 Pipe strain",
+      "tags": [
+        "multi_step_causal_chain",
+        "maintenance_recommendation"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "angular or offset force on pump",
+            "kind": "cause"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "motor/pump shaft misalignment",
+            "kind": "failure_mode"
+          },
+          "qualifier": "causes",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P7_B5",
+              "quote": "Pipe strain refers to the condition in which new stresses, strains, and forces, acting on the rest of the equipment and infrastructure transfer backward onto the motor and drive to induce a misalign- ment condition. The most common example of this is in simple motor/pump combinations, where something applies force to the pipeworks such as: • A shift in the foundation • A newly installed valve or other component • An object striking, bending, or simply pressing on a pipe • Broken or lack-of pipe hangers or wall-mounting hardware Those forces can put an angular or offset force on the pump, which in turn causes the motor/pump shaft to be misaligned. For this reason it is important to check machine alignment more than just at the time of installation–precision alignment is a temporary condition that can change over time."
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "fault-13",
+      "title": "13 Shaft voltage",
+      "tags": [
+        "multi_step_causal_chain",
+        "operating_conditions",
+        "diagnostic_instrument"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [],
+      "expected_relations": [
+        {
+          "subject": {
+            "text": "arcing across bearing surfaces",
+            "kind": "phenomenon"
+          },
+          "relation": "CAUSES",
+          "object": {
+            "text": "pitting and fluting",
+            "kind": "failure_mode"
+          },
+          "qualifier": "create",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P8_B12",
+              "quote": "Impact: Arcing across bearing surfaces create pitting and fluting resulting in excessive vibration and eventual bearing failure"
+            }
+          ],
+          "needs_context_review": false,
+          "review_note": "Assistant draft expectation; verify source semantics and role assignment."
+        }
+      ],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels.",
+      "aliases": {}
+    },
+    {
+      "section_id": "strategies",
+      "title": "Four strategies for success",
+      "tags": [
+        "maintenance_recommendation",
+        "bullet/list",
+        "conditional_threshold"
+      ],
+      "review_status": "assistant_draft",
+      "exhaustive": false,
+      "expected_concepts": [
+        {
+          "text": "Document operating condition, machine specifications and performance tolerance ranges",
+          "kind": "maintenance_action"
+        },
+        {
+          "text": "Capture and document critical measurements",
+          "kind": "maintenance_action"
+        }
+      ],
+      "expected_relations": [],
+      "forbidden_relations": [],
+      "notes": "Nonexhaustive; unlisted extra claims need adjudication, not automatic hallucination labels. General recommendations; do not attach them to every fault. Preserve the context-dependent threshold, never make it universal.",
+      "aliases": {}
+    }
+  ],
+  "notes": "Nonexhaustive expected facts. Verify against PDF, edit labels/aliases and add missing facts. Never score this as independent human ground truth. Comparison aliases added after inspecting pilot wording; this is a development reference, not a held-out benchmark. Original reference and first evaluation are preserved.",
+  "relation_aliases": {
+    "LEADS_TO": "CAUSES"
+  },
+  "qualifier_aliases": {
+    "creates": "asserted",
+    "increases": "asserted",
+    "leading to": "asserted",
+    "leads to": "asserted",
+    "results in": "asserted",
+    "has": "asserted",
+    "accompany": "asserted",
+    "is caused by": "asserted",
+    "due to": "asserted",
+    "instrument to measure and diagnose": "asserted",
+    "can be caused": "can",
+    "can generate": "can",
+    "can erode or cause": "can"
+  }
+}

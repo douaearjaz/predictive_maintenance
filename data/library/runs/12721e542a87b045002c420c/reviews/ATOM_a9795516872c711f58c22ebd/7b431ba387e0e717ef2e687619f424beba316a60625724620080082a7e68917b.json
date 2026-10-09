@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_a9795516872c711f58c22ebd",
+  "candidate_hash": "989a6db9600a47b1fb53aafc18e219b462ba781d0efebf60ecb00fd4fc79b4a7",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Lincoln physical page 6 Cause 2a explicitly identifies motor controller failure to operate. Component and failure state supported.",
+  "reviewed_at": "2026-09-15T00:14:45.751777+00:00"
+}

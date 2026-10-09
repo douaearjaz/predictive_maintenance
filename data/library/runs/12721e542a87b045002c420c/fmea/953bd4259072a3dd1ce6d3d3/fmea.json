@@ -1,0 +1,161 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v2",
+  "allow_assistant": true,
+  "run_id": "12721e542a87b045002c420c",
+  "records": [],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_70241d0a2fd0601d48b91ba9",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a9795516872c711f58c22ebd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_4f2381cfd42492abf09a01fd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_693abdb8776b8a66fef81706",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_24e620116b5709a1018bf5bf",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_825ad84e3cf10dde6004c568",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_4cb87335d85843e10127ee8a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_5c23af82cefa1f323d0c789d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1587c8b5b280930c9f80b154",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_c551a4182b5cfbb6c2e65b24",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_e9e3622f927de365887e6d11",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1fc7f06173ae855a0506ec4f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_75b22eb2934e5969c254e18c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_3a4cbb603639f3f03ac2e6f2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e5d40c7c8ba77fdd36203dee",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1e590c0c2bc09b348f118890",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9e8710a0d09fd0a2d93a7bc9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b30cff94173829d731851155",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1e44b0b3a39faef602870b2c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_76aa1f3e7636190ee35008d8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c299acfebda8ba2afb3f87b7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_80928160f0368b376fe083db",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8d4d6a4facf7fb5a551918d5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a22a31de8756b13a7b5d8338",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_98576e2d603c9d61431a8db6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7d004ce496147effb3349d81",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_00351e2076a016e26961305a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_9565136baaa842449b5425e1",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e055ed8cd5fe4b33262cf3fb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_62534d3fbc8eee378c4a4cd2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_22e761a542d9ce58ebf070b0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a1b3b0f2ada62d7747dd3f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_82cbde9f05e0e6ee2f821902",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8d2a1feba9fa341d36372acc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_77506f73874171fc82be4bd6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f9ecebcd66da40061e700854",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T00:11:16.513799+00:00"
+}

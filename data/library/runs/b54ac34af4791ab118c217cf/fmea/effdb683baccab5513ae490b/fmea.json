@@ -1,0 +1,860 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v3",
+  "failure_aliases": {
+    "bearing failure": "bearing failure",
+    "failed bearing": "bearing failure",
+    "defective motor bearings": "bearing failure",
+    "bearings to fail": "bearing failure"
+  },
+  "allow_assistant": true,
+  "run_id": "b54ac34af4791ab118c217cf",
+  "records": [
+    {
+      "fmea_record_id": "FMEA_cfe5d1f97b6889b3cb3c8b22",
+      "section_id": "timken-damage",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "damaged bearing",
+          "original_value": "damaged bearing",
+          "statement_id": "ATOM_9703975396b62ed6201b3224",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "improper storage and handling",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 80,
+              "clean_end": 109,
+              "original_start": 80,
+              "original_end": 109,
+              "original_quote": "improper storage and handling",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "value": "damaged bearing",
+          "original_value": "damaged bearing",
+          "statement_id": "ATOM_63a773250aa608fceab198ca",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "may still be returned to service after repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 212,
+              "clean_end": 274,
+              "original_start": 214,
+              "original_end": 277,
+              "original_quote": "may still be returned to service after \nrepair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "improper storage and handling",
+          "original_value": "improper storage and handling",
+          "statement_id": "ATOM_9703975396b62ed6201b3224",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "improper storage and handling",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 80,
+              "clean_end": 109,
+              "original_start": 80,
+              "original_end": 109,
+              "original_quote": "improper storage and handling",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "repair or refurbishment",
+          "original_value": "repair or refurbishment",
+          "statement_id": "ATOM_63a773250aa608fceab198ca",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "may still be returned to service after repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 212,
+              "clean_end": 274,
+              "original_start": 214,
+              "original_end": 277,
+              "original_quote": "may still be returned to service after \nrepair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_63a773250aa608fceab198ca",
+        "ATOM_9703975396b62ed6201b3224"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_9703975396b62ed6201b3224",
+          "candidate_hash": "fe2ece044f67be62c9cbf8249d003ea7f123b0d4b594194328bc2eceba0b25f4",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken Damaged bearings paragraph says bearings may become damaged through improper storage and handling. Full paragraph resolves the shortened quotation; preserve may.",
+          "reviewed_at": "2026-09-15T00:14:45.735476+00:00"
+        },
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_63a773250aa608fceab198ca",
+          "candidate_hash": "ea6ddf5b805e583ba2571b116cba27a533eb5bda0cef6b40b75cb8d8d52acf1b",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken says damaged/out-of-spec bearings MAY be returned to service after repair/refurbishment. This is a possible source-stated action, not authorization to return a specific bearing to service.",
+          "reviewed_at": "2026-09-15T00:14:45.744921+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_c76b7383c1fe203763e87e25",
+      "section_id": "timken-damage",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "damaged bearing",
+          "original_value": "damaged bearing",
+          "statement_id": "ATOM_cf35cf7bbbdabd7191e5835f",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "normal wear in use",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 121,
+              "clean_end": 139,
+              "original_start": 122,
+              "original_end": 140,
+              "original_quote": "normal wear in use",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        },
+        {
+          "value": "damaged bearing",
+          "original_value": "damaged bearing",
+          "statement_id": "ATOM_63a773250aa608fceab198ca",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "may still be returned to service after repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 212,
+              "clean_end": 274,
+              "original_start": 214,
+              "original_end": 277,
+              "original_quote": "may still be returned to service after \nrepair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "normal wear in use",
+          "original_value": "normal wear in use",
+          "statement_id": "ATOM_cf35cf7bbbdabd7191e5835f",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "normal wear in use",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 121,
+              "clean_end": 139,
+              "original_start": 122,
+              "original_end": 140,
+              "original_quote": "normal wear in use",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "repair or refurbishment",
+          "original_value": "repair or refurbishment",
+          "statement_id": "ATOM_63a773250aa608fceab198ca",
+          "qualifier": "may",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B24",
+              "quote": "may still be returned to service after repair or refurbishment",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-damage",
+              "section": "Damaged bearings",
+              "clean_start": 212,
+              "clean_end": 274,
+              "original_start": 214,
+              "original_end": 277,
+              "original_quote": "may still be returned to service after \nrepair or refurbishment",
+              "bbox": [
+                41.99760055541992,
+                601.0715942382812,
+                293.1300964355469,
+                690.818115234375
+              ],
+              "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+              "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_63a773250aa608fceab198ca",
+        "ATOM_cf35cf7bbbdabd7191e5835f"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_cf35cf7bbbdabd7191e5835f",
+          "candidate_hash": "45336eb3fc6e3f1e76967b10cdb115f0151919fc23617713400939fa88dfcd16",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken same paragraph explicitly includes normal wear in use as an alternative cause of damage. Preserve may and do not create AND/OR logic.",
+          "reviewed_at": "2026-09-15T00:14:45.740020+00:00"
+        },
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_63a773250aa608fceab198ca",
+          "candidate_hash": "ea6ddf5b805e583ba2571b116cba27a533eb5bda0cef6b40b75cb8d8d52acf1b",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken says damaged/out-of-spec bearings MAY be returned to service after repair/refurbishment. This is a possible source-stated action, not authorization to return a specific bearing to service.",
+          "reviewed_at": "2026-09-15T00:14:45.744921+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_51e46966495aeeba343c1ead",
+      "section_id": "timken-repair",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Light rust or corrosion",
+          "original_value": "Light rust or corrosion",
+          "statement_id": "ATOM_3bed7679bf1ef121ae9d471c",
+          "qualifier": "should",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B6",
+              "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit).",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 78,
+              "original_start": 0,
+              "original_end": 79,
+              "original_quote": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit).",
+              "bbox": [
+                308.99884033203125,
+                269.972412109375,
+                560.1600341796875,
+                320.7309265136719
+              ],
+              "source_paragraph_cleaned": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit). As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "source_paragraph_original": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit). As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.\n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "removal with emery paper (240 – 320 # grit)",
+          "original_value": "removal with emery paper (240 – 320 # grit)",
+          "statement_id": "ATOM_3bed7679bf1ef121ae9d471c",
+          "qualifier": "should",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B6",
+              "quote": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit).",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 78,
+              "original_start": 0,
+              "original_end": 79,
+              "original_quote": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit).",
+              "bbox": [
+                308.99884033203125,
+                269.972412109375,
+                560.1600341796875,
+                320.7309265136719
+              ],
+              "source_paragraph_cleaned": "Light rust or corrosion should be removed with emery paper (240 – 320 # grit). As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.",
+              "source_paragraph_original": "Light rust or corrosion should be removed with emery paper \n(240 – 320 # grit). As much of the damage should be removed as \npossible to prevent it from contaminating the bearing when it is \nreturned to service.\n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_3bed7679bf1ef121ae9d471c"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_3bed7679bf1ef121ae9d471c",
+          "candidate_hash": "02a7cd51406238e539466f906a7d7ff16e47276c5083148b8fcd0b05afb58b2a",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken explicitly limits this recommendation to LIGHT rust/corrosion and specifies emery paper 240–320 grit. Wording and scope retained.",
+          "reviewed_at": "2026-09-15T00:14:45.730906+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_60a05ed827846655da88247d",
+      "section_id": "timken-repair",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Small areas of damage on bearing races",
+          "original_value": "Small areas of damage on bearing races",
+          "statement_id": "ATOM_dd944fb48c53ba6d62785103",
+          "qualifier": "can sometimes",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "grinding out the loose metal",
+          "original_value": "grinding out the loose metal",
+          "statement_id": "ATOM_dd944fb48c53ba6d62785103",
+          "qualifier": "can sometimes",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_dd944fb48c53ba6d62785103"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_dd944fb48c53ba6d62785103",
+          "candidate_hash": "c3472cc3f97e071544315fca81a8fafdd0f9b294d804e012090a58f273db12d1",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken physical page 12 Bearing repair limits the recommendation to SMALL areas of damage on races and says can SOMETIMES. Subject and qualifier preserve these limits.",
+          "reviewed_at": "2026-09-15T00:14:45.716346+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_79438b01c8ac72c441d6f95d",
+      "section_id": "timken-repair",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Small areas of damage on the contact surface of the rolling elements",
+          "original_value": "Small areas of damage on the contact surface of the rolling elements",
+          "statement_id": "ATOM_746f878784f5f3466d623b82",
+          "qualifier": "can sometimes",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "grinding out the loose metal",
+          "original_value": "grinding out the loose metal",
+          "statement_id": "ATOM_746f878784f5f3466d623b82",
+          "qualifier": "can sometimes",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 0,
+              "clean_end": 154,
+              "original_start": 0,
+              "original_end": 154,
+              "original_quote": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_746f878784f5f3466d623b82"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_746f878784f5f3466d623b82",
+          "candidate_hash": "d358bea9907e920126d4e25b803aa4596f90fcb4a46882277a7e2b3656e6d78f",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken same repair sentence includes small areas on rolling-element contact surfaces. Can sometimes is preserved. No blanket bearing-repair approval.",
+          "reviewed_at": "2026-09-15T00:14:45.721316+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_d0273a1f4b3b65492c8de740",
+      "section_id": "timken-repair",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "raised or rough areas",
+          "original_value": "raised or rough areas",
+          "statement_id": "ATOM_360127dc050b6c470eb1f110",
+          "qualifier": "should",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 155,
+              "clean_end": 239,
+              "original_start": 155,
+              "original_end": 240,
+              "original_quote": "Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "smoothing flat with grinding and polishing tools",
+          "original_value": "smoothing flat with grinding and polishing tools",
+          "statement_id": "ATOM_360127dc050b6c470eb1f110",
+          "qualifier": "should",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P12_B5",
+              "quote": "Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+              "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+              "page": 12,
+              "section_id": "timken-repair",
+              "section": "Bearing repair",
+              "clean_start": 155,
+              "clean_end": 239,
+              "original_start": 155,
+              "original_end": 240,
+              "original_quote": "Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools.",
+              "bbox": [
+                308.9988098144531,
+                208.98248291015625,
+                560.1505737304688,
+                259.74090576171875
+              ],
+              "source_paragraph_cleaned": "Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal. Any raised or rough areas should be smoothed flat with grinding and polishing tools.",
+              "source_paragraph_original": "Small areas of damage on bearing races, and on the contact sur-\nface of the rolling elements, can sometimes be repaired by grind-\ning out the loose metal. Any raised or rough areas should be \nsmoothed flat with grinding and polishing tools. \n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_360127dc050b6c470eb1f110"
+      ],
+      "reviews": [
+        {
+          "run_id": "b54ac34af4791ab118c217cf",
+          "candidate_id": "ATOM_360127dc050b6c470eb1f110",
+          "candidate_hash": "c63fa12059d7df5aa5eb434d80ded6878efb4ddfec7fd3973d83f743b23ffd01",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Timken Bearing repair explicitly recommends smoothing raised/rough areas with grinding and polishing tools; keep should.",
+          "reviewed_at": "2026-09-15T00:14:45.726358+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_325347485efaf16b317356a7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d0972c25ce7e150244e2900d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_aeeb09d2bfeb635f2076ff0c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_536c021dad26756ed49a6c11",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_972a8c0afa2aa72d92862eed",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_efbfed9ac73f5f9472f6bbf3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9cd0e8ea98b2ab1585568da8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_fce1b5f8df040fdc38ad8709",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b29fdb00fd9b2b9e7dea47f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_42554991b1e580afc3262448",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_882745b31b12548f88a176b6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d2f72f494820ec757b75386c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4290781802573cec9e3dd330",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2336633ccb9ce908530df609",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a2c6bdf2688564b342a3a22",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_da8ea25916b033d49ce15c1f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_86adaf8c0d884d001e4f36c6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_cb23763d59bd4bf396dc1971",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_13ac80bb01eee14a0dba45b5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_476198932693cba172563ed3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_81104206b3c61159ed15c0dd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_782a7423cc77a411ea85679c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_e9f584cf017320de2b3f3cdb",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7e77eface9cdcaffe0bbf760",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_65b4c7d5f6306c6303d873da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_38af60f7fe30df38f833c26f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0b7eefb5a5ab04ea73349ca5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f908f498b303c536edb65d15",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a840c18931182eb081910da4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c150cf391751ec96d7aab3c1",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T08:36:09.278761+00:00"
+}

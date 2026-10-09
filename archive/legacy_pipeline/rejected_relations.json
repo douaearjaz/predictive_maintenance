@@ -1,0 +1,4850 @@
+[
+  {
+    "subject": "Event Log",
+    "predicate": "measuredBy",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or MaintenanceAction"
+  },
+  {
+    "subject": "Machine Availability",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Goal or Maintenance Action"
+  },
+  {
+    "subject": "Unplanned Maintenance",
+    "predicate": "causes",
+    "object": "Failure",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Change Point Detection",
+    "predicate": "measuredBy",
+    "object": "Time Series",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Technique or Technique"
+  },
+  {
+    "subject": "Time Series",
+    "predicate": "measuredBy",
+    "object": "Event Log",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Technique or Sensor"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "degradation",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or failure mode"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "unplanned maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "machine failure",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or failure mode"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "amplitude of vibrations",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or measurement"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "temperature",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "pressure",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or measurement"
+  },
+  {
+    "subject": "vibration monitoring",
+    "predicate": "requiresMaintenance",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or component"
+  },
+  {
+    "subject": "vibration monitoring",
+    "predicate": "partOf",
+    "object": "predictive maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "indicates",
+    "object": "remaining time before failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "event logs",
+    "predicate": "measuredBy",
+    "object": "ATM",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or Machine"
+  },
+  {
+    "subject": "Data Mining",
+    "predicate": "hasFailureMode",
+    "object": "malfunction",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: approach or failure mode"
+  },
+  {
+    "subject": "change point detection",
+    "predicate": "indicates",
+    "object": "malfunction",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "survival analysis",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "autoregressive models",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Markov models",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine learning",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "logs",
+    "predicate": "measuredBy",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: data or component"
+  },
+  {
+    "subject": "data centers",
+    "predicate": "partOf",
+    "object": "location",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "malfunction",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or failure mode"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "malfunction",
+    "predicate": "causes",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "failure",
+    "predicate": "indicates",
+    "object": "anomalies",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "time series",
+    "predicate": "measuredBy",
+    "object": "features",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "features",
+    "predicate": "measuredBy",
+    "object": "time series",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "ROCKET",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "MrSEQL",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Convolutional Network",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Recurrent Network",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Auto-Encoders",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "time series data",
+    "predicate": "indicates",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "event logs",
+    "predicate": "indicates",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine",
+    "predicate": "partOf",
+    "object": "ATM fleet",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or system"
+  },
+  {
+    "subject": "machine",
+    "predicate": "measuredBy",
+    "object": "time series data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or data"
+  },
+  {
+    "subject": "machine",
+    "predicate": "measuredBy",
+    "object": "event logs",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or sensor"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "maintenance actions",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Failure",
+    "predicate": "causes",
+    "object": "Maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Measurement",
+    "predicate": "indicates",
+    "object": "Event",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurement or Event"
+  },
+  {
+    "subject": "Event",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Event or Sensor"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "ATM",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or Machine"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "partOf",
+    "object": "Responsive Duration",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Responsive Duration",
+    "predicate": "partOf",
+    "object": "Predictive Padding",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Time Interval or Time Interval"
+  },
+  {
+    "subject": "Predictive Padding",
+    "predicate": "partOf",
+    "object": "Infected Interval",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Time Interval or Time Interval"
+  },
+  {
+    "subject": "ATM module",
+    "predicate": "partOf",
+    "object": "distribution module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "distribution module",
+    "predicate": "partOf",
+    "object": "ATM module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "storage boxes",
+    "predicate": "partOf",
+    "object": "distribution module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "rolling or suction cup mechanisms",
+    "predicate": "partOf",
+    "object": "distribution module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "exit slot",
+    "predicate": "partOf",
+    "object": "distribution module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: event or action"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "ATM module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: action or component"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "banknote storage boxes",
+    "predicate": "partOf",
+    "object": "distribution module",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "K7",
+    "predicate": "partOf",
+    "object": "banknote storage boxes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "ATMs",
+    "predicate": "hasFailureMode",
+    "object": "failure state",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: components or failure modes"
+  },
+  {
+    "subject": "problems on other modules",
+    "predicate": "causes",
+    "object": "failure state",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: causes or failure modes"
+  },
+  {
+    "subject": "maintenance processes",
+    "predicate": "requiresMaintenance",
+    "object": "hardware component",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance actions or components"
+  },
+  {
+    "subject": "updates",
+    "predicate": "requiresMaintenance",
+    "object": "hardware component",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance actions or components"
+  },
+  {
+    "subject": "withdrawal events",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptoms or Symptoms"
+  },
+  {
+    "subject": "duration of life cycles",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptoms or Symptoms"
+  },
+  {
+    "subject": "mean daily number of withdrawal events",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptoms or Symptoms"
+  },
+  {
+    "subject": "infected interval",
+    "predicate": "detectedBy",
+    "object": "event codes",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "event codes",
+    "predicate": "measuredBy",
+    "object": "hardware component",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: components or components"
+  },
+  {
+    "subject": "distribution module",
+    "predicate": "partOf",
+    "object": "hardware component",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or components"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6000",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6001",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6002",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Restart Process",
+    "predicate": "causes",
+    "object": "Event Code 6000",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Problem Recovery",
+    "predicate": "causes",
+    "object": "Event Code 6000",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Damaged Banknote",
+    "predicate": "causes",
+    "object": "Event Code 6001",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Event Code 6000",
+    "predicate": "indicates",
+    "object": "OK Event",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Event Code 6001",
+    "predicate": "indicates",
+    "object": "Error Event",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Event Code 6002",
+    "predicate": "indicates",
+    "object": "Warning Event",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Event Log",
+    "predicate": "measuredBy",
+    "object": "Resampling Frequency",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "ATM",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or Machine"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "partOf",
+    "object": "data stream",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "ATMs",
+    "predicate": "partOf",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: components or component"
+  },
+  {
+    "subject": "machine",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or component"
+  },
+  {
+    "subject": "unsupervised change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or component"
+  },
+  {
+    "subject": "features",
+    "predicate": "measuredBy",
+    "object": "vector",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: data or measurement"
+  },
+  {
+    "subject": "timestamp",
+    "predicate": "measuredBy",
+    "object": "vector",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vector",
+    "predicate": "measuredBy",
+    "object": "data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or measurement"
+  },
+  {
+    "subject": "data",
+    "predicate": "measuredBy",
+    "object": "life cycle",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or event"
+  },
+  {
+    "subject": "alert",
+    "predicate": "indicates",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "machine",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: action or component"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "causes",
+    "object": "alert",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: action or symptom"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "alert",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "life cycle",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or event"
+  },
+  {
+    "subject": "alert",
+    "predicate": "indicates",
+    "object": "change",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptom or failure mode"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "measuredBy",
+    "object": "features",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or data"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "measuredBy",
+    "object": "time series",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "True Positive",
+    "predicate": "classification",
+    "object": "classification",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "False Positive",
+    "predicate": "classification",
+    "object": "classification",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "False Negative",
+    "predicate": "classification",
+    "object": "classification",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "partOf",
+    "object": "event logs",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: event or sensor"
+  },
+  {
+    "subject": "ATM fleet",
+    "predicate": "partOf",
+    "object": "event logs",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: system or sensor"
+  },
+  {
+    "subject": "change",
+    "predicate": "hasFailureMode",
+    "object": "failure mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "causes",
+    "object": "anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "anomaly",
+    "predicate": "indicates",
+    "object": "alert",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptom or symptom"
+  },
+  {
+    "subject": "padding",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "responsive duration",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "false positive",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "false negative",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "true positive",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "true negative",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Precision",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Recall",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "business constraints",
+    "predicate": "causes",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "partOf",
+    "object": "event log",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "event log",
+    "predicate": "partOf",
+    "object": "ATM fleet",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "algorithm",
+    "predicate": "requires",
+    "object": "parameter",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: method or parameter"
+  },
+  {
+    "subject": "parameter",
+    "predicate": "measuredBy",
+    "object": "metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: parameter or metric"
+  },
+  {
+    "subject": "metric",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Error events",
+    "predicate": "hasFailureMode",
+    "object": "Failure Mode",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Failure Mode or FailureMode"
+  },
+  {
+    "subject": "Distribution module",
+    "predicate": "partOf",
+    "object": "ATMs",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Banknote storage",
+    "predicate": "partOf",
+    "object": "ATMs",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or components"
+  },
+  {
+    "subject": "Life cycles",
+    "predicate": "requiresMaintenance",
+    "object": "Distribution module",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "Distribution module",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Event logs",
+    "predicate": "measuredBy",
+    "object": "Error events",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Threshold",
+    "predicate": "measuredBy",
+    "object": "Error events",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Anomaly",
+    "predicate": "hasFailureMode",
+    "object": "Failure Mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Alert",
+    "predicate": "indicates",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Change point",
+    "predicate": "causes",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Event log",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Life cycle",
+    "predicate": "measuredBy",
+    "object": "Data",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Threshold",
+    "predicate": "measuredBy",
+    "object": "Batch protocol",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Algorithm",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Fuzzy logic system",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Component"
+  },
+  {
+    "subject": "Event log",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Change Point",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Temperature",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Wear and Tear",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Current",
+    "predicate": "indicates",
+    "object": "Insufficient Maintenance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "Cyber-Physical Production System",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or System"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "Data Center",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or System"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Component"
+  },
+  {
+    "subject": "Measurement",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Rolling Element Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Failure",
+    "predicate": "causes",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Anomaly",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Accelerometer",
+    "predicate": "measuredBy",
+    "object": "Vibration Level",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Voltage Sensor",
+    "predicate": "measuredBy",
+    "object": "Voltage",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Speed Sensor",
+    "predicate": "measuredBy",
+    "object": "Speed",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "System",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Filtration Units",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or Components"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Industry 4.0",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "hasFailureMode",
+    "object": "Filtration Units",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or Components"
+  },
+  {
+    "subject": "Corrective Maintenance",
+    "predicate": "causes",
+    "object": "Downtime",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Preventive Maintenance",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Actions or Maintenance Action"
+  },
+  {
+    "subject": "Upper Management",
+    "predicate": "causes",
+    "object": "Low Adoption Rate",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Management",
+    "predicate": "causes",
+    "object": "Low Adoption Rate",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "partOf",
+    "object": "Industry 4.0",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or Concept"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "detectedBy",
+    "object": "Sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Cost-Benefit Analysis",
+    "predicate": "measuredBy",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "Monte Carlo Simulation",
+    "predicate": "measuredBy",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "hasFailureMode",
+    "object": "Filtration Unit",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or component"
+  },
+  {
+    "subject": "Industry 4.0",
+    "predicate": "requires",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "indicates",
+    "object": "Filtration Unit",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or component"
+  },
+  {
+    "subject": "Filtration Unit",
+    "predicate": "measuredBy",
+    "object": "Sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Measurements",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Filtration Unit",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or component"
+  },
+  {
+    "subject": "Filtration Unit",
+    "predicate": "partOf",
+    "object": "Water Treatment Plant",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or System"
+  },
+  {
+    "subject": "Cost-Benefit Analysis",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "Monte Carlo Simulation",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Concept or Maintenance Action"
+  },
+  {
+    "subject": "CITIC Envirotech Ltd",
+    "predicate": "has",
+    "object": "Financial Figures",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Financial Figures",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "faults",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "partOf",
+    "object": "production process",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "real-time remote monitoring",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or symptom"
+  },
+  {
+    "subject": "live tracking",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or symptom"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "indicates",
+    "object": "performance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "cost justifications",
+    "predicate": "causes",
+    "object": "predictive maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "management",
+    "predicate": "causes",
+    "object": "cost justifications",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Emory University Future of IIoT Research Study",
+    "predicate": "detectedBy",
+    "object": "Presenso",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: study or company"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "advanced statistical modeling",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "machine learning",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "predictive analytics",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "statistical modeling",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "time series forecasting",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "machine learning models",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motors",
+    "predicate": "hasFailureMode",
+    "object": "failure modes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Components or Failure Modes"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "measurements",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or Measurements"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or Symptoms"
+  },
+  {
+    "subject": "symptoms",
+    "predicate": "causes",
+    "object": "causes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Symptoms or Causes"
+  },
+  {
+    "subject": "causes",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance actions",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Causes or Maintenance Actions"
+  },
+  {
+    "subject": "motors",
+    "predicate": "partOf",
+    "object": "plant and equipment",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Time",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Temperature",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Pressure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Length",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Mass",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Angle",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Outlier",
+    "predicate": "hasFailureMode",
+    "object": "Outlier",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Gradient",
+    "predicate": "hasFailureMode",
+    "object": "Gradient",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Distance",
+    "predicate": "hasFailureMode",
+    "object": "Distance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Spike",
+    "predicate": "hasFailureMode",
+    "object": "Spike",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Stuck-at",
+    "predicate": "hasFailureMode",
+    "object": "Stuck-at",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "High Noise",
+    "predicate": "hasFailureMode",
+    "object": "High Noise",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Late Deliveries",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Weaknesses of Corrective Maintenance",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Weaknesses of Preventive Maintenance",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Physical Assets",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or Components"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "partOf",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "External Network",
+    "predicate": "detectedBy",
+    "object": "Sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "noise",
+    "predicate": "indicates",
+    "object": "variance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptom or symptom"
+  },
+  {
+    "subject": "variance",
+    "predicate": "indicates",
+    "object": "trend",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: symptom or component"
+  },
+  {
+    "subject": "trend",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "data",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "data",
+    "predicate": "hasFailureMode",
+    "object": "fault",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or failure mode"
+  },
+  {
+    "subject": "fault",
+    "predicate": "causes",
+    "object": "physical malfunction",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: failure mode or cause"
+  },
+  {
+    "subject": "physical malfunction",
+    "predicate": "causes",
+    "object": "variance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: cause or symptom"
+  },
+  {
+    "subject": "threshold",
+    "predicate": "partOf",
+    "object": "rule-based method",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor reading",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "rule-based method",
+    "predicate": "requiresMaintenance",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "estimation-based method",
+    "predicate": "requiresMaintenance",
+    "object": "multiple sensors",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or component"
+  },
+  {
+    "subject": "time-series-based method",
+    "predicate": "requiresMaintenance",
+    "object": "sensor data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or measurement"
+  },
+  {
+    "subject": "learning-based method",
+    "predicate": "requiresMaintenance",
+    "object": "data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or measurement"
+  },
+  {
+    "subject": "domain-specific knowledge",
+    "predicate": "partOf",
+    "object": "rule-based method",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or maintenance action"
+  },
+  {
+    "subject": "sensor data",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "multiple sensors",
+    "predicate": "measuredBy",
+    "object": "sensor data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or measurement"
+  },
+  {
+    "subject": "sensor reading",
+    "predicate": "indicates",
+    "object": "fault signal",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or Symptom"
+  },
+  {
+    "subject": "threshold",
+    "predicate": "hasFailureMode",
+    "object": "fault signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor reading",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "estimation-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "time-series-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "learning-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine learning model",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "financial model",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "data",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "normal behavior",
+    "predicate": "causes",
+    "object": "stationarity",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "normal behavior",
+    "predicate": "causes",
+    "object": "autocorrelation",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "abnormal behavior",
+    "predicate": "causes",
+    "object": "fault signal",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "training data",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "validation data",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine learning model",
+    "predicate": "requiresMaintenance",
+    "object": "predictive maintenance model",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or component"
+  },
+  {
+    "subject": "predictive maintenance model",
+    "predicate": "hasFailureMode",
+    "object": "ultra-filtration stage",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or stage"
+  },
+  {
+    "subject": "ultra-filtration stage",
+    "predicate": "partOf",
+    "object": "water treatment plant",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Allen-Bradley Programmable Logic Controllers (PLCs)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Human Machine Interfaces (HMIs)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Supervisory Control and Data Acquisition (SCADA) workstation",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Historian",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "raw water intake",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "chemical dosing pre-treatment",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "dechlorination using ultraviolet lamps",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "reverse osmosis",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "backwash process",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasStage",
+    "object": "ultra-filtration stage",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "PLCs",
+    "predicate": "partOf",
+    "object": "SCADA system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Human Machine Interfaces (HMIs)",
+    "predicate": "partOf",
+    "object": "SCADA system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Supervisory Control and Data Acquisition (SCADA) workstation",
+    "predicate": "partOf",
+    "object": "SCADA system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Historian",
+    "predicate": "partOf",
+    "object": "SCADA system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Sensor data",
+    "predicate": "measuredBy",
+    "object": "Sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Differential pressure indicator transmitter (DPIT) sensor",
+    "predicate": "measuredBy",
+    "object": "Differential pressure",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensors or Measurements"
+  },
+  {
+    "subject": "Differential pressure indicator transmitter (DPIT) sensor",
+    "predicate": "detectedBy",
+    "object": "SCADA system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Simulation of values",
+    "predicate": "indicates",
+    "object": "Predictive maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Attack scenarios",
+    "predicate": "causes",
+    "object": "Failure Modes",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Excessive noise factor",
+    "predicate": "indicates",
+    "object": "Symptoms",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "PLC code",
+    "predicate": "causes",
+    "object": "Failure Modes",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "DPIT",
+    "predicate": "partOf",
+    "object": "ultra-filtration stage",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or stage"
+  },
+  {
+    "subject": "predictive maintenance models",
+    "predicate": "requiresMaintenance",
+    "object": "DPIT",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: maintenance action or sensor"
+  },
+  {
+    "subject": "Python",
+    "predicate": "measuredBy",
+    "object": "DataFrame",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: programming language or data structure"
+  },
+  {
+    "subject": "timestamp",
+    "predicate": "measuredBy",
+    "object": "Python",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "differential pressure",
+    "predicate": "measuredBy",
+    "object": "DPIT",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "lag features",
+    "predicate": "indicates",
+    "object": "differential pressure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "indicates",
+    "object": "no fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "indicates",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "filtration unit",
+    "predicate": "partOf",
+    "object": "water treatment plant",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "pressure",
+    "predicate": "measuredBy",
+    "object": "sensor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "RMSE",
+    "predicate": "measuredBy",
+    "object": "machine learning models",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: metric or method"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "downtime",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "downtime",
+    "predicate": "indicates",
+    "object": "revenue loss",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: benefit or consequence"
+  },
+  {
+    "subject": "event",
+    "predicate": "detectedBy",
+    "object": "predictive maintenance model",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance model",
+    "predicate": "measuredBy",
+    "object": "RMSE",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or metric"
+  },
+  {
+    "subject": "maintenance cycle",
+    "predicate": "partOf",
+    "object": "predictive maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "period",
+    "predicate": "partOf",
+    "object": "maintenance cycle",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: time unit or schedule"
+  },
+  {
+    "subject": "event",
+    "predicate": "partOf",
+    "object": "maintenance cycle",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "linear regression",
+    "predicate": "performed best on",
+    "object": "RMSE",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or metric"
+  },
+  {
+    "subject": "random forest regressor",
+    "predicate": "ranked second on",
+    "object": "RMSE",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or metric"
+  },
+  {
+    "subject": "gradient boosting regressor",
+    "predicate": "ranked last on",
+    "object": "RMSE",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or metric"
+  },
+  {
+    "subject": "differential pressure indicating transmitter",
+    "predicate": "indicates",
+    "object": "pressure values",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or measurement"
+  },
+  {
+    "subject": "pressure values",
+    "predicate": "measured by",
+    "object": "differential pressure indicating transmitter",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or sensor"
+  },
+  {
+    "subject": "maintenance actions",
+    "predicate": "requires",
+    "object": "differential pressure indicating transmitter",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Actions or sensor"
+  },
+  {
+    "subject": "maintenance actions",
+    "predicate": "requires",
+    "object": "water treatment plant",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "has",
+    "object": "differential pressure indicating transmitter",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "equipment",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "indicates",
+    "object": "pressure value exceeding its limit",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "pressure value exceeding its limit",
+    "predicate": "hasFailureMode",
+    "object": "rapid failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "detectedBy",
+    "object": "measurements",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "pressure value",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or component"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "causes",
+    "object": "halt the system to prevent further damage",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "halt the system to prevent further damage",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "partOf",
+    "object": "predictive maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "cost-benefit analysis",
+    "predicate": "indicates",
+    "object": "relevant costs",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "relevant costs",
+    "predicate": "excluded",
+    "object": "sunk costs",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "project",
+    "predicate": "hasFailureMode",
+    "object": "downtime",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or benefit"
+  },
+  {
+    "subject": "project",
+    "predicate": "hasFailureMode",
+    "object": "loss of revenue",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or symptom"
+  },
+  {
+    "subject": "filtration unit",
+    "predicate": "hasFailureMode",
+    "object": "rapid rise in pressure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sampling bias",
+    "predicate": "causes",
+    "object": "biased point estimate",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "lack of detailed information",
+    "predicate": "causes",
+    "object": "biased point estimate",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "machine learning model",
+    "predicate": "indicates",
+    "object": "fault detection",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "pressure sensor",
+    "predicate": "measuredBy",
+    "object": "pressure measurement",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or measurement"
+  },
+  {
+    "subject": "temperature sensor",
+    "predicate": "measuredBy",
+    "object": "temperature measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vibration sensor",
+    "predicate": "measuredBy",
+    "object": "vibration measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "predictive maintenance program",
+    "predicate": "requiresMaintenance",
+    "object": "filtration unit",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "cost-benefit analysis",
+    "predicate": "requiresMaintenance",
+    "object": "predictive maintenance program",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "filtration unit",
+    "predicate": "partOf",
+    "object": "water treatment plant",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Overheating",
+    "predicate": "indicates",
+    "object": "Failure",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Component"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Component"
+  },
+  {
+    "subject": "Vibration Measurement",
+    "predicate": "detectedBy",
+    "object": "Vibration Sensor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "Temperature Measurement",
+    "predicate": "detectedBy",
+    "object": "Temperature Sensor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Fault Type",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or FailureMode"
+  },
+  {
+    "subject": "Sensor Network",
+    "predicate": "measuredBy",
+    "object": "Fault Type",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or FailureMode"
+  },
+  {
+    "subject": "Sensor Network",
+    "predicate": "measuredBy",
+    "object": "Outlier",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Early Failure Detection",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or MaintenanceAction"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Fault Detection",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or MaintenanceAction"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Predictive Maintenance",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Calibration",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or MaintenanceAction"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "causes",
+    "object": "Outlier",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "indicates",
+    "object": "Symptom",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Calibration",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or MaintenanceAction"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Fault Detection",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Component or MaintenanceAction"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "Sensor Network",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Component"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "failure mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "cause",
+    "predicate": "causes",
+    "object": "failure mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "symptom",
+    "predicate": "indicates",
+    "object": "failure mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "maintenance action",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "partOf",
+    "object": "system",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "detectedBy",
+    "object": "maintenance action",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Overheating",
+    "predicate": "hasFailureMode",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Wear and Tear",
+    "predicate": "causes",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Corrosion",
+    "predicate": "causes",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Insufficient Maintenance",
+    "predicate": "causes",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Increased Temperature",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Measurement-Failure Mode"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "detectedBy",
+    "object": "Vibration",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "detectedBy",
+    "object": "Increased Temperature",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "detectedBy",
+    "object": "Current Measurement",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "bearing",
+    "predicate": "hasFailureMode",
+    "object": "wear",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "shaft",
+    "predicate": "hasFailureMode",
+    "object": "overload",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or cause"
+  },
+  {
+    "subject": "lubrication",
+    "predicate": "hasFailureMode",
+    "object": "lubrication failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "wear",
+    "predicate": "causes",
+    "object": "vibration",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "overload",
+    "predicate": "causes",
+    "object": "vibration",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "lubrication failure",
+    "predicate": "causes",
+    "object": "temperature",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vibration",
+    "predicate": "indicates",
+    "object": "bearing failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "temperature",
+    "predicate": "indicates",
+    "object": "lubrication failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "noise",
+    "predicate": "indicates",
+    "object": "shaft failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "accelerometer",
+    "predicate": "measuredBy",
+    "object": "vibration measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "thermocouple",
+    "predicate": "measuredBy",
+    "object": "temperature measurement",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "microphone",
+    "predicate": "measuredBy",
+    "object": "noise measurement",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or measurement"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "bearing",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: action or component"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "shaft",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: action or component"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "lubrication",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "inspection",
+    "predicate": "partOf",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "replacement",
+    "predicate": "partOf",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "accelerometer",
+    "predicate": "detectedBy",
+    "object": "vibration",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "thermocouple",
+    "predicate": "detectedBy",
+    "object": "temperature",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "microphone",
+    "predicate": "detectedBy",
+    "object": "noise",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or symptom"
+  },
+  {
+    "subject": "motors",
+    "predicate": "hasFailureMode",
+    "object": "failure modes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Components or Failure Modes"
+  },
+  {
+    "subject": "failure modes",
+    "predicate": "causes",
+    "object": "symptoms",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Failure Modes or Symptoms"
+  },
+  {
+    "subject": "symptoms",
+    "predicate": "indicates",
+    "object": "causes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Symptoms or Causes"
+  },
+  {
+    "subject": "causes",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance actions",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Causes or Maintenance Actions"
+  },
+  {
+    "subject": "maintenance actions",
+    "predicate": "partOf",
+    "object": "digital twin",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "digital twin",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "measurements",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or Measurements"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "detectedBy",
+    "object": "field inspections",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or field inspections"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "detectedBy",
+    "object": "on-site monitoring",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or on-site monitoring"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Bearing failure",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Faulty bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Normal bearing",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "partOf",
+    "object": "Rotating machinery",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "measuredBy",
+    "object": "Vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Vibration signal",
+    "predicate": "measuredBy",
+    "object": "Fast Fourier transformation (FFT)",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Fast Fourier transformation (FFT)",
+    "predicate": "measuredBy",
+    "object": "Maximum mean discrepancy (MMD)",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Maximum mean discrepancy (MMD)",
+    "predicate": "measuredBy",
+    "object": "Nearest-Neighbor (NN)",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurement or Algorithm"
+  },
+  {
+    "subject": "Nearest-Neighbor (NN)",
+    "predicate": "requiresMaintenance",
+    "object": "Bearing",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Domain adaptation using transferable features (DATF)",
+    "predicate": "causes",
+    "object": "Improved performance of bearing fault diagnosis",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "partOf",
+    "object": "rotating machinery",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "cracks",
+    "predicate": "hasFailureMode",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "spalls",
+    "predicate": "hasFailureMode",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vibration signal",
+    "predicate": "indicates",
+    "object": "bearing faults",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor speeds",
+    "predicate": "causes",
+    "object": "bearing faults",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Causes or Failure Modes"
+  },
+  {
+    "subject": "load conditions",
+    "predicate": "causes",
+    "object": "bearing faults",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Causes or Failure Modes"
+  },
+  {
+    "subject": "NN classiﬁer",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "maximum mean discrepancy (MMD)",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Nearest-Neighbor (NN) classiﬁer",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "bearing faults",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Failure Modes or action"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "detectedBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "hasFailureMode",
+    "object": "cracks",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "hasFailureMode",
+    "object": "spalls",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vibration signal",
+    "predicate": "indicates",
+    "object": "operating state of bearing",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "genetic algorithm-based SVM (GA-SVM) model",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "DWT and ANN",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "PCA",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "time-domain statistical analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "frequency-domain analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "time-frequency domain analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "heavy casualties",
+    "predicate": "causes",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "vibration signals",
+    "predicate": "measuredBy",
+    "object": "sensor signals",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "time-domain statistical analysis",
+    "predicate": "indicates",
+    "object": "fault data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Actions or component"
+  },
+  {
+    "subject": "frequency-domain analysis",
+    "predicate": "indicates",
+    "object": "fault data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Actions or component"
+  },
+  {
+    "subject": "time-frequency domain analysis",
+    "predicate": "indicates",
+    "object": "fault data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Actions or component"
+  },
+  {
+    "subject": "principal component analysis (PCA)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: technique or component"
+  },
+  {
+    "subject": "locally linear embedding (LLE)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: technique or component"
+  },
+  {
+    "subject": "linear discriminant analysis (LDA)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: technique or component"
+  },
+  {
+    "subject": "nearest-neighbor (NN)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "support vector machine (SVM)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: classifier or component"
+  },
+  {
+    "subject": "artiﬁcial neural networks (ANN)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: classifier or component"
+  },
+  {
+    "subject": "roller bearing",
+    "predicate": "hasFailureMode",
+    "object": "fault data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "fault data",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "fault data",
+    "predicate": "causes",
+    "object": "classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "requiresMaintenance",
+    "object": "roller bearing",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "trained on",
+    "object": "training data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or Measurement"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "applied to",
+    "object": "test data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or data"
+  },
+  {
+    "subject": "test data",
+    "predicate": "collected under",
+    "object": "different motor speed and load",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "training data",
+    "predicate": "collected under",
+    "object": "certain motor speed and load",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "performs poorly on",
+    "object": "test domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or condition"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "achieves high accuracy on",
+    "object": "training domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or condition"
+  },
+  {
+    "subject": "distribution",
+    "predicate": "differs between",
+    "object": "training domain and test domain",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "features",
+    "predicate": "cannot represent",
+    "object": "another domain",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "can be considered",
+    "object": "a solution to recalibration effort",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "diagnosis model",
+    "predicate": "trained in",
+    "object": "training domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or condition"
+  },
+  {
+    "subject": "diagnosis model",
+    "predicate": "refined in",
+    "object": "test domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or condition"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "part of",
+    "object": "transfer learning",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: concept or method"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "applied to",
+    "object": "distribution divergences",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: concept or concept"
+  },
+  {
+    "subject": "Maximum mean discrepancy",
+    "predicate": "applied to",
+    "object": "distribution divergences",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: method or concept"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "built in",
+    "object": "training domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or condition"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "refined in",
+    "object": "test domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or condition"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "built with",
+    "object": "transferable features",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: model or Measurements"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "learnt from",
+    "object": "training domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or condition"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "learnt from",
+    "object": "test domain",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or condition"
+  },
+  {
+    "subject": "bearing faults",
+    "predicate": "identified by",
+    "object": "nearest-neighbor classiﬁer",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Failure Modes or model"
+  },
+  {
+    "subject": "faulty bearings",
+    "predicate": "has failure mode",
+    "object": "bearing faults",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "normal bearing",
+    "predicate": "has failure mode",
+    "object": "bearing faults",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motors",
+    "predicate": "hasFailureMode",
+    "object": "faults",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Components or failure mode"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "hasFailureMode",
+    "object": "faults",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "working conditions",
+    "predicate": "causes",
+    "object": "faults",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: causes or failure mode"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "requiresMaintenance",
+    "object": "motors",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: concept or Components"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "measuredBy",
+    "object": "NN classifier",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurements or sensors"
+  },
+  {
+    "subject": "motors",
+    "predicate": "partOf",
+    "object": "bearings",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Distribution",
+    "predicate": "measuredBy",
+    "object": "Feature Space",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Training Domain",
+    "predicate": "hasDistribution",
+    "object": "P(Xtr)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Test Domain",
+    "predicate": "hasDistribution",
+    "object": "Q(Xte)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Training Domain",
+    "predicate": "hasConditionalDistribution",
+    "object": "P(Ytr|Xtr)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Test Domain",
+    "predicate": "hasConditionalDistribution",
+    "object": "Q(Yte|Xte)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Model",
+    "predicate": "requiresMaintenance",
+    "object": "Bearing",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Maximum Mean Discrepancy",
+    "predicate": "measuredBy",
+    "object": "Distribution",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "bearing",
+    "predicate": "hasFailureMode",
+    "object": "fault",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or failure mode"
+  },
+  {
+    "subject": "working conditions",
+    "predicate": "causes",
+    "object": "fault",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: causes or failure mode"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "requiresMaintenance",
+    "object": "bearing",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: concept or component"
+  },
+  {
+    "subject": "MMD",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or measurement"
+  },
+  {
+    "subject": "adaptation matrix",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or measurement"
+  },
+  {
+    "subject": "source instances",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or measurement"
+  },
+  {
+    "subject": "target instances",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or measurement"
+  },
+  {
+    "subject": "k-dimensional embedding",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or measurement"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Inner race fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Ball fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Outer race fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Normal condition",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Vibration signals",
+    "predicate": "measuredBy",
+    "object": "PCA",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Vibration signals",
+    "predicate": "measuredBy",
+    "object": "FFT",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Training domain",
+    "predicate": "requiresMaintenance",
+    "object": "Model revision",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Test domain",
+    "predicate": "requiresMaintenance",
+    "object": "Model revision",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Data acquisition",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or MaintenanceAction"
+  },
+  {
+    "subject": "Model revision",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Maintenance Action or MaintenanceAction"
+  },
+  {
+    "subject": "Pseudo-label",
+    "predicate": "indicates",
+    "object": "Failure Mode",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Measurement or FailureMode"
+  },
+  {
+    "subject": "Inner race fault",
+    "predicate": "hasFailureMode",
+    "object": "Outer race fault",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Ball fault",
+    "predicate": "hasFailureMode",
+    "object": "Outer race fault",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Failure Mode"
+  },
+  {
+    "subject": "Inner race fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Ball fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Outer race fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "FFT amplitudes",
+    "predicate": "measuredBy",
+    "object": "Vibration signal",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Inner race fault",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Ball fault",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Outer race fault",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Component-Maintenance Action"
+  },
+  {
+    "subject": "Vibration signal",
+    "predicate": "detectedBy",
+    "object": "FFT amplitudes",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch: expected Failure Mode-Sensor"
+  },
+  {
+    "subject": "FFT",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or component"
+  },
+  {
+    "subject": "PCA",
+    "predicate": "partOf",
+    "object": "feature space",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "MATLAB",
+    "predicate": "requiresMaintenance",
+    "object": "FFT",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: software or Sensor"
+  },
+  {
+    "subject": "raw time series",
+    "predicate": "measuredBy",
+    "object": "amplitudes",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or measurement"
+  },
+  {
+    "subject": "amplitudes",
+    "predicate": "indicates",
+    "object": "fault types",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: measurement or failure mode"
+  },
+  {
+    "subject": "fault types",
+    "predicate": "hasFailureMode",
+    "object": "failure mode",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "identity matrix",
+    "predicate": "partOf",
+    "object": "optimization problem",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "ones vectors",
+    "predicate": "partOf",
+    "object": "optimization problem",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "optimization problem",
+    "predicate": "requiresMaintenance",
+    "object": "MMD",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or sensor"
+  },
+  {
+    "subject": "MMD",
+    "predicate": "partOf",
+    "object": "distance measures",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: sensor or component"
+  },
+  {
+    "subject": "distance measures",
+    "predicate": "measuredBy",
+    "object": "marginal distribution",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "marginal distribution",
+    "predicate": "hasFailureMode",
+    "object": "marginal distribution",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: component or component"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "inner-race faults (IF)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "outer-race faults (OF)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "motor",
+    "predicate": "hasFailureMode",
+    "object": "ball fault (BF)",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "accelerometers",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or component"
+  },
+  {
+    "subject": "torque sensor/encoder",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or component"
+  },
+  {
+    "subject": "power meter",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Sensor or component"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "measuredBy",
+    "object": "Drive End Bearing Fault Data",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: data_source or Measurement"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "measuredBy",
+    "object": "12kHz",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: data_source or Measurement"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Drive End Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Fault",
+    "predicate": "causes",
+    "object": "Vibration Data",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Vibration Data",
+    "predicate": "indicates",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "FFT",
+    "predicate": "measuredBy",
+    "object": "Vibration Data",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "DATF",
+    "predicate": "requiresMaintenance",
+    "object": "Drive End Bearing",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: algorithm or Component"
+  },
+  {
+    "subject": "k",
+    "predicate": "partOf",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Parameter or algorithm"
+  },
+  {
+    "subject": "λ",
+    "predicate": "partOf",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Parameter or algorithm"
+  },
+  {
+    "subject": "Load",
+    "predicate": "causes",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Training Domain",
+    "predicate": "causes",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "Test Domain",
+    "predicate": "causes",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "hp",
+    "predicate": "measuredBy",
+    "object": "Load",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "rpm",
+    "predicate": "measuredBy",
+    "object": "Load",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "kHz",
+    "predicate": "measuredBy",
+    "object": "Vibration Data",
+    "valid": false,
+    "confidence": 0.5,
+    "reason": "Type mismatch"
+  },
+  {
+    "subject": "in",
+    "predicate": "measuredBy",
+    "object": "Fault",
+    "valid": false,
+    "confidence": 0.0,
+    "reason": "Missing entity in index"
+  },
+  {
+    "subject": "L0",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "causes",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L0",
+    "predicate": "causes",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "causes",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L1",
+    "predicate": "causes",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "causes",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L2",
+    "predicate": "causes",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "causes",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L3",
+    "predicate": "causes",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "indicates",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L0",
+    "predicate": "indicates",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "indicates",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L1",
+    "predicate": "indicates",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "indicates",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L2",
+    "predicate": "indicates",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "indicates",
+    "object": "A",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or matrix"
+  },
+  {
+    "subject": "L3",
+    "predicate": "indicates",
+    "object": "SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or algorithm"
+  },
+  {
+    "subject": "L0",
+    "predicate": "requiresMaintenance",
+    "object": "L0",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Fault"
+  },
+  {
+    "subject": "L1",
+    "predicate": "requiresMaintenance",
+    "object": "L1",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Fault"
+  },
+  {
+    "subject": "L2",
+    "predicate": "requiresMaintenance",
+    "object": "L2",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Fault"
+  },
+  {
+    "subject": "L3",
+    "predicate": "requiresMaintenance",
+    "object": "L3",
+    "valid": false,
+    "confidence": 0.2,
+    "reason": "Invalid type: Fault or Fault"
+  }
+]

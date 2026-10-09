@@ -1,0 +1,121 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v2",
+  "allow_assistant": true,
+  "run_id": "2cc983acb246bd929a89ac82",
+  "records": [],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_4cbd50df41fcbdb3ed5be13e",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_2b9b6283b7458f9090fb2031",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_73b9e02febb78923708b56bd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_57855ddedb1e79d9960907de",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7958a50044d1444e56476dde",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b44b0dc654fe80e5007a4799",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_27cd90f90e7302652c53d5b8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ef07cec9dd11e2e983076b5d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_b9c9e1b5908f492ea4e30c6a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_77175bb3fecfd4422d0f009a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_cce35789dca425e671b241fb",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_faa523909166cea60d9bdbdb",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_6a5984c667b8c85ea916f145",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_fa11696f7fe1fc7713b4aab2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7a468e7328e3761c83d62942",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c4c0d949763057168543b878",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_7a2728ddc274ac0d5c0a233f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b44d99b7e18024c57be2e40c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ebb7b8038b50495be691cad2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_fa2440dd31ecef1f380f998d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_502292ce3aab984f90e12ae9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_ad2313fd3d45acd2ac727e0c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0ac1cf6efe476acfb5b58e42",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_3dd93359052ad14494d279a2",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_3cac53691a57b2512a884c41",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_ed712fc1e408080e87fa8e5e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4b5146d5a81741a181cede84",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_58e8d2577900383806991351",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T00:11:16.533332+00:00"
+}

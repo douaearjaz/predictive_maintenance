@@ -1,0 +1,2085 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "source_kind": "llm",
+  "responses": 3,
+  "total_sections": 3,
+  "missing_sections": [],
+  "results": [
+    {
+      "section_id": "abb-start-fuses",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_4cbd50df41fcbdb3ed5be13e",
+          "section_id": "abb-start-fuses",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "relation": "HAS_FAILURE_MODE",
+            "object": {
+              "text": "Motor fails to start",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "relation": "HAS_FAILURE_MODE",
+            "object": {
+              "text": "Motor fails to start",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Motor fails to start",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 0,
+              "clean_end": 20,
+              "original_start": 0,
+              "original_end": 20,
+              "original_quote": "Motor fails to start",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_2b9b6283b7458f9090fb2031",
+          "section_id": "abb-start-fuses",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor fails to start",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Blown fuses"
+              },
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor fails to start",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Blown fuses"
+              },
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Blown fuses",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 21,
+              "clean_end": 32,
+              "original_start": 21,
+              "original_end": 32,
+              "original_quote": "Blown fuses",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            },
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Motor fails to start",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 0,
+              "clean_end": 20,
+              "original_start": 0,
+              "original_end": 20,
+              "original_quote": "Motor fails to start",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_73b9e02febb78923708b56bd",
+          "section_id": "abb-start-fuses",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace fuses with proper type and rating.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Replace fuses with proper type and rating."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Replace fuses with proper type and rating.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Replace fuses with proper type and rating."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Replace fuses with proper type and rating.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 33,
+              "clean_end": 75,
+              "original_start": 33,
+              "original_end": 75,
+              "original_quote": "Replace fuses with proper type and rating.",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_57855ddedb1e79d9960907de",
+          "section_id": "abb-start-fuses",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Motor fails to start"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Motor fails to start",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 0,
+              "clean_end": 20,
+              "original_start": 0,
+              "original_end": 20,
+              "original_quote": "Motor fails to start",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7958a50044d1444e56476dde",
+          "section_id": "abb-start-fuses",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Blown fuses"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Blown fuses",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Blown fuses"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Blown fuses",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 21,
+              "clean_end": 32,
+              "original_start": 21,
+              "original_end": 32,
+              "original_quote": "Blown fuses",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b44b0dc654fe80e5007a4799",
+          "section_id": "abb-start-fuses",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Replace fuses with proper type and rating.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Replace fuses with proper type and rating."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Replace fuses with proper type and rating.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B6",
+                "quote": "Replace fuses with proper type and rating."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B6",
+              "quote": "Replace fuses with proper type and rating.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-start-fuses",
+              "section": "Motor fails to start — fuses",
+              "clean_start": 33,
+              "clean_end": 75,
+              "original_start": 33,
+              "original_end": 75,
+              "original_quote": "Replace fuses with proper type and rating.",
+              "bbox": [
+                129.92129516601562,
+                327.0812072753906,
+                519.0681762695312,
+                335.97821044921875
+              ],
+              "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+              "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "abb-stalls",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_27cd90f90e7302652c53d5b8",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "One phase may be open"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "may",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "One phase may be open"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "One phase may be open",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 13,
+              "clean_end": 34,
+              "original_start": 13,
+              "original_end": 34,
+              "original_quote": "One phase may be open",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            },
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Motor stalls",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 12,
+              "original_start": 0,
+              "original_end": 12,
+              "original_quote": "Motor stalls",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_ef07cec9dd11e2e983076b5d",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Check lines for open phase.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Check lines for open phase."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Check lines for open phase.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Check lines for open phase."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Check lines for open phase.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 35,
+              "clean_end": 62,
+              "original_start": 35,
+              "original_end": 62,
+              "original_quote": "Check lines for open phase.",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b9c9e1b5908f492ea4e30c6a",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Wrong application"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "record": {
+            "subject": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Wrong application"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "context_association_requires_review"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B17",
+              "quote": "Wrong application",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 17,
+              "original_start": 0,
+              "original_end": 17,
+              "original_quote": "Wrong application",
+              "bbox": [
+                211.87811279296875,
+                534.7867431640625,
+                534.595703125,
+                543.3617553710938
+              ],
+              "source_paragraph_cleaned": "Wrong application Change type or size. Consult equipment supplier.",
+              "source_paragraph_original": "Wrong application\nChange type or size. Consult equipment supplier.\n"
+            },
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Motor stalls",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 12,
+              "original_start": 0,
+              "original_end": 12,
+              "original_quote": "Motor stalls",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_77175bb3fecfd4422d0f009a",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Change type or size. Consult equipment supplier.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Change type or size. Consult equipment supplier."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Change type or size. Consult equipment supplier.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Change type or size. Consult equipment supplier."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B17",
+              "quote": "Change type or size. Consult equipment supplier.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 18,
+              "clean_end": 66,
+              "original_start": 18,
+              "original_end": 66,
+              "original_quote": "Change type or size. Consult equipment supplier.",
+              "bbox": [
+                211.87811279296875,
+                534.7867431640625,
+                534.595703125,
+                543.3617553710938
+              ],
+              "source_paragraph_cleaned": "Wrong application Change type or size. Consult equipment supplier.",
+              "source_paragraph_original": "Wrong application\nChange type or size. Consult equipment supplier.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_cce35789dca425e671b241fb",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Overload"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "record": {
+            "subject": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Overload"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "context_association_requires_review"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B18",
+              "quote": "Overload",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 8,
+              "original_start": 0,
+              "original_end": 8,
+              "original_quote": "Overload",
+              "bbox": [
+                211.87811279296875,
+                547.2607421875,
+                418.0400085449219,
+                555.8357543945312
+              ],
+              "source_paragraph_cleaned": "Overload Reduce load.",
+              "source_paragraph_original": "Overload\nReduce load.\n"
+            },
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Motor stalls",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 12,
+              "original_start": 0,
+              "original_end": 12,
+              "original_quote": "Motor stalls",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_faa523909166cea60d9bdbdb",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Reduce load.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Reduce load."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Reduce load.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Reduce load."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B18",
+              "quote": "Reduce load.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 9,
+              "clean_end": 21,
+              "original_start": 9,
+              "original_end": 21,
+              "original_quote": "Reduce load.",
+              "bbox": [
+                211.87811279296875,
+                547.2607421875,
+                418.0400085449219,
+                555.8357543945312
+              ],
+              "source_paragraph_cleaned": "Overload Reduce load.",
+              "source_paragraph_original": "Overload\nReduce load.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_6a5984c667b8c85ea916f145",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Low voltage"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "record": {
+            "subject": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Low voltage"
+              },
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ],
+            "needs_context_review": true,
+            "review_note": "Relation inferred from table heading"
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "context_association_requires_review"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B19",
+              "quote": "Low voltage",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 11,
+              "original_start": 0,
+              "original_end": 11,
+              "original_quote": "Low voltage",
+              "bbox": [
+                211.87811279296875,
+                559.7347412109375,
+                530.62890625,
+                577.3117065429688
+              ],
+              "source_paragraph_cleaned": "Low voltage Ensure the rating plate voltage is maintained. Check connection.",
+              "source_paragraph_original": "Low voltage\nEnsure the rating plate voltage is maintained. \nCheck connection.\n"
+            },
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Motor stalls",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 12,
+              "original_start": 0,
+              "original_end": 12,
+              "original_quote": "Motor stalls",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_fa11696f7fe1fc7713b4aab2",
+          "section_id": "abb-stalls",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Ensure the rating plate voltage is maintained. Check connection.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Ensure the rating plate voltage is maintained. Check connection."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Ensure the rating plate voltage is maintained. Check connection.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Ensure the rating plate voltage is maintained. Check connection."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B19",
+              "quote": "Ensure the rating plate voltage is maintained. Check connection.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 12,
+              "clean_end": 76,
+              "original_start": 12,
+              "original_end": 77,
+              "original_quote": "Ensure the rating plate voltage is maintained. \nCheck connection.",
+              "bbox": [
+                211.87811279296875,
+                559.7347412109375,
+                530.62890625,
+                577.3117065429688
+              ],
+              "source_paragraph_cleaned": "Low voltage Ensure the rating plate voltage is maintained. Check connection.",
+              "source_paragraph_original": "Low voltage\nEnsure the rating plate voltage is maintained. \nCheck connection.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7a468e7328e3761c83d62942",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor stalls",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Motor stalls"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Motor stalls",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 12,
+              "original_start": 0,
+              "original_end": 12,
+              "original_quote": "Motor stalls",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_c4c0d949763057168543b878",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "One phase may be open"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "One phase may be open",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "One phase may be open"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "One phase may be open",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 13,
+              "clean_end": 34,
+              "original_start": 13,
+              "original_end": 34,
+              "original_quote": "One phase may be open",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7a2728ddc274ac0d5c0a233f",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Check lines for open phase.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Check lines for open phase."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Check lines for open phase.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B16",
+                "quote": "Check lines for open phase."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B16",
+              "quote": "Check lines for open phase.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 35,
+              "clean_end": 62,
+              "original_start": 35,
+              "original_end": 62,
+              "original_quote": "Check lines for open phase.",
+              "bbox": [
+                129.922119140625,
+                522.1167602539062,
+                467.7701416015625,
+                531.0137329101562
+              ],
+              "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+              "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b44d99b7e18024c57be2e40c",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Wrong application"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Wrong application",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Wrong application"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B17",
+              "quote": "Wrong application",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 17,
+              "original_start": 0,
+              "original_end": 17,
+              "original_quote": "Wrong application",
+              "bbox": [
+                211.87811279296875,
+                534.7867431640625,
+                534.595703125,
+                543.3617553710938
+              ],
+              "source_paragraph_cleaned": "Wrong application Change type or size. Consult equipment supplier.",
+              "source_paragraph_original": "Wrong application\nChange type or size. Consult equipment supplier.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_ebb7b8038b50495be691cad2",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Change type or size. Consult equipment supplier.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Change type or size. Consult equipment supplier."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Change type or size. Consult equipment supplier.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B17",
+                "quote": "Change type or size. Consult equipment supplier."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B17",
+              "quote": "Change type or size. Consult equipment supplier.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 18,
+              "clean_end": 66,
+              "original_start": 18,
+              "original_end": 66,
+              "original_quote": "Change type or size. Consult equipment supplier.",
+              "bbox": [
+                211.87811279296875,
+                534.7867431640625,
+                534.595703125,
+                543.3617553710938
+              ],
+              "source_paragraph_cleaned": "Wrong application Change type or size. Consult equipment supplier.",
+              "source_paragraph_original": "Wrong application\nChange type or size. Consult equipment supplier.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_fa2440dd31ecef1f380f998d",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Overload"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Overload",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Overload"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B18",
+              "quote": "Overload",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 8,
+              "original_start": 0,
+              "original_end": 8,
+              "original_quote": "Overload",
+              "bbox": [
+                211.87811279296875,
+                547.2607421875,
+                418.0400085449219,
+                555.8357543945312
+              ],
+              "source_paragraph_cleaned": "Overload Reduce load.",
+              "source_paragraph_original": "Overload\nReduce load.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_502292ce3aab984f90e12ae9",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Reduce load.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Reduce load."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Reduce load.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B18",
+                "quote": "Reduce load."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B18",
+              "quote": "Reduce load.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 9,
+              "clean_end": 21,
+              "original_start": 9,
+              "original_end": 21,
+              "original_quote": "Reduce load.",
+              "bbox": [
+                211.87811279296875,
+                547.2607421875,
+                418.0400085449219,
+                555.8357543945312
+              ],
+              "source_paragraph_cleaned": "Overload Reduce load.",
+              "source_paragraph_original": "Overload\nReduce load.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_ad2313fd3d45acd2ac727e0c",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Low voltage"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Low voltage",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Low voltage"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B19",
+              "quote": "Low voltage",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 0,
+              "clean_end": 11,
+              "original_start": 0,
+              "original_end": 11,
+              "original_quote": "Low voltage",
+              "bbox": [
+                211.87811279296875,
+                559.7347412109375,
+                530.62890625,
+                577.3117065429688
+              ],
+              "source_paragraph_cleaned": "Low voltage Ensure the rating plate voltage is maintained. Check connection.",
+              "source_paragraph_original": "Low voltage\nEnsure the rating plate voltage is maintained. \nCheck connection.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_0ac1cf6efe476acfb5b58e42",
+          "section_id": "abb-stalls",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Ensure the rating plate voltage is maintained. Check connection.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Ensure the rating plate voltage is maintained. Check connection."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Ensure the rating plate voltage is maintained. Check connection.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B19",
+                "quote": "Ensure the rating plate voltage is maintained. Check connection."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B19",
+              "quote": "Ensure the rating plate voltage is maintained. Check connection.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-stalls",
+              "section": "Motor stalls",
+              "clean_start": 12,
+              "clean_end": 76,
+              "original_start": 12,
+              "original_end": 77,
+              "original_quote": "Ensure the rating plate voltage is maintained. \nCheck connection.",
+              "bbox": [
+                211.87811279296875,
+                559.7347412109375,
+                530.62890625,
+                577.3117065429688
+              ],
+              "source_paragraph_cleaned": "Low voltage Ensure the rating plate voltage is maintained. Check connection.",
+              "source_paragraph_original": "Low voltage\nEnsure the rating plate voltage is maintained. \nCheck connection.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "abb-power-failure",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_3dd93359052ad14494d279a2",
+          "section_id": "abb-power-failure",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor runs then dies down",
+              "kind": "symptom"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure"
+              },
+              {
+                "paragraph_id": "P25_B21",
+                "quote": "Motor runs and then dies down"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "Motor runs then dies down",
+              "kind": "symptom"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure"
+              },
+              {
+                "paragraph_id": "P25_B21",
+                "quote": "Motor runs and then dies down"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B22",
+              "quote": "Power failure",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 0,
+              "clean_end": 13,
+              "original_start": 0,
+              "original_end": 13,
+              "original_quote": "Power failure",
+              "bbox": [
+                211.87811279296875,
+                600.2787475585938,
+                531.8740234375,
+                617.8557739257812
+              ],
+              "source_paragraph_cleaned": "Power failure Check for loose connections to line, fuses and control.",
+              "source_paragraph_original": "Power failure\nCheck for loose connections to line, fuses and \ncontrol.\n"
+            },
+            {
+              "paragraph_id": "P25_B21",
+              "quote": "Motor runs and then dies down",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 0,
+              "clean_end": 29,
+              "original_start": 0,
+              "original_end": 30,
+              "original_quote": "Motor runs and \nthen dies down",
+              "bbox": [
+                129.922119140625,
+                600.082763671875,
+                184.5809326171875,
+                617.9817504882812
+              ],
+              "source_paragraph_cleaned": "Motor runs and then dies down",
+              "source_paragraph_original": "Motor runs and \nthen dies down\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3cac53691a57b2512a884c41",
+          "section_id": "abb-power-failure",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Check for loose connections to line, fuses and control.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure Check for loose connections to line, fuses and control."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "Check for loose connections to line, fuses and control.",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure Check for loose connections to line, fuses and control."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B22",
+              "quote": "Power failure Check for loose connections to line, fuses and control.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 0,
+              "clean_end": 69,
+              "original_start": 0,
+              "original_end": 70,
+              "original_quote": "Power failure\nCheck for loose connections to line, fuses and \ncontrol.",
+              "bbox": [
+                211.87811279296875,
+                600.2787475585938,
+                531.8740234375,
+                617.8557739257812
+              ],
+              "source_paragraph_cleaned": "Power failure Check for loose connections to line, fuses and control.",
+              "source_paragraph_original": "Power failure\nCheck for loose connections to line, fuses and \ncontrol.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_ed712fc1e408080e87fa8e5e",
+          "section_id": "abb-power-failure",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Motor runs then dies down",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B21",
+                "quote": "Motor runs and then dies down"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Motor runs then dies down",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B21",
+                "quote": "Motor runs and then dies down"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B21",
+              "quote": "Motor runs and then dies down",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 0,
+              "clean_end": 29,
+              "original_start": 0,
+              "original_end": 30,
+              "original_quote": "Motor runs and \nthen dies down",
+              "bbox": [
+                129.922119140625,
+                600.082763671875,
+                184.5809326171875,
+                617.9817504882812
+              ],
+              "source_paragraph_cleaned": "Motor runs and then dies down",
+              "source_paragraph_original": "Motor runs and \nthen dies down\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4b5146d5a81741a181cede84",
+          "section_id": "abb-power-failure",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Power failure",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Power failure"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B22",
+              "quote": "Power failure",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 0,
+              "clean_end": 13,
+              "original_start": 0,
+              "original_end": 13,
+              "original_quote": "Power failure",
+              "bbox": [
+                211.87811279296875,
+                600.2787475585938,
+                531.8740234375,
+                617.8557739257812
+              ],
+              "source_paragraph_cleaned": "Power failure Check for loose connections to line, fuses and control.",
+              "source_paragraph_original": "Power failure\nCheck for loose connections to line, fuses and \ncontrol.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_58e8d2577900383806991351",
+          "section_id": "abb-power-failure",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Check for loose connections to line, fuses and control.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Check for loose connections to line, fuses and control."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Check for loose connections to line, fuses and control.",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P25_B22",
+                "quote": "Check for loose connections to line, fuses and control."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P25_B22",
+              "quote": "Check for loose connections to line, fuses and control.",
+              "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+              "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+              "page": 25,
+              "section_id": "abb-power-failure",
+              "section": "Motor runs then dies down",
+              "clean_start": 14,
+              "clean_end": 69,
+              "original_start": 14,
+              "original_end": 70,
+              "original_quote": "Check for loose connections to line, fuses and \ncontrol.",
+              "bbox": [
+                211.87811279296875,
+                600.2787475585938,
+                531.8740234375,
+                617.8557739257812
+              ],
+              "source_paragraph_cleaned": "Power failure Check for loose connections to line, fuses and control.",
+              "source_paragraph_original": "Power failure\nCheck for loose connections to line, fuses and \ncontrol.\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "validator_version": "atomic-evidence-v1",
+  "validator_code_hash": "edffa316cffa510469455b6187b47543724a6ce9bc0c5500d2e95dc0a7c287c8"
+}

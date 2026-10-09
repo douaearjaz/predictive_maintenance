@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_0153036d6c027108276dbfc6",
+  "candidate_hash": "e99b0bbed22b2bd25145a11ee6ccd9ade67c32e4e6100c4b7f99e1016069a1c7",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces possible causes of bearing failure and lists incorrect fit. Full paragraph checked; retain can.",
+  "reviewed_at": "2026-09-14T21:02:35.183913+00:00"
+}

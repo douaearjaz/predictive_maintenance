@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_b9c9e1b5908f492ea4e30c6a",
+  "candidate_hash": "c89cfbf5e504bb9cf2624f68763b997ef707f43073091e9f109f74ba03bcee18",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB Wrong application is a continuation cause row under Motor stalls; source table grouping checked. Listed possible scenario.",
+  "reviewed_at": "2026-09-15T00:14:45.679434+00:00"
+}

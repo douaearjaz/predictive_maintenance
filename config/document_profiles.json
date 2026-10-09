@@ -1,0 +1,50 @@
+{
+  "version": "inspected-manual-selections-v1",
+  "documents": [
+    {
+      "id": "abb-troubleshooting",
+      "pdf": "data/documents/trusted/3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+      "sections": [
+        {"id": "abb-start-fuses", "page": 25, "title": "Motor fails to start — fuses", "include": ["TROUBLE CAUSE WHAT TO DO", "Motor fails to start Blown fuses"], "context": "Inspected table row: columns TROUBLE, CAUSE, WHAT TO DO. The row contains the fault, its listed cause, and its remedy. Cite the complete row. Treat the cause as a possible scenario, not an inevitable outcome; preserve remedy scope."},
+        {"id": "abb-stalls", "page": 25, "title": "Motor stalls", "include": ["TROUBLE CAUSE WHAT TO DO", "Motor stalls One phase may be open", "Wrong application Change type", "Overload Reduce load.", "Low voltage Ensure the rating"], "context": "Inspected troubleshooting table. Motor stalls is the first-column heading for these rows; the following rows inherit that fault. Each row contains its own cause and remedy. Keep each cause-remedy pair separate; do not attach a remedy to all causes. Quote fault context and the relevant row."},
+        {"id": "abb-power-failure", "page": 25, "title": "Motor runs then dies down", "include": ["TROUBLE CAUSE WHAT TO DO", "Motor runs and then dies down", "Power failure Check for loose connections"], "context": "Inspected table: Motor runs and then dies down is the TROUBLE cell, Power failure the CAUSE, and Check for loose connections... the WHAT TO DO cell of the same row. Quote all needed cells."}
+      ]
+    },
+    {
+      "id": "ac-guide",
+      "pdf": "data/documents/trusted/ac-troubleshooting-guide.pdf",
+      "sections": [
+        {"id": "ac-bearings", "page": 3, "title": "Defective motor bearings", "include": ["Defective motor bearings Test the motor by itself."], "issues": ["table_first_column_not_extractable_do_not_infer_its_content"]},
+        {"id": "ac-winding", "page": 3, "title": "Defective winding", "include": ["Defective winding Test the winding"], "issues": ["table_first_column_not_extractable_do_not_infer_its_content"]},
+        {"id": "ac-unbalanced-load", "page": 3, "title": "Unbalanced load and bearing failure", "include": ["Load to motor may be excessive or unbalanced", "An unbalanced load will also cause the bearings to fail."], "issues": ["table_first_column_not_extractable_do_not_infer_its_content"]}
+      ]
+    },
+    {
+      "id": "timken-bearing-care",
+      "pdf": "data/documents/trusted/Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+      "sections": [
+        {"id": "timken-repair", "page": 12, "title": "Bearing repair", "include": ["Bearing repair", "Small areas of damage on bearing races", "Light rust or corrosion should be removed", "For more complex bearing repairs"]},
+        {"id": "timken-damage", "page": 12, "title": "Damaged bearings", "include": ["Damaged bearings", "Despite taking proper precautions", "If a bearing is damaged or worn beyond repair", "valuable clues that can help analyze"], "context": "The last two blocks form a paragraph continued from the left column into the right column. Preserve both quotations when using that paragraph. Do not repair hyphens inside quotations."},
+        {"id": "timken-installation", "page": 12, "title": "Installation and contamination prevention", "include": ["Installation", "Do not remove the bearing from its packaging", "When installing a new bearing", "Bearings should be installed in a clean environment", "Before beginning the installation, plan your work."]}
+      ]
+    },
+    {
+      "id": "epri-failure-mechanisms",
+      "pdf": "data/documents/trusted/NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+      "sections": [
+        {"id": "epri-moisture", "page": 54, "title": "Moisture and motor insulation", "include": ["Protecting the motor winding from moisture", "Excessive Moisture."]},
+        {"id": "epri-corrosion", "page": 54, "title": "Corrosion", "include": ["Corrosion: Corrosion can cause serious damage"]},
+        {"id": "epri-lubrication", "page": 54, "title": "Inadequate lubrication", "include": ["Inadequate Lubrication."]}
+      ]
+    },
+    {
+      "id": "lincoln-starting",
+      "pdf": "data/documents/trusted/Electric Motor Troubleshooting (Polyphase).pdf",
+      "sections": [
+        {"id": "lincoln-controller", "page": 6, "title": "Starting: motor controller", "include": ["Trouble 2: Motor will not start", "NOTE: Reset the overload relays", "Cause 2a:", "Cure 2a:"], "context": "Trouble 2 is the outcome; Cause 2a and Cure 2a are a matched numbered pair. Do not use referenced but absent causes 2b–2e as evidence."},
+        {"id": "lincoln-hums", "page": 6, "title": "Motor will not start; hums and heats", "include": ["Trouble 3: Motor will not start", "NOTE: Immediately shut off", "Cause 3a:", "Cure 3a:", "Cause 3b:", "Cure 3b:", "Cause 3c:", "Cure 3c:"], "context": "Trouble 3 is the failure scenario. Pair each numbered Cause with its matching Cure. Keep alternatives and conditional actions separate. Preserve the source's shutdown and qualified-technician conditions."},
+        {"id": "lincoln-overload-relays", "page": 6, "title": "Overload relays trip during starting", "include": ["Trouble 4: Overload relays trip", "Cause 4a:", "Cure 4a:", "Cause 4b:", "Cure 4b:"], "issues": ["Trouble_5_cross_reference_not_included"], "context": "Cause 4a and Cure 4a are a matched pair. Cure 4b is only a cross-reference; record unresolved context rather than inventing its action."}
+      ]
+    }
+  ]
+}

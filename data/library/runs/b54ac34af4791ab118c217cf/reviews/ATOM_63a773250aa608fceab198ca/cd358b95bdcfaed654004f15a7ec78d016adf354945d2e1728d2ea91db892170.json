@@ -1,0 +1,10 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "candidate_id": "ATOM_63a773250aa608fceab198ca",
+  "candidate_hash": "ea6ddf5b805e583ba2571b116cba27a533eb5bda0cef6b40b75cb8d8d52acf1b",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Timken says damaged/out-of-spec bearings MAY be returned to service after repair/refurbishment. This is a possible source-stated action, not authorization to return a specific bearing to service.",
+  "reviewed_at": "2026-09-15T00:14:45.744921+00:00"
+}

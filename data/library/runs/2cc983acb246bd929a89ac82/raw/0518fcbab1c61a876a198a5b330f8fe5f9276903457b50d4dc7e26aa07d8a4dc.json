@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Motor\",\"kind\":\"component\"},\"relation\":\"HAS_FAILURE_MODE\",\"object\":{\"text\":\"Motor fails to start\",\"kind\":\"failure_mode\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Motor fails to start\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Blown fuses\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Motor fails to start\",\"kind\":\"failure_mode\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Blown fuses\"},{\"paragraph_id\":\"P25_B6\",\"quote\":\"Motor fails to start\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Blown fuses\",\"kind\":\"cause\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"Replace fuses with proper type and rating.\",\"kind\":\"maintenance_action\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Replace fuses with proper type and rating.\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"Motor\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Motor fails to start\"}]},{\"concept\":{\"text\":\"Blown fuses\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Blown fuses\"}]},{\"concept\":{\"text\":\"Replace fuses with proper type and rating.\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P25_B6\",\"quote\":\"Replace fuses with proper type and rating.\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-1cedf9af-43d7-4369-9e8b-f8acfc93696a",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 1614,
+    "prompt_tokens": 1773,
+    "total_tokens": 3387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1225,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.304874465,
+    "prompt_time": 0.087628252,
+    "completion_time": 3.405067711,
+    "total_time": 3.492695963
+  },
+  "created_at": "2026-09-15T00:06:07.769253+00:00",
+  "section_id": "abb-start-fuses"
+}

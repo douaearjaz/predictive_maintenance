@@ -1,0 +1,28 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Small areas of damage on bearing races\",\"kind\":\"failure_mode\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"grinding out the loose metal\",\"kind\":\"maintenance_action\"},\"qualifier\":\"can sometimes\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Small areas of damage on the contact surface of the rolling elements\",\"kind\":\"failure_mode\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"grinding out the loose metal\",\"kind\":\"maintenance_action\"},\"qualifier\":\"can sometimes\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"raised or rough areas\",\"kind\":\"failure_mode\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"smoothing flat with grinding and polishing tools\",\"kind\":\"maintenance_action\"},\"qualifier\":\"should\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Any raised or rough areas should be smoothed flat with grinding and polishing tools.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Light rust or corrosion\",\"kind\":\"failure_mode\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"removal with emery paper (240 – 320 # grit)\",\"kind\":\"maintenance_action\"},\"qualifier\":\"should\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P12_B6\",\"quote\":\"Light rust or corrosion should be removed with emery paper (240 – 320 # grit).\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"bearing races\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.\"}]},{\"concept\":{\"text\":\"contact surface of the rolling elements\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Small areas of damage on bearing races, and on the contact sur- face of the rolling elements, can sometimes be repaired by grind- ing out the loose metal.\"}]},{\"concept\":{\"text\":\"grinding and polishing tools\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P12_B5\",\"quote\":\"Any raised or rough areas should be smoothed flat with grinding and polishing tools.\"}]},{\"concept\":{\"text\":\"emery paper (240 – 320 # grit)\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P12_B6\",\"quote\":\"Light rust or corrosion should be removed with emery paper (240 – 320 # grit).\"}]},{\"concept\":{\"text\":\"Timken\",\"kind\":\"unknown\"},\"evidence\":[{\"paragraph_id\":\"P12_B7\",\"quote\":\"For more complex bearing repairs, Timken offers remanufacture and repair services.\"}]}],\"ambiguities\":[{\"description\":\"Unclear causal relationship about removing damage to prevent contamination of the bearing when returned to service.\",\"evidence\":[{\"paragraph_id\":\"P12_B6\",\"quote\":\"As much of the damage should be removed as possible to prevent it from contaminating the bearing when it is returned to service.\"}]}]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-8e122313-d4a6-4d0a-85f8-90c9ad926ee9",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 2257,
+    "prompt_tokens": 1871,
+    "total_tokens": 4128,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1463,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 1280
+    },
+    "queue_time": 0.045304039,
+    "prompt_time": 0.039624382,
+    "completion_time": 6.529095703,
+    "total_time": 6.568720085
+  },
+  "created_at": "2026-09-15T00:07:56.622167+00:00",
+  "section_id": "timken-repair"
+}

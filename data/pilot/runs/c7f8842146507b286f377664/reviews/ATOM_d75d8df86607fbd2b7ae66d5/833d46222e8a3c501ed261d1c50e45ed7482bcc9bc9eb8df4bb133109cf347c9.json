@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_d75d8df86607fbd2b7ae66d5",
+  "candidate_hash": "d51d2774cf40ab961f2c48879be3ebe820e5d92e92ce25592c2615a79c6a79a1",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Assistant verification only; human review pending. Page 5 explicitly links Fluke 830 Laser Shaft Alignment Tool to diagnosing and correcting misalignment. Accepted as detection; tool name alone is not a maintenance action.",
+  "reviewed_at": "2026-09-14T21:02:35.381912+00:00"
+}

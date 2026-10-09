@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_faa523909166cea60d9bdbdb",
+  "candidate_hash": "90b465e6aa38544bbaecb18b6e23728378d76885808e386f388b23ad773831bf",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB Overload row pairs with Reduce load. Keep remedy attached to overload only.",
+  "reviewed_at": "2026-09-15T00:14:45.690431+00:00"
+}

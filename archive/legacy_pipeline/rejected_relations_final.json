@@ -1,0 +1,2655 @@
+[
+  {
+    "subject": "Event Log",
+    "predicate": "measuredBy",
+    "object": "Motor",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Unplanned Maintenance",
+    "predicate": "causes",
+    "object": "Failure",
+    "subject_type": "Maintenance Action",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Time Series",
+    "predicate": "measuredBy",
+    "object": "Event Log",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "amplitude of vibrations",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "temperature",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "pressure",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "vibration monitoring",
+    "predicate": "partOf",
+    "object": "predictive maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "event logs",
+    "predicate": "measuredBy",
+    "object": "ATM",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "time series",
+    "predicate": "measuredBy",
+    "object": "features",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "features",
+    "predicate": "measuredBy",
+    "object": "time series",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "time series data",
+    "predicate": "indicates",
+    "object": "failure",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "event logs",
+    "predicate": "indicates",
+    "object": "failure",
+    "subject_type": "Sensor",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "maintenance actions",
+    "subject_type": "Failure Mode",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Failure",
+    "predicate": "causes",
+    "object": "Maintenance",
+    "subject_type": "Failure Mode",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "maintenance",
+    "subject_type": "Measurement",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "maintenance",
+    "subject_type": "Failure Mode",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "maintenance processes",
+    "predicate": "requiresMaintenance",
+    "object": "hardware component",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "updates",
+    "predicate": "requiresMaintenance",
+    "object": "hardware component",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "withdrawal events",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "duration of life cycles",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "mean daily number of withdrawal events",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "infected interval",
+    "predicate": "detectedBy",
+    "object": "event codes",
+    "subject_type": "Symptom",
+    "object_type": "Component"
+  },
+  {
+    "subject": "event codes",
+    "predicate": "measuredBy",
+    "object": "hardware component",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6000",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6001",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Distribution Module",
+    "predicate": "hasFailureMode",
+    "object": "Event Code 6002",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Restart Process",
+    "predicate": "causes",
+    "object": "Event Code 6000",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Problem Recovery",
+    "predicate": "causes",
+    "object": "Event Code 6000",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Damaged Banknote",
+    "predicate": "causes",
+    "object": "Event Code 6001",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Event Log",
+    "predicate": "measuredBy",
+    "object": "Resampling Frequency",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "ATM",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "features",
+    "predicate": "measuredBy",
+    "object": "vector",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "timestamp",
+    "predicate": "measuredBy",
+    "object": "vector",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "vector",
+    "predicate": "measuredBy",
+    "object": "data",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "data",
+    "predicate": "measuredBy",
+    "object": "life cycle",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "alert",
+    "predicate": "indicates",
+    "object": "failure",
+    "subject_type": "Symptom",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "causes",
+    "object": "alert",
+    "subject_type": "Maintenance Action",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "alert",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "life cycle",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "alert",
+    "predicate": "indicates",
+    "object": "change",
+    "subject_type": "Symptom",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "measuredBy",
+    "object": "features",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "change point detection methods",
+    "predicate": "measuredBy",
+    "object": "time series",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "life cycle",
+    "predicate": "partOf",
+    "object": "event logs",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "ATM fleet",
+    "predicate": "partOf",
+    "object": "event logs",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "change",
+    "predicate": "hasFailureMode",
+    "object": "failure mode",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "motor",
+    "predicate": "causes",
+    "object": "anomaly",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "anomaly",
+    "predicate": "indicates",
+    "object": "alert",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "false positive",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "subject_type": "Symptom",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "false negative",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "subject_type": "Symptom",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "true positive",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "subject_type": "Symptom",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "true negative",
+    "predicate": "detectedBy",
+    "object": "sensor",
+    "subject_type": "Symptom",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Precision",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Recall",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "partOf",
+    "object": "event log",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "event log",
+    "predicate": "partOf",
+    "object": "ATM fleet",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "algorithm",
+    "predicate": "requires",
+    "object": "parameter",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "parameter",
+    "predicate": "measuredBy",
+    "object": "metric",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Error events",
+    "predicate": "hasFailureMode",
+    "object": "Failure Mode",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Life cycles",
+    "predicate": "requiresMaintenance",
+    "object": "Distribution module",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Change point detection methods",
+    "predicate": "requiresMaintenance",
+    "object": "Distribution module",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Event logs",
+    "predicate": "measuredBy",
+    "object": "Error events",
+    "subject_type": "Sensor",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Threshold",
+    "predicate": "measuredBy",
+    "object": "Error events",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Anomaly",
+    "predicate": "hasFailureMode",
+    "object": "Failure Mode",
+    "subject_type": "Symptom",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Alert",
+    "predicate": "indicates",
+    "object": "Anomaly",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Change point",
+    "predicate": "causes",
+    "object": "Anomaly",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Event log",
+    "subject_type": "Sensor",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Life cycle",
+    "predicate": "measuredBy",
+    "object": "Data",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Threshold",
+    "predicate": "measuredBy",
+    "object": "Batch protocol",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Algorithm",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Fuzzy logic system",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Event log",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "subject_type": "Sensor",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Change Point",
+    "subject_type": "Component",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Temperature",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "subject_type": "Measurement",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Wear and Tear",
+    "subject_type": "Measurement",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Current",
+    "predicate": "indicates",
+    "object": "Insufficient Maintenance",
+    "subject_type": "Symptom",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Measurement",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Rolling Element Bearing",
+    "predicate": "hasFailureMode",
+    "object": "Anomaly",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Failure",
+    "predicate": "causes",
+    "object": "Anomaly",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Anomaly",
+    "subject_type": "Measurement",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Accelerometer",
+    "predicate": "measuredBy",
+    "object": "Vibration Level",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current",
+    "subject_type": "Sensor",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Voltage Sensor",
+    "predicate": "measuredBy",
+    "object": "Voltage",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Speed Sensor",
+    "predicate": "measuredBy",
+    "object": "Speed",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Filtration Units",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Predictive Maintenance",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "hasFailureMode",
+    "object": "Filtration Units",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Corrective Maintenance",
+    "predicate": "causes",
+    "object": "Downtime",
+    "subject_type": "Maintenance Action",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Preventive Maintenance",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "detectedBy",
+    "object": "Sensors",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Cost-Benefit Analysis",
+    "predicate": "measuredBy",
+    "object": "Predictive Maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Measurements",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Cost-Benefit Analysis",
+    "predicate": "indicates",
+    "object": "Predictive Maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "motor",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "partOf",
+    "object": "production process",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "real-time remote monitoring",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "live tracking",
+    "predicate": "measuredBy",
+    "object": "performance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "indicates",
+    "object": "performance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "cost justifications",
+    "predicate": "causes",
+    "object": "predictive maintenance",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "machine learning models",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "measurements",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "indicates",
+    "object": "symptoms",
+    "subject_type": "Measurement",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "symptoms",
+    "predicate": "causes",
+    "object": "causes",
+    "subject_type": "Symptom",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "causes",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance actions",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Time",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Temperature",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Pressure",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Length",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Mass",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "measuredBy",
+    "object": "Angle",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Outlier",
+    "predicate": "hasFailureMode",
+    "object": "Outlier",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Gradient",
+    "predicate": "hasFailureMode",
+    "object": "Gradient",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Distance",
+    "predicate": "hasFailureMode",
+    "object": "Distance",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Spike",
+    "predicate": "hasFailureMode",
+    "object": "Spike",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Stuck-at",
+    "predicate": "hasFailureMode",
+    "object": "Stuck-at",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "High Noise",
+    "predicate": "hasFailureMode",
+    "object": "High Noise",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Late Deliveries",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Weaknesses of Corrective Maintenance",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Weaknesses of Preventive Maintenance",
+    "predicate": "causes",
+    "object": "Predictive Maintenance",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Predictive Maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Physical Assets",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensors",
+    "predicate": "partOf",
+    "object": "Predictive Maintenance",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "External Network",
+    "predicate": "detectedBy",
+    "object": "Sensors",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "noise",
+    "predicate": "indicates",
+    "object": "variance",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "data",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "data",
+    "predicate": "hasFailureMode",
+    "object": "fault",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "fault",
+    "predicate": "causes",
+    "object": "physical malfunction",
+    "subject_type": "Failure Mode",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "physical malfunction",
+    "predicate": "causes",
+    "object": "variance",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "threshold",
+    "predicate": "partOf",
+    "object": "rule-based method",
+    "subject_type": "Measurement",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "rule-based method",
+    "predicate": "requiresMaintenance",
+    "object": "sensor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "time-series-based method",
+    "predicate": "requiresMaintenance",
+    "object": "sensor data",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "learning-based method",
+    "predicate": "requiresMaintenance",
+    "object": "data",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "sensor reading",
+    "predicate": "indicates",
+    "object": "fault signal",
+    "subject_type": "Measurement",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "threshold",
+    "predicate": "hasFailureMode",
+    "object": "fault signal",
+    "subject_type": "Measurement",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "estimation-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "time-series-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "learning-based methods",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "machine learning model",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "financial model",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "normal behavior",
+    "predicate": "causes",
+    "object": "stationarity",
+    "subject_type": "Cause",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "normal behavior",
+    "predicate": "causes",
+    "object": "autocorrelation",
+    "subject_type": "Cause",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "abnormal behavior",
+    "predicate": "causes",
+    "object": "fault signal",
+    "subject_type": "Cause",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Human Machine Interfaces (HMIs)",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Supervisory Control and Data Acquisition (SCADA) workstation",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "hasComponent",
+    "object": "Historian",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Sensor data",
+    "predicate": "measuredBy",
+    "object": "Sensors",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Differential pressure indicator transmitter (DPIT) sensor",
+    "predicate": "measuredBy",
+    "object": "Differential pressure",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "Motors",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Simulation of values",
+    "predicate": "indicates",
+    "object": "Predictive maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Excessive noise factor",
+    "predicate": "indicates",
+    "object": "Symptoms",
+    "subject_type": "Symptom",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "PLC code",
+    "predicate": "causes",
+    "object": "Failure Modes",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "predictive maintenance models",
+    "predicate": "requiresMaintenance",
+    "object": "DPIT",
+    "subject_type": "Maintenance Action",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "subject_type": "Maintenance Action",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "hasFailureMode",
+    "object": "failure",
+    "subject_type": "Maintenance Action",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "indicates",
+    "object": "maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "preventive maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "RMSE",
+    "predicate": "measuredBy",
+    "object": "machine learning models",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "failure",
+    "predicate": "causes",
+    "object": "downtime",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "linear regression",
+    "predicate": "performed best on",
+    "object": "RMSE",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "random forest regressor",
+    "predicate": "ranked second on",
+    "object": "RMSE",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "gradient boosting regressor",
+    "predicate": "ranked last on",
+    "object": "RMSE",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "differential pressure indicating transmitter",
+    "predicate": "indicates",
+    "object": "pressure values",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "pressure values",
+    "predicate": "measured by",
+    "object": "differential pressure indicating transmitter",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "maintenance actions",
+    "predicate": "requires",
+    "object": "differential pressure indicating transmitter",
+    "subject_type": "Maintenance Action",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "maintenance actions",
+    "predicate": "requires",
+    "object": "water treatment plant",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "water treatment plant",
+    "predicate": "has",
+    "object": "differential pressure indicating transmitter",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "predictive maintenance",
+    "predicate": "detectedBy",
+    "object": "measurements",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "measurements",
+    "predicate": "measuredBy",
+    "object": "sensors",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "partOf",
+    "object": "predictive maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "machine learning model",
+    "predicate": "indicates",
+    "object": "fault detection",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "pressure sensor",
+    "predicate": "measuredBy",
+    "object": "pressure measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "temperature sensor",
+    "predicate": "measuredBy",
+    "object": "temperature measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "vibration sensor",
+    "predicate": "measuredBy",
+    "object": "vibration measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "cost-benefit analysis",
+    "predicate": "requiresMaintenance",
+    "object": "predictive maintenance program",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Overheating",
+    "predicate": "indicates",
+    "object": "Failure",
+    "subject_type": "Cause",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "partOf",
+    "object": "Motor",
+    "subject_type": "Sensor",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Vibration Measurement",
+    "predicate": "detectedBy",
+    "object": "Vibration Sensor",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Temperature Measurement",
+    "predicate": "detectedBy",
+    "object": "Temperature Sensor",
+    "subject_type": "Measurement",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Sensor",
+    "predicate": "measuredBy",
+    "object": "Fault Type",
+    "subject_type": "Sensor",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Sensor Network",
+    "predicate": "measuredBy",
+    "object": "Fault Type",
+    "subject_type": "Sensor",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Sensor Network",
+    "predicate": "measuredBy",
+    "object": "Outlier",
+    "subject_type": "Sensor",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Early Failure Detection",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Fault Detection",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Predictive Maintenance",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "hasFailureMode",
+    "object": "Calibration",
+    "subject_type": "Component",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "causes",
+    "object": "Outlier",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "indicates",
+    "object": "Symptom",
+    "subject_type": "Component",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "partOf",
+    "object": "Sensor Network",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "detectedBy",
+    "object": "Sensor",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "symptom",
+    "predicate": "indicates",
+    "object": "failure mode",
+    "subject_type": "Symptom",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "measuredBy",
+    "object": "measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "maintenance action",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "sensor",
+    "predicate": "detectedBy",
+    "object": "maintenance action",
+    "subject_type": "Sensor",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Overheating",
+    "predicate": "hasFailureMode",
+    "object": "Motor",
+    "subject_type": "Cause",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Wear and Tear",
+    "predicate": "causes",
+    "object": "Overheating",
+    "subject_type": "Cause",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Corrosion",
+    "predicate": "causes",
+    "object": "Overheating",
+    "subject_type": "Cause",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Insufficient Maintenance",
+    "predicate": "causes",
+    "object": "Overheating",
+    "subject_type": "Cause",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Vibration",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "subject_type": "Measurement",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Increased Temperature",
+    "predicate": "indicates",
+    "object": "Overheating",
+    "subject_type": "Symptom",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "measuredBy",
+    "object": "Vibration Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "measuredBy",
+    "object": "Temperature Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "measuredBy",
+    "object": "Current Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Inspection",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Replacement",
+    "predicate": "requiresMaintenance",
+    "object": "Motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Vibration Sensor",
+    "predicate": "detectedBy",
+    "object": "Vibration",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Temperature Sensor",
+    "predicate": "detectedBy",
+    "object": "Increased Temperature",
+    "subject_type": "Sensor",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Current Sensor",
+    "predicate": "detectedBy",
+    "object": "Current Measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "bearing",
+    "predicate": "hasFailureMode",
+    "object": "wear",
+    "subject_type": "Component",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "wear",
+    "predicate": "causes",
+    "object": "vibration",
+    "subject_type": "Cause",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "overload",
+    "predicate": "causes",
+    "object": "vibration",
+    "subject_type": "Cause",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "lubrication failure",
+    "predicate": "causes",
+    "object": "temperature",
+    "subject_type": "Cause",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "temperature",
+    "predicate": "indicates",
+    "object": "lubrication failure",
+    "subject_type": "Measurement",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "accelerometer",
+    "predicate": "measuredBy",
+    "object": "vibration measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "thermocouple",
+    "predicate": "measuredBy",
+    "object": "temperature measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "microphone",
+    "predicate": "measuredBy",
+    "object": "noise measurement",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "bearing",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "inspection",
+    "predicate": "partOf",
+    "object": "maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "replacement",
+    "predicate": "partOf",
+    "object": "maintenance",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "accelerometer",
+    "predicate": "detectedBy",
+    "object": "vibration",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "thermocouple",
+    "predicate": "detectedBy",
+    "object": "temperature",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "microphone",
+    "predicate": "detectedBy",
+    "object": "noise",
+    "subject_type": "Sensor",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "failure modes",
+    "predicate": "causes",
+    "object": "symptoms",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "symptoms",
+    "predicate": "indicates",
+    "object": "causes",
+    "subject_type": "Symptom",
+    "object_type": "Cause"
+  },
+  {
+    "subject": "causes",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance actions",
+    "subject_type": "Cause",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "measurements",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Bearing",
+    "predicate": "measuredBy",
+    "object": "Vibration signal",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Vibration signal",
+    "predicate": "measuredBy",
+    "object": "Fast Fourier transformation (FFT)",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Fast Fourier transformation (FFT)",
+    "predicate": "measuredBy",
+    "object": "Maximum mean discrepancy (MMD)",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Maximum mean discrepancy (MMD)",
+    "predicate": "measuredBy",
+    "object": "Nearest-Neighbor (NN)",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Nearest-Neighbor (NN)",
+    "predicate": "requiresMaintenance",
+    "object": "Bearing",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "cracks",
+    "predicate": "hasFailureMode",
+    "object": "bearings",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "spalls",
+    "predicate": "hasFailureMode",
+    "object": "bearings",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "NN classiﬁer",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "maximum mean discrepancy (MMD)",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Nearest-Neighbor (NN) classiﬁer",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "bearing faults",
+    "predicate": "requiresMaintenance",
+    "object": "maintenance",
+    "subject_type": "Failure Mode",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "bearings",
+    "predicate": "detectedBy",
+    "object": "vibration signal",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "sensors",
+    "predicate": "measuredBy",
+    "object": "vibration signal",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "genetic algorithm-based SVM (GA-SVM) model",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "DWT and ANN",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "PCA",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "time-domain statistical analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "frequency-domain analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "time-frequency domain analysis",
+    "predicate": "requiresMaintenance",
+    "object": "bearings",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "heavy casualties",
+    "predicate": "causes",
+    "object": "bearings",
+    "subject_type": "Cause",
+    "object_type": "Component"
+  },
+  {
+    "subject": "nearest-neighbor (NN)",
+    "predicate": "requiresMaintenance",
+    "object": "classifier",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "trained on",
+    "object": "training data",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "applied to",
+    "object": "test data",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "performs poorly on",
+    "object": "test domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "classifier",
+    "predicate": "achieves high accuracy on",
+    "object": "training domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "diagnosis model",
+    "predicate": "trained in",
+    "object": "training domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "diagnosis model",
+    "predicate": "refined in",
+    "object": "test domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "built in",
+    "object": "training domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "refined in",
+    "object": "test domain",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "nearest-neighbor classiﬁer",
+    "predicate": "built with",
+    "object": "transferable features",
+    "subject_type": "Component",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "learnt from",
+    "object": "training domain",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "transferable features",
+    "predicate": "learnt from",
+    "object": "test domain",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "bearing faults",
+    "predicate": "identified by",
+    "object": "nearest-neighbor classiﬁer",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "faulty bearings",
+    "predicate": "has failure mode",
+    "object": "bearing faults",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "normal bearing",
+    "predicate": "has failure mode",
+    "object": "bearing faults",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "requiresMaintenance",
+    "object": "motors",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Distribution",
+    "predicate": "measuredBy",
+    "object": "Feature Space",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Model",
+    "predicate": "requiresMaintenance",
+    "object": "Bearing",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Maximum Mean Discrepancy",
+    "predicate": "measuredBy",
+    "object": "Distribution",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "domain adaptation",
+    "predicate": "requiresMaintenance",
+    "object": "bearing",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "MMD",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "adaptation matrix",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "source instances",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "target instances",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "k-dimensional embedding",
+    "predicate": "measuredBy",
+    "object": "distance metric",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Vibration signals",
+    "predicate": "measuredBy",
+    "object": "PCA",
+    "subject_type": "Measurement",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Data acquisition",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Model revision",
+    "predicate": "partOf",
+    "object": "Maintenance Action",
+    "subject_type": "Maintenance Action",
+    "object_type": "Maintenance Action"
+  },
+  {
+    "subject": "Inner race fault",
+    "predicate": "hasFailureMode",
+    "object": "Outer race fault",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Ball fault",
+    "predicate": "hasFailureMode",
+    "object": "Outer race fault",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Inner race fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "subject_type": "Failure Mode",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Ball fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "subject_type": "Failure Mode",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Outer race fault",
+    "predicate": "causes",
+    "object": "Vibration signal",
+    "subject_type": "Failure Mode",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "FFT amplitudes",
+    "predicate": "measuredBy",
+    "object": "Vibration signal",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Inner race fault",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Ball fault",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Motor",
+    "predicate": "requiresMaintenance",
+    "object": "Outer race fault",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Vibration signal",
+    "predicate": "detectedBy",
+    "object": "FFT amplitudes",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "FFT",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "PCA",
+    "predicate": "partOf",
+    "object": "feature space",
+    "subject_type": "Maintenance Action",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "MATLAB",
+    "predicate": "requiresMaintenance",
+    "object": "FFT",
+    "subject_type": "Component",
+    "object_type": "Sensor"
+  },
+  {
+    "subject": "raw time series",
+    "predicate": "measuredBy",
+    "object": "amplitudes",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "fault types",
+    "predicate": "hasFailureMode",
+    "object": "failure mode",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "accelerometers",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "torque sensor/encoder",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "power meter",
+    "predicate": "measuredBy",
+    "object": "vibration signals",
+    "subject_type": "Sensor",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "measuredBy",
+    "object": "Drive End Bearing Fault Data",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "dataset",
+    "predicate": "measuredBy",
+    "object": "12kHz",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "maintenance",
+    "predicate": "requiresMaintenance",
+    "object": "motor",
+    "subject_type": "Maintenance Action",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Fault",
+    "predicate": "causes",
+    "object": "Vibration Data",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "Vibration Data",
+    "predicate": "indicates",
+    "object": "Fault",
+    "subject_type": "Symptom",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "FFT",
+    "predicate": "measuredBy",
+    "object": "Vibration Data",
+    "subject_type": "Sensor",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "DATF",
+    "predicate": "requiresMaintenance",
+    "object": "Drive End Bearing",
+    "subject_type": "Component",
+    "object_type": "Component"
+  },
+  {
+    "subject": "k",
+    "predicate": "partOf",
+    "object": "DATF",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "λ",
+    "predicate": "partOf",
+    "object": "DATF",
+    "subject_type": "Measurement",
+    "object_type": "Component"
+  },
+  {
+    "subject": "Load",
+    "predicate": "causes",
+    "object": "Fault",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Training Domain",
+    "predicate": "causes",
+    "object": "Fault",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "Test Domain",
+    "predicate": "causes",
+    "object": "Fault",
+    "subject_type": "Component",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "hp",
+    "predicate": "measuredBy",
+    "object": "Load",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "rpm",
+    "predicate": "measuredBy",
+    "object": "Load",
+    "subject_type": "Measurement",
+    "object_type": "Measurement"
+  },
+  {
+    "subject": "kHz",
+    "predicate": "measuredBy",
+    "object": "Vibration Data",
+    "subject_type": "Measurement",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "in",
+    "predicate": "measuredBy",
+    "object": "Fault",
+    "subject_type": "Measurement",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "L0",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "hasFailureMode",
+    "object": "BF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "hasFailureMode",
+    "object": "OF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "causes",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "causes",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "causes",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "causes",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "causes",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "causes",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "causes",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "causes",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "indicates",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "indicates",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "indicates",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L1",
+    "predicate": "indicates",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "indicates",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L2",
+    "predicate": "indicates",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "indicates",
+    "object": "A",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L3",
+    "predicate": "indicates",
+    "object": "SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Symptom"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L1",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L2",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "NN NA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "NN SA",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L3",
+    "predicate": "measuredBy",
+    "object": "DATF",
+    "subject_type": "Failure Mode",
+    "object_type": "Component"
+  },
+  {
+    "subject": "L0",
+    "predicate": "requiresMaintenance",
+    "object": "L0",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "L1",
+    "predicate": "requiresMaintenance",
+    "object": "L1",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "L2",
+    "predicate": "requiresMaintenance",
+    "object": "L2",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  },
+  {
+    "subject": "L3",
+    "predicate": "requiresMaintenance",
+    "object": "L3",
+    "subject_type": "Failure Mode",
+    "object_type": "Failure Mode"
+  }
+]

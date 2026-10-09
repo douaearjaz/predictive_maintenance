@@ -1,0 +1,1449 @@
+{
+  "run_id": "db43916284bc11e8e0ea9566",
+  "source_kind": "llm",
+  "responses": 3,
+  "total_sections": 3,
+  "missing_sections": [],
+  "results": [
+    {
+      "section_id": "ac-bearings",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_39b3450b5149f4c7919e96b3",
+          "section_id": "ac-bearings",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "noises",
+              "kind": "symptom"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "you will hear noises"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "noises",
+              "kind": "symptom"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "you will hear noises"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "you will hear noises",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 76,
+              "clean_end": 96,
+              "original_start": 77,
+              "original_end": 98,
+              "original_quote": "you \nwill hear noises",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_d293f75f35230432cb00aa7f",
+          "section_id": "ac-bearings",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "roughness",
+              "kind": "symptom"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "feel roughness"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "roughness",
+              "kind": "symptom"
+            },
+            "qualifier": "will",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "feel roughness"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "feel roughness",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 100,
+              "clean_end": 114,
+              "original_start": 102,
+              "original_end": 116,
+              "original_quote": "feel roughness",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_071ab59575fa81104d2f518b",
+          "section_id": "ac-bearings",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "Defective motor bearings"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "defective motor bearings",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "Defective motor bearings"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "Defective motor bearings",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 0,
+              "clean_end": 24,
+              "original_start": 0,
+              "original_end": 24,
+              "original_quote": "Defective motor bearings",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1679dbd14c96409fdce9d9ac",
+          "section_id": "ac-bearings",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "Test the motor by itself"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "motor",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "Test the motor by itself"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "Test the motor by itself",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 25,
+              "clean_end": 49,
+              "original_start": 26,
+              "original_end": 50,
+              "original_quote": "Test the motor by itself",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_5a3c47c3cccef940375cd70e",
+          "section_id": "ac-bearings",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "If the bearings are bad"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "If the bearings are bad"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "If the bearings are bad",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 51,
+              "clean_end": 74,
+              "original_start": 52,
+              "original_end": 75,
+              "original_quote": "If the bearings are bad",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_985c2390628aa0140b649cb0",
+          "section_id": "ac-bearings",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "noises",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "you will hear noises"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "noises",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "you will hear noises"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "you will hear noises",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 76,
+              "clean_end": 96,
+              "original_start": 77,
+              "original_end": 98,
+              "original_quote": "you \nwill hear noises",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4bddbec4c59dfc810a8aa4d2",
+          "section_id": "ac-bearings",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "roughness",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "feel roughness"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "roughness",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B6",
+                "quote": "feel roughness"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B6",
+              "quote": "feel roughness",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-bearings",
+              "section": "Defective motor bearings",
+              "clean_start": 100,
+              "clean_end": 114,
+              "original_start": 102,
+              "original_end": 116,
+              "original_quote": "feel roughness",
+              "bbox": [
+                161.92190551757812,
+                300.0997009277344,
+                566.7796020507812,
+                326.0988464355469
+              ],
+              "source_paragraph_cleaned": "Defective motor bearings Test the motor by itself. If the bearings are bad, you will hear noises or feel roughness.",
+              "source_paragraph_original": "Defective motor bearings \nTest the motor by itself. If the bearings are bad, you \nwill hear noises or feel roughness. \n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "ac-winding",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_e96ecedbc490afca933b4120",
+          "section_id": "ac-winding",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "DETECTED_BY",
+            "object": {
+              "text": "test the winding for shorted or open circuits",
+              "kind": "detection_method"
+            },
+            "qualifier": "can be detected by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Test the winding for shorted or open circuits."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "DETECTED_BY",
+            "object": {
+              "text": "test the winding for shorted or open circuits",
+              "kind": "detection_method"
+            },
+            "qualifier": "can be detected by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Test the winding for shorted or open circuits."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "instrument_scope_requires_heading_and_context_review",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "Test the winding for shorted or open circuits.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 18,
+              "clean_end": 64,
+              "original_start": 19,
+              "original_end": 65,
+              "original_quote": "Test the winding for shorted or open circuits.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1b0582193c63081ce1228aec",
+          "section_id": "ac-winding",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "high amps",
+              "kind": "symptom"
+            },
+            "qualifier": "may be",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "The amps may also be high."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "HAS_SYMPTOM",
+            "object": {
+              "text": "high amps",
+              "kind": "symptom"
+            },
+            "qualifier": "may be",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "The amps may also be high."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "The amps may also be high.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 65,
+              "clean_end": 91,
+              "original_start": 66,
+              "original_end": 93,
+              "original_quote": "The \namps may also be high.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1576325697f9ae69582af1f5",
+          "section_id": "ac-winding",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "For defective winding, replace the motor."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "replace the motor",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "asserted",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "For defective winding, replace the motor."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "For defective winding, replace the motor.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 92,
+              "clean_end": 133,
+              "original_start": 94,
+              "original_end": 136,
+              "original_quote": "For defective winding, \nreplace the motor.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_c720bf4110ddc3ba1c96cf68",
+          "section_id": "ac-winding",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Defective winding"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Defective winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Defective winding"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "Defective winding",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 0,
+              "clean_end": 17,
+              "original_start": 0,
+              "original_end": 17,
+              "original_quote": "Defective winding",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_33250cd085b80d2336b3019c",
+          "section_id": "ac-winding",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "test the winding for shorted or open circuits",
+              "kind": "detection_method"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Test the winding for shorted or open circuits."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "test the winding for shorted or open circuits",
+              "kind": "detection_method"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "Test the winding for shorted or open circuits."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "Test the winding for shorted or open circuits.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 18,
+              "clean_end": 64,
+              "original_start": 19,
+              "original_end": 65,
+              "original_quote": "Test the winding for shorted or open circuits.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_694875c51e9cd3500fb04b0f",
+          "section_id": "ac-winding",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "high amps",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "The amps may also be high."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "high amps",
+              "kind": "symptom"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "The amps may also be high."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "The amps may also be high.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 65,
+              "clean_end": 91,
+              "original_start": 66,
+              "original_end": 93,
+              "original_quote": "The \namps may also be high.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a93669e6627726e08f75770f",
+          "section_id": "ac-winding",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "replace the motor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "replace the motor"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "replace the motor",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B9",
+                "quote": "replace the motor"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "replace the motor",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 115,
+              "clean_end": 132,
+              "original_start": 118,
+              "original_end": 135,
+              "original_quote": "replace the motor",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "section_id": "ac-unbalanced-load",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+          "section_id": "ac-unbalanced-load",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "unbalanced load",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "bearings to fail",
+              "kind": "failure_mode"
+            },
+            "qualifier": "will also",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "An unbalanced load will also cause the bearings to fail."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "unbalanced load",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "bearings to fail",
+              "kind": "failure_mode"
+            },
+            "qualifier": "will also",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "An unbalanced load will also cause the bearings to fail."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "An unbalanced load will also cause the bearings to fail.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 86,
+              "clean_end": 142,
+              "original_start": 87,
+              "original_end": 144,
+              "original_quote": "An unbalanced \nload will also cause the bearings to fail.",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_a208bf1bec2eeff2ad784090",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "Load to motor",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "Load to motor",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B11",
+              "quote": "Load to motor may be excessive or unbalanced",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 44,
+              "original_start": 0,
+              "original_end": 45,
+              "original_quote": "Load to motor may be \nexcessive or unbalanced",
+              "bbox": [
+                161.908203125,
+                453.2501220703125,
+                281.8871765136719,
+                479.366455078125
+              ],
+              "source_paragraph_cleaned": "Load to motor may be excessive or unbalanced",
+              "source_paragraph_original": "Load to motor may be \nexcessive or unbalanced \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_f2670dea9c817622dc5f497f",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "excessive",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "excessive",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B11",
+              "quote": "Load to motor may be excessive or unbalanced",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 44,
+              "original_start": 0,
+              "original_end": 45,
+              "original_quote": "Load to motor may be \nexcessive or unbalanced",
+              "bbox": [
+                161.908203125,
+                453.2501220703125,
+                281.8871765136719,
+                479.366455078125
+              ],
+              "source_paragraph_cleaned": "Load to motor may be excessive or unbalanced",
+              "source_paragraph_original": "Load to motor may be \nexcessive or unbalanced \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1a04e1d240f083c82de6e6b7",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "unbalanced load",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              },
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "An unbalanced load will also cause the bearings to fail."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "unbalanced load",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              },
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "An unbalanced load will also cause the bearings to fail."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B11",
+              "quote": "Load to motor may be excessive or unbalanced",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 44,
+              "original_start": 0,
+              "original_end": 45,
+              "original_quote": "Load to motor may be \nexcessive or unbalanced",
+              "bbox": [
+                161.908203125,
+                453.2501220703125,
+                281.8871765136719,
+                479.366455078125
+              ],
+              "source_paragraph_cleaned": "Load to motor may be excessive or unbalanced",
+              "source_paragraph_original": "Load to motor may be \nexcessive or unbalanced \n"
+            },
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "An unbalanced load will also cause the bearings to fail.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 86,
+              "clean_end": 142,
+              "original_start": 87,
+              "original_end": 144,
+              "original_quote": "An unbalanced \nload will also cause the bearings to fail.",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_65ff9b63e1f267a56cc0f1f8",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "drive belt tension",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight."
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "drive belt tension",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight."
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 85,
+              "original_start": 0,
+              "original_end": 86,
+              "original_quote": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight.",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_2c69b144e00a03b365b9eab3",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "bearings to fail"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "bearings",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "bearings to fail"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "bearings to fail",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 125,
+              "clean_end": 141,
+              "original_start": 127,
+              "original_end": 143,
+              "original_quote": "bearings to fail",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_50a1e9dff72db5d2e0460218",
+          "section_id": "ac-unbalanced-load",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "motor load",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "Check the motor load"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "motor load",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P3_B12",
+                "quote": "Check the motor load"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "Check the motor load",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 20,
+              "original_start": 0,
+              "original_end": 20,
+              "original_quote": "Check the motor load",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_738fb495805af670f255a6bf",
+          "section_id": "ac-unbalanced-load",
+          "category": "ambiguities",
+          "raw_record": {
+            "description": "Effect of excessive load on bearings is not specified; relationship unclear",
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "record": {
+            "description": "Effect of excessive load on bearings is not specified; relationship unclear",
+            "evidence": [
+              {
+                "paragraph_id": "P3_B11",
+                "quote": "Load to motor may be excessive or unbalanced"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P3_B11",
+              "quote": "Load to motor may be excessive or unbalanced",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 0,
+              "clean_end": 44,
+              "original_start": 0,
+              "original_end": 45,
+              "original_quote": "Load to motor may be \nexcessive or unbalanced",
+              "bbox": [
+                161.908203125,
+                453.2501220703125,
+                281.8871765136719,
+                479.366455078125
+              ],
+              "source_paragraph_cleaned": "Load to motor may be excessive or unbalanced",
+              "source_paragraph_original": "Load to motor may be \nexcessive or unbalanced \n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "validator_version": "atomic-evidence-v1",
+  "validator_code_hash": "edffa316cffa510469455b6187b47543724a6ce9bc0c5500d2e95dc0a7c287c8"
+}

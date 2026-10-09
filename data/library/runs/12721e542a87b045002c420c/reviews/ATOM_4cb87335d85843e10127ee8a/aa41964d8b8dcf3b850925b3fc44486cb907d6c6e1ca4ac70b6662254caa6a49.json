@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_4cb87335d85843e10127ee8a",
+  "candidate_hash": "5acefd428e79d75a36ddde7e241b6f5cd972286437eeb2637b30129b6e913c60",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Lincoln Trouble 3 / Cause 3b identifies motor single-phasing, evidenced by winding heat damage, for this failure scenario. Numbered association checked.",
+  "reviewed_at": "2026-09-15T00:14:45.766070+00:00"
+}

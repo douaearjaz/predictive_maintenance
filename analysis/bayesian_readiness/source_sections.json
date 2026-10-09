@@ -1,0 +1,62 @@
+[
+  {
+    "run_id": "b54ac34af4791ab118c217cf",
+    "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+    "section_id": "timken-damage",
+    "section": "Damaged bearings",
+    "pages": [
+      12
+    ],
+    "cleaned_text": "Damaged bearings\n\nDespite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.\n\nIf a bearing is damaged or worn beyond repair sooner than ex- pected, do not discard it. The nature of the damage can provide\n\nvaluable clues that can help analyze and identify possible causes, leading to corrective actions that will help ensure longer bearing life in the replacement bearing."
+  },
+  {
+    "run_id": "db43916284bc11e8e0ea9566",
+    "document": "ac-troubleshooting-guide.pdf",
+    "section_id": "ac-unbalanced-load",
+    "section": "Unbalanced load and bearing failure",
+    "pages": [
+      3
+    ],
+    "cleaned_text": "Load to motor may be excessive or unbalanced\n\nCheck the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail."
+  },
+  {
+    "run_id": "fbbf87da083d3d923af71181",
+    "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+    "section_id": "epri-moisture",
+    "section": "Moisture and motor insulation",
+    "pages": [
+      54
+    ],
+    "cleaned_text": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:\n\nExcessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical."
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "section_id": "fault-07",
+    "section": "7 Misalignment",
+    "pages": [
+      5
+    ],
+    "cleaned_text": "7 Misalignment\n\nMisalignment occurs when the motor drive shaft is not in correct alignment with the load, or the component that couples the motor to the load is misaligned. Many professionals believe that a flexible coupling eliminates and compensates for misalignment, but a flex- ible coupling only protects the coupling from misalignment. Even with a flexible coupling, a misaligned shaft will transmit damaging cyclical forces along the shaft and into the motor, leading to excess wear on the motor and increasing the apparent mechanical load. In addition, misalignment may feed vibration into both the load and the motor drive shaft. There a few types of misalignment: • Angular misalignment: shaft centerlines intersect but are not parallel • Parallel misalignment: shaft centerlines are parallel but not concentric • Compound misalignment: a combination of parallel and angular misalignment. (Note: almost all misalign- ment is compound misalignment, but practitioners talk about misalignment as the two separate types because it is easier to correct a misalignment by addressing the angular and parallel components separately.)\n\nImpact: Premature wear in mechanical drive components that leads to premature failures\n\nInstrument to measure and diagnose: Fluke 810 Vibration Tester to identify potential misalignment issues, Fluke 830 Laser Shaft Alignment Tool to diagnose and correct misalignment\n\nCriticality: High"
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "section_id": "fault-10",
+    "section": "10 Bearing wear",
+    "pages": [
+      6
+    ],
+    "cleaned_text": "10 Bearing wear\n\nA failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.\n\nImpact: Accelerated wear on rotating components resulting in bearing failure\n\nInstrument to measure and diagnose: Fluke 810 Vibration Tester\n\nCriticality: High"
+  },
+  {
+    "run_id": "c7f8842146507b286f377664",
+    "document": "13-common-causes.pdf",
+    "section_id": "fault-13",
+    "section": "13 Shaft voltage",
+    "pages": [
+      8
+    ],
+    "cleaned_text": "13 Shaft voltage\n\nWhen motor shaft voltages exceed the insulating capability of the bearing grease, flashover currents to the outer bearing will occur, thereby causing pitting and grooving to the bearing races. The first signs of this problem will be noise and overheating as the bearings begin to lose their original shape and metal fragments mix with the grease and increase bearing friction. This can lead to bear- ing destruction within a few months of motor operation. Bearing failure is an expensive problem both in terms of motor repair and downtime, so helping to prevent this by measuring shaft voltage and bearing current is an important diagnostic step. Shaft voltage is only present while the motor is energized and rotating. A carbon brush probe attachment allows you to measure shaft voltage while a motor is rotating.\n\nImpact: Arcing across bearing surfaces create pitting and fluting resulting in excessive vibration and eventual bearing failure\n\nInstrument to measure and diagnose: Fluke-190-204 ScopeMeter isolated 4-channel portable oscilloscope, with AEGIS shaft voltage carbon brush probe.\n\nCriticality: High"
+  }
+]

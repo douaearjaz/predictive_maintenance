@@ -1,0 +1,1474 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/pdm_ontology.owl"
+         xmlns="http://test.org/pdm_ontology.owl#">
+
+<owl:Ontology rdf:about="http://test.org/pdm_ontology.owl"/>
+
+<owl:ObjectProperty rdf:about="#hasFailureMode">
+  <rdfs:domain rdf:resource="#Component"/>
+  <rdfs:range rdf:resource="#FailureMode"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#causes">
+  <rdfs:domain rdf:resource="#Cause"/>
+  <rdfs:domain rdf:resource="#FailureMode"/>
+  <rdfs:range rdf:resource="#FailureMode"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#indicates">
+  <rdfs:domain rdf:resource="#Measurement"/>
+  <rdfs:domain rdf:resource="#Symptom"/>
+  <rdfs:range rdf:resource="#FailureMode"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#measuredBy">
+  <rdfs:domain rdf:resource="#Measurement"/>
+  <rdfs:domain rdf:resource="#FailureMode"/>
+  <rdfs:range rdf:resource="#Sensor"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#requiresMaintenance">
+  <rdfs:domain rdf:resource="#Component"/>
+  <rdfs:range rdf:resource="#MaintenanceAction"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#partOf">
+  <rdfs:domain rdf:resource="#Component"/>
+  <rdfs:range rdf:resource="#Component"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#detectedBy">
+  <rdfs:domain rdf:resource="#Measurement"/>
+  <rdfs:domain rdf:resource="#Symptom"/>
+  <rdfs:domain rdf:resource="#FailureMode"/>
+  <rdfs:range rdf:resource="#Sensor"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Component">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FailureMode">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cause">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Symptom">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Measurement">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#MaintenanceAction">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Motor">
+  <rdf:type rdf:resource="#Component"/>
+  <hasFailureMode rdf:resource="#Failure"/>
+  <partOf rdf:resource="#ATM"/>
+  <hasFailureMode rdf:resource="#Motor_Failure"/>
+  <hasFailureMode rdf:resource="#Fault_Event"/>
+  <partOf rdf:resource="#Cyber_Physical_Production_System"/>
+  <partOf rdf:resource="#Data_Center"/>
+  <hasFailureMode rdf:resource="#Defect"/>
+  <requiresMaintenance rdf:resource="#Predictive_Maintenance"/>
+  <requiresMaintenance rdf:resource="#Calibration"/>
+  <requiresMaintenance rdf:resource="#Fault_Detection"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Temperature">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#Failure"/>
+  <indicates rdf:resource="#Defect"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Event_Log">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ATM">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Predictive_Maintenance">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Unplanned_Maintenance">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Failure">
+  <rdf:type rdf:resource="#FailureMode"/>
+  <causes rdf:resource="#Defect"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#vibration_monitoring">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#amplitude_of_vibrations">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pressure">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#degradation">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#machine_failure">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#stock_part_management">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cost_optimization">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#event_logs">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#temporal_data">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hazard_rate_models">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#autoregressive_models">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Markov_models">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#maintenance">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#malfunction">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_series">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#features">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ATM_fleet">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_series_data">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Timestamp">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ATMs">
+  <rdf:type rdf:resource="#Component"/>
+  <hasFailureMode rdf:resource="#failure_state"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#life_cycles">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#event_codes">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hardware_component">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#distribution_module">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#hardware_component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#failure_state">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#problems_on_other_modules">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#failure_state"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#maintenance_processes">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#updates">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#withdrawal_events">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#duration_of_life_cycles">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#mean_daily_number_of_withdrawal_events">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#infected_interval">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Banknote">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mechanism">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Event_Code_6000">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Event_Code_6001">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Event_Code_6002">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Restart_Process">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Problem_Recovery">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Damaged_Banknote">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Resampling_Frequency">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#change_point_detection_methods">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#unsupervised_change_point_detection_methods">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#vector">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#alert">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#change">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#optimal_system">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#anomaly">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#false_positive">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#false_negative">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#true_positive">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#true_negative">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Precision">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Recall">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#business_constraints">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#parameter">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#metric">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Error_events">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Banknote_storage">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#ATMs"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Threshold">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#Error_events"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Change_point">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Algorithm">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fuzzy_logic_system">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Life_cycle">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Batch_protocol">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Characteristics">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LSTM_Autoencoder">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ARM_A">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Data_Center">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fuzzy_Rule">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rocket">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Random_Convolutional_Kernel">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wild_Binary_Segmentation">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Matrix_Profile">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyber_Physical_Production_System">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fault_Event">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Motor_Failure">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Current">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Overheating">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Motor_Failure"/>
+  <causes rdf:resource="#Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wear_and_Tear">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Motor_Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Insufficient_Maintenance">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Motor_Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sensor_Failure">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Motor_Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inspection">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Replacement">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Temperature_Sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration_Sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Current_Sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Temperature_Measurement">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration_Measurement">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Current_Measurement">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rolling_Element_Bearing">
+  <rdf:type rdf:resource="#Component"/>
+  <hasFailureMode rdf:resource="#Defect"/>
+  <hasFailureMode rdf:resource="#Bearing_failure"/>
+  <hasFailureMode rdf:resource="#Faulty_bearings"/>
+  <hasFailureMode rdf:resource="#Normal_bearing"/>
+  <partOf rdf:resource="#Rotating_machinery"/>
+  <hasFailureMode rdf:resource="#Inner_race_fault"/>
+  <hasFailureMode rdf:resource="#Ball_fault"/>
+  <hasFailureMode rdf:resource="#Outer_race_fault"/>
+  <hasFailureMode rdf:resource="#Normal_condition"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Defect">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wear">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Accelerometer">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Voltage_Sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Speed_Sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Power_Consumption">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration_Level">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Voltage">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Speed">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Filtration_Units">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sensors">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Corrective_Maintenance">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Preventive_Maintenance">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Water_Treatment_Plant">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#performance">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#real_time_remote_monitoring">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#live_tracking">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#production_process">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#faults">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cost_justifications">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#substantial_costs">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#motors">
+  <rdf:type rdf:resource="#Component"/>
+  <hasFailureMode rdf:resource="#failure_modes"/>
+  <hasFailureMode rdf:resource="#faults"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#failure_modes">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#symptoms">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#maintenance_actions">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#measurements">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Physical_Assets">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Time">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Length">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mass">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Angle">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Outlier">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gradient">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Distance">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Spike">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stuck_at">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#High_Noise">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Late_Deliveries">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weaknesses_of_Corrective_Maintenance">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weaknesses_of_Preventive_Maintenance">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#External_Network">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#noise">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#variance">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#fault">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#physical_malfunction">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#sensor_reading">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#rule_based_method">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#estimation_based_method">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_series_based_method">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#learning_based_method">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#sensor_data">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#fault_signal">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#estimation_based_methods">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_series_based_methods">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#learning_based_methods">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#machine_learning_model">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#financial_model">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#normal_behavior">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#abnormal_behavior">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#stationarity">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#autocorrelation">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#training_data">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#validation_data">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Secure_Water_Treatment_(SWaT)_testbed">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PLCs">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Human_Machine_Interfaces_(HMIs)">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Supervisory_Control_and_Data_Acquisition_(SCADA)_workstation">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Historian">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Differential_pressure_indicator_transmitter_(DPIT)_sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Simulation_of_values">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Attack_scenarios">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Excessive_noise_factor">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Differential_pressure">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PLC_code">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DPIT">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#predictive_maintenance_models">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#RMSE">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#machine_learning_models">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#downtime">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#linear_regression">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#random_forest_regressor">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#gradient_boosting_regressor">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#differential_pressure_indicating_transmitter">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pressure_values">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#sampling_bias">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#lack_of_detailed_information">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#loss_of_revenue">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#rapid_rise_in_pressure">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#predictive_maintenance_program">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cost_benefit_analysis">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pressure_sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pressure_measurement">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Corrosion">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#Failure"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Failure_Mode">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Maintenance_Action">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sensor_Network">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fault_Type">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Calibration">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fault_Detection">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Environmental_Sensor_Network">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Early_Failure_Detection">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stock_Prediction">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Financial_Modeling">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cost_Benefit_Analysis">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mechanical_systems">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Electrical_systems">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Diagnosis_system">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fault_symptoms">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Probable_cause">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#AR_application">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#camera_sensor">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HMD_device">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#support_application">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#AR_HMD_device">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#personal_computer">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#faulty_machine">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#kitchen_appliances">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Unity_game_engine">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PUN_2">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Flask">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#server_solutions">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Flask_SocketIO">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HoloLens_2">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#AR_Maintenance_application">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Maintenance_AR_Application">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bearings">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Shafts">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Winding">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Insulation">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Increased_Temperature">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#overload">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#lubrication_failure">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#thermocouple">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#microphone">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#noise_measurement">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#VR">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#AR">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#desktop">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration_signal">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#Inner_race_fault"/>
+  <indicates rdf:resource="#Ball_fault"/>
+  <indicates rdf:resource="#Outer_race_fault"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fast_Fourier_transformation_(FFT)">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Maximum_mean_discrepancy_(MMD)">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Nearest_Neighbor_(NN)">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Faulty_bearings">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Normal_bearing">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rotating_machinery">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bearing_failure">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#roller">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#outer_race">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#inner_race">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#motor_speeds">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#bearing_faults"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#load_conditions">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#bearing_faults"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cracks">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#spalls">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NN_classiﬁer">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Nearest_Neighbor_(NN)_classiﬁer">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#transferable_features">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bearing_faults">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#genetic_algorithm_based_SVM_(GA_SVM)_model">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DWT_and_ANN">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PCA">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_domain_statistical_analysis">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#frequency_domain_analysis">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#time_frequency_domain_analysis">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#heavy_casualties">
+  <rdf:type rdf:resource="#Cause"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#classifier">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#test_data">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#diagnosis_model">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#vibration_signals">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#nearest_neighbor_classiﬁer">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#working_conditions">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#faults"/>
+  <causes rdf:resource="#fault"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NN_classifier">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Distribution">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Feature_Space">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Model">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Maximum_Mean_Discrepancy">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#domain_adaptation">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MMD">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#distance_metric">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#adaptation_matrix">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#source_instances">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#target_instances">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#k_dimensional_embedding">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Frequency_domain">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#FFT">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Training_domain">
+  <rdf:type rdf:resource="#Component"/>
+  <requiresMaintenance rdf:resource="#Model_revision"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Test_domain">
+  <rdf:type rdf:resource="#Component"/>
+  <requiresMaintenance rdf:resource="#Model_revision"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inner_race_fault">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ball_fault">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Outer_race_fault">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Normal_condition">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Data_acquisition">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Model_revision">
+  <rdf:type rdf:resource="#MaintenanceAction"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pseudo_label">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#Failure_Mode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NO">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#IF">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BF">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#OF">
+  <rdf:type rdf:resource="#Component"/>
+  <partOf rdf:resource="#Motor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#FFT_amplitudes">
+  <rdf:type rdf:resource="#Measurement"/>
+  <indicates rdf:resource="#fault_types"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MATLAB">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#raw_time_series">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#fault_types">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#X">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Xtr">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Xte">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Xc">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bearing_test_rig">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DATF">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#subspace_alignment">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NN_NA">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NN_SA">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#torque_sensor_encoder">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#power_meter">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#accelerometers">
+  <rdf:type rdf:resource="#Sensor"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#electronic_control_unit">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#inner_race_faults_(IF)">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#outer_race_faults_(OF)">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ball_fault_(BF)">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#electrosparking">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#inner_race_faults_(IF)"/>
+  <causes rdf:resource="#outer_race_faults_(OF)"/>
+  <causes rdf:resource="#ball_fault_(BF)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dataset">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Drive_End_Bearing_Fault_Data">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#12kHz">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#0.007in">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#inner_race_faults_(IF)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#0.014in">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#outer_race_faults_(OF)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#0.021in">
+  <rdf:type rdf:resource="#Cause"/>
+  <causes rdf:resource="#ball_fault_(BF)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Drive_End_Bearing">
+  <rdf:type rdf:resource="#Component"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vibration_Data">
+  <rdf:type rdf:resource="#Symptom"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fourier_Coefficients">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#λ">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hp">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#rpm">
+  <rdf:type rdf:resource="#Measurement"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#L0">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#L1">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#L2">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#L3">
+  <rdf:type rdf:resource="#FailureMode"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>

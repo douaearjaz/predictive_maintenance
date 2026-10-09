@@ -1,0 +1,1779 @@
+[
+  {
+    "source": "openalex",
+    "topic": "bearing failure analysis",
+    "title": "Rolling element bearing failure analysis: A case study",
+    "abstract": "This paper addresses Rolling Contact Fatigue (RCF) occurs due to the result of cyclic stress developed during operation and mechanism that involve in fretting failure of rolling element bearing. As bearing raceways of non-rotating rolling element bearings exposed to vibration or sliding oscillation false Brinelling occurs. Bearing surface due to false Brinelling tends to damage within a short period, due to cavities created on the bearing raceway. Recommendation towards enhancement of bearing life is also suggested.",
+    "authors": [
+      "Ram Krishna Upadhyay",
+      "L.A. Kumaraswamidhas",
+      "Mohammad Sikandar Azam"
+    ],
+    "doi": "https://doi.org/10.1016/j.csefa.2012.11.003",
+    "year": 2012,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2213290212000065/pdf",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing failure analysis",
+    "title": "Rolling Bearing Analysis",
+    "abstract": "Rolling Bearing Types and Applications Rolling Bearing Macrogeometry Interference Fitting and Clearance Bearing Loads and Speeds Ball and Roller Loads Contact Stress and Deformation Distribution of Internal Loading in Statically Loaded Bearings Internal Speeds and Motions Distribution of Internal Loading in High Speed Bearings Bearing Deflection, Preloading, and Stiffness Statically Indeterminate Shaft - Bearing Systems Lubricant Films in Rolling Element - Raceway Contacts Friction in Fluid-Lubricated Rolling Element - Raceway Contacts Friction in Rolling Bearings Rolling Bearing Temperatures Bearing Structural Materials Lubricants and Lubrication Techniques Fatigue Life: Lundberg Palmgren Theory and Rating Standards Bearing Endurance Testing and Element Testing Methods Statistical Methods to Analyze Endurance Permanent Deformation and Bearing Static Capacity Material Response to Rolling Contact Application Load and Life Factors Wear Vibration, Noise and Condition Monitoring Rotor Dynamics and Critical Speeds Investigation and Analysis of Bearing Failures Appendix Index.",
+    "authors": [
+      "T. A. Harris",
+      "W. J. Crecelius"
+    ],
+    "doi": "https://doi.org/10.1115/1.3261135",
+    "year": 1986,
+    "pdf_url": "http://tribology.asmedigitalcollection.asme.org/data/journals/jotre9/28449/149_1.pdf",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing failure analysis",
+    "title": "Bearing failure analysis of mechanically fastened joints in composite laminates",
+    "abstract": "",
+    "authors": [
+      "Heung-Joon Park"
+    ],
+    "doi": "https://doi.org/10.1016/s0263-8223(01)00004-6",
+    "year": 2001,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing failure analysis",
+    "title": "A study on diesel engine crankshaft bearing failure analysis with consideration of bearing lubrication",
+    "abstract": "Purpose The edge of diesel engine crankshaft main bearing is more likely to fail in its real working condition. This paper aims to study the bearing failure mechanism by finding the relationship between bearing lubrication characteristics and its working condition. Design/methodology/approach This work builds the mixed lubrication model of crankshaft bearing to analyze the cause of bearing abnormal wear, and the finite difference method was used to solving the average Reynolds equation. During the analysis, journal misaligned angle, external load and roughness are considered. Findings The result shows that the wear of the diesel engine crankshaft bearing happens in engine startup phase and the bottom of the bearing are more prone to be excessively worn. Under the influence of journal misalignment, bearing asperity contact load and speed range of mixed lubrication will increase markedly. The edge of the bearing will be excessively worn. The effect of misalignment on bearing lubrication performance varies under different shaft rotation speed. Originality/value The former research studies on crankshaft bearing either just focused on its lubrication characteristics or interested in its failure types (wear, adhere, cavitation). This paper studies the relationship between bearing failure mechanism and lubrication performance.",
+    "authors": [
+      "Qi Liu",
+      "Baiqi Huo",
+      "Yunsheng Liu",
+      "Junchao Zhu"
+    ],
+    "doi": "https://doi.org/10.1108/ilt-06-2021-0231",
+    "year": 2022,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing failure analysis",
+    "title": "Best practices in exploratory factor analysis: four recommendations for getting the most from your analysis",
+    "abstract": "Exploratory factor analysis (EFA) is a complex, multi-step process. The goal of this paper is to collect, in one article, information that will allow researchers and practitioners to understand the various choices available through popular software packages, and to make decisions about “best practices” in exploratory factor analysis. In particular, this paper provides practical information on making decisions regarding (a) extraction, (b) rotation, (c) the number of factors to interpret, and (d) sample size.",
+    "authors": [
+      "Anna B. Costello",
+      "Jason W. Osborne"
+    ],
+    "doi": "https://doi.org/10.7275/jyj1-4868",
+    "year": 2020,
+    "pdf_url": "https://scholarworks.umass.edu/pare/vol10/iss1/7",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing wear mechanisms",
+    "title": "Wear and frictional mechanisms of copper-based bearing alloys",
+    "abstract": "",
+    "authors": [
+      "Sébastien Equey",
+      "A. Houriet",
+      "Stefano Mischler"
+    ],
+    "doi": "https://doi.org/10.1016/j.wear.2011.03.030",
+    "year": 2011,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0043164811002183",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing wear mechanisms",
+    "title": "Wear mechanisms in oil-lubricated and dry fretting of silicon nitride against bearing steel contacts",
+    "abstract": "",
+    "authors": [
+      "Mitjan Kalin",
+      "J. Vižintin",
+      "Saša Novak",
+      "Goran Dražić"
+    ],
+    "doi": "https://doi.org/10.1016/s0043-1648(97)00082-3",
+    "year": 1997,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing wear mechanisms",
+    "title": "A review of bearing failure Modes, mechanisms and causes",
+    "abstract": "",
+    "authors": [
+      "Funing Xu",
+      "Ning Ding",
+      "Nan Li",
+      "Long Liu",
+      "Nan Hou",
+      "Na Xu",
+      "Weimin Guo",
+      "Linan Tian",
+      "Huixia Xu",
+      "Chi‐Man Lawrence Wu",
+      "Xiao‐Feng Wu",
+      "Xiangfeng Chen"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2023.107518",
+    "year": 2023,
+    "pdf_url": "https://scholars.cityu.edu.hk/en/publications/a-review-of-bearing-failure-modes-mechanisms-and-causes",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing wear mechanisms",
+    "title": "The influence of weight-bearing on the measurement of polyethylene wear in THA",
+    "abstract": "W e have studied the influence of weight-bearing on the measurement of wear of the polyethylene acetabular component in total hip arthroplasty using two techniques. The measured vertical wear was significantly greater when radiographs were taken weight-bearing rather than with the patient supine (p = 0.001, method 1; p = 0.007, method 2). Calculations of rates of linear wear of the acetabular component were significantly underestimated (p < 0.05) when radiographs were taken supine. There are two reasons for this. First, a change in pelvic orientation when bearing weight ensures that the thinnest polyethylene is brought into relief, and secondly, the head of the femoral component assumes the position of maximal displacement along its wear path. Interpretation of previous studies on both linear and volumetric polyethylene wear in total hip arthroplasty should be reassessed in the light of these findings.",
+    "authors": [
+      "P. N. Smith",
+      "R. S. M. Ling",
+      "R. W. Taylor"
+    ],
+    "doi": "https://doi.org/10.1302/0301-620x.81b2.9154",
+    "year": 1999,
+    "pdf_url": "https://boneandjoint.org.uk/article/10.1302/0301-620X.81B2.0810259/pdf",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing wear mechanisms",
+    "title": "The influence of design, materials and kinematics on the in vitro wear of total knee replacements",
+    "abstract": "",
+    "authors": [
+      "H.M.J. McEwen",
+      "Petra I. Barnett",
+      "Carol Bell",
+      "R. Farrar",
+      "D D Auger",
+      "M H Stone",
+      "John Fisher"
+    ],
+    "doi": "https://doi.org/10.1016/j.jbiomech.2004.02.015",
+    "year": 2004,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing lubrication failure",
+    "title": "Research on the relationship between thermal aging of lubricating grease outside the contact area of bearing rolling elements and bearing lubrication failure",
+    "abstract": "",
+    "authors": [
+      "Qilong Zhao",
+      "Qin Zhao",
+      "Enhui Zhang",
+      "Enhui Zhang",
+      "Cheng Jiang",
+      "Yanan Wang",
+      "Yanan Wang",
+      "Wenjing Lou",
+      "Ruliang Zhang",
+      "Xiaobo Wang"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2024.109127",
+    "year": 2024,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing lubrication failure",
+    "title": "Main failure mode of oil-air lubricated rolling bearing installed in high speed machining",
+    "abstract": "",
+    "authors": [
+      "Zhou Chang",
+      "Qian Jia",
+      "Xing Yuan",
+      "Yaolong Chen"
+    ],
+    "doi": "https://doi.org/10.1016/j.triboint.2017.03.024",
+    "year": 2017,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing lubrication failure",
+    "title": "Electrical bearing failures in electric vehicles",
+    "abstract": "Abstract In modern electric equipment, especially electric vehicles, inverter control systems can lead to complex shaft voltages and bearing currents. Within an electric motor, many parts have electrical failure problems, and among which bearings are the most sensitive and vulnerable components. In recent years, electrical failures in bearing have been frequently reported in electric vehicles, and the electrical failure of bearings has become a key issue that restricts the lifetime of all-electric motor-based power systems in a broader sense. The purpose of this review is to provide a comprehensive overview of the bearing premature failure in the mechanical systems exposed in an electrical environment represented by electric vehicles. The electrical environments in which bearing works including the different components and the origins of the shaft voltages and bearing currents, as well as the typical modes of electrical bearing failure including various topographical damages and lubrication failures, have been discussed. The fundamental influence mechanisms of voltage/current on the friction/lubrication properties have been summarized and analyzed, and corresponding countermeasures have been proposed. Finally, a brief introduction to the key technical flaws in the current researches will be made and the future outlook of frontier directions will be discussed.",
+    "authors": [
+      "Feng He",
+      "Guoxin Xie",
+      "Jianbin Luo"
+    ],
+    "doi": "https://doi.org/10.1007/s40544-019-0356-5",
+    "year": 2020,
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40544-019-0356-5.pdf",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing lubrication failure",
+    "title": "Fatigue Failure Analysis of a Grease-Lubricated Roller Bearing from an Electric Motor",
+    "abstract": "",
+    "authors": [
+      "Zhiqiang Yu",
+      "Zhen‐Guo Yang"
+    ],
+    "doi": "https://doi.org/10.1007/s11668-010-9422-z",
+    "year": 2010,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing fault diagnosis",
+    "title": "A survey on Deep Learning based bearing fault diagnosis",
+    "abstract": "",
+    "authors": [
+      "Duy-Tang Hoang",
+      "Hee‐Jun Kang"
+    ],
+    "doi": "https://doi.org/10.1016/j.neucom.2018.06.078",
+    "year": 2018,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing fault diagnosis",
+    "title": "Neural-network-based motor rolling bearing fault diagnosis",
+    "abstract": "Motor systems are very important in modern society. They convert almost 60% of the electricity produced in the US into other forms of energy to provide power to other equipment. In the performance of all motor systems, bearings play an important role. Many problems arising in motor operations are linked to bearing faults. In many cases, the accuracy of the instruments and devices used to monitor and control the motor system is highly dependent on the dynamic performance of the motor bearings. Thus, fault diagnosis of a motor system is inseparably related to the diagnosis of the bearing assembly. In this paper, bearing vibration frequency features are discussed for motor bearing fault diagnosis. This paper then presents an approach for motor rolling bearing fault diagnosis using neural networks and time/frequency-domain bearing vibration analysis. Vibration simulation is used to assist in the design of various motor rolling bearing fault diagnosis strategies. Both simulation and real-world testing results obtained indicate that neural networks can be effective agents in the diagnosis of various motor bearing faults through the measurement and interpretation of motor bearing vibration signatures.",
+    "authors": [
+      "Binghui Li",
+      "Mo–Yuen Chow",
+      "Y. Tipsuwan",
+      "J. C. Hung"
+    ],
+    "doi": "https://doi.org/10.1109/41.873214",
+    "year": 2000,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing fault diagnosis",
+    "title": "Bearing fault diagnosis base on multi-scale CNN and LSTM model",
+    "abstract": "",
+    "authors": [
+      "Xiaohan Chen",
+      "Beike Zhang",
+      "Dong Gao"
+    ],
+    "doi": "https://doi.org/10.1007/s10845-020-01600-2",
+    "year": 2020,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing fault diagnosis",
+    "title": "Deep Learning Based Approach for Bearing Fault Diagnosis",
+    "abstract": "Bearing is one of the most critical components in most electrical and power drives. Effective bearing fault diagnosis is important for keeping the electrical and power drives safe and operating normally. In the age of Internet of Things and Industrial 4.0, massive real-time data are collected from bearing health monitoring systems. Mechanical big data have the characteristics of large volume, diversity, and high velocity. There are two major problems in using the existing methods for bearing fault diagnosis with big data. The features are manually extracted relying on much prior knowledge about signal processing techniques and diagnostic expertise, and the used models have shallow architectures, limiting their capability in fault diagnosis. Effectively mining features from big data and accurately identifying the bearing health conditions with new advanced methods have become new issues. This paper presents a deep learning-based approach for bearing fault diagnosis. The presented approach preprocesses sensor signals using short-time Fourier transform (STFT). Based on a simple spectrum matrix obtained by STFT, an optimized deep learning structure, large memory storage retrieval (LAMSTAR) neural network, is built to diagnose the bearing faults. Acoustic emission signals acquired from a bearing test rig are used to validate the presented method. The validation results show the accurate classification performance on various bearing faults under different working conditions. The performance of the presented method is also compared with other effective bearing fault diagnosis methods reported in the literature. The comparison results have shown that the presented method gives much better diagnostic performance, even at relatively low rotating speeds.",
+    "authors": [
+      "Miao He",
+      "David He"
+    ],
+    "doi": "https://doi.org/10.1109/tia.2017.2661250",
+    "year": 2017,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "bearing fault diagnosis",
+    "title": "A deep convolutional neural network with new training methods for bearing fault diagnosis under noisy environment and different working load",
+    "abstract": "",
+    "authors": [
+      "Wěi Zhāng",
+      "Chuanhao Li",
+      "Gaoliang Peng",
+      "Yuanhang Chen",
+      "Zhujun Zhang"
+    ],
+    "doi": "https://doi.org/10.1016/j.ymssp.2017.06.022",
+    "year": 2017,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "arxiv",
+    "topic": "bearing fault diagnosis",
+    "title": "Neural Factorization-based Bearing Fault Diagnosis",
+    "abstract": "This paper studies the key problems of bearing fault diagnosis of high-speed train. As the core component of the train operation system, the health of bearings is directly related to the safety of train operation. The traditional diagnostic methods are facing the challenge of insufficient diagnostic accuracy under complex conditions. To solve these problems, we propose a novel Neural Factorization-based Classification (NFC) framework for bearing fault diagnosis. It is built on two core idea: 1) Embedding vibration time series into multiple mode-wise latent feature vectors to capture diverse fault-related patterns; 2) Leveraging neural factorization principles to fuse these vectors into a unified vibration representation. This design enables effective mining of complex latent fault characteristics from raw time-series data. We further instantiate the framework with two models CP-NFC and Tucker-NFC based on CP and Tucker fusion schemes, respectively. Experimental results show that both models achieve superior diagnostic performance compared with traditional machine learning methods. The comparative analysis provides valuable empirical evidence and practical guidance for selecting effective diagnostic strategies in high-speed train bearing monitoring.",
+    "authors": [
+      "Zhenhao Li",
+      "Xu Cheng",
+      "Yi Zhou"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.06837v1",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Neural_Factorization-based_Bearing_Fault_Diagnosis.pdf",
+    "sha256": "b1787c57fe745d3bcada1df8ee82df7822691c4f15966538fa756908a94de4d6"
+  },
+  {
+    "source": "arxiv",
+    "topic": "bearing fault diagnosis",
+    "title": "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis",
+    "abstract": "Bearing fault diagnosis is of great importance to decrease the damage risk of rotating machines and further improve economic profits. Recently, machine learning, represented by deep learning, has made great progress in bearing fault diagnosis. However, applying deep learning to such a task still faces a major problem. A deep network is notoriously a black box. It is difficult to know how a model classifies faulty signals from the normal and the physics principle behind the classification. To solve the interpretability issue, first, we prototype a convolutional network with recently-invented quadratic neurons. This quadratic neuron empowered network can qualify the noisy bearing data due to the strong feature representation ability of quadratic neurons. Moreover, we independently derive the attention mechanism from a quadratic neuron, referred to as qttention, by factorizing the learned quadratic function in analogue to the attention, making the model with quadratic neurons inherently interpretable. Experiments on the public and our datasets demonstrate that the proposed network can facilitate effective and interpretable bearing fault diagnosis.",
+    "authors": [
+      "Jing-Xiao Liao",
+      "Hang-Cheng Dong",
+      "Zhi-Qi Sun",
+      "Jinwei Sun",
+      "Shiping Zhang",
+      "Feng-Lei Fan"
+    ],
+    "doi": "10.1109/TIM.2023.3259031",
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2206.00390v2",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Attention-embedded_Quadratic_Network_(Qttention)_for_Effective_and_Interpretable.pdf",
+    "sha256": "867720b9df1ec6b76d280e8f499f999d284f75078bd61304c2346c74e3f33230"
+  },
+  {
+    "source": "arxiv",
+    "topic": "bearing fault diagnosis",
+    "title": "Source-free domain adaptation based on label reliability for cross-domain bearing fault diagnosis",
+    "abstract": "Source-free domain adaptation (SFDA) has been exploited for cross-domain bearing fault diagnosis without access to source data. Current methods select partial target samples with reliable pseudo-labels for model adaptation, which is sub-optimal due to the ignored target samples. We argue that every target sample can contribute to model adaptation, and accordingly propose in this paper a novel SFDA-based approach for bearing fault diagnosis that exploits both reliable and unreliable pseudo-labels. We develop a data-augmentation-based label voting strategy to divide the target samples into reliable and unreliable ones. We propose to explore the underlying relation between feature space and label space by using the reliable pseudo-labels as ground-truth labels, meanwhile, alleviating negative transfer by maximizing the entropy of the unreliable pseudo-labels. The proposed method achieves well-balance between discriminability and diversity by taking advantage of reliable and unreliable pseudo-labels. Extensive experiments are conducted on two bearing fault benchmarks, demonstrating that our approach achieves significant performance improvements against existing SFDA-based bearing fault diagnosis methods. Our code is available at https://github.com/BdLab405/SDALR.",
+    "authors": [
+      "Wenyi Wu",
+      "Hao Zhang",
+      "Zhisen Wei",
+      "Xiao-Yuan Jing",
+      "Qinghua Zhang",
+      "Songsong Wu"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2503.08749v1",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Source-free_domain_adaptation_based_on_label_reliability_for_cross-domain_bearin.pdf",
+    "sha256": "4844c8cd558b8e13024f41d4a41be867eb8081c68bae455dddf5635d5409ec18"
+  },
+  {
+    "source": "arxiv",
+    "topic": "bearing fault diagnosis",
+    "title": "Bearing Fault Diagnosis using Graph Sampling and Aggregation Network",
+    "abstract": "Bearing fault diagnosis technology has a wide range of practical applications in industrial production, energy and other fields. Timely and accurate detection of bearing faults plays an important role in preventing catastrophic accidents and ensuring product quality. Traditional signal analysis techniques and deep learning-based fault detection algorithms do not take into account the intricate correlation between signals, making it difficult to further improve detection accuracy. To address this problem, we introduced Graph Sampling and Aggregation (GraphSAGE) network and proposed GraphSAGE-based Bearing fault Diagnosis (GSABFD) algorithm. The original vibration signal is firstly sliced through a fixed size non-overlapping sliding window, and the sliced data is feature transformed using signal analysis methods; then correlations are constructed for the transformed vibration signal and further transformed into vertices in the graph; then the GraphSAGE network is used for training; finally the fault level of the object is calculated in the output layer of the network. The proposed algorithm is compared with five advanced algorithms in a real-world public dataset for experiments, and the results show that the GSABFD algorithm improves the AUC value by 5% compared with the next best algorithm.",
+    "authors": [
+      "Jiaying Chen",
+      "Xusheng Du",
+      "Yurong Qian",
+      "Gwanggil Jeon"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2408.07099v1",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Bearing_Fault_Diagnosis_using_Graph_Sampling_and_Aggregation_Network.pdf",
+    "sha256": "12b871edab1f238f17c6c2e4b042a90916b2a2125c975e7a5adeaddff37e035e"
+  },
+  {
+    "source": "arxiv",
+    "topic": "bearing fault diagnosis",
+    "title": "A Comparative Analysis of Reinforcement Learning and Conventional Deep Learning Approaches for Bearing Fault Diagnosis",
+    "abstract": "Bearing faults in rotating machinery can lead to significant operational disruptions and maintenance costs. Modern methods for bearing fault diagnosis rely heavily on vibration analysis and machine learning techniques, which often require extensive labeled data and may not adapt well to dynamic environments. This study explores the feasibility of reinforcement learning (RL), specifically Deep Q-Networks (DQNs), for bearing fault classification tasks in machine condition monitoring to enhance the accuracy and adaptability of bearing fault diagnosis. The results demonstrate that while RL models developed in this study can match the performance of traditional supervised learning models under controlled conditions, they excel in adaptability when equipped with optimized reward structures. However, their computational demands highlight areas for further improvement. These findings demonstrate RL's potential to complement traditional methods, paving the way for adaptive diagnostic frameworks.",
+    "authors": [
+      "Efe Çakır",
+      "Patrick Dumond"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2506.19929v2",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/A_Comparative_Analysis_of_Reinforcement_Learning_and_Conventional_Deep_Learning_.pdf",
+    "sha256": "b831d60029627b70887bdf12466424d94029c6b3948c4c1f7e07ecf9329e76c8"
+  },
+  {
+    "source": "openalex",
+    "topic": "rotating machinery failure analysis",
+    "title": "A Data Fusion Analysis and Random Forest Learning for Enhanced Control and Failure Diagnosis in Rotating Machinery",
+    "abstract": "In a heavily-subjected-to-failure field of rotating machinery, the need for accurate and reliable detection methods is paramount. This paper aims to advance fault detection capabilities through a novel approach that integrates current–temperature–vibration data fusion analysis and also by employing a Random Forest (RF) artificial intelligence methodology. An experimental investigation was conducted to acquire temperature variations, vibration signals, and electrical current readings from a rotating machine subjected to various types of faults. These faults include conditions of normal operation, bearing faults (inner and outer races), shaft misalignment, and rotor unbalance, all monitored under a constant rotating speed of 680 RPM and zero load. Four ceramic shear ICP-based accelerometers, two thermocouples, and three current transformers, were collectively used to collect the data while adhering to the International Organization for Standardization (ISO) standards. To refine the data for the RF algorithm, the standard deviation of the three datasets was calculated at specific intervals, revealing a significant enhancement in diagnostic accuracy when combinedly used. The resulted accuracies varied as follows: 45.0% accuracy using current data alone, 19.4% with temperature data, 62.0% with vibration data, and a remarkable 96.0% when using data fusion. Thus, data fusion is promising in thermal, electrical, and mechanical condition monitoring. Integrating diagnostic approaches in control systems can significantly improve the reliability of rotating machinery.",
+    "authors": [
+      "Basim Ghalib Mejbel",
+      "Salwa Ahmad Sarow",
+      "Mushtaq Talib Al-Sharify",
+      "Luttfi A. Al-Haddad",
+      "Ahmed Ali Farhan Ogaili",
+      "Zainab T. Al‐Sharify"
+    ],
+    "doi": "https://doi.org/10.1007/s11668-024-02075-6",
+    "year": 2024,
+    "pdf_url": "https://doi.org/10.1007/s11668-024-02075-6",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotating machinery failure analysis",
+    "title": "Vibration Analysis Techniques for Rotating Machinery and its effect on Bearing Faults",
+    "abstract": "Area of application of rotating machinery in day to day life, and for industrial use in manufacturing and processes, nuclear power station, automobile, oil & gas refinery etc has increase tremendously with industries revolution. And for all these rotating machinery the faults induced, due to bearing faults play a major role in failure of machine subjected to fatigue and catastrophic failure is a big problem to solve. Under the various maintenance techniques, the condition monitoring vibration technique is widely used to accurate assessment of the health condition of the rotating machinery extensively. Vibration spectrum analysis for all these faults and particular to different vibration analysis technique can be studied. In this paper the bearing faults induced in rotating machinery is investigated experimentally using various vibration analysis techniques that are time, frequency and time-frequency domains. The input signal obtained from the rotating machinery with rolling element bearings that is ball bearing with inner and outer race defects in comparison with health bearings are analysed with respect to Fast Fourier FFT and Inverse fast Fourier transformation IFFT,and future the spectrogram are obtained. And this experimental investigation will lead to the accurate assessment of the failure of rotating machinery, with respect to bearing faults.",
+    "authors": [
+      "A Khadersab",
+      "S Shivakumar"
+    ],
+    "doi": "https://doi.org/10.1016/j.promfg.2018.02.036",
+    "year": 2018,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2351978918300696/pdf",
+    "category": "bearings",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotating machinery failure analysis",
+    "title": "A Review on Vibration Monitoring Techniques for Predictive Maintenance of Rotating Machinery",
+    "abstract": "Machine failure in modern industry leads to lost production and reduced competitiveness. Maintenance costs represent between 15% and 60% of the manufacturing cost of the final product, and in heavy industry, these costs can be as high as 50% of the total production cost. Predictive maintenance is an efficient technique to avoid unexpected maintenance stops during production in industry. Vibration measurement is the main non-invasive method for locating and predicting faults in rotating machine components. This paper reviews the techniques and tools used to collect and analyze vibration data, as well as the methods used to interpret and diagnose faults in rotating machinery. The main steps of this technique are discussed, including data acquisition, data transmission, signal processing, and fault detection. Predictive maintenance through vibration analysis is a key strategy for cost reduction and a mandatory application in modern industry.",
+    "authors": [
+      "Marcelo Romanssini",
+      "Paulo César C. de Aguirre",
+      "Lucas Compassi-Severo",
+      "Alessandro Girardi"
+    ],
+    "doi": "https://doi.org/10.3390/eng4030102",
+    "year": 2023,
+    "pdf_url": "https://www.mdpi.com/2673-4117/4/3/102/pdf?version=1687757391",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotating machinery failure analysis",
+    "title": "A Review on Vibration-Based Condition Monitoring of Rotating Machinery",
+    "abstract": "Monitoring vibrations in rotating machinery allows effective diagnostics, as abnormal functioning states are related to specific patterns that can be extracted from vibration signals. Extensively studied issues concern the different methodologies used for carrying out the main phases (signal measurements, pre-processing and processing, feature selection, and fault diagnosis) of a malfunction automatic diagnosis. In addition, vibration-based condition monitoring has been applied to a number of different mechanical systems or components. In this review, a systematic study of the works related to the topic was carried out. A preliminary phase involved the analysis of the publication distribution, to understand what was the interest in studying the application of the method to the various rotating machineries, to identify the interest in the investigation of the main phases of the diagnostic process, and to identify the techniques mainly used for each single phase of the process. Subsequently, the different techniques of signal processing, feature selection, and diagnosis are analyzed in detail, highlighting their effectiveness as a function of the investigated aspects and of the results obtained in the various studies. The most significant research trends, as well as the main innovations related to the various phases of vibration-based condition monitoring, emerge from the review, and the conclusions provide hints for future ideas.",
+    "authors": [
+      "Monica Tiboni",
+      "Carlo Remino",
+      "Roberto Bussola",
+      "Cinzia Amici"
+    ],
+    "doi": "https://doi.org/10.3390/app12030972",
+    "year": 2022,
+    "pdf_url": "https://www.mdpi.com/2076-3417/12/3/972/pdf?version=1642655934",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotating machinery failure analysis",
+    "title": "Principal component analysis",
+    "abstract": "Principal component analysis is one of the most important and powerful methods in chemometrics as well as in a wealth of other areas.",
+    "authors": [
+      "Rasmus Bro",
+      "Age K. Smilde"
+    ],
+    "doi": "https://doi.org/10.1039/c3ay41907j",
+    "year": 2014,
+    "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2014/ay/c3ay41907j",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "arxiv",
+    "topic": "shaft misalignment",
+    "title": "Variability of Critical Rotational Speeds of Gearbox by Misalignement and Manufacturing Errors",
+    "abstract": "Noise measurement on a population of gearbox manufactured in large number often reveals high variability due to tolerances on each gear design parameter (manufacturing errors). Gearbox noise results mainly from housing vibration induced by the gear meshing process. High acoustic levels correspond to excitation in a resonant manner of some critical modes. All gearbox modes and especially these critical modes depend on tolerances related to gear design parameters through the meshing stiffness. Tolerances are considered on shaft misalignment errors, teeth profile errors and teeth longitudinal errors. We introduce these tolerances as geometric random gaussian parameters. The critical modes are extracted using an efficient procedure. The retained \"statistical\" method to treat tolerances is the Taguchi's method. We illustrate this methodology considering two different gearbox dynamic models fitted out with a single spur gear. Obtained dispersion results are validated by comparison with Monte-Carlo simulations.",
+    "authors": [
+      "N. Driot",
+      "Emmanuel Rigaud",
+      "Joël Perret-Liaudet"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/physics/0701064v1",
+    "category": "gearboxes",
+    "pdf_path": "knowledge_base/papers/gearboxes/Variability_of_Critical_Rotational_Speeds_of_Gearbox_by_Misalignement_and_Manufa.pdf",
+    "sha256": "09bd79b2ab98d560ac92f0fc575caaa9ec1e92897b9f4c6c69e51bf6bf0ded0f"
+  },
+  {
+    "source": "arxiv",
+    "topic": "shaft misalignment",
+    "title": "Coupled computation of meshing and bearings stiffnesses : effect on radiated gearbox noise",
+    "abstract": "This study focus on the acoustical behavior of gearbox induced by the static transmission error under load (STE). An original method is developed allowing to compute simultaneously STE, meshing and bearings stiffnesses. These characteristics mainly govern the vibrational and the acoustical behaviors of the geared system. The proposed procedure is based on two computational methods allowing to calculate the STE and the bearing equilibrium which are integrated in a coupled computational procedure. The technique has been implemented to treat an illustrating example and compared to standard uncoupled approach. Comparative results concern the STE, meshing stiffness, bearings stiffnesses, shafts misalignments, critical eigenmodes and associated critical running speeds, housing vibratory response and radiated noise.",
+    "authors": [
+      "François Mayeux",
+      "Joël Perret-Liaudet",
+      "Emmanuel Rigaud"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/physics/0701050v1",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Coupled_computation_of_meshing_and_bearings_stiffnesses_effect_on_radiated_gea.pdf",
+    "sha256": "544434903e23098b9187f1f5247b603a36b82a6efcf1c1fe3b36e85757ce961f"
+  },
+  {
+    "source": "openalex",
+    "topic": "rotor imbalance",
+    "title": "THE EVALUATION OF ROTOR IMBALANCE IN FLEXIBLY MOUNTED MACHINES",
+    "abstract": "",
+    "authors": [
+      "Arthur W. Lees",
+      "Michael I. Friswell"
+    ],
+    "doi": "https://doi.org/10.1006/jsvi.1997.1260",
+    "year": 1997,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotor imbalance",
+    "title": "Active vibration control of rotor imbalance in active magnetic bearing systems",
+    "abstract": "Rotor imbalance causes undesirable synchronous vibrations of displacement, force and torque. An active vibration control (AVC) method achieving the minimum vibration force and torque within a desired vibration displacement is presented in an active magnetic bearing (AMB) system. First, the dynamics of the AMB system with static imbalance and dynamic imbalance are introduced, and the dimensional displacement relationships of the rotation, geometric and inertial axes of the rotor are described. Demands of the AVC are analyzed, and the results indicate that the rotation axis has to be controlled to move along the center line and the inclination direction of the geometric axis and the inertial axis, respectively. Then the synchronous vibration displacement is identified with a general notch filter, and a feedforward controller is designed to control the rotation axis by providing a synchronous control current. A gain phase modifier (GPM) is proposed to achieve a precise synchronous control current and to compensate the gain and phase errors caused by the power amplifier. The GPM is incorporated into the feedforward controller to formulate two closed loops, which can adaptively tune the gain and phase of the synchronous control current, respectively. Finally, simulations and experiments have been carried out to indicate the effectiveness of the proposed approach, which can be widely used since vibrations of displacement, force and torque can be controlled simultaneously to satisfy various requirements.",
+    "authors": [
+      "Jiancheng Fang",
+      "Xiangbo Xu",
+      "Jinjin Xie"
+    ],
+    "doi": "https://doi.org/10.1177/1077546313488792",
+    "year": 2013,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotor imbalance",
+    "title": "Wind turbine rotor imbalance detection using nacelle and blade measurements",
+    "abstract": "Abstract Wind power is the world's fastest growing renewable energy source, but operations and maintenance costs are still a major obstacle toward reliability and widescale adoption of wind power, accounting for a large part of the cost of energy for offshore installations. Structural health monitoring systems have been proposed for implementing condition‐based maintenance. The wind energy industry currently uses condition monitoring systems that are mostly adapted from roating machinery in other power generation industries. However, these systems have had limited effectiveness on wind turbines because of their atypical operating conditions, which are characterized by low and variable rotational speed, rapidly varying torque, extremely large rotors and stochastic loading from the wind. Although existing systems primarily take measurements from the nacelle, valuable information can be extracted from the structural dynamic response of the rotor blades to mitigate potentially damaging loading conditions. One such condition is rotor imbalance, which not only reduces the aerodynamic efficiency of the turbine and therefore its power output but can also lead to very large increases in loading on the drivetrain, blades and tower. The National Renewable Energy Laboratory's fast software was used to model both mass and aerodynamic imbalance in a 5 MW offshore wind turbine. It is shown that a combination of blade and nacelle measurements, most of which can be obtained from standard instrumentation already found on utility‐scale wind turbines, can be formulated into an algorithm used to detect and locate imbalance. The method described herein allows for imbalance detection that is potentially more sensitive than existing on‐line systems, while taking advantage of sensors that are already in place on many utility‐scale wind turbines. Copyright © 2014 John Wiley &amp; Sons, Ltd.",
+    "authors": [
+      "Josh Kusnick",
+      "Douglas E. Adams",
+      "D. Todd Griffith"
+    ],
+    "doi": "https://doi.org/10.1002/we.1696",
+    "year": 2014,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotor imbalance",
+    "title": "Compensation of rotor imbalance for precision rotation of a planar magnetic bearing rotor",
+    "abstract": "",
+    "authors": [
+      "L. Li",
+      "Tadahiko Shinshi",
+      "Chihiro IIJIMA",
+      "Xiaofeng Zhang",
+      "A. Shimokohbe"
+    ],
+    "doi": "https://doi.org/10.1016/s0141-6359(02)00193-9",
+    "year": 2003,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "rotor imbalance",
+    "title": "Detection of rotor imbalance, including root cause, severity and location",
+    "abstract": "This paper presents a new way of detecting imbalances on wind turbine rotors, by using a harmonic analysis of the rotor response in the fixed frame. The method is capable of distinguishing among different root causes of the imbalance. In addition, the imbalance severity and location, i.e. the affected blade, can be identified. The automatic classification of the imbalance problem is obtained by using a neural network. The performance of the method is illustrated with the help of different fault scenarios, within a high-fidelity simulation environment.",
+    "authors": [
+      "Stefano Cacciola",
+      "I. Munduate Agud",
+      "Carlo L. Bottasso"
+    ],
+    "doi": "https://doi.org/10.1088/1742-6596/753/7/072003",
+    "year": 2016,
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/753/7/072003/pdf",
+    "category": "reliability",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "rotor imbalance",
+    "title": "Vibration Analysis Using Multi-Layer Perceptron Neural Networks for Rotor Imbalance Detection in Quadrotor UAV",
+    "abstract": "Rotor imbalance in quadrotor UAVs poses a critical challenge, compromising flight stability, increasing maintenance demands, and reducing overall operational efficiency. Traditional vibration analysis methods, such as Fast Fourier Transform (FFT) and wavelet analysis, often struggle with non-stationary signals and real-time data processing, limiting their effectiveness under dynamic UAV operating conditions. To address these challenges, this study develops a machine learning-based vibration analysis system using a Multi-Layer Perceptron (MLP) neural network for real-time rotor imbalance detection. The system integrates Micro-Electro-Mechanical Systems (MEMS) sensors for vibration data acquisition, preprocessing techniques for noise reduction and feature extraction, and an optimized MLP architecture tailored to high-dimensional vibration data. Experimental validation was conducted under controlled flight scenarios, collecting a comprehensive dataset of 800 samples representing both balanced and imbalanced rotor conditions. The optimized MLP model, featuring five hidden layers, achieved a Root Mean Squared Error (RMSE) of 0.1414 and a correlation coefficient (R2) of 0.9224 on the test dataset, demonstrating high accuracy and reliability. This study highlights the potential of MLP-based diagnostics to enhance UAV reliability, safety, and operational efficiency, providing a scalable and effective solution for rotor imbalance detection in dynamic environments. The findings offer significant implications for improving UAV performance in addition to minimizing downtime in various industrial and commercial applications.",
+    "authors": [
+      "Ba Tarfi Salem Abdullah Salem",
+      "M. N. Abdullah",
+      "Faizal Mustapha",
+      "Nur Shahirah Atifah Kanirai",
+      "M. Mustapha"
+    ],
+    "doi": "10.3390/drones9020102",
+    "year": 2025,
+    "pdf_url": "https://www.mdpi.com/2504-446X/9/2/102/pdf?version=1738245941",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "rotor imbalance",
+    "title": "Comparison of Convolutional Neural Networks Using Gramian Angular Difference Field, Recurrence Plot, and Markov Transition Fields for Rotor Imbalance Detection in Wind Turbines",
+    "abstract": "\n This study investigates various data representations derived from wind turbine dynamics, utilizing Convolutional Neural Networks (CNNs) as diagnostic tools to identify rotor mass imbalance. The analysis examines three distinct methods for encoding the dataset into 2D images: Gramian Angular Difference Field, Recurrence Plot, and Markov Transition Fields. To achieve this, simulations of a 1.5 MW three-bladed wind turbine model were conducted using Turbsim, FAST, and MATLAB Simulink. These simulations generated rotor speed data under diverse conditions, including varying wind speeds and induced mass imbalances achieved by adjusting blade density in the software. Comparative analyses across nine classifiers demonstrated that the Gramian Angular Difference Field provided the most promising results. The study presents detailed results and simulations, offering a thorough evaluation of the proposed architecture?s effectiveness in detecting and diagnosing rotor mass imbalances in wind turbines.",
+    "authors": [
+      "Júlio Oliveira Schmidt",
+      "Lucas França Aires",
+      "G. R. Hübner",
+      "Humberto Pinheiro",
+      "Daniel Fernando Tello Gamarra"
+    ],
+    "doi": "10.1115/1.4068711",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "rotor imbalance",
+    "title": "Rotor imbalance fault classification through unified feature fusion: Combining statistical signal processing with adaptive deep learning features",
+    "abstract": "",
+    "authors": [
+      "M. H. Arshad",
+      "Haihan Wang",
+      "Jiabao Yao",
+      "Qing Zhao"
+    ],
+    "doi": "10.1016/j.engappai.2025.111182",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "rotor imbalance",
+    "title": "Development of an On-Shaft Vibration Sensing Module for Machine Wearable Rotor Imbalance Monitoring",
+    "abstract": "Rotor imbalance is considered to be one of the main mechanical faults of rotating machinery; it may result in bearing damage and even catastrophic system failure. Recent progress in the Internet of Things (IoT) has promoted the application of novel sensing and computing techniques in the industry, and it is promising to employ novel IoT techniques for imbalance detection to avoid potential failures. Existing sensing techniques suffer from the impact of bearing structure dynamics, loss of accuracy during their lifetime, and security risks introduced by the sensor cabling and supports, which may, in turn, interfere with the machine operations due to inappropriate design and installation. This investigation provides an on-shaft machine wearable vibration sensing technique for effectively monitoring the running state of rotors while minimizing the interference with their operations. In this work, key investigations include the following: (1) theoretical modeling and an analysis of rotor imbalance, and its measurement with an on-shaft micro-electromechanical system (MEMS) accelerometer; (2) the development of a wirelessly powered, cordless on-shaft vibration measurement (OSVM) sensor for unobtrusive sensing of the vibration of rotating shafts; (3) the in-sensor computing design for optimizing the distribution of computing resources and decreasing data transmission. The tests and evaluation of the proposed techniques were conducted with a rotor test rig to demonstrate their feasibility. The presented investigation is a typical example of applying new sensing and computing paradigms to improve the flexibility and convenience of applications, which is a good reference for related investigations and practices.",
+    "authors": [
+      "Zhaozong Meng",
+      "Yirou Liu",
+      "Yang Chen",
+      "Zhen Cheng",
+      "Guojin Feng",
+      "Hao Zhang",
+      "N. Gao",
+      "Zonghua Zhang"
+    ],
+    "doi": "10.3390/electronics13132466",
+    "year": 2024,
+    "pdf_url": "https://www.mdpi.com/2079-9292/13/13/2466/pdf?version=1719225103",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "rotor imbalance",
+    "title": "Diagnosis of a rotor imbalance in a wind turbine based on support vector machine",
+    "abstract": "Rotor imbalances in wind turbines present safety risks and lead to economic losses, and a method to diagnose rotor imbalances is urgently needed. A diagnostic method for rotor imbalances is proposed in this paper. First, a signal reconstruction method is proposed, and a novel index is used to determine the number of components used in signal decomposition in order to effectively address the interference by noise on the sensor. Second, an entropy calculation method is proposed, and the Gaussian kernel function is used to replace the fuzzy functions. The results indicate significant differences for different types of rotor imbalances. Moreover, it exhibits good noise robustness and a low dependence on the data length. Third, a support vector machine with multiscale kernels is proposed, and kernel functions with various characteristics and scales are combined. It has a well-distributed hyperplane and better classification performance, and it is robust to wind conditions. Finally, the method is tested and verified with varying levels of noise and turbulence. The results demonstrate satisfactory performance because the proposed method can effectively identify rotor imbalances under different noise and wind conditions.",
+    "authors": [
+      "Mingyang Chen",
+      "Shanshan Guo",
+      "Zuoxia Xing",
+      "KA. Folly",
+      "Yang Liu",
+      "Pengfei Zhang"
+    ],
+    "doi": "10.1063/5.0196845",
+    "year": 2024,
+    "pdf_url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0196845/19876766/045315_1_5.0196845.pdf",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "arxiv",
+    "topic": "rotor imbalance",
+    "title": "Rotor imbalance suppression by optimal control",
+    "abstract": "An imbalanced rotor is considered. A system of moving balancing masses is given. We determine the optimal movement of the balancing masses to minimize the imbalance on the rotor. The optimal movement is given by an open-loop control solving an optimal control problem posed in infinite time. By methods of the Calculus of Variations, the existence of the optimum is proved and the corresponding optimality conditions have been derived. Asymptotic behavior of the control system is studied rigorously. By Łojasiewicz inequality, convergence of the optima as time $t\\to +\\infty$ towards a steady configuration is ensured. An explicit estimate of the convergence rate is given. This guarantees that the optimal control stabilizes the system. In case the imbalance is below a computed threshold, the convergence occurs exponentially fast. This is proved by the Stable Manifold Theorem applied to the Pontryagin optimality system. Moreover, a closed-loop control strategy based on Reinforcement Learning is proposed. Numerical simulations have been performed, validating the theoretical results.",
+    "authors": [
+      "Matteo Gnuffi",
+      "Dario Pighin",
+      "Noboru Sakamoto"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/1907.11697v3",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/Rotor_imbalance_suppression_by_optimal_control.pdf",
+    "sha256": "5d4f6b04b2e50a361a3f03b8eb330aab71149fd2871fd88ada74d3af27e75c2b"
+  },
+  {
+    "source": "arxiv",
+    "topic": "rotor imbalance",
+    "title": "Rotor-Failure-Aware Quadrotors Flight in Unknown Environments",
+    "abstract": "Rotor failures in quadrotors may result in high-speed rotation and vibration due to rotor imbalance, which introduces significant challenges for autonomous flight in unknown environments. The mainstream approaches against rotor failures rely on fault-tolerant control (FTC) and predefined trajectory tracking. To the best of our knowledge, online failure detection and diagnosis (FDD), trajectory planning, and FTC of the post-failure quadrotors in unknown and complex environments have not yet been achieved. This paper presents a rotor-failure-aware quadrotor navigation system designed to mitigate the impacts of rotor imbalance. First, a composite FDD-based nonlinear model predictive controller (NMPC), incorporating motor dynamics, is designed to ensure fast failure detection and flight stability. Second, a rotor-failure-aware planner is designed to leverage FDD results and spatial-temporal joint optimization, while a LiDAR-based quadrotor platform with four anti-torque plates is designed to enable reliable perception under high-speed rotation. Lastly, extensive benchmarks against state-of-the-art methods highlight the superior performance of the proposed approach in addressing rotor failures, including propeller unloading and motor stoppage. The experimental results demonstrate, for the first time, that our approach enables autonomous quadrotor flight with rotor failures in challenging environments, including cluttered rooms and unknown forests.",
+    "authors": [
+      "Xiaobin Zhou",
+      "Miao Wang",
+      "Chengao Li",
+      "Can Cui",
+      "Ruibin Zhang",
+      "Yongchao Wang",
+      "Chao Xu",
+      "Fei Gao"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.11306v2",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/Rotor-Failure-Aware_Quadrotors_Flight_in_Unknown_Environments.pdf",
+    "sha256": "6be0a197188bc2437654dee49c5870062b48bbeec123604dbc49b2a36cdfc5b1"
+  },
+  {
+    "source": "openalex",
+    "topic": "gearbox failure analysis",
+    "title": "Multi-fault detection and failure analysis of wind turbine gearbox using complex wavelet transform",
+    "abstract": "",
+    "authors": [
+      "Wei Teng",
+      "Xian Ding",
+      "Xiaolong Zhang",
+      "Yibing Liu",
+      "Zhiyong Ma"
+    ],
+    "doi": "https://doi.org/10.1016/j.renene.2016.03.025",
+    "year": 2016,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "gearbox failure analysis",
+    "title": "Fatigue failure analysis of high speed train gearbox housings",
+    "abstract": "",
+    "authors": [
+      "Weigang Hu",
+      "Zhiming Liu",
+      "Dekun Liu",
+      "Xue Hai"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2016.12.008",
+    "year": 2016,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "gearbox failure analysis",
+    "title": "Wind Turbine Gearbox Failure Identification With Deep Neural Networks",
+    "abstract": "The feasibility of monitoring the health of wind turbine (WT) gearboxes based on the lubricant pressure data in the supervisory control and data acquisition system is investigated in this paper. A deep neural network (DNN)-based framework is developed to monitor conditions of WT gearboxes and identify their impending failures. Six data-mining algorithms, thek-nearest neighbors, least absolute shrinkage and selection operator, ridge regression (Ridge), support vector machines, shallow neural network, as well as DNN, are applied to model the lubricant pressure. A comparative analysis of developed data-driven models is conducted and the DNN model is the most accurate. To prevent the overfitting of the DNN model, a dropout algorithm is applied into the DNN training process. Computational results show that the prediction error will shift before the occurrences of gearbox failures. An exponentially weighted moving average control chart is deployed to derive criteria for detecting the shifts. The effectiveness of the proposed monitoring approach is demonstrated by examining real cases from wind farms in China and benchmarked against the gearbox monitoring based on the oil temperature data.",
+    "authors": [
+      "Long Wang",
+      "Zijun Zhang",
+      "Huan Long",
+      "Jia Xu",
+      "Ruihua Liu"
+    ],
+    "doi": "https://doi.org/10.1109/tii.2016.2607179",
+    "year": 2016,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "gearbox failure analysis",
+    "title": "Vibration based condition monitoring and fault diagnosis of wind turbine planetary gearbox: A review",
+    "abstract": "",
+    "authors": [
+      "Tianyang Wang",
+      "Qinkai Han",
+      "Fulei Chu",
+      "Zhipeng Feng"
+    ],
+    "doi": "https://doi.org/10.1016/j.ymssp.2019.02.051",
+    "year": 2019,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "gearbox failure analysis",
+    "title": "Failure analysis on abnormal wear of roller bearings in gearbox for wind turbine",
+    "abstract": "",
+    "authors": [
+      "Yi Gong",
+      "Jing‐Lu Fei",
+      "Jie Tang",
+      "Zhen‐Guo Yang",
+      "Yongming Han",
+      "Xiang Li"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2017.08.015",
+    "year": 2017,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "electric motor failure analysis",
+    "title": "Overview of Electric Motor Technologies Used for More Electric Aircraft (MEA)",
+    "abstract": "This paper presents an overview of motor drive technologies used for safety-critical aerospace applications, with a particular focus placed on the choice of candidate machines and their drive topologies. Aircraft applications demand high reliability, high availability, and high power density while aiming to reduce weight, complexity, fuel consumption, operational costs, and environmental impact. New electric driven systems can meet these requirements and also provide significant technical and economic improvements over conventional mechanical, hydraulic, or pneumatic systems. Fault-tolerant motor drives can be achieved by partitioning and redundancy through the use of multichannel three-phase systems or multiple single-phase modules. Analytical methods are adopted to compare caged induction, reluctance, and PM motor technologies and their relative merits. The analysis suggests that the dual (or triple) three-phase PMAC motor drive may be a favored choice for general aerospace applications, striking a balance between necessary redundancy and undue complexity, while maintaining a balanced operation following a failure. The modular single-phase approach offers a good compromise between size and complexity but suffers from high total harmonic distortion of the supply and high torque ripple when faulted. For each specific aircraft application, a parametrical optimization of the suitable motor configuration is needed through a coupled electromagnetic and thermal analysis, and should be verified by finite-element analysis.",
+    "authors": [
+      "Cao Wenping",
+      "B.C. Mecrow",
+      "Glynn Atkinson",
+      "Joseph W. Bennett",
+      "D.J. Atkinson"
+    ],
+    "doi": "https://doi.org/10.1109/tie.2011.2165453",
+    "year": 2011,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "electric motor failure analysis",
+    "title": "Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms",
+    "abstract": "Rebecca M. Henderson, Kim B. Clark, Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms, Administrative Science Quarterly, Vol. 35, No. 1, Special Issue: Technology, Organizations, and Innovation (Mar., 1990), pp. 9-30",
+    "authors": [
+      "Rebecca Henderson",
+      "Kim B. Clark"
+    ],
+    "doi": "https://doi.org/10.2307/2393549",
+    "year": 1990,
+    "pdf_url": "http://www.iot.ntnu.no/innovation/norsi-pims-courses/tushman/Handerson%20&%20Clark%20(1990).pdf",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/Architectural_Innovation_The_Reconfiguration_of_Existing_Product_Technologies_a.pdf",
+    "sha256": "5741aefd1118387e19a549520b06edd9bca691aaccb0897dffe16fe9c90c61b1"
+  },
+  {
+    "source": "openalex",
+    "topic": "electric motor failure analysis",
+    "title": "Condition Monitoring of Bearing Damage in Electromechanical Drive Systems by Using Motor Current Signals of Electric Motors: A Benchmark Data Set for Data-Driven Classification",
+    "abstract": "This paper presents a benchmark data set for condition monitoring of rolling bearings in combination with an extensive description of the corresponding bearing damage, the data set generation by experiments and results of data-driven classifications used as a diagnostic method. The diagnostic method uses the motor current signal of an electromechanical drive system for bearing diagnostic. The advantage of this approach in general is that no additional sensors are required, as current measurements can be performed in existing frequency inverters. This will help to reduce the cost of future condition monitoring systems. A particular novelty of the present approach is the monitoring of damage in external bearings which are installed in the drive system but outside the electric motor. Nevertheless, the motor current signal is used as input for the detection of the damage. Moreover, a wide distribution of bearing damage is considered for the benchmark data set. The results of the classifications show that the motor current signal can be used to identify and classify bearing damage within the drive system. However, the classification accuracy is still low compared to classifications based on vibration signals. Further, dependency on properties of those bearing damage that were used for the generation of training data are observed, because training with data of artificially generated and real bearing damages lead to different accuracies. Altogether a verified and systematically generated data set is presented and published online for further research.",
+    "authors": [
+      "Christian Lessmeier",
+      "James Kuria Kimotho",
+      "Detmar Zimmer",
+      "Walter Sextro"
+    ],
+    "doi": "https://doi.org/10.36001/phme.2016.v3i1.1577",
+    "year": 2016,
+    "pdf_url": "https://papers.phmsociety.org/index.php/phme/article/download/1577/542",
+    "category": "bearings",
+    "pdf_path": "knowledge_base/papers/bearings/Condition_Monitoring_of_Bearing_Damage_in_Electromechanical_Drive_Systems_by_Usi.pdf",
+    "sha256": "c1f75c79cfbcbcbfd24b32bf034cebb76d1c3ff7864827575d37387bb0955f84"
+  },
+  {
+    "source": "openalex",
+    "topic": "electric motor failure analysis",
+    "title": "Failure analysis of the deep groove ball bearings of an electric motor",
+    "abstract": "",
+    "authors": [
+      "Wouter Ost",
+      "Patrick De Baets"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2004.12.003",
+    "year": 2005,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "electric motor failure analysis",
+    "title": "Failure Analysis of Random Vibration and an Effective Solution for Three-Phase Busbar of Flat Wire Motor Applied in Electric Vehicles",
+    "abstract": "As flat wire motors have gained prominence in electric vehicles, the design of three-phase busbars, which are the weakest parts inside the motors, has become critical. The factors contributing to failure during random vibration experiment in design verification (DV) are analyzed using microfracture morphology and simulation analysis calibrated by using the modal test. It indicates that the primary cause of vibration failure is that the $3\\sigma $ stress in solder joints of W-phase surpasses material yield strength in the original scheme. A proposed scheme involving coating on solder joints is presented to solve the problem of vibration failure quickly, effectively, and reliably. The analysis shows that the measures targeted at the solder joints can significantly reduce their $3\\sigma $ stress. The coating scheme can reduce the stress from 349.9 to 92.1 MPa and the clamping scheme reduces it to 172.2 MPa. The proposed scheme has been validated through vibration and powered thermal cycling endurance (PTCE) experiments. The influences of structural size and the impregnation of winding ends on the stress of busbars are analyzed using simulation. The research also shows that the hardening length of soft copper bar and the impregnation of winding end have a significant impact on the stress of busbars.",
+    "authors": [
+      "Z. Hu",
+      "J. Luo",
+      "Z. Jin"
+    ],
+    "doi": "10.1109/TTE.2025.3554725",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "electric motor failure analysis",
+    "title": "Failure Mode Analysis and Improvement Strategies for the AW189 Rescue Hoist Electric Motor",
+    "abstract": "",
+    "authors": [
+      "Tongbin Zhu",
+      "Huojie Gu"
+    ],
+    "doi": "10.47297/taposatwsp2633-456944.20250608",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "electric motor failure analysis",
+    "title": "Hydraulic Analysis and Optimization of a Novel Electric Motor Rotor Shaft Cooling System",
+    "abstract": "Effective thermal management and lubrication are critical for ensuring the reliability, safety, and performance of high-power electric machines. Overheating can lead to insulation degradation, demagnetization, and motor failure. This paper presents a hydraulic performance analysis of a novel rotor shaft cooling system designed for high-performance electric traction motors. A steady-state, single-phase pressure drop analysis is compared with a transient, multi-phase Volume-of-Fluid (VOF) filling simulation. Results show that shaft pressure drop is sensitive to rotational speed and that significant air entrapment during filling can substantially increase pressure losses. To address this, two air venting strategies—radial and axial—are proposed and evaluated. Both designs effectively mitigate air entrapment and reduce pressure drop, with the axial venting solution demonstrating superior performance in eliminating pressure spikes.",
+    "authors": [
+      "Steven Vanhee",
+      "Jaywant Pawar",
+      "B. Hannon",
+      "J. Nonneman",
+      "M. De Paepe"
+    ],
+    "doi": "10.1109/ITEC-India67626.2025.11439783",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "electric motor failure analysis",
+    "title": "Cyclostationary analysis of vibration signals from electric motor – understanding of bi-frequency map",
+    "abstract": "Abstract. Cyclostationary analysis is one of the most promising and powerful methods for analyzing vibration signals from rolling element bearings (REBs). Damage to the REB is one of the most common reasons for failure in the electric motor (EM). Thus, the application of cyclostationary analysis to vibration signals from EM is reasonable in order to detect faults. Unfortunately, it has been observed that analyzing vibration signals measured on bearings in electric motors is much more challenging due to the presence of additional cyclic components on the bi-frequency map that affect the analysis. These additional components may have various mechanical sources (for example, the influence of shaft misalignment) or electrical/electromagnetic origins (such as frequencies related to features of the power source, i.e., grid frequency, inverter keying, etc.). This paper is an introduction to bearing diagnostics in electric motors based on cyclostationary analysis in the bi-frequency domain. We present various cases to show the complexity of the map and conclude that there is a need to define a method for automatic identification and interpretation of sources, i.e., understanding of the bi-frequency map. As other cyclic sources are wideband and they have much stronger values on the map, simple band selection is difficult. Thus, new methods for further map processing and novel indicators to assess the significance of features that describe the fault based on cyclic spectral coherence (CSC) maps should be developed. However, it is stated that it requires a deep understanding of the CSC map. We believe that this paper brings some new knowledge to the context of using CSC for bearing diagnosis in electric motors.\n",
+    "authors": [
+      "J. Wodecki",
+      "Anna Michalak",
+      "Justyna Hebda-Sobkowicz",
+      "A. Wyłomańska",
+      "Krzysztof Szabat",
+      "Marcin Wolkiewicz",
+      "M. Pawlak",
+      "R. Zimroz"
+    ],
+    "doi": "10.5194/ms-16-597-2025",
+    "year": 2025,
+    "pdf_url": "https://ms.copernicus.org/articles/16/597/2025/ms-16-597-2025.pdf",
+    "category": "motors",
+    "pdf_path": "knowledge_base/papers/motors/Cyclostationary_analysis_of_vibration_signals_from_electric_motor_–_understandin.pdf",
+    "sha256": "abb582e40fb038fcfdcf98ea272e6bc445d52bb6113f4f3ba294ac900f5fcda8"
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "electric motor failure analysis",
+    "title": "Electric motor design for steer-by-wire systems and functional safety analysis",
+    "abstract": "Steer-by-Wire (SbW) systems are gaining significance in the automotive industry in response to growing demands for driving comfort and safety. By eliminating traditional mechanical steering column connections, SbW systems offer reduced power consumption and enhanced steering performance. This paper examines the design and functional safety requirements of feedback motors used in SbW systems. In SbW systems, feedback motors generate reactive torque to improve the driver’s steering feel, requiring precise control. Brushless DC (BLDC) motors are emphasized as the preferred choice due to their high reliability and efficiency. This study outlines specific parameters for the selection and design of BLDC motors and identifies suitable options. The ISO 26262 functional safety standard is crucial for ensuring the safe operation of these systems. In compliance with the ISO 26262, the failure rates of electric motors must align with the associated risk levels. Additionally, these motors should incorporate safety mechanisms capable of detecting and isolating faults. In conclusion, adherence to the ISO 26262 standards in electric motor design for SbW systems is vital for vehicle safety and performance. This paper reviews studies aimed at developing safe, efficient, and reliable motors for modern automotive applications and offers recommendations.",
+    "authors": [
+      "Mehmet Duran Menekşe",
+      "M. C. Aküner"
+    ],
+    "doi": "10.21595/jmai.2025.24808",
+    "year": 2025,
+    "pdf_url": "https://www.extrica.com/article/24808/pdf",
+    "category": "motors",
+    "pdf_path": "knowledge_base/papers/motors/Electric_motor_design_for_steer-by-wire_systems_and_functional_safety_analysis.pdf",
+    "sha256": "96444d95491672541df1bc7c9e0395478b9a8ec281ea7041e5626ed278f71292"
+  },
+  {
+    "source": "openalex",
+    "topic": "motor overheating",
+    "title": "Real-time prediction of propulsion motor overheating using machine learning",
+    "abstract": "Thermal protection in marine electrical propulsion motors is commonly implemented by installing temperature sensors on the windings of the motor. An alarm is issued once the temperature reaches the alarm limit, while the motor shuts down once the trip limit is reached. Field experience shows that this protection scheme in some cases is insufficient, as the motor may already be damaged before reaching the trip limit. In this paper, we develop a machine learning algorithm to predict overheating, based on past data collected from a class of identical vessels. All methods were implemented to comply with real-time requirements of the on-board protective systems with minimal need for memory and computational power. Our two-stage overheating detection algorithm first predicts the temperature in a normal state using linear regression fitted to regular operation motor performance measurements, with exponentially smoothed predictors accounting for time dynamics. Then it identifies and monitors temperature deviations between the observed and predicted temperatures using an adaptive cumulative sum (CUSUM) procedure. Using data from a real fault case, the monitor alerts between 60 to 90 min before failure occurs, and it is able to detect the emerging fault at temperatures below the current alarm limits.",
+    "authors": [
+      "Kristoffer H. Hellton",
+      "Martin Tveten",
+      "Morten Stakkeland",
+      "Solveig Engebretsen",
+      "Ola Haug",
+      "Magne Aldrin"
+    ],
+    "doi": "https://doi.org/10.1080/20464177.2021.1978745",
+    "year": 2021,
+    "pdf_url": "http://hdl.handle.net/10852/88688",
+    "category": "motors",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor overheating",
+    "title": "No-load power losses and motor overheating effects versus PWM switching frequencies",
+    "abstract": "Electric motors driven by pulse-width modulated (PWM) waveforms exhibit different power loss and heating characteristics than line-fed motors. Experimental results indicate that motor losses and heating increase as the drive switching frequency decreases. Motor power losses for low switching frequencies are described, and if the increase in motor power loss is high enough such that motor overheating is a concern, a three-phase line reactor between the drive output and the motor terminals may be used to mitigate the additional motor losses and possible motor overheating. This paper presents the effect of PWM waveforms on motor losses and demonstrates that the use of a small three-phase line reactor between the drive and the motor dramatically reduces the motor losses under low PWM switching frequencies.",
+    "authors": [
+      "Andrew Strandt",
+      "Jiangang Hu",
+      "Lixiang Wei"
+    ],
+    "doi": "https://doi.org/10.1109/icrera.2014.7016570",
+    "year": 2014,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor overheating",
+    "title": "A Critical Study of the Mechanical and Electrical Properties of the PHANToM Haptic Interface and Improvements for Highperformance Control",
+    "abstract": "This paper presents a critical study of the mechanical and electrical properties of the PHANToM haptic interface and improvements to overcome its limitations for applications requiring high-performance control. Target applications share the common requirements of low-noise/granularity/latency measurements, an accurate system model, high bandwidth, the need for an open architecture, and the ability to operate for long periods without interruption while exerting significant forces. To satisfy these requirements, the kinematics, dynamics, high-frequency dynamic response, and velocity estimation of the PHANToM system are studied. Furthermore, this paper presents the details of how the unknown subsystems of the stock PHANToM can be replaced with known, high-performance systems and how additional measurement electronics can be interfaced to compensate for some of the PHANToM's shortcomings. With these modifications, it is possible to increase the maximum achievable virtual wall stiffness by 35%, active viscous damping by 120%, and teleoperation loop gain by 50% over the original system. With the modified system, it is also possible to maintain higher forces for longer periods without causing motor overheating.",
+    "authors": [
+      "M. Cenk Çavuşoğlu",
+      "David Feygin",
+      "Frank Tendick"
+    ],
+    "doi": "https://doi.org/10.1162/105474602321050695",
+    "year": 2002,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor overheating",
+    "title": "Application of model-based fault detection to a brushless DC motor",
+    "abstract": "In comparison to classical DC motors, brushless DC motors are very reliable, Nevertheless, they can also fail, caused by, e.g., overheating or mechanical wear. This paper proposes a parameter estimation technique for fault detection on this type of motor. Simply by measuring the motor's input and output signals, its parameters can be estimated. This method is based on a mathematical model of the process. In the presented work, a square-wave motor is considered. An appropriate model is derived. To be able to implement the method also on low-cost microcontroller-based control units, only the power inverter supply voltage, DC current, and the motor's angular velocity have to be measured. The parameter estimation technique provides information about the electrical resistance and the back-EMF constant as well as about the mechanical parameters. Comparing the nominal with the computed parameters, faults can be detected. The approach might be applied to both end-of-line and online fault detection. Results for simulated data demonstrate the capabilities of the proposed procedure. Finally, a real-world application-an actuation system with a brushless DC motor mounted to a gearbox-is given.",
+    "authors": [
+      "Olaf Moseler",
+      "Rolf Isermann"
+    ],
+    "doi": "https://doi.org/10.1109/41.873209",
+    "year": 2000,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor overheating",
+    "title": "Overheating Motor",
+    "abstract": "First Page",
+    "authors": [
+      "Paul L. Hewitt"
+    ],
+    "doi": "https://doi.org/10.1119/1.1571259",
+    "year": 2003,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "arxiv",
+    "topic": "motor overheating",
+    "title": "Learning to Balance Motor Thermal Safety and Quadrupedal Locomotion Performance with Residual Policy",
+    "abstract": "Motor thermal management is often overlooked in the context of electrically-actuated robots, particularly legged robots, but motor overheating is a key factor that limits long-duration locomotion especially under payload conditions. This paper integrates a whole-body thermal model of a quadruped robot into the reinforcement learning pipeline to update motor temperatures, and proposes a two-stage training framework for motor thermal management. In this framework, a nominal policy is first pre-trained as a locomotion baseline capable of traversing diverse terrains. A residual policy is then trained on top of the nominal policy to provide corrective actions based on the robot's thermal state, ensuring high performance under low-temperature conditions and preventing motor overheating under high-temperature conditions. Simulation results demonstrate that the proposed policy achieves an effective balance between motor thermal safety and locomotion performance. Real-world experiments on a Unitree A1 quadruped robot further validate the approach: under a 3 kg payload, the robot achieves stable locomotion across multiple terrains for over 13 minutes, while the nominal policy alone leads to motor overheating in about 5 minutes.",
+    "authors": [
+      "Yuhang Wan",
+      "Weixian Lin",
+      "Letian Qian",
+      "Yiqi Zou",
+      "Weiwei Wu",
+      "Shengwei Liao",
+      "Chuanlin Zhao",
+      "Xin Luo"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.27046v3",
+    "category": "motors",
+    "pdf_path": "knowledge_base/papers/motors/Learning_to_Balance_Motor_Thermal_Safety_and_Quadrupedal_Locomotion_Performance_.pdf",
+    "sha256": "4d6ff95b91a36cbb96447d434cc10e43d271dd49eb237fafe89111d0c8306240"
+  },
+  {
+    "source": "arxiv",
+    "topic": "motor overheating",
+    "title": "A Framework for Imbalanced Time-series Forecasting",
+    "abstract": "Time-series forecasting plays an important role in many domains. Boosted by the advances in Deep Learning algorithms, it has for instance been used to predict wind power for eolic energy production, stock market fluctuations, or motor overheating. In some of these tasks, we are interested in predicting accurately some particular moments which often are underrepresented in the dataset, resulting in a problem known as imbalanced regression. In the literature, while recognized as a challenging problem, limited attention has been devoted on how to handle the problem in a practical setting. In this paper, we put forward a general approach to analyze time-series forecasting problems focusing on those underrepresented moments to reduce imbalances. Our approach has been developed based on a case study in a large industrial company, which we use to exemplify the approach.",
+    "authors": [
+      "Luis P. Silvestrin",
+      "Leonardos Pantiskas",
+      "Mark Hoogendoorn"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2107.10709v1",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/A_Framework_for_Imbalanced_Time-series_Forecasting.pdf",
+    "sha256": "c44450527555f79ce7542376d263fb190c6d3c324f53f309274bc8c8c5036540"
+  },
+  {
+    "source": "arxiv",
+    "topic": "motor overheating",
+    "title": "DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains",
+    "abstract": "Recent advances in quadrupedal robots have demonstrated impressive agility and the ability to traverse diverse terrains. However, hardware issues, such as motor overheating or joint locking, may occur during long-distance walking or traversing through rough terrains leading to locomotion failures. Although several studies have proposed fault-tolerant control methods for quadrupedal robots, there are still challenges in traversing unstructured terrains. In this paper, we propose DreamFLEX, a robust fault-tolerant locomotion controller that enables a quadrupedal robot to traverse complex environments even under joint failure conditions. DreamFLEX integrates an explicit failure estimation and modulation network that jointly estimates the robot's joint fault vector and utilizes this information to adapt the locomotion pattern to faulty conditions in real-time, enabling quadrupedal robots to maintain stability and performance in rough terrains. Experimental results demonstrate that DreamFLEX outperforms existing methods in both simulation and real-world scenarios, effectively managing hardware failures while maintaining robust locomotion performance.",
+    "authors": [
+      "Seunghyun Lee",
+      "I Made Aswin Nahrendra",
+      "Dongkyu Lee",
+      "Byeongho Yu",
+      "Minho Oh",
+      "Hyun Myung"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2502.05817v1",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/DreamFLEX_Learning_Fault-Aware_Quadrupedal_Locomotion_Controller_for_Anomaly_Si.pdf",
+    "sha256": "15b1d404f791cc4dd8275bf9df2e5b51dcbc573aba85eb51bcda5a0f49f38505"
+  },
+  {
+    "source": "arxiv",
+    "topic": "motor overheating",
+    "title": "Deep Generative and Discriminative Digital Twin endowed with Variational Autoencoder for Unsupervised Predictive Thermal Condition Monitoring of Physical Robots in Industry 6.0 and Society 6.0",
+    "abstract": "Robots are unrelentingly used to achieve operational efficiency in Industry 4.0 along with symbiotic and sustainable assistance for the work-force in Industry 5.0. As resilience, robustness, and well-being are required in anti-fragile manufacturing and human-centric societal tasks, an autonomous anticipation and adaption to thermal saturation and burns due to motors overheating become instrumental for human safety and robot availability. Robots are thereby expected to self-sustain their performance and deliver user experience, in addition to communicating their capability to other agents in advance to ensure fully automated thermally feasible tasks, and prolong their lifetime without human intervention. However, the traditional robot shutdown, when facing an imminent thermal saturation, inhibits productivity in factories and comfort in the society, while cooling strategies are hard to implement after the robot acquisition. In this work, smart digital twins endowed with generative AI, i.e., variational autoencoders, are leveraged to manage thermally anomalous and generate uncritical robot states. The notion of thermal difficulty is derived from the reconstruction error of variational autoencoders. A robot can use this score to predict, anticipate, and share the thermal feasibility of desired motion profiles to meet requirements from emerging applications in Industry 6.0 and Society 6.0.",
+    "authors": [
+      "Eric Guiffo Kaigom"
+    ],
+    "doi": null,
+    "year": null,
+    "pdf_url": "https://arxiv.org/pdf/2509.12740v1",
+    "category": "misc",
+    "pdf_path": "knowledge_base/papers/misc/Deep_Generative_and_Discriminative_Digital_Twin_endowed_with_Variational_Autoenc.pdf",
+    "sha256": "2c856c32cf4878b5924bc50f09f1c36fdeffd3392db80a7e3f230a6365b98144"
+  },
+  {
+    "source": "openalex",
+    "topic": "motor vibration analysis",
+    "title": "Analysis of airgap flux, current, and vibration signals as a function of the combination of static and dynamic airgap eccentricity in 3-phase induction motors",
+    "abstract": "This paper provides new information for the online diagnosis of airgap eccentricity in 3-phase induction motors. A new theoretical analysis of the interaction between harmonic field components due to static and dynamic rotor eccentricity which previous research has not considered is put forward, The resultant nonsupply-frequency current components produced in the supply current which are highlighted by the analysis are found to exist experimentally and indeed shown to be a function of the combined effect of both dynamic and static eccentricity. Further vibration analysis is put forward to identify which particular form of rotor eccentricity is dominant; hence illustrating how faults can be identified in a motor using condition monitoring techniques.",
+    "authors": [
+      "David G. Dorrell",
+      "William T. Thomson",
+      "Stephanie S. Roach"
+    ],
+    "doi": "https://doi.org/10.1109/28.567073",
+    "year": 1997,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor vibration analysis",
+    "title": "Analysis of the tonic vibration reflex: influence of vibration variables on motor unit synchronization and fatigue",
+    "abstract": "",
+    "authors": [
+      "Bernard J. Martin",
+      "Hee‐Sok Park"
+    ],
+    "doi": "https://doi.org/10.1007/s004210050196",
+    "year": 1997,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor vibration analysis",
+    "title": "Monitoring gear vibrations through motor current signature analysis and wavelet transform",
+    "abstract": "",
+    "authors": [
+      "Chinmaya Kar",
+      "A.R. Mohanty"
+    ],
+    "doi": "https://doi.org/10.1016/j.ymssp.2004.07.006",
+    "year": 2004,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor vibration analysis",
+    "title": "Analysis of airgap flux, current and vibration signals as a function of the combination of static and dynamic airgap eccentricity in 3-phase induction motors",
+    "abstract": "This paper provides new information for the online diagnosis of airgap eccentricity in three-phase induction motors. A new theoretical analysis of the interaction between harmonic field components due to static and dynamic rotor eccentricity which previous research has not considered is put forward. The resultant harmonic current components produced in the supply current which are highlighted by the analysis are found to exist experimentally and indeed shown to be a function of the combined effect of both dynamic and static eccentricity. Further vibration analysis is put forward to identify which particular form of rotor eccentricity is dominant; hence illustrating how faults can be identified in a motor using condition monitoring techniques.",
+    "authors": [
+      "David G. Dorrell",
+      "William T. Thomson",
+      "Stephanie S. Roach"
+    ],
+    "doi": "https://doi.org/10.1109/ias.1995.530349",
+    "year": 2002,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor vibration analysis",
+    "title": "Condition Monitoring and Fault Diagnosis of Electrical Motors—A Review",
+    "abstract": "Recently, research has picked up a fervent pace in the area of fault diagnosis of electrical machines. The manufacturers and users of these drives are now keen to include diagnostic features in the software to improve salability and reliability. Apart from locating specific harmonic components in the line current (popularly known as motor current signature analysis), other signals, such as speed, torque, noise, vibration etc., are also explored for their frequency contents. Sometimes, altogether different techniques, such as thermal measurements, chemical analysis, etc., are also employed to find out the nature and the degree of the fault. In addition, human involvement in the actual fault detection decision making is slowly being replaced by automated tools, such as expert systems, neural networks, fuzzy-logic-based systems; to name a few. It is indeed evident that this area is vast in scope. Hence, keeping in mind the need for future research, a review paper describing different types of faults and the signatures they generate and their diagnostics' schemes will not be entirely out of place. In particular, such a review helps to avoid repetition of past work and gives a bird's eye view to a new researcher in this area.",
+    "authors": [
+      "S. Nandi",
+      "Hamid A. Toliyat",
+      "Xiaodong Li"
+    ],
+    "doi": "https://doi.org/10.1109/tec.2005.847955",
+    "year": 2005,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "motor vibration analysis",
+    "title": "A Motor Vibration Analysis Platform Using Typhoon-HIL Simulator",
+    "abstract": "Motor vibration monitoring and analyses play a critical role in predictive maintenance, enabling the efficient management of motor-drive systems to prevent unplanned downtime and operational disruptions. This paper presents a real-time hardware-in-the-loop platform for easy deployment and enhanced fault diagnosis. The proposed system integrates advanced signal processing techniques, including Fast Fourier Transform, spectrogram analysis, and empirical mode decomposition, alongside machine learning algorithms. The developed motor condition monitoring model is evaluated under various fault scenarios, including misalignment, unbalance, and bearing defects. Experimental results demonstrate that models employing certain machine learning algorithms achieved 99.8% accuracy in predicting and classifying motor fault conditions. These findings confirm the effectiveness of the proposed system, offering a low-cost, reliable solution to support real-time motor condition monitoring and predictive maintenance.",
+    "authors": [
+      "O. Onodugo",
+      "Emmanuel Agamloh",
+      "Pascal Lingom"
+    ],
+    "doi": "10.1109/IEMDC60492.2025.11061112",
+    "year": 2025,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "motor vibration analysis",
+    "title": "Condition monitoring of induction motor-vibration analysis technique",
+    "abstract": "Condition Based Monitoring maintenance implies that a precautionary job should be executed at a convinced state of hardware. Such technique stands to be considerably additional cost effective than complete letdown of equipment. When racing to disappointment, an impromptu interference to creation is instigated. Likewise, an inadvertent blow-back may happen, leading to costly consequences. Extra parts or spare parts stock must be kept to replace in case of failure of parts. Booked preventive support results typically in repairing, fixing or supplanting parts, driving in an upkeep that is too exorbitant and ineffective in forestalling breakdowns. To further develop accessibility, the framework is upgraded for higher constancy and the necessity for support is restricted. Maintenance is likewise being completed in a most viable way, furthermore, in an arranged approach. Finally, some condition markers are checking to notice decay and recognize disappointments. This task is focused on the examination of Industrial Induction Motor and distinguishing conceivable condition pointers dependent on vibration estimations and investigation.",
+    "authors": [
+      "D. Pardeshi",
+      "M. Unde",
+      "Shraddha Maurya",
+      "Dhanshri A. Narayane"
+    ],
+    "doi": "10.4314/ijest.v14i3.5s",
+    "year": 2022,
+    "pdf_url": "https://www.ajol.info/index.php/ijest/article/download/230818/217948",
+    "category": "motors",
+    "pdf_path": "knowledge_base/papers/motors/Condition_monitoring_of_induction_motor-vibration_analysis_technique.pdf",
+    "sha256": "c75cfa26a2c19aece6fae2824d989f02495247738dbe26b25f8373dddb59481d"
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "motor vibration analysis",
+    "title": "Motor Vibration Analysis for the Fault Diagnosis in Nonstationary Operating Conditions",
+    "abstract": "",
+    "authors": [
+      "Jang-wook Hur",
+      "Tanvir Alam Shifat"
+    ],
+    "doi": null,
+    "year": 2020,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "motor vibration analysis",
+    "title": "A Method of Reducing Motor Vibration: Natural Frequency, Damping Ratio, and Vibration Analysis of CFRP Motor Frame",
+    "abstract": "The existing motor frame is made of metal materials. In this paper, a carbon fiber reinforced plastic (CFRP) motor frame, which uses material damping to reduce vibration amplitude, which is proposed to design and manufacture low-vibration motors. The damp ratio of the CFRP motor frame is calculated by the damp prediction model based on strain energy, which is verified by the combination of the finite element method and experiment. The vibration characteristics of the CFRP frame motor are studied experimentally and compared with that of the metal frame motor. The results show that the CFRP frame motor has good vibration reduction. The amplitude reduction is up to 5 times higher than that of the metal motor frame, which proves that the damping vibration reduction of the CFRP motor frame has a good application value.",
+    "authors": [
+      "Jinguang Zhang",
+      "Hairu Yang",
+      "Xiongqi Li",
+      "W. Ye"
+    ],
+    "doi": "10.1155/2020/6021640",
+    "year": 2020,
+    "pdf_url": "https://downloads.hindawi.com/journals/sv/2020/6021640.pdf",
+    "category": "motors",
+    "pdf_path": null
+  },
+  {
+    "source": "semantic_scholar",
+    "topic": "motor vibration analysis",
+    "title": "Torsional Vibration Analysis and Suppression of Interior Permanent Magnet Synchronous Motor With Staggered Segmented Rotor for Electric Vehicles",
+    "abstract": "Permanent magnet (PM) synchronous motor (PMSM) has been widely applied in electric vehicles (EVs) due to its advantages of high efficiency and high power density. However, the torsional vibration generated by different torsional forces between the rotor and the load or between different rotor segments in the axial direction can significantly reduce the reliability and service life of the motor system. In this article, a new rotor segmented motor is proposed for EVs to eliminate the torsional vibration while ensuring the torque quality. The principle of torsional vibration generation in conventional rotor step-skewing motors is presented, and the technology for reducing torsional vibration in the proposed rotor segmented motor is illustrated. Afterward, the structures of the rotor step-skewing motor and the proposed motor are exhibited and illustrated. The finite element analysis (FEA) models of two motors are established, and the torsional vibration characteristics, including torsional force, torsional mode, and shaft system deformation, are simulated and compared. Finally, the two motors are prototyped and tested, and the results show that the torsional vibration excited by the difference in the axial structure of the motor can be significantly attenuated by the proposed motor.",
+    "authors": [
+      "Xiaoji Wang",
+      "Daohan Wang",
+      "C. Peng",
+      "Bingdong Wang",
+      "Xiuhe Wang"
+    ],
+    "doi": "10.1109/TTE.2023.3333906",
+    "year": 2024,
+    "pdf_url": "",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor insulation degradation",
+    "title": "Motor Insulation Degradation Due to Switching Surges and Surge Protection Requirements",
+    "abstract": "Failure investigation of four 21,000 HP synchronous motors concluded that the cause is related to voltage surges and as a result surge protection was applied to all 13.2 kV motors in the plant. (Ref.l) Further failures of three 21,000 HP synchronous motors after the installation of surge arresters indicated an inadequacy of the specified surge protection. Two of the failed motors were tested at the manufacturer's facility to investigate the cause of failure. Test results concluded that insulation failure was caused by the combined effects of prior insulation degradation and inadequate surge protection. This paper presents an investigation into the three failed motors.",
+    "authors": [
+      "O. M. Nassar"
+    ],
+    "doi": "https://doi.org/10.1109/tec.1986.4765753",
+    "year": 1986,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor insulation degradation",
+    "title": "High-Voltage High-Frequency Testing for Medium-Voltage Motor Insulation Degradation",
+    "abstract": "Most of the present high-voltage high-frequency insulation material testing focuses on the thermal and electrical properties of transformer oil and cable insulation. This paper elucidates the methodology and the experimental setup for high-voltage high-frequency testing of motor winding insulation. The experimental setup gives a pulsed output of voltages ranging from 2 kV till 10 kV peak-to-peak. The experimental setup is used to test the insulation material Kapton HN at different thicknesses [1mil, 2mil, 3mil and 5 mil) at a frequency of 3kHz. Results of the breakdown tests as well as the experimental setup are discussed in this paper.",
+    "authors": [
+      "Arshiah Yusuf Mirza",
+      "Weiqiang Chen",
+      "Hiep H. Nguyen",
+      "Yang Cao",
+      "Ali M. Bazzi"
+    ],
+    "doi": "https://doi.org/10.1109/ecce.2018.8557568",
+    "year": 2018,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor insulation degradation",
+    "title": "Failure mechanism of winding insulations in inverter-fed motors",
+    "abstract": "The failure of magnet wires under repetitive pulses as seen in inverter-fed motors cannot be attributed to a single factor but is a result of the combined effects of partial discharge, dielectric heating, and space charge formation. Voltage overshoots produced by PWM drives may be above discharge inception voltage. Partial discharge may therefore be present in inverter-fed motors. In addition to partial discharge, pulses with a fast rise time and high frequency enable the insulation to generate local dielectric heating, which increases the local temperature. The degradation rate of the insulation is therefore increased. Furthermore, the fast rise and fall of pulses make it possible for space charges to accumulate in the winding insulation and on its surface.",
+    "authors": [
+      "Weijun Yin"
+    ],
+    "doi": "https://doi.org/10.1109/57.637150",
+    "year": 1997,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor insulation degradation",
+    "title": "Effects of risetime and cable length on motor insulation degradation resulting from operation on PWM voltage source inverters",
+    "abstract": "The effects of cable length and PWM inverter voltage risetime are investigated to assess their respective contribution to the peak voltage amplitude and to the destructive corona-producing energy contained in the transient overshoot caused by voltage wave reflection at the electric machine terminals. A finite difference model is used to simulate the voltage response of the system, comprised of the voltage source inverter, cable and terminating winding, to conveniently study the effects of varying inverter output voltage waveform risetime and cable length. Some generalized conclusions are given based on the simulations.",
+    "authors": [
+      "D.B. Hyypio"
+    ],
+    "doi": "https://doi.org/10.1109/iemdc.1997.604263",
+    "year": 2002,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "motor insulation degradation",
+    "title": "Degradation of turn insulation in motor coils under repetitive surges",
+    "abstract": "Degradation of interturn insulation caused by repetitive surges is studied for coils in three motors stators. In each stator, the coils are isolated and divided into several groups. Breakdown voltages of coils in one group are measured for 0.1 mu s risetime impulses and the average breakdown voltage of these unaged coils is determined. Coils in the other groups are first subjected to a number (1000 to 8000) of surges with magnitudes of 3.0 to 7.8 pu, and then the impulse breakdown voltages for these aged coils are measured and compared with those for the unaged coils. The results of the measurements on two stators showed no evidence of degradation of turn insulation by surges. There is an indication of surge aging of the turn insulation for one stator. Surge magnitudes capable of causing detectable aging of turn insulation appear to be higher than those likely to occur at normally operating utility motors. The existence of a threshold value of surge magnitude required to produce aging effects is a possible hypothesis.&gt;",
+    "authors": [
+      "B. K. Gupta",
+      "B.A. Lloyd",
+      "Dinesh K. Sharma"
+    ],
+    "doi": "https://doi.org/10.1109/60.107228",
+    "year": 1990,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "equipment reliability analysis",
+    "title": "Time Series Data for Equipment Reliability Analysis With Deep Learning",
+    "abstract": "With the deep integration of cyber physical production systems in the era of Industry 4.0, smart workshop dramatically increases the amount of data collected by smart device. A key factor in achieving smart manufacturing is to use data analysis methods for evaluating the equipment reliability and for supporting the predictive maintenance of equipment. Based on these insights, this paper proposes a deep learning-based approach that uses time series data for equipment reliability analysis. First, a framework of the TensorFlow-enabled deep neural networks (DNN) model for equipment reliability analysis is presented. Secondly, using time series equipment data, an evaluation strategy of equipment reliability based on deep learning is proposed. Finally, the reliability of a cylinder, an important part of the small trolley in automobile assembly line, is evaluated in a case study. Compared with the traditional reliability analysis method such as PCA and HMM, the prediction results show a significant improvement in prediction accuracy. This work contributes to promoting artificial intelligence algorithms for realizing highly efficient manufacturing.",
+    "authors": [
+      "Baotong Chen",
+      "Yan Liu",
+      "Chunhua Zhang",
+      "Zhongren Wang"
+    ],
+    "doi": "https://doi.org/10.1109/access.2020.3000006",
+    "year": 2020,
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09108271.pdf",
+    "category": "reliability",
+    "pdf_path": "knowledge_base/papers/reliability/Time_Series_Data_for_Equipment_Reliability_Analysis_With_Deep_Learning.pdf",
+    "sha256": "c259cc49d058ba12be0c63b403dc5ece111b56187e9905a70bc49df6e828ac84"
+  },
+  {
+    "source": "openalex",
+    "topic": "equipment reliability analysis",
+    "title": "Reliability analysis of mining equipment: A case study of a crushing plant at Jajarm Bauxite Mine in Iran",
+    "abstract": "",
+    "authors": [
+      "Javad Barabady",
+      "Uday Kumar"
+    ],
+    "doi": "https://doi.org/10.1016/j.ress.2007.10.006",
+    "year": 2007,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "equipment reliability analysis",
+    "title": "Review of Machining Equipment Reliability Analysis Methods based on Condition Monitoring Technology",
+    "abstract": "The condition of mechanical equipment during machining is closely related to the accuracy and roughness of the workpiece. In an intelligent sensing environment, a large amount of multi-source data reflecting status information are generated during processing, and a number of studies have been conducted for machining equipment reliability analysis. In this paper, the reliability analysis method of machining equipment based on condition monitoring technology is taken as the main line. And an up-to-date comprehensive survey of multi-source information during the cutting process, failure physical analysis for signal selection and reliability assessment based on condition information will be provided. Finally, the future challenges and trends will also be presented. It is a feasible and valuable research direction to evaluate the reliability of machining equipment for product quality characteristics.",
+    "authors": [
+      "Wei Dai",
+      "Jiahuan Sun",
+      "Yongjiao Chi",
+      "Zhiyuan Lu",
+      "Dong Xu",
+      "Nan Jiang"
+    ],
+    "doi": "https://doi.org/10.3390/app9142786",
+    "year": 2019,
+    "pdf_url": "https://www.mdpi.com/2076-3417/9/14/2786/pdf?version=1562823150",
+    "category": "reliability",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "equipment reliability analysis",
+    "title": "Handbook of human-reliability analysis with emphasis on nuclear power plant applications. Final report",
+    "abstract": "The primary purpose of the Handbook is to present methods, models, and estimated human error probabilities (HEPs) to enable qualified analysts to make quantitative or qualitative assessments of occurrences of human errors in nuclear power plants (NPPs) that affect the availability or operational reliability of engineered safety features and components. The Handbook is intended to provide much of the modeling and information necessary for the performance of human reliability analysis (HRA) as a part of probabilistic risk assessment (PRA) of NPPs. Although not a design guide, a second purpose of the Handbook is to enable the user to recognize error-likely equipment design, plant policies and practices, written procedures, and other human factors problems so that improvements can be considered. The Handbook provides the methodology to identify and quantify the potential for human error in NPP tasks.",
+    "authors": [
+      "Alan D. Swain",
+      "H.E. Guttmann"
+    ],
+    "doi": "https://doi.org/10.2172/5752058",
+    "year": 1983,
+    "pdf_url": "https://www.osti.gov/biblio/5752058",
+    "category": "reliability",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "equipment reliability analysis",
+    "title": "Reliability of the PEDro Scale for Rating Quality of Randomized Controlled Trials",
+    "abstract": "BACKGROUND AND PURPOSE: Assessment of the quality of randomized controlled trials (RCTs) is common practice in systematic reviews. However, the reliability of data obtained with most quality assessment scales has not been established. This report describes 2 studies designed to investigate the reliability of data obtained with the Physiotherapy Evidence Database (PEDro) scale developed to rate the quality of RCTs evaluating physical therapist interventions. METHOD: In the first study, 11 raters independently rated 25 RCTs randomly selected from the PEDro database. In the second study, 2 raters rated 120 RCTs randomly selected from the PEDro database, and disagreements were resolved by a third rater; this generated a set of individual rater and consensus ratings. The process was repeated by independent raters to create a second set of individual and consensus ratings. Reliability of ratings of PEDro scale items was calculated using multirater kappas, and reliability of the total (summed) score was calculated using intraclass correlation coefficients (ICC [1,1]). RESULTS: The kappa value for each of the 11 items ranged from.36 to.80 for individual assessors and from.50 to.79 for consensus ratings generated by groups of 2 or 3 raters. The ICC for the total score was.56 (95% confidence interval=.47-.65) for ratings by individuals, and the ICC for consensus ratings was.68 (95% confidence interval=.57-.76). DISCUSSION AND CONCLUSION: The reliability of ratings of PEDro scale items varied from \"fair\" to \"substantial,\" and the reliability of the total PEDro score was \"fair\" to \"good.\"",
+    "authors": [
+      "Christopher G. Maher",
+      "Catherine Sherrington",
+      "Rob Herbert",
+      "Anne M. Moseley",
+      "Mark R. Elkins"
+    ],
+    "doi": "https://doi.org/10.1093/ptj/83.8.713",
+    "year": 2003,
+    "pdf_url": "https://academic.oup.com/ptj/article-pdf/83/8/713/31666439/ptj0713.pdf",
+    "category": "reliability",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA bearing failure",
+    "title": "A systematic approach for diagnosing service failure: Service-specific FMEA and grey relational analysis approach",
+    "abstract": "",
+    "authors": [
+      "Youngjung Geum",
+      "Yangrae Cho",
+      "Yongtae Park"
+    ],
+    "doi": "https://doi.org/10.1016/j.mcm.2011.07.042",
+    "year": 2011,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0895717711004687/pdf",
+    "category": "fmea",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA bearing failure",
+    "title": "Fuzzy-FMEA risk evaluation approach for LHD machine-A case study",
+    "abstract": "Improvement of productivity has become an important goal for mining industries in order to meet the expected targets of production and increased price competitiveness. Productivity can be improved in different ways. The effective utilization of men and machinery is one such way. Equipment is prone to numerous unexpected potential failures during its operation. Failure Mode and Effect Analysis (FMEA) is one of the suitable techniques of reliability modeling used to investigate the failure behavior of a complex system. In conventional FMEA, the risk level of failures, a ranking of failures and prioritization of necessary actions is made on the basis of estimated Risk Priority Number (RPN). While this approach is easy and uncomplicated, there are a few flaws in acquiring the best approximation of the failure. The estimation of RPN is made by multiplying the Severity (S), Occurrence (O) and Detection (D) alone and irrespective of the degree of importance of each input. Hence, a new risk management approach known as the Fuzzy rule base interface system was proposed in this research in order to mitigate the failures. Fuzzy FMEA is designed in order to acquire the highest Fuzzy RPN value which will be used as the focus of enhancements to reduce the probability of occurrence of some kind of failure for a second time. This study focused on the Root Cause Analysis (RCA) of underground mining machinery such as Load-Haul-Dumper (LHD). 16 potential risks of various sub-system breakdowns were identified in Fuzzy FMEA. The highest value of RPN 168 (for potential failure mode-F9) was obtained for the electrical subsystem (SSE), as was the highest FRPN 117 (F9). There is a difference between the RPN and FRPN values. The FRPN value is obtained from Fuzzy field generation with consideration of the degree of importance of the given input data. In addition, the recommendations were made based on the analysis to reduce the uneven occurrence of failures.",
+    "authors": [
+      "Balaraju Jakkula",
+      "M. Govinda Raj",
+      "Chivukula Suryanarayana Murthy"
+    ],
+    "doi": "https://doi.org/10.1016/j.jsm.2019.08.002",
+    "year": 2019,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2300396019301077/pdf",
+    "category": "fmea",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA bearing failure",
+    "title": "Analisis Penyebab Kerusakan Hot Rooler Table dengan Menggunakan Metode Failure Mode And Effect Analysis (FMEA)",
+    "abstract": "This research was conducted in an international company engaged in iron and steel products manufacturing industries. One of the equipment that is often damaged is a hot roller table machine in the furnace section mill unit. The availability results obtained in hot roller table equipment is 96.571% and is still below the company standard which is set at 98%. Therefore, we need an analysis of the root causes of the problem and search for the best solution to fix the existing problem by applying the method of Failure Mode and Effect Analysis (FMEA). FMEA is a method that can systematically and structurally analyze and identify the consequences of a system or process failure, and also reduce or analyze the probability of failure. The purpose of this study is to identify and analyze the level of damage and its causes with the application of the FMEA method. Based on the pareto diagram the damage to the hot roller table machine, it was found that the highest frequency of damage was in the rotary coupling with a down time percentage of 26.9%. From the FMEA Analysis, two components that have very high RPN values are categorized as potential severit i.e. bearing as the first with an RPN value of 392 and the second is a seal ring with an RPN value of 294. The two components are the main priority for repair of the furnace section. mill, especially for machine and human aspects.",
+    "authors": [
+      "Muhamad Bob Anthony"
+    ],
+    "doi": "https://doi.org/10.30656/intech.v4i1.851",
+    "year": 2018,
+    "pdf_url": "https://e-jurnal.lppmunsera.org/index.php/INTECH/article/download/851/762",
+    "category": "fmea",
+    "pdf_path": "knowledge_base/papers/fmea/Analisis_Penyebab_Kerusakan_Hot_Rooler_Table_dengan_Menggunakan_Metode_Failure_M.pdf",
+    "sha256": "1e58b7b00447ee616ff183306485def7e1d021272305f71ece385d2a64a440f0"
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA bearing failure",
+    "title": "Combining FMEA with DEMATEL models to solve production process problems",
+    "abstract": "Failure mode and effects analysis (FMEA) is an analysis tool for identifying and preventing flaws or defects in products during the design and process planning stage, preventing the repeated occurrence of problems, reducing the effects of these problems, enhancing product quality and reliability, saving costs, and improving competitiveness. However, FMEA can only analyze one influence factor according to its priority, rendering this method ineffective for systems containing multiple FMs whose effects are simultaneous or interact with one another. Accordingly, when FMEA fails to identify the influence factors and the factors being influenced, the most crucial problems may be placed in lower priority or remain unresolved. Decision-Making Trial and Evaluation Laboratory (DEMATEL) facilitates the determination of cause and effect factors; by identifying the causal factors that should be prioritized, prompt and effective solutions to core problems can be derived, thereby enhancing performance. Using the photovoltaic cell manufacturing industry in China as the research target, the present study combined FMEA with DEMATEL to amend the flaws of FMEA and enhance its effectiveness. First, FMEA was used to identify items requiring improvement. Then, DEMATEL was employed to examine the interactive effects and causal relationships of these items. Finally, the solutions to the problems were prioritized. The proposed method effectively combined the advantages of FMEA and DEMATEL to facilitate the identification of core problems and prioritization of solutions in the Chinese photovoltaic cell industry.",
+    "authors": [
+      "Sang‐Bing Tsai",
+      "Jie Zhou",
+      "Yang Gao",
+      "Jiangtao Wang",
+      "Guodong Li",
+      "Yuxiang Zheng",
+      "Peng Ren",
+      "Wei Xu"
+    ],
+    "doi": "https://doi.org/10.1371/journal.pone.0183634",
+    "year": 2017,
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0183634&type=printable",
+    "category": "fmea",
+    "pdf_path": "knowledge_base/papers/fmea/Combining_FMEA_with_DEMATEL_models_to_solve_production_process_problems.pdf",
+    "sha256": "5cc89eda557d8ece41aa4f4db5f5ce7e95f40ef1a1afa21220b2153587907962"
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA bearing failure",
+    "title": "Failure mode and effect analysis of passive magnetic bearing",
+    "abstract": "",
+    "authors": [
+      "K.P. Lijesh",
+      "S. M. Muzakkir",
+      "Harish Hirani"
+    ],
+    "doi": "https://doi.org/10.1016/j.engfailanal.2015.11.033",
+    "year": 2015,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA electric motor",
+    "title": "Failure Analysis-assisted FMEA",
+    "abstract": "",
+    "authors": [
+      "G. Cassanelli",
+      "G. Mura",
+      "F. Fantini",
+      "M. Vanzi",
+      "Bernard Plano"
+    ],
+    "doi": "https://doi.org/10.1016/j.microrel.2006.07.072",
+    "year": 2006,
+    "pdf_url": "http://hdl.handle.net/11380/303473",
+    "category": "fmea",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA electric motor",
+    "title": "All-Electric Ship Design: From Electrical Propulsion to Integrated Electrical and Electronic Power Systems",
+    "abstract": "Electrical propulsion is not a novel concept in marine systems. However, the availability of power electronic converters has proved to be the Key Enabling Technology for electrification of large ships. This paper starts with a summary of EP drives, which led to the birth of all-electric ships. Electric power generation and control systems are then presented, which make it possible to exploit the integrated electrical power system. To ease comprehension of the issues in designing such a system, its conventional design process is given. Then, the reasons that are pushing ahead the research in the shipboard power systems sector are discussed. The need for research in the design methods area is demonstrated through an overview of the latest results of technological research. Finally, a summary of the most significant results on the design tools research is given, including early stage design, dependable-oriented design, and the improvements achievable through software simulators and hardware-in-the-loop are discussed. The goal of this paper is to demonstrate why research on design methods is as important as a technological one, on the basis of the needs concerning the design, integration, and management of future “integrated electrical and electronic power systems” (power systems with power conversion quota approaching 100%).",
+    "authors": [
+      "Giorgio Sulligoi",
+      "Andrea Vicenzutti",
+      "R. Menis"
+    ],
+    "doi": "https://doi.org/10.1109/tte.2016.2598078",
+    "year": 2016,
+    "pdf_url": "https://arts.units.it/bitstream/11368/2927608/4/2927608_07530867-PostPrint.pdf",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA electric motor",
+    "title": "A review of lithium-ion battery safety concerns: The issues, strategies, and testing standards",
+    "abstract": "Efficient and reliable energy storage systems are crucial for our modern society. Lithium-ion batteries (LIBs) with excellent performance are widely used in portable electronics and electric vehicles (EVs), but frequent fires and explosions limit their further and more widespread applications. This review summarizes aspects of LIB safety and discusses the related issues, strategies, and testing standards. Specifically, it begins with a brief introduction to LIB working principles and cell structures, and then provides an overview of the notorious thermal runaway, with an emphasis on the effects of mechanical, electrical, and thermal abuse. The following sections examine strategies for improving cell safety, including approaches through cell chemistry, cooling, and balancing, afterwards describing current safety standards and corresponding tests. The review concludes with insights into potential future developments and the prospects for safer LIBs.",
+    "authors": [
+      "Yuqing Chen",
+      "Yuqiong Kang",
+      "Yun Zhao",
+      "Li Wang",
+      "Jilei Liu",
+      "Yanxi Li",
+      "Zheng Liang",
+      "Xiangming He",
+      "Xing Li",
+      "Naser Tavajohi",
+      "Baohua Li"
+    ],
+    "doi": "https://doi.org/10.1016/j.jechem.2020.10.017",
+    "year": 2020,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095495620307075/pdf",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA electric motor",
+    "title": "Evaluation of Smart Sensors for Subway Electric Motor Escalators through AHP-Gaussian Method",
+    "abstract": "This paper proposes the use of the AHP-Gaussian method to support the selection of a smart sensor installation for an electric motor used in an escalator in a subway station. The AHP-Gaussian methodology utilizes the Analytic Hierarchy Process (AHP) framework and is highlighted for its ability to save the decision maker's cognitive effort in assigning weights to criteria. Seven criteria were defined for the sensor selection: temperature range, vibration range, weight, communication distance, maximum electric power, data traffic speed, and acquisition cost. Four smart sensors were considered as alternatives. The results of the analysis showed that the most appropriate sensor was the ABB Ability smart sensor, which scored the highest in the AHP-Gaussian analysis. In addition, this sensor could detect any abnormalities in the equipment's operation, enabling timely maintenance and preventing potential failures. The proposed AHP-Gaussian method proved to be an effective approach for selecting a smart sensor for an electric motor used in an escalator in a subway station. The selected sensor was reliable, accurate, and cost-effective, contributing to the safe and efficient operation of the equipment.",
+    "authors": [
+      "Ruan Carlos Alves Pereira",
+      "Orivalde Soares da Silva Júnior",
+      "Renata Albergaria de Mello Bandeira",
+      "Marcos dos Santos",
+      "Claudio de Souza Rocha",
+      "Cristian dos Santos Castillo",
+      "Carlos Francısco Sımões Gomes",
+      "Daniel Augusto de Moura Pereira",
+      "Fernando Martins Muradas"
+    ],
+    "doi": "https://doi.org/10.3390/s23084131",
+    "year": 2023,
+    "pdf_url": "https://www.mdpi.com/1424-8220/23/8/4131/pdf?version=1681987779",
+    "category": "motors",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "FMEA electric motor",
+    "title": "Mechanical Failure Mode Causes of In-Wheel Motors",
+    "abstract": "The presented survey includes a comprehensive overview of mechanical failure mode causes for direct driven electric in-wheel motors. As electric vehicles evolve and develop, in-wheel motor driven vehicles gain acknowledgement, more and more papers are published in order to show individual design challenges and overcoming solutions for failure causes and effects. Obtainable literature is mainly concerned with integral electrical failure modes, neglecting structural causes and effects which in some cases interact. The presented paper inspects the most likely potential mechanical causes of failure modes for in-wheel motors and shows related paper's results for comparison and reference. As several mechanical and electromagnetic layouts and construction topologies exist, only the most promising and generally used one has been studied within this work in order to emphasize sensible directions of further development. Failure mode and effects analysis (FMEA) has been made with severity rating which present mechanical failure potential for permanent magnet synchronous motors intended for in-wheel motor application.",
+    "authors": [
+      "Matej Biček",
+      "Gorazd Gotovac",
+      "Damijan Miljavec",
+      "Samo Zupan"
+    ],
+    "doi": "https://doi.org/10.5545/sv-jme.2014.2022",
+    "year": 2015,
+    "pdf_url": "https://www.sv-jme.eu?ns_articles_pdf=/ns_articles/files/ojs/2022/public/2022-11735-1-PB.pdf&id=3178",
+    "category": "motors",
+    "pdf_path": "knowledge_base/papers/motors/Mechanical_Failure_Mode_Causes_of_In-Wheel_Motors.pdf",
+    "sha256": "530ff1a93caf1bde457fa059632b252947f82c3e1b9741c2730f92f0d3231998"
+  },
+  {
+    "source": "openalex",
+    "topic": "failure mode effect analysis maintenance",
+    "title": "Data-driven failure mode and effect analysis (FMEA) to enhance maintenance planning",
+    "abstract": "",
+    "authors": [
+      "Marc-André Filz",
+      "Jonas Ernst Bernhard Langner",
+      "Christoph Herrmann",
+      "Sebastian Thiede"
+    ],
+    "doi": "https://doi.org/10.1016/j.compind.2021.103451",
+    "year": 2021,
+    "pdf_url": null,
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "failure mode effect analysis maintenance",
+    "title": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+    "abstract": "peer reviewed",
+    "authors": [
+      "Theresa A. McDonagh",
+      "Marco Metra",
+      "Marianna Adamo",
+      "Roy S. Gardner",
+      "Andreas Baumbach",
+      "Michael Böhm",
+      "Haran Burri",
+      "Javed Butler",
+      "Jelena Čelutkienė",
+      "Ovidiu Chioncel",
+      "John G.F. Cleland",
+      "Andrew J.S. Coats",
+      "María G. Crespo‐Leiro",
+      "Dimitrios Farmakis",
+      "Martine Gilard",
+      "Stéphane Heymans",
+      "Arno W. Hoes",
+      "Tiny Jaarsma",
+      "Ewa A. Jankowska",
+      "Mitja Lainščak",
+      "Carolyn S.P. Lam",
+      "Alexander R. Lyon",
+      "John J.V. McMurray",
+      "Alexandre Mebazaa",
+      "Richard Mindham",
+      "Claudio Muneretto",
+      "Massimo Piepoli",
+      "Susanna Price",
+      "Giuseppe Rosano",
+      "Frank Ruschitzka",
+      "Anne Kathrine Skibelund",
+      "ESC Scientific Document Group",
+      "Rudolf A. de Boer",
+      "P. Christian Schulze",
+      "Magdy Abdelhamid",
+      "Victor Aboyans",
+      "Stamatis Adamopoulos",
+      "Stefan D. Anker",
+      "Elena Arbelo",
+      "Riccardo Asteggiano",
+      "Johann Bauersachs",
+      "Antoni Bayés‐Genís",
+      "Michael A. Borger",
+      "Werner Budts",
+      "Maja Čikeš",
+      "Kevin Damman",
+      "Victoria Delgado",
+      "Paul Dendale",
+      "Polychronis Dilaveris",
+      "Heinz Drexel",
+      "Justin A. Ezekowitz",
+      "Volkmar Falk",
+      "Laurent Fauchier",
+      "Gerasimos Filippatos",
+      "Alan G. Fraser",
+      "Norbert Frey",
+      "Chris P Gale",
+      "Finn Gustafsson",
+      "Julie Harris",
+      "Bernard Iung",
+      "Stefan Janssens",
+      "Mariell Jessup",
+      "А. О. Конради",
+      "Dipak Kotecha",
+      "Ekaterini Lambrinou",
+      "Patrizio Lancellotti",
+      "Ulf Landmesser",
+      "Christophe Leclercq",
+      "Basil S. Lewis",
+      "Francisco Leyva",
+      "Aleš Linhart",
+      "Maja‐Lisa Løchen",
+      "Lars H. Lund",
+      "Donna Mancini",
+      "Josep Masip",
+      "Davor Miličić",
+      "Christian Mueller",
+      "Holger Nef",
+      "Jens Cosedis Nielsen",
+      "Lis Neubeck",
+      "Michel Noutsias",
+      "Steffen E. Petersen",
+      "Anna Sonia Petronio",
+      "Piotr Ponikowski",
+      "Eva Prescott",
+      "Amina Rakisheva",
+      "Dimitrios J. Richter",
+      "E. V. Schlyakhto",
+      "Petar Seferović",
+      "Michele Senni",
+      "Marta Sitges",
+      "Miguel Sousa‐Uva",
+      "Carlo G. Tocchetti",
+      "Rhian M. Touyz",
+      "Carsten Tschöepe",
+      "Johannes Waltenberger",
+      "Marianna Adamo",
+      "Andreas Baumbach",
+      "Michael Böhm",
+      "Haran Burri"
+    ],
+    "doi": "https://doi.org/10.1093/eurheartj/ehab368",
+    "year": 2021,
+    "pdf_url": "https://academic.oup.com/eurheartj/article-pdf/42/36/3599/40594787/ehab368.pdf",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "failure mode effect analysis maintenance",
+    "title": "Failure mode and effect analysis in asset maintenance: a multiple case study in the process industry",
+    "abstract": "Failure mode and effect analysis (FMEA) is an important method for designing and prioritising preventive maintenance activities and is often used as the basis for preventive maintenance planning. Although FMEA was studied extensively, most of the published work so far covers FMEA concept design. Little detailed comparison to industrial practice regarding the application of FMEA can be found in the literature, which is the contribution of this study. This paper summarises the main descriptions and assumptions found in the literature on FMEA into six postulates, and compares the postulates to industrial practice. This was done in a multiple case study conducted at six companies in the process industry. Some postulates were supported by empirical evidence, whereas for others, limited or no support could be found. The results suggest a fundamental problem in the FMEA procedure, namely, the reliance upon expert judgement in general and the reliance upon design engineering expertise for keeping the FMEA up-to-date in particular. Also, a number of operational and information management problems that companies suffer from when conducting an FMEA were identified. Practitioners can use this paper to assess their potential for implementing FMEA and to learn from the insight into the identified pitfalls. Researchers can use the findings to guide further work on improving and developing the FMEA procedures.",
+    "authors": [
+      "Jan Braaksma",
+      "W. Klingenberg",
+      "Jasper Veldman"
+    ],
+    "doi": "https://doi.org/10.1080/00207543.2012.674648",
+    "year": 2012,
+    "pdf_url": "https://research.rug.nl/en/publications/7e1eef72-150d-449e-89ea-0461b38f8817",
+    "category": "misc",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "failure mode effect analysis maintenance",
+    "title": "Quality Control of Ceramic Wall Products Six Sigma Method with Dmaic Tools and Failure Mode and Effect Analysis (FMEA)",
+    "abstract": "Considering the importance of increasingly rapid industrial development, business people must be aware of the orientation towards product quality. The manufacturing industry has an important role in industrial development. It is hoped that it will be able to grow and have advantages in industrial development, therefore it is necessary to improve and increase product quality. The company continues to strive to maintain and improve product quality and increase productivity so that customers are satisfied with the products produced. One way that needs to be done is to reduce the number of defective products in the production process. This effort is one way of continuous improvement carried out by PT. ABC and companies operating in the same field. The ceramic wall production process has relatively high demand but still has a high level of defects. Based on information on production data and data on the number of defects for the period January – September 2023, wall ceramic production has a defect rate of 3.86%. Companies must reduce the number of defects to achieve company targets. This research aims to improve the production process of wall ceramics by minimizing the number of defective products. This research uses the six sigma method with the DMAIC (Define, Measure, Analyze, Improve, Control) tool assisted by the FMEA (Failure Mode and Analysis) method. Corrective action to reduce defects based on the 5 Why analysis is to find out what the problem is and ask \"why\" and \"what is the root of the problem\". The research results show that there are 4 types of defects which have a large number of defects, namely Rupture Defects, Application Defects, Peeling Defects and Hole Defects. From the research results, solutions were obtained for the emergence of several types of defects in the wall ceramic production process, namely by providing planning suggestions and corrective actions which are discussed this time. At the defect calculation stage, Broken produces a DPMO value of 29.362 with a sigma level of 3.39 with a sigma level of 3.48, Defect Peeled produces a DPMO value of 28.044 with a sigma level of 3.38, and holes are defective. resulting in a DPMO value of 26,020 with a sigma value of 3.45 from the data calculation results, it is still not enough to meet the company's target at the sigma level, therefore the company must make quality improvements to achieve the main target at the sigma level.",
+    "authors": [
+      "Muhammad Rizki",
+      "Tri Ngudi Wiyatno",
+      "Retno Fitri Astuti"
+    ],
+    "doi": "https://doi.org/10.38124/ijisrt/ijisrt24jun1035",
+    "year": 2024,
+    "pdf_url": "https://www.ijisrt.com/assets/upload/files/IJISRT24JUN1035.pdf",
+    "category": "fmea",
+    "pdf_path": null
+  },
+  {
+    "source": "openalex",
+    "topic": "failure mode effect analysis maintenance",
+    "title": "Modified Failure Mode and Effect Analysis (FMEA) Model for Accessing the Risk of Maintenance Waste",
+    "abstract": "The existence of methodology for ranking and mitigating the risk of non-value added activities in manufacturing strongly support the realization of sustainable manufacturing practice. However, endeavours to create tools and methodology to rank the risk of non-value added activities are mostly devoted on product design and manufacturing and very rarely in maintenance engineering discipline. Motivated by such scarcity, the goal of this study is attempted to develop a modified FMEA (Failure Mode and Effect Analysis) as means to access the criticality of waste in maintenance operations. In an attempt to facilitate decision makers in appraising the criticality of maintenance waste occurrence, an improved model for ranking the risk of maintenance waste mode by using Waste Priority Number (WPN) is proposed",
+    "authors": [
+      "Agung Sutrisno",
+      "Indra Gunawan",
+      "Stenly Tangkuman"
+    ],
+    "doi": "https://doi.org/10.1016/j.promfg.2015.11.010",
+    "year": 2015,
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2351978915011269/pdf",
+    "category": "fmea",
+    "pdf_path": null
+  }
+]

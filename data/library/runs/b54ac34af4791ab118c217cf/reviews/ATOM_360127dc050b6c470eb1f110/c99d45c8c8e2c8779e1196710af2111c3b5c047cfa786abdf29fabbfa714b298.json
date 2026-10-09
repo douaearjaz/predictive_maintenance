@@ -1,0 +1,10 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "candidate_id": "ATOM_360127dc050b6c470eb1f110",
+  "candidate_hash": "c63fa12059d7df5aa5eb434d80ded6878efb4ddfec7fd3973d83f743b23ffd01",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Timken Bearing repair explicitly recommends smoothing raised/rough areas with grinding and polishing tools; keep should.",
+  "reviewed_at": "2026-09-15T00:14:45.726358+00:00"
+}

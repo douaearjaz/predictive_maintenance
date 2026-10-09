@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_e9e3622f927de365887e6d11",
+  "candidate_hash": "96a10d71e7ee7ce6b9f4f378f79cf565376615096596ca180715d310233213b4",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Lincoln Cure 3b explicitly requires expert winding examination to distinguish input-circuit versus winding single-phasing. This diagnostic investigation stays with Cause 3b.",
+  "reviewed_at": "2026-09-15T00:14:45.771436+00:00"
+}

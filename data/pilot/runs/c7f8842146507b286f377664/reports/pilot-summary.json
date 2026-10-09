@@ -1,0 +1,18 @@
+{
+  "responses": 15,
+  "sections": 15,
+  "categories": {
+    "statements": 120,
+    "mentions": 192,
+    "ambiguities": 10
+  },
+  "schema_invalid": 0,
+  "evidence_invalid": 23,
+  "invalid_or_issues": 24,
+  "warnings": 63,
+  "reviews": {
+    "pending": 303,
+    "accepted": 15,
+    "rejected": 4
+  }
+}

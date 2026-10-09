@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Corrosion\",\"kind\":\"phenomenon\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"serious damage to motor parts\",\"kind\":\"effect\"},\"qualifier\":\"can\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Corrosion can cause serious damage to motor parts.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Corrosion\",\"kind\":\"phenomenon\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"pitting and holes in oil cooling coils\",\"kind\":\"effect\"},\"qualifier\":\"can\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Oil cooling coils can develop pitting and holes from corrosion.\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"Corrosion\",\"kind\":\"phenomenon\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Corrosion can cause serious damage to motor parts.\"}]},{\"concept\":{\"text\":\"motor parts\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Corrosion can cause serious damage to motor parts.\"}]},{\"concept\":{\"text\":\"Conduit boxes\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"motor feet\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"bearing fits\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"air deflectors\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"screens\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"assembly bolts\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Conduit boxes, motor feet, bearing fits, air deflectors, screens, and assembly bolts can be destroyed.\"}]},{\"concept\":{\"text\":\"Oil cooling coils\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Oil cooling coils can develop pitting and holes from corrosion.\"}]},{\"concept\":{\"text\":\"pitting\",\"kind\":\"effect\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Oil cooling coils can develop pitting and holes from corrosion.\"}]},{\"concept\":{\"text\":\"holes\",\"kind\":\"effect\"},\"evidence\":[{\"paragraph_id\":\"P54_B5\",\"quote\":\"Oil cooling coils can develop pitting and holes from corrosion.\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-0d8547df-9ee7-4388-bc84-3b7266101832",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 1939,
+    "prompt_tokens": 1729,
+    "total_tokens": 3668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1234,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.29483801,
+    "prompt_time": 0.084277447,
+    "completion_time": 4.098767312,
+    "total_time": 4.183044759
+  },
+  "created_at": "2026-09-15T00:12:49.682516+00:00",
+  "section_id": "epri-corrosion"
+}

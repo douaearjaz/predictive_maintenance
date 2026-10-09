@@ -1,0 +1,10 @@
+{
+  "source": "data/ontology/8ec228b61bde801bf5424fb6/ontology.json",
+  "source_sha256": "4ebf570d68c3453c82900f5e86e8629cd9a3538eebe26d9ffa1fc67d7aacb678",
+  "nodes": 72,
+  "source_claims": 47,
+  "organization_links": 76,
+  "queued_candidates": 138,
+  "rdf_roundtrip": "passed",
+  "status": "draft_not_bayesian_network"
+}

@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    "0.007In",
+    "0.014In",
+    "0.021In",
+    "Atm",
+    "Atms",
+    "Ball Fault",
+    "Banknote Storage",
+    "Bearing Failure",
+    "Bearing Faults",
+    "Bearings",
+    "Bf",
+    "Calibration",
+    "Corrosion",
+    "Cyber Physical Production System",
+    "Data Center",
+    "Defect",
+    "Distribution Module",
+    "Electrosparking",
+    "Failure",
+    "Failure Mode",
+    "Failure Modes",
+    "Failure State",
+    "Fault",
+    "Fault Detection",
+    "Fault Event",
+    "Fault Types",
+    "Faults",
+    "Faulty Bearings",
+    "Fft Amplitudes",
+    "Hardware Component",
+    "If",
+    "Inner Race Fault",
+    "Inner Race Faults",
+    "Insufficient Maintenance",
+    "Insulation",
+    "Load Conditions",
+    "Model Revision",
+    "Motor",
+    "Motor Failure",
+    "Motor Speeds",
+    "Motors",
+    "No",
+    "Normal Bearing",
+    "Normal Condition",
+    "Of",
+    "Outer Race Fault",
+    "Outer Race Faults",
+    "Overheating",
+    "Predictive Maintenance",
+    "Problems On Other Modules",
+    "Pseudo Label",
+    "Rolling Element Bearing",
+    "Rotating Machinery",
+    "Sensor Failure",
+    "Shafts",
+    "Temperature",
+    "Test Domain",
+    "Training Domain",
+    "Vibration",
+    "Vibration Signal",
+    "Wear",
+    "Wear And Tear",
+    "Winding",
+    "Working Conditions"
+  ],
+  "edges": [
+    {
+      "from": "Failure",
+      "to": "Motor"
+    },
+    {
+      "from": "Motor Failure",
+      "to": "Motor"
+    },
+    {
+      "from": "Fault Event",
+      "to": "Motor"
+    },
+    {
+      "from": "Defect",
+      "to": "Motor"
+    },
+    {
+      "from": "Failure State",
+      "to": "Atms"
+    },
+    {
+      "from": "Defect",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Bearing Failure",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Faulty Bearings",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Normal Bearing",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Inner Race Fault",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Ball Fault",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Outer Race Fault",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Normal Condition",
+      "to": "Rolling Element Bearing"
+    },
+    {
+      "from": "Failure Modes",
+      "to": "Motors"
+    },
+    {
+      "from": "Faults",
+      "to": "Motors"
+    },
+    {
+      "from": "Failure",
+      "to": "Defect"
+    },
+    {
+      "from": "Problems On Other Modules",
+      "to": "Failure State"
+    },
+    {
+      "from": "Overheating",
+      "to": "Motor Failure"
+    },
+    {
+      "from": "Overheating",
+      "to": "Failure"
+    },
+    {
+      "from": "Wear And Tear",
+      "to": "Motor Failure"
+    },
+    {
+      "from": "Insufficient Maintenance",
+      "to": "Motor Failure"
+    },
+    {
+      "from": "Sensor Failure",
+      "to": "Motor Failure"
+    },
+    {
+      "from": "Wear",
+      "to": "Failure"
+    },
+    {
+      "from": "Corrosion",
+      "to": "Failure"
+    },
+    {
+      "from": "Motor Speeds",
+      "to": "Bearing Faults"
+    },
+    {
+      "from": "Load Conditions",
+      "to": "Bearing Faults"
+    },
+    {
+      "from": "Working Conditions",
+      "to": "Faults"
+    },
+    {
+      "from": "Working Conditions",
+      "to": "Fault"
+    },
+    {
+      "from": "Electrosparking",
+      "to": "Inner Race Faults"
+    },
+    {
+      "from": "Electrosparking",
+      "to": "Outer Race Faults"
+    },
+    {
+      "from": "Electrosparking",
+      "to": "Ball Fault"
+    },
+    {
+      "from": "0.007In",
+      "to": "Inner Race Faults"
+    },
+    {
+      "from": "0.014In",
+      "to": "Outer Race Faults"
+    },
+    {
+      "from": "0.021In",
+      "to": "Ball Fault"
+    },
+    {
+      "from": "Failure",
+      "to": "Temperature"
+    },
+    {
+      "from": "Failure",
+      "to": "Vibration"
+    },
+    {
+      "from": "Defect",
+      "to": "Vibration"
+    },
+    {
+      "from": "Inner Race Fault",
+      "to": "Vibration Signal"
+    },
+    {
+      "from": "Ball Fault",
+      "to": "Vibration Signal"
+    },
+    {
+      "from": "Outer Race Fault",
+      "to": "Vibration Signal"
+    },
+    {
+      "from": "Failure Mode",
+      "to": "Pseudo Label"
+    },
+    {
+      "from": "Fault Types",
+      "to": "Fft Amplitudes"
+    },
+    {
+      "from": "Motor",
+      "to": "Predictive Maintenance"
+    },
+    {
+      "from": "Motor",
+      "to": "Calibration"
+    },
+    {
+      "from": "Motor",
+      "to": "Fault Detection"
+    },
+    {
+      "from": "Training Domain",
+      "to": "Model Revision"
+    },
+    {
+      "from": "Test Domain",
+      "to": "Model Revision"
+    }
+  ]
+}

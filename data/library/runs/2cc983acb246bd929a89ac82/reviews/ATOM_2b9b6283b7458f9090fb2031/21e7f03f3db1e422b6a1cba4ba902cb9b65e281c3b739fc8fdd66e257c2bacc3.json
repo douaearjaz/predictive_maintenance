@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_2b9b6283b7458f9090fb2031",
+  "candidate_hash": "2d398b2333e226840f1c5f201a6be6162f7c564b513c0fa282d8991eab76b358",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB Table 10.1 row: Motor fails to start / Blown fuses / Replace fuses. Checked column positions; this is a listed possible cause, not a universal deterministic assertion.",
+  "reviewed_at": "2026-09-15T00:14:45.662900+00:00"
+}

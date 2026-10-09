@@ -1,0 +1,264 @@
+[
+  {
+    "candidate_id": "ATOM_abb6c7acc84a0d02884ded3f",
+    "section_id": "fault-02",
+    "category": "statements",
+    "raw_record": {
+      "subject": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "excessive current flow in one or more phases",
+        "kind": "phenomenon"
+      },
+      "qualifier": "creates",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "Imbalance creates excessive current flow in one or more phases"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "record": {
+      "subject": {
+        "text": "Imbalance",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "excessive current flow in one or more phases",
+        "kind": "phenomenon"
+      },
+      "qualifier": "creates",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "Imbalance creates excessive current flow in one or more phases"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "schema_valid": true,
+    "evidence_valid": true,
+    "semantic_review_status": "pending",
+    "issues": [],
+    "warnings": [],
+    "resolved_evidence": [
+      {
+        "paragraph_id": "P2_B6",
+        "quote": "Imbalance creates excessive current flow in one or more phases",
+        "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+        "document_name": "13-common-causes.pdf",
+        "page": 2,
+        "section_id": "fault-02",
+        "section": "2 Voltage imbalance",
+        "clean_start": 8,
+        "clean_end": 70,
+        "original_start": 8,
+        "original_end": 71,
+        "original_quote": "Imbalance creates excessive current flow in one or more \nphases",
+        "bbox": [
+          268.71429443359375,
+          523.3394165039062,
+          547.9678344726562,
+          556.6939086914062
+        ],
+        "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+        "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+      }
+    ],
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_abb6c7acc84a0d02884ded3f",
+      "candidate_hash": "83baa07ac3c4822344d52a4048714d14aa345e6bd377962cf4fbabc7dbe98ce9",
+      "decision": "accepted",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "Assistant verification only; human review pending. Checked PDF page 2 Voltage imbalance impact paragraph: imbalance creates excessive current. Section heading resolves Imbalance; this is the first direct step.",
+      "reviewed_at": "2026-09-14T21:02:34.986546+00:00"
+    }
+  },
+  {
+    "candidate_id": "ATOM_3810321fad34eaf8edb83f50",
+    "section_id": "fault-02",
+    "category": "statements",
+    "raw_record": {
+      "subject": {
+        "text": "excessive current flow in one or more phases",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "increased operating temperatures",
+        "kind": "phenomenon"
+      },
+      "qualifier": "increases",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "that then increases operating temperatures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "record": {
+      "subject": {
+        "text": "excessive current flow in one or more phases",
+        "kind": "phenomenon"
+      },
+      "relation": "CAUSES",
+      "object": {
+        "text": "increased operating temperatures",
+        "kind": "phenomenon"
+      },
+      "qualifier": "increases",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "that then increases operating temperatures"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "schema_valid": true,
+    "evidence_valid": true,
+    "semantic_review_status": "pending",
+    "issues": [],
+    "warnings": [
+      "endpoint_not_literal_in_quote_check_full_paragraph"
+    ],
+    "resolved_evidence": [
+      {
+        "paragraph_id": "P2_B6",
+        "quote": "that then increases operating temperatures",
+        "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+        "document_name": "13-common-causes.pdf",
+        "page": 2,
+        "section_id": "fault-02",
+        "section": "2 Voltage imbalance",
+        "clean_start": 71,
+        "clean_end": 113,
+        "original_start": 72,
+        "original_end": 114,
+        "original_quote": "that then increases operating temperatures",
+        "bbox": [
+          268.71429443359375,
+          523.3394165039062,
+          547.9678344726562,
+          556.6939086914062
+        ],
+        "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+        "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+      }
+    ],
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_3810321fad34eaf8edb83f50",
+      "candidate_hash": "cd137848814099dfe89f7c4bed06301c22c99c5410c08887db5d8b9128b5228f",
+      "decision": "accepted",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "Assistant verification only; human review pending. Checked full page 2 impact paragraph P2_B6: that then refers to excessive current flow, which increases operating temperatures. Full source paragraph is retained with evidence.",
+      "reviewed_at": "2026-09-14T21:02:35.022373+00:00"
+    }
+  },
+  {
+    "candidate_id": "ATOM_2ae450641edcff529e874cbe",
+    "section_id": "fault-02",
+    "category": "statements",
+    "raw_record": {
+      "subject": {
+        "text": "increased operating temperatures",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "leading to insulation breakdown"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "record": {
+      "subject": {
+        "text": "increased operating temperatures",
+        "kind": "phenomenon"
+      },
+      "relation": "LEADS_TO",
+      "object": {
+        "text": "insulation breakdown",
+        "kind": "failure_mode"
+      },
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "leading to insulation breakdown"
+        }
+      ],
+      "needs_context_review": false,
+      "review_note": ""
+    },
+    "schema_valid": true,
+    "evidence_valid": true,
+    "semantic_review_status": "pending",
+    "issues": [],
+    "warnings": [
+      "endpoint_not_literal_in_quote_check_full_paragraph"
+    ],
+    "resolved_evidence": [
+      {
+        "paragraph_id": "P2_B6",
+        "quote": "leading to insulation breakdown",
+        "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+        "document_name": "13-common-causes.pdf",
+        "page": 2,
+        "section_id": "fault-02",
+        "section": "2 Voltage imbalance",
+        "clean_start": 114,
+        "clean_end": 145,
+        "original_start": 115,
+        "original_end": 148,
+        "original_quote": "leading to  \ninsulation breakdown",
+        "bbox": [
+          268.71429443359375,
+          523.3394165039062,
+          547.9678344726562,
+          556.6939086914062
+        ],
+        "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+        "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+      }
+    ],
+    "review": {
+      "run_id": "c7f8842146507b286f377664",
+      "candidate_id": "ATOM_2ae450641edcff529e874cbe",
+      "candidate_hash": "518d713b0949346108f5ddc00dbb59a228a54092e13b1eb5dd306e69c7163f0a",
+      "decision": "accepted",
+      "reviewer": "Codex",
+      "reviewer_kind": "assistant",
+      "note": "Assistant verification only; human review pending. Checked full page 2 impact paragraph P2_B6: increased temperature leads to insulation breakdown. Preserve this immediate cause; do not substitute upstream voltage imbalance.",
+      "reviewed_at": "2026-09-14T21:02:35.047429+00:00"
+    }
+  }
+]

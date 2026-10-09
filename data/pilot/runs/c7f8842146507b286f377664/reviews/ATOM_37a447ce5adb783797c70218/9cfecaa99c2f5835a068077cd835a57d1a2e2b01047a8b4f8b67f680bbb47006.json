@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_37a447ce5adb783797c70218",
+  "candidate_hash": "273d6b2e0f3f5c14b2f2abf802b36b9634504f4f050dcaa77e8f4405ebd04463",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Assistant verification only; human review pending. Page 6 opening sentence states a failed bearing has lower efficiency. Full P6_B5 paragraph resolves the subject omitted from the short quote.",
+  "reviewed_at": "2026-09-14T21:02:35.316324+00:00"
+}

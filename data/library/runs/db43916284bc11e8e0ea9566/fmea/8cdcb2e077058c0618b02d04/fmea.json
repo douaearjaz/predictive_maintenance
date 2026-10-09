@@ -1,0 +1,97 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v2",
+  "allow_assistant": true,
+  "run_id": "db43916284bc11e8e0ea9566",
+  "records": [],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_39b3450b5149f4c7919e96b3",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d293f75f35230432cb00aa7f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_071ab59575fa81104d2f518b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1679dbd14c96409fdce9d9ac",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5a3c47c3cccef940375cd70e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_985c2390628aa0140b649cb0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4bddbec4c59dfc810a8aa4d2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e96ecedbc490afca933b4120",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1b0582193c63081ce1228aec",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1576325697f9ae69582af1f5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_c720bf4110ddc3ba1c96cf68",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_33250cd085b80d2336b3019c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_694875c51e9cd3500fb04b0f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a93669e6627726e08f75770f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a208bf1bec2eeff2ad784090",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f2670dea9c817622dc5f497f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1a04e1d240f083c82de6e6b7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_65ff9b63e1f267a56cc0f1f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2c69b144e00a03b365b9eab3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_50a1e9dff72db5d2e0460218",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_738fb495805af670f255a6bf",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T00:11:16.553870+00:00"
+}

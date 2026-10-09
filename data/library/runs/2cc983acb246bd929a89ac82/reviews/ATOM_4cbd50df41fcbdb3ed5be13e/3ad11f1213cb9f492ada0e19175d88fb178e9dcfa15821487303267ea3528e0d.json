@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_4cbd50df41fcbdb3ed5be13e",
+  "candidate_hash": "05778e678cb9b5b40d60055dcc67341f6c722adfce56dddab284db93bebf35a5",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB page 25 explicitly states Motor fails to start: component Motor and failure label are supported.",
+  "reviewed_at": "2026-09-15T00:14:45.649019+00:00"
+}

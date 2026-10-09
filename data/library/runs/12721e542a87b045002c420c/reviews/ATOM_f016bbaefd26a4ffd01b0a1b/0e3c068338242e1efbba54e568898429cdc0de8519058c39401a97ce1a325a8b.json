@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+  "candidate_hash": "8ec19341c8bacb10fd460b9210a91ddff548e7c4603601c8d778c4e0b3ab85f3",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Lincoln Trouble 3 and Cause 3a are a numbered pair. Missing voltage in one/two phases is listed for motor not starting with hum/heating. Preserve the possible temporary-condition qualifier.",
+  "reviewed_at": "2026-09-15T00:14:45.756310+00:00"
+}

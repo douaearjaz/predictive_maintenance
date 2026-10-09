@@ -1,0 +1,10 @@
+{
+  "run_id": "db43916284bc11e8e0ea9566",
+  "candidate_id": "ATOM_1b0582193c63081ce1228aec",
+  "candidate_hash": "52662e83bfd0f04d00a775855e7fc1a9e945bc7ea7eb6e6d428316dd6fc8ab8e",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. AC guide page 3 defective-winding paragraph says amps may also be high. Full paragraph checked; retain may.",
+  "reviewed_at": "2026-09-15T00:14:45.704362+00:00"
+}

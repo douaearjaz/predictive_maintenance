@@ -1,0 +1,28 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Power failure\",\"kind\":\"cause\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Motor runs then dies down\",\"kind\":\"symptom\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P25_B22\",\"quote\":\"Power failure\"},{\"paragraph_id\":\"P25_B21\",\"quote\":\"Motor runs and then dies down\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Power failure\",\"kind\":\"cause\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"Check for loose connections to line, fuses and control.\",\"kind\":\"maintenance_action\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P25_B22\",\"quote\":\"Power failure Check for loose connections to line, fuses and control.\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"Motor runs then dies down\",\"kind\":\"symptom\"},\"evidence\":[{\"paragraph_id\":\"P25_B21\",\"quote\":\"Motor runs and then dies down\"}]},{\"concept\":{\"text\":\"Power failure\",\"kind\":\"cause\"},\"evidence\":[{\"paragraph_id\":\"P25_B22\",\"quote\":\"Power failure\"}]},{\"concept\":{\"text\":\"Check for loose connections to line, fuses and control.\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P25_B22\",\"quote\":\"Check for loose connections to line, fuses and control.\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-541f582c-314a-4fbe-81f7-34b8321bf697",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 1281,
+    "prompt_tokens": 1793,
+    "total_tokens": 3074,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 953,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 1536
+    },
+    "queue_time": 0.045580301,
+    "prompt_time": 0.013368182,
+    "completion_time": 4.767867514,
+    "total_time": 4.7812356959999995
+  },
+  "created_at": "2026-09-15T00:06:35.710067+00:00",
+  "section_id": "abb-power-failure"
+}

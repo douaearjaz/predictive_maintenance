@@ -1,0 +1,93 @@
+{
+  "status": "proposed_measurement_bridge_not_validated_diagnostic_mapping",
+  "ontology_file": "analysis/motor_ontology/motor_model.json",
+  "ontology_modified": false,
+  "measurement_scope": "CWRU laboratory drive-end bearing housing vibration; not direct measurements inside a bearing.",
+  "measurements": [
+    {
+      "column": "rms",
+      "property": "vibration_rms",
+      "unit": "original_mat_amplitude_unit",
+      "ontology_context_id": "equipment_bearing",
+      "direct_ontology_equivalence": false,
+      "fuzzy_membership": null
+    },
+    {
+      "column": "peak_to_peak",
+      "property": "vibration_peak_to_peak",
+      "unit": "original_mat_amplitude_unit",
+      "ontology_context_id": "equipment_bearing",
+      "direct_ontology_equivalence": false,
+      "fuzzy_membership": null
+    },
+    {
+      "column": "kurtosis",
+      "property": "vibration_pearson_kurtosis",
+      "unit": "dimensionless",
+      "ontology_context_id": "equipment_bearing",
+      "direct_ontology_equivalence": false,
+      "fuzzy_membership": null
+    },
+    {
+      "column": "crest_factor",
+      "property": "vibration_crest_factor",
+      "unit": "dimensionless",
+      "ontology_context_id": "equipment_bearing",
+      "direct_ontology_equivalence": false,
+      "fuzzy_membership": null
+    }
+  ],
+  "label_mapping": {
+    "purpose": "evaluation labels and potential future diagnostic output; never sensor evidence",
+    "cwru_labels": [
+      "inner_race_defect",
+      "ball_defect",
+      "outer_race_defect"
+    ],
+    "broader_concept_id": "source_3a8d8364b4f2a04eede7a21b",
+    "relation": "retrieval_context_for_bearing_damage",
+    "status": "proposed contextual association; not owl:sameAs or confirmed asset diagnosis",
+    "limitations": [
+      "The existing damaged-bearing concept has a Timken source context.",
+      "CWRU seeded defects do not automatically equal functional failure or establish a natural root cause.",
+      "All current records have defects; binary damage probabilities cannot be validated with this subset."
+    ]
+  },
+  "bayesian_design_proposal": {
+    "latent_variable": "bearing_defect_type",
+    "candidate_states": [
+      "normal",
+      "inner_race_defect",
+      "ball_defect",
+      "outer_race_defect"
+    ],
+    "observations": [
+      "vibration_rms",
+      "vibration_peak_to_peak",
+      "vibration_pearson_kurtosis",
+      "vibration_crest_factor"
+    ],
+    "purpose": "Estimate bearing condition from vibration, then retrieve related ontology claims.",
+    "status": "normal data missing; conditional feature independence not justified; probabilities not deployed",
+    "integration": "Separate measurement model. Do not populate the current binary motor_bn.json with these class probabilities."
+  },
+  "unsupported_targets": [
+    {
+      "id": "term_bearing_failure",
+      "reason": "Defect is not established functional failure."
+    },
+    {
+      "id": "source_5221e2d07843aa058c4941ac",
+      "reason": "No temperature or heat measurement."
+    },
+    {
+      "id": "source_d6e52242a24f69608269165f",
+      "reason": "No lubrication-condition observation or cause labels."
+    },
+    {
+      "id": "term_shaft_misalignment",
+      "reason": "No alignment observation or misalignment labels."
+    }
+  ],
+  "no_automatic_recommendation": "Retrieve source-specific context only; bearing-damage classification does not authorize repair actions."
+}

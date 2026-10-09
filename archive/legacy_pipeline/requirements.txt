@@ -1,0 +1,43 @@
+# ==========================================
+# 1. DATABASE & DATA LOADING
+# ==========================================
+# PostgreSQL adapter for Python
+psycopg2-binary>=2.9.0
+# SQL toolkit & ORM (used for schema inspection & loading CSVs)
+sqlalchemy>=2.0.0
+# Data manipulation (reading CSVs, cleaning)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ==========================================
+# 2. SEMANTIC WEB (RDF, OWL, GRAPHS)
+# ==========================================
+# Core library for handling RDF triples and parsing Turtle/XML
+rdflib>=7.0.0
+# HIGHEST PRIORITY: OWL reasoning, loading ontologies, running HermiT reasoner
+owlready2>=0.40.0
+# Python library for graph networks (visualizing your knowledge graph)
+networkx>=3.0
+# Graphviz is required for visualizing graphs with networkx (install system binary too)
+graphviz>=0.20.0
+
+# ==========================================
+# 3. LLM, AGENTS & RAG (RETRIEVAL)
+# ==========================================
+# Core LangChain framework for building Agents
+langchain>=0.3.0
+# LangChain extension for OpenAI models (GPT-4, etc.)
+langchain-openai>=0.2.0
+# Community integrations (for web scraping, document loaders if needed)
+langchain-community>=0.3.0
+# Vector database for RAG (stores embedded text chunks for context retrieval)
+chromadb>=0.5.0
+# For embedding models (if you run local embeddings)
+sentence-transformers>=2.2.0
+# Alternatively, use OpenAI's embeddings (via langchain-openai)
+
+# ==========================================
+# 4. ENVIRONMENT & UTILITIES
+# ==========================================
+# Progress bars for loading large telemetry CSVs
+tqdm>=4.66.0

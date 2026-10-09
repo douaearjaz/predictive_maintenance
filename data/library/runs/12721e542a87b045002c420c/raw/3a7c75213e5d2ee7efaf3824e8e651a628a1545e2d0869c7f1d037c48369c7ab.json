@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"The motor controller will not operate\",\"kind\":\"failure_mode\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Motor will not start (No hum or heating.)\",\"kind\":\"symptom\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B24\",\"quote\":\"Cause 2a: The motor controller will not operate.\"},{\"paragraph_id\":\"P6_B1\",\"quote\":\"Trouble 2: Motor will not start (No hum or heating.)\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"motor controller\",\"kind\":\"component\"},\"relation\":\"HAS_FAILURE_MODE\",\"object\":{\"text\":\"will not operate\",\"kind\":\"failure_mode\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B24\",\"quote\":\"Cause 2a: The motor controller will not operate.\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"defective controller\",\"kind\":\"component\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"Replace the defective controller.\",\"kind\":\"maintenance_action\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B16\",\"quote\":\"Cure 2a: Replace the defective controller.\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"overload relays\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P6_B2\",\"quote\":\"NOTE: Reset the overload relays, if tripped. Read Causes 2a through 2e. Then try to restart the motor, and look for the conditions described.\"}]},{\"concept\":{\"text\":\"defective controller\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P6_B16\",\"quote\":\"Cure 2a: Replace the defective controller.\"}]},{\"concept\":{\"text\":\"motor controller\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P6_B24\",\"quote\":\"Cause 2a: The motor controller will not operate.\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-1c341e3e-3227-4b0a-9845-5b99d02c4084",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 2274,
+    "prompt_tokens": 1856,
+    "total_tokens": 4130,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1817,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.213352811,
+    "prompt_time": 0.096385454,
+    "completion_time": 5.183008174,
+    "total_time": 5.279393628
+  },
+  "created_at": "2026-09-15T00:09:50.622097+00:00",
+  "section_id": "lincoln-controller"
+}

@@ -1,0 +1,548 @@
+{
+  "status": "structure_proposal_not_parameter_ready",
+  "source_ontology": "data/ontology/8ec228b61bde801bf5424fb6/ontology.json",
+  "scope": {
+    "mechanism": "motor bearing failure",
+    "equipment_population": null,
+    "operating_regime": null,
+    "observation_time_or_prediction_horizon": null,
+    "purpose": "proposed diagnosis of current bearing condition; user confirmation needed"
+  },
+  "nodes": [
+    {
+      "id": "2d8667dab11c25d963c8f5ea",
+      "label": "shaft misalignment",
+      "ontology_concept_id": "2d8667dab11c25d963c8f5ea",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "5221e2d07843aa058c4941ac",
+      "label": "emits more heat",
+      "ontology_concept_id": "5221e2d07843aa058c4941ac",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [
+        "556e1a8b7ae2513b1170a312"
+      ],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "556e1a8b7ae2513b1170a312",
+      "label": "bearing failure",
+      "ontology_concept_id": "556e1a8b7ae2513b1170a312",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [
+        "a20e1fbdf70c7a4874f0c858",
+        "2d8667dab11c25d963c8f5ea",
+        "86aad1538df734bbcd8d41f3",
+        "87c5fe04c723937de24ee9ae",
+        "5579001034e45d080ec9e4ce",
+        "b6f93b7fff0a6a2669c843e3",
+        "d6e52242a24f69608269165f"
+      ],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "5579001034e45d080ec9e4ce",
+      "label": "heavier load than designed for",
+      "ontology_concept_id": "5579001034e45d080ec9e4ce",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "56995ab45f1221773af3df53",
+      "label": "lower efficiency",
+      "ontology_concept_id": "56995ab45f1221773af3df53",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [
+        "556e1a8b7ae2513b1170a312"
+      ],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "86aad1538df734bbcd8d41f3",
+      "label": "incorrect fit",
+      "ontology_concept_id": "86aad1538df734bbcd8d41f3",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "87c5fe04c723937de24ee9ae",
+      "label": "induced shaft voltages",
+      "ontology_concept_id": "87c5fe04c723937de24ee9ae",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "a20e1fbdf70c7a4874f0c858",
+      "label": "normal wear",
+      "ontology_concept_id": "a20e1fbdf70c7a4874f0c858",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "b6f93b7fff0a6a2669c843e3",
+      "label": "ineffective bearing sealing",
+      "ontology_concept_id": "b6f93b7fff0a6a2669c843e3",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "d6e52242a24f69608269165f",
+      "label": "inadequate or incorrect lubrication",
+      "ontology_concept_id": "d6e52242a24f69608269165f",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [],
+      "cpt": null,
+      "parameter_source": null
+    },
+    {
+      "id": "fe781bcd2e0ed65ffd9b28c3",
+      "label": "increased drag",
+      "ontology_concept_id": "fe781bcd2e0ed65ffd9b28c3",
+      "proposed_states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "measurement_or_threshold": null,
+      "parents": [
+        "556e1a8b7ae2513b1170a312"
+      ],
+      "cpt": null,
+      "parameter_source": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "556e1a8b7ae2513b1170a312",
+      "to": "56995ab45f1221773af3df53",
+      "statement_id": "359c70979d7ae870eead9a7f",
+      "candidate_id": "ATOM_37a447ce5adb783797c70218",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "has lower efficiency",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 58,
+          "clean_end": 78,
+          "original_start": 58,
+          "original_end": 79,
+          "original_quote": "has \nlower efficiency",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "a20e1fbdf70c7a4874f0c858",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "413a15ff21e41bc3ee829d9f",
+      "candidate_id": "ATOM_005ca5c0d2533e43830fb72a",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Normal wear",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 325,
+          "clean_end": 336,
+          "original_start": 336,
+          "original_end": 347,
+          "original_quote": "Normal wear",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "2d8667dab11c25d963c8f5ea",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "460c37681cdef41b06522875",
+      "candidate_id": "ATOM_fca9a4e8e9397c8c68d9b264",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Shaft misalignment",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 288,
+          "clean_end": 306,
+          "original_start": 296,
+          "original_end": 314,
+          "original_quote": "Shaft misalignment",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "556e1a8b7ae2513b1170a312",
+      "to": "fe781bcd2e0ed65ffd9b28c3",
+      "statement_id": "8ef941de8d420caee50fb72d",
+      "candidate_id": "ATOM_e9a5a736ae89891d593e3a35",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "A failed bearing has increased drag",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 0,
+          "clean_end": 35,
+          "original_start": 0,
+          "original_end": 35,
+          "original_quote": "A failed bearing has increased drag",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "86aad1538df734bbcd8d41f3",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "92dba63b8e4a27a6d92798ab",
+      "candidate_id": "ATOM_0153036d6c027108276dbfc6",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Incorrect fit",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 309,
+          "clean_end": 322,
+          "original_start": 319,
+          "original_end": 332,
+          "original_quote": "Incorrect fit",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "87c5fe04c723937de24ee9ae",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "b3ebef504638d271e4b2f0d1",
+      "candidate_id": "ATOM_b30d0f7e0f5a51c6d5b5647f",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Induced shaft voltages",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 339,
+          "clean_end": 361,
+          "original_start": 351,
+          "original_end": 373,
+          "original_quote": "Induced shaft voltages",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "5579001034e45d080ec9e4ce",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "bef6647b0157f3bafe0e7662",
+      "candidate_id": "ATOM_a210b5cb56386af10442e6d1",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "A heavier load than designed for",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 185,
+          "clean_end": 217,
+          "original_start": 190,
+          "original_end": 222,
+          "original_quote": "A heavier load than designed for",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "b6f93b7fff0a6a2669c843e3",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "ddfce40be3e2af62db650fe2",
+      "candidate_id": "ATOM_3f7b6855b073913b30652f77",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Ineffective bearing sealing",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 258,
+          "clean_end": 285,
+          "original_start": 265,
+          "original_end": 292,
+          "original_quote": "Ineffective bearing sealing",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "556e1a8b7ae2513b1170a312",
+      "to": "5221e2d07843aa058c4941ac",
+      "statement_id": "ef3bb596bb010d21ca03efa6",
+      "candidate_id": "ATOM_efdd526554c2c30dfa54cc1b",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "emits more heat",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 37,
+          "clean_end": 52,
+          "original_start": 37,
+          "original_end": 52,
+          "original_quote": "emits more heat",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    },
+    {
+      "from": "d6e52242a24f69608269165f",
+      "to": "556e1a8b7ae2513b1170a312",
+      "statement_id": "fb6c9fcc10b12a441b67d9fd",
+      "candidate_id": "ATOM_b16354a2d4283e594ec23a22",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Inadequate or incorrect lubrication",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 220,
+          "clean_end": 255,
+          "original_start": 226,
+          "original_end": 261,
+          "original_quote": "Inadequate or incorrect lubrication",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "status": "source_supported_dependency_proposal_not_expert_validated"
+    }
+  ],
+  "probabilities_assigned": false,
+  "unresolved_assumptions": [
+    "Root causes are independent in this draft topology; this is unvalidated.",
+    "Symptoms are conditionally independent given bearing failure in this topology; this is unvalidated.",
+    "Other causes of heat, drag and reduced efficiency are omitted; specificity is unknown.",
+    "Normal wear needs a severity or exposure definition; present/absent is provisional.",
+    "Shaft voltage is a coarse causal summary; reconcile intermediate damage mechanisms before expansion."
+  ],
+  "validation": {
+    "acyclic": true,
+    "node_count": 11,
+    "edge_count": 10,
+    "topological_order": [
+      "2d8667dab11c25d963c8f5ea",
+      "a20e1fbdf70c7a4874f0c858",
+      "86aad1538df734bbcd8d41f3",
+      "5579001034e45d080ec9e4ce",
+      "d6e52242a24f69608269165f",
+      "b6f93b7fff0a6a2669c843e3",
+      "87c5fe04c723937de24ee9ae",
+      "556e1a8b7ae2513b1170a312",
+      "5221e2d07843aa058c4941ac",
+      "56995ab45f1221773af3df53",
+      "fe781bcd2e0ed65ffd9b28c3"
+    ]
+  },
+  "readiness_blockers": [
+    "equipment_population",
+    "time_basis",
+    "state_definitions",
+    "domain_review",
+    "missing_edge_adjudication",
+    "independence_review",
+    "probability_sources"
+  ]
+}

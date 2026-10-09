@@ -1,0 +1,10 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "candidate_id": "ATOM_9703975396b62ed6201b3224",
+  "candidate_hash": "fe2ece044f67be62c9cbf8249d003ea7f123b0d4b594194328bc2eceba0b25f4",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Timken Damaged bearings paragraph says bearings may become damaged through improper storage and handling. Full paragraph resolves the shortened quotation; preserve may.",
+  "reviewed_at": "2026-09-15T00:14:45.735476+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "candidate_id": "ATOM_e22a9291f51ee44f788b5384",
+  "candidate_hash": "6b0e7bebc40dece7b48177c4968da1426d140b2c8fa6d4558009c9e36cdb58be",
+  "decision": "uncertain",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "The source conditions gross failure on energizing a moist winding; operating_conditions is null and this essential condition must be preserved.",
+  "reviewed_at": "2026-09-15T00:14:45.814006+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "db43916284bc11e8e0ea9566",
+  "candidate_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+  "candidate_hash": "09a0493e79b353073357b2c73f2df9c2aa50ad0bfe42e0d8e5fc68a29a90f625",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. AC guide page 3 explicitly states an unbalanced load will also cause the bearings to fail. No missing first-column table heading was inferred.",
+  "reviewed_at": "2026-09-15T00:14:45.711142+00:00"
+}

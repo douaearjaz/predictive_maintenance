@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"defective motor bearings\",\"kind\":\"failure_mode\"},\"relation\":\"HAS_SYMPTOM\",\"object\":{\"text\":\"noises\",\"kind\":\"symptom\"},\"qualifier\":\"will\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"you will hear noises\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"defective motor bearings\",\"kind\":\"failure_mode\"},\"relation\":\"HAS_SYMPTOM\",\"object\":{\"text\":\"roughness\",\"kind\":\"symptom\"},\"qualifier\":\"will\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"feel roughness\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"defective motor bearings\",\"kind\":\"failure_mode\"},\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"Defective motor bearings\"}]},{\"concept\":{\"text\":\"motor\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"Test the motor by itself\"}]},{\"concept\":{\"text\":\"bearings\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"If the bearings are bad\"}]},{\"concept\":{\"text\":\"noises\",\"kind\":\"symptom\"},\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"you will hear noises\"}]},{\"concept\":{\"text\":\"roughness\",\"kind\":\"symptom\"},\"evidence\":[{\"paragraph_id\":\"P3_B6\",\"quote\":\"feel roughness\"}]}],\"ambiguities\":[]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-23674b25-5e2c-467b-bd8c-f8a63c07e6c0",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 1180,
+    "prompt_tokens": 1707,
+    "total_tokens": 2887,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 833,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.835768091,
+    "prompt_time": 0.423488509,
+    "completion_time": 2.4701210270000002,
+    "total_time": 2.893609536
+  },
+  "created_at": "2026-09-15T00:06:40.016895+00:00",
+  "section_id": "ac-bearings"
+}

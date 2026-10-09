@@ -1,0 +1,6 @@
+PyMuPDF>=1.24,<2
+pydantic>=2.8,<3
+openai>=1.70,<3
+python-dotenv>=1.0,<2
+typing-extensions>=4.12,<5
+rdflib>=7.1,<8

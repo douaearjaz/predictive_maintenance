@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_77175bb3fecfd4422d0f009a",
+  "candidate_hash": "b0f2a4de716373857f95fc13df7c8f36a0c121a53257d3805830579dc7d87be5",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB Wrong application row recommends changing type/size and consulting supplier. Matched that row only.",
+  "reviewed_at": "2026-09-15T00:14:45.683336+00:00"
+}

@@ -1,0 +1,139 @@
+{
+  "plot_version": "ontology-python-figures-v1",
+  "ontology_digest": "8ec228b61bde801bf5424fb606e12dc7b46440a6265f2aa00e9a1649f8386e3b",
+  "concepts": 62,
+  "statements": 47,
+  "sections": [
+    {
+      "image": "section-01.png",
+      "document": "13-common-causes.pdf",
+      "section": "10 Bearing wear",
+      "statements": [
+        "359c70979d7ae870eead9a7f",
+        "413a15ff21e41bc3ee829d9f",
+        "460c37681cdef41b06522875",
+        "8ef941de8d420caee50fb72d",
+        "92dba63b8e4a27a6d92798ab",
+        "b3ebef504638d271e4b2f0d1",
+        "bef6647b0157f3bafe0e7662",
+        "ddfce40be3e2af62db650fe2",
+        "ef3bb596bb010d21ca03efa6",
+        "fb6c9fcc10b12a441b67d9fd"
+      ]
+    },
+    {
+      "image": "section-02.png",
+      "document": "13-common-causes.pdf",
+      "section": "2 Voltage imbalance",
+      "statements": [
+        "3f1bbccc1b32dbc1d23bebdb",
+        "d53546437e969abd2936db93",
+        "ef31f4e6fb0e61b459a294a9"
+      ]
+    },
+    {
+      "image": "section-03.png",
+      "document": "13-common-causes.pdf",
+      "section": "7 Misalignment",
+      "statements": [
+        "102e38817c35bdd4c1b3d9c9",
+        "1d23b58f80ecabb58c58211d"
+      ]
+    },
+    {
+      "image": "section-04.png",
+      "document": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+      "section": "Motor fails to start — fuses",
+      "statements": [
+        "2f2ce18009c18695d88bcf97",
+        "302d67806255ce2e44fba623",
+        "8864ea2d3f211535c680a709"
+      ]
+    },
+    {
+      "image": "section-05.png",
+      "document": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+      "section": "Motor stalls",
+      "statements": [
+        "40a0a0932073087e14cf5f48",
+        "5301fd6d2246094f8f73cc28",
+        "5c471697628d7dabf7ad4ae9",
+        "69d87a8c0548bef8fc40249f",
+        "b4b4f0c582e0c6f2ec95bdf7",
+        "b5c5ffe29a098857fc273020",
+        "c5f8a671348ae93ec72c75bf",
+        "f4684ea80a740ca7e3ac66b0"
+      ]
+    },
+    {
+      "image": "section-06.png",
+      "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+      "section": "Motor will not start; hums and heats",
+      "statements": [
+        "126d1de5d4fb26fc3582dd08",
+        "8776ca91fd131c77d3bea2c1",
+        "981234e775cd2033cad80d7f",
+        "f89faaac7787fcdbece443e2"
+      ]
+    },
+    {
+      "image": "section-07.png",
+      "document": "Electric Motor Troubleshooting (Polyphase).pdf",
+      "section": "Starting: motor controller",
+      "statements": [
+        "b217d2aebb649adaae0a5783"
+      ]
+    },
+    {
+      "image": "section-08.png",
+      "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+      "section": "Bearing repair",
+      "statements": [
+        "1423d0554b8646be031e59f1",
+        "342cd87f6f9db8d51c73ab99",
+        "45ef06d72df11496ae15ba8a",
+        "cf543ea5b4489c9001c917ac"
+      ]
+    },
+    {
+      "image": "section-09.png",
+      "document": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+      "section": "Damaged bearings",
+      "statements": [
+        "5d8918df0b5cc4584e0921c7",
+        "68509b8634576631f4bf1797",
+        "cfe1edb8b29d288904fa84c8"
+      ]
+    },
+    {
+      "image": "section-10.png",
+      "document": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+      "section": "Moisture and motor insulation",
+      "statements": [
+        "2a0aca946f2f60d3b3422acb",
+        "5016c53b511cb60a4a1f18d0",
+        "bd5aabae7d89f217e55defb2",
+        "bf9b48893740bf3fa357d453",
+        "e0852546b7fd02b69058da2a"
+      ]
+    },
+    {
+      "image": "section-11.png",
+      "document": "ac-troubleshooting-guide.pdf",
+      "section": "Defective winding",
+      "statements": [
+        "2cde022af30c5af2a371dcfa",
+        "879d056732df0d3ce5456f8b",
+        "93eb57a0055f231c1847770b"
+      ]
+    },
+    {
+      "image": "section-12.png",
+      "document": "ac-troubleshooting-guide.pdf",
+      "section": "Unbalanced load and bearing failure",
+      "statements": [
+        "ee099c73dbeacfb05d4a46a8"
+      ]
+    }
+  ]
+}

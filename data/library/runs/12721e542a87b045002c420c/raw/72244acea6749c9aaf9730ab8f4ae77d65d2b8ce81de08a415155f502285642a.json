@@ -1,0 +1,24 @@
+{
+  "content": "{\"statements\":[{\"subject\":{\"text\":\"Overload relays undersized\",\"kind\":\"failure_mode\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Overload relays trip during starting\",\"kind\":\"phenomenon\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B12\",\"quote\":\"Cause 4a: Overload relays undersized.\"},{\"paragraph_id\":\"P6_B5\",\"quote\":\"Trouble 4: Overload relays trip during starting\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Motor takes too long to start\",\"kind\":\"failure_mode\"},\"relation\":\"CAUSES\",\"object\":{\"text\":\"Overload relays trip during starting\",\"kind\":\"phenomenon\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B13\",\"quote\":\"Cause 4b: Motor takes too long to start.\"},{\"paragraph_id\":\"P6_B5\",\"quote\":\"Trouble 4: Overload relays trip during starting\"}],\"needs_context_review\":false,\"review_note\":\"\"},{\"subject\":{\"text\":\"Overload relays undersized\",\"kind\":\"failure_mode\"},\"relation\":\"MITIGATED_BY\",\"object\":{\"text\":\"Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor\",\"kind\":\"maintenance_action\"},\"qualifier\":\"asserted\",\"operating_conditions\":null,\"evidence\":[{\"paragraph_id\":\"P6_B14\",\"quote\":\"Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.\"},{\"paragraph_id\":\"P6_B12\",\"quote\":\"Cause 4a: Overload relays undersized.\"}],\"needs_context_review\":false,\"review_note\":\"\"}],\"mentions\":[{\"concept\":{\"text\":\"Overload relays\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P6_B5\",\"quote\":\"Trouble 4: Overload relays trip during starting\"},{\"paragraph_id\":\"P6_B12\",\"quote\":\"Cause 4a: Overload relays undersized.\"}]},{\"concept\":{\"text\":\"Overload relays trip during starting\",\"kind\":\"phenomenon\"},\"evidence\":[{\"paragraph_id\":\"P6_B5\",\"quote\":\"Trouble 4: Overload relays trip during starting\"}]},{\"concept\":{\"text\":\"Overload relays undersized\",\"kind\":\"failure_mode\"},\"evidence\":[{\"paragraph_id\":\"P6_B12\",\"quote\":\"Cause 4a: Overload relays undersized.\"}]},{\"concept\":{\"text\":\"Motor\",\"kind\":\"component\"},\"evidence\":[{\"paragraph_id\":\"P6_B13\",\"quote\":\"Cause 4b: Motor takes too long to start.\"}]},{\"concept\":{\"text\":\"Motor takes too long to start\",\"kind\":\"failure_mode\"},\"evidence\":[{\"paragraph_id\":\"P6_B13\",\"quote\":\"Cause 4b: Motor takes too long to start.\"}]},{\"concept\":{\"text\":\"Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor\",\"kind\":\"maintenance_action\"},\"evidence\":[{\"paragraph_id\":\"P6_B14\",\"quote\":\"Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.\"}]},{\"concept\":{\"text\":\"National Electric Code (NEC)\",\"kind\":\"unknown\"},\"evidence\":[{\"paragraph_id\":\"P6_B14\",\"quote\":\"Cure 4a: Use the relay size specified by the National Electric Code (NEC) for the motor nameplate current and service factor.\"}]},{\"concept\":{\"text\":\"Trouble 5\",\"kind\":\"unknown\"},\"evidence\":[{\"paragraph_id\":\"P6_B15\",\"quote\":\"Cure 4b: See Trouble 5, page 7.\"}]}],\"ambiguities\":[{\"description\":\"Cure 4b references Trouble 5 without providing a specific corrective action, making the mitigation unclear.\",\"evidence\":[{\"paragraph_id\":\"P6_B15\",\"quote\":\"Cure 4b: See Trouble 5, page 7.\"}]}]}",
+  "finish_reason": "stop",
+  "provider_response_id": "chatcmpl-c89ab41d-a4d8-471a-b468-72aea9a78714",
+  "returned_model": "openai/gpt-oss-120b",
+  "usage": {
+    "completion_tokens": 2766,
+    "prompt_tokens": 1902,
+    "total_tokens": 4668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1878,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.045422752,
+    "prompt_time": 0.097345895,
+    "completion_time": 5.963962175,
+    "total_time": 6.06130807
+  },
+  "created_at": "2026-09-15T00:11:08.894999+00:00",
+  "section_id": "lincoln-overload-relays"
+}

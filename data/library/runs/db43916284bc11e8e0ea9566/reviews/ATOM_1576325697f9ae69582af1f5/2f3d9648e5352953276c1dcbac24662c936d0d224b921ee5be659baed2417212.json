@@ -1,0 +1,10 @@
+{
+  "run_id": "db43916284bc11e8e0ea9566",
+  "candidate_id": "ATOM_1576325697f9ae69582af1f5",
+  "candidate_hash": "c071463ff573f28cf082a127d5888ee4038c7b4947c9ffdec1372061f564843c",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. AC guide page 3 explicitly says For defective winding, replace the motor. Statement accurately reflects the source recommendation; technical applicability still needs assessment.",
+  "reviewed_at": "2026-09-15T00:14:45.707725+00:00"
+}

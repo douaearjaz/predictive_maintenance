@@ -1,0 +1,10 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "candidate_id": "ATOM_3698cc5ebf1672810927391f",
+  "candidate_hash": "981111564b0c738dbb631dfde24885d3630febb98e9c7ff1ccf6dc27cb87d1f3",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. EPRI same sentence explicitly includes deterioration of electrical/mechanical motor parts. Full paragraph resolves subject and preserves can.",
+  "reviewed_at": "2026-09-15T00:14:45.807230+00:00"
+}

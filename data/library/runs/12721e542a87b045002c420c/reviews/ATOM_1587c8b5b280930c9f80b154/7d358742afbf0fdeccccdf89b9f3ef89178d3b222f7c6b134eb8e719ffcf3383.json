@@ -1,0 +1,10 @@
+{
+  "run_id": "12721e542a87b045002c420c",
+  "candidate_id": "ATOM_1587c8b5b280930c9f80b154",
+  "candidate_hash": "419393ef826187a5706335a7e44ade33a24b629c382c810c3efd31003c6643ed",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Lincoln Cure 3a explicitly requires a qualified technician to check all three phase voltages. Paired to Cause 3a only; qualification retained in action text. Read full source procedure.",
+  "reviewed_at": "2026-09-15T00:14:45.761328+00:00"
+}

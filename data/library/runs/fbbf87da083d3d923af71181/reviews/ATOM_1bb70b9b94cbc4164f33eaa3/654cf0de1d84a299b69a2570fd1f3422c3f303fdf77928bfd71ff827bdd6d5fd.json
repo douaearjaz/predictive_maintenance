@@ -1,0 +1,10 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "candidate_id": "ATOM_1bb70b9b94cbc4164f33eaa3",
+  "candidate_hash": "43faf390c41f0f6611953231dbff80911526d057dad4603b4e7a7064455cf31b",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. EPRI Excessive Moisture paragraph directly states moisture causes failures in motor winding insulation.",
+  "reviewed_at": "2026-09-15T00:14:45.782852+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "candidate_id": "ATOM_595d774e487b88c8063caecf",
+  "candidate_hash": "ea1f963ed662d470a0b7712321ec6f7846bb4adac1294d40187e399f2dcc33ba",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. EPRI next sentence: It refers to excessive moisture, which can also cause loss of lubrication capability in bearing oil systems. Full paragraph checked.",
+  "reviewed_at": "2026-09-15T00:14:45.799153+00:00"
+}

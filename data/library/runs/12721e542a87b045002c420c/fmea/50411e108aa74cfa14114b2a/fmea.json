@@ -1,0 +1,508 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v2",
+  "allow_assistant": true,
+  "run_id": "12721e542a87b045002c420c",
+  "records": [
+    {
+      "fmea_record_id": "FMEA_2f10f4c2bfe9cdc7af1df10e",
+      "section_id": "lincoln-controller",
+      "component": [
+        {
+          "value": "motor controller",
+          "statement_id": "ATOM_a9795516872c711f58c22ebd",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B24",
+              "quote": "Cause 2a: The motor controller will not operate.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 48,
+              "original_start": 0,
+              "original_end": 48,
+              "original_quote": "Cause 2a: The motor controller will not\noperate.",
+              "bbox": [
+                63.25,
+                198.52781677246094,
+                225.35206604003906,
+                218.3039093017578
+              ],
+              "source_paragraph_cleaned": "Cause 2a: The motor controller will not operate.",
+              "source_paragraph_original": "Cause 2a: The motor controller will not\noperate.\n"
+            }
+          ]
+        }
+      ],
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "will not operate",
+          "statement_id": "ATOM_a9795516872c711f58c22ebd",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B24",
+              "quote": "Cause 2a: The motor controller will not operate.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-controller",
+              "section": "Starting: motor controller",
+              "clean_start": 0,
+              "clean_end": 48,
+              "original_start": 0,
+              "original_end": 48,
+              "original_quote": "Cause 2a: The motor controller will not\noperate.",
+              "bbox": [
+                63.25,
+                198.52781677246094,
+                225.35206604003906,
+                218.3039093017578
+              ],
+              "source_paragraph_cleaned": "Cause 2a: The motor controller will not operate.",
+              "source_paragraph_original": "Cause 2a: The motor controller will not\noperate.\n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_a9795516872c711f58c22ebd"
+      ],
+      "reviews": [
+        {
+          "run_id": "12721e542a87b045002c420c",
+          "candidate_id": "ATOM_a9795516872c711f58c22ebd",
+          "candidate_hash": "989a6db9600a47b1fb53aafc18e219b462ba781d0efebf60ecb00fd4fc79b4a7",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Lincoln physical page 6 Cause 2a explicitly identifies motor controller failure to operate. Component and failure state supported.",
+          "reviewed_at": "2026-09-15T00:14:45.751777+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_91f0c66febb6d9ed4f915a96",
+      "section_id": "lincoln-hums",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Motor will not start (Just hums and heats up.)",
+          "statement_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+          "qualifier": "could have been a temporary condition",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B6",
+              "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 111,
+              "original_start": 0,
+              "original_end": 111,
+              "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+              "bbox": [
+                64.24970245361328,
+                523.8578491210938,
+                239.34375,
+                553.6337890625
+              ],
+              "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "Input circuit single phased",
+          "statement_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+          "qualifier": "could have been a temporary condition",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B6",
+              "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 111,
+              "original_start": 0,
+              "original_end": 111,
+              "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+              "bbox": [
+                64.24970245361328,
+                523.8578491210938,
+                239.34375,
+                553.6337890625
+              ],
+              "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+              "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "qualified technician check for the proper voltage in all three phases",
+          "statement_id": "ATOM_1587c8b5b280930c9f80b154",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B9",
+              "quote": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 143,
+              "original_start": 0,
+              "original_end": 143,
+              "original_quote": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.",
+              "bbox": [
+                262.0,
+                523.8578491210938,
+                544.138916015625,
+                543.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cure 3a: Have a qualified technician check for the proper voltage in all three phases. If a single phase condition exists, correct the problem.",
+              "source_paragraph_original": "Cure 3a: Have a qualified technician check for the proper voltage in\nall three phases. If a single phase condition exists, correct the problem.\n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_1587c8b5b280930c9f80b154",
+        "ATOM_f016bbaefd26a4ffd01b0a1b"
+      ],
+      "reviews": [
+        {
+          "run_id": "12721e542a87b045002c420c",
+          "candidate_id": "ATOM_f016bbaefd26a4ffd01b0a1b",
+          "candidate_hash": "8ec19341c8bacb10fd460b9210a91ddff548e7c4603601c8d778c4e0b3ab85f3",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Lincoln Trouble 3 and Cause 3a are a numbered pair. Missing voltage in one/two phases is listed for motor not starting with hum/heating. Preserve the possible temporary-condition qualifier.",
+          "reviewed_at": "2026-09-15T00:14:45.756310+00:00"
+        },
+        {
+          "run_id": "12721e542a87b045002c420c",
+          "candidate_id": "ATOM_1587c8b5b280930c9f80b154",
+          "candidate_hash": "419393ef826187a5706335a7e44ade33a24b629c382c810c3efd31003c6643ed",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Lincoln Cure 3a explicitly requires a qualified technician to check all three phase voltages. Paired to Cause 3a only; qualification retained in action text. Read full source procedure.",
+          "reviewed_at": "2026-09-15T00:14:45.761328+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_e32f56b207c695a3aa025c98",
+      "section_id": "lincoln-hums",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Motor will not start (Just hums and heats up.)",
+          "statement_id": "ATOM_4cb87335d85843e10127ee8a",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B7",
+              "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 105,
+              "original_start": 0,
+              "original_end": 105,
+              "original_quote": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings.",
+              "bbox": [
+                64.24980163574219,
+                563.8579711914062,
+                230.39425659179688,
+                593.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "source_paragraph_original": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "Motor was single phased",
+          "statement_id": "ATOM_4cb87335d85843e10127ee8a",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B7",
+              "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 105,
+              "original_start": 0,
+              "original_end": 105,
+              "original_quote": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings.",
+              "bbox": [
+                64.24980163574219,
+                563.8579711914062,
+                230.39425659179688,
+                593.6339111328125
+              ],
+              "source_paragraph_cleaned": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+              "source_paragraph_original": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": [
+        {
+          "value": "expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings",
+          "statement_id": "ATOM_e9e3622f927de365887e6d11",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P6_B10",
+              "quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+              "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+              "page": 6,
+              "section_id": "lincoln-hums",
+              "section": "Motor will not start; hums and heats",
+              "clean_start": 0,
+              "clean_end": 231,
+              "original_start": 0,
+              "original_end": 231,
+              "original_quote": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.",
+              "bbox": [
+                262.0,
+                563.8579711914062,
+                540.30029296875,
+                603.6337890625
+              ],
+              "source_paragraph_cleaned": "Cure 3b: Replace the motor. ALWAYS have an expert check the motor windings to determine whether the single phasing occurred in the input circuit or in the motor windings. If in the input circuit, correct the single phase condition.",
+              "source_paragraph_original": "Cure 3b: Replace the motor. ALWAYS have an expert check the\nmotor windings to determine whether the single phasing occurred in\nthe input circuit or in the motor windings. If in the input circuit, correct\nthe single phase condition.\n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_4cb87335d85843e10127ee8a",
+        "ATOM_e9e3622f927de365887e6d11"
+      ],
+      "reviews": [
+        {
+          "run_id": "12721e542a87b045002c420c",
+          "candidate_id": "ATOM_4cb87335d85843e10127ee8a",
+          "candidate_hash": "5acefd428e79d75a36ddde7e241b6f5cd972286437eeb2637b30129b6e913c60",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Lincoln Trouble 3 / Cause 3b identifies motor single-phasing, evidenced by winding heat damage, for this failure scenario. Numbered association checked.",
+          "reviewed_at": "2026-09-15T00:14:45.766070+00:00"
+        },
+        {
+          "run_id": "12721e542a87b045002c420c",
+          "candidate_id": "ATOM_e9e3622f927de365887e6d11",
+          "candidate_hash": "96a10d71e7ee7ce6b9f4f378f79cf565376615096596ca180715d310233213b4",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. Lincoln Cure 3b explicitly requires expert winding examination to distinguish input-circuit versus winding single-phasing. This diagnostic investigation stays with Cause 3b.",
+          "reviewed_at": "2026-09-15T00:14:45.771436+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_70241d0a2fd0601d48b91ba9",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_4f2381cfd42492abf09a01fd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_693abdb8776b8a66fef81706",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_24e620116b5709a1018bf5bf",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_825ad84e3cf10dde6004c568",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5c23af82cefa1f323d0c789d",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_c551a4182b5cfbb6c2e65b24",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_1fc7f06173ae855a0506ec4f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_a9200e44e0ef01fc79e6eda5",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_75b22eb2934e5969c254e18c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_3a4cbb603639f3f03ac2e6f2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e5d40c7c8ba77fdd36203dee",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1e590c0c2bc09b348f118890",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9e8710a0d09fd0a2d93a7bc9",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b30cff94173829d731851155",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1e44b0b3a39faef602870b2c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_76aa1f3e7636190ee35008d8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c299acfebda8ba2afb3f87b7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_80928160f0368b376fe083db",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8d4d6a4facf7fb5a551918d5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a22a31de8756b13a7b5d8338",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_98576e2d603c9d61431a8db6",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7d004ce496147effb3349d81",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_00351e2076a016e26961305a",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_9565136baaa842449b5425e1",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_e055ed8cd5fe4b33262cf3fb",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_62534d3fbc8eee378c4a4cd2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_22e761a542d9ce58ebf070b0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a1b3b0f2ada62d7747dd3f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_82cbde9f05e0e6ee2f821902",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_8d2a1feba9fa341d36372acc",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_77506f73874171fc82be4bd6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f9ecebcd66da40061e700854",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T01:42:04.439476+00:00"
+}

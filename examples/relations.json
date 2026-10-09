@@ -1,0 +1,56 @@
+[
+  {
+    "relation_id": "REL_c2a0e09db489bfbb1dc9799c",
+    "source": "Insufficient lubrication",
+    "relation_type": "CAUSES",
+    "target": "accelerated bearing wear",
+    "evidence": [
+      {
+        "document_id": "DOC_fixture",
+        "document_name": "motor_fault.pdf",
+        "page": 1,
+        "chunk_id": "CHK_eaf6408640131cf5fbc56e86",
+        "quote": "Insufficient lubrication can cause accelerated bearing wear."
+      }
+    ],
+    "operating_conditions": null,
+    "linked_fmea_record_id": "FMEA_210f0f78bf451a990bf7a904",
+    "review_status": "pending"
+  },
+  {
+    "relation_id": "REL_8f470db6565df0edb5f8a763",
+    "source": "accelerated bearing wear",
+    "relation_type": "RESULTS_IN",
+    "target": "excessive vibration",
+    "evidence": [
+      {
+        "document_id": "DOC_fixture",
+        "document_name": "motor_fault.pdf",
+        "page": 1,
+        "chunk_id": "CHK_eaf6408640131cf5fbc56e86",
+        "quote": "Bearing wear may result in excessive vibration, which can be detected through vibration monitoring."
+      }
+    ],
+    "operating_conditions": null,
+    "linked_fmea_record_id": "FMEA_210f0f78bf451a990bf7a904",
+    "review_status": "pending"
+  },
+  {
+    "relation_id": "REL_7680d1026a99096c668f2400",
+    "source": "excessive vibration",
+    "relation_type": "DETECTED_BY",
+    "target": "vibration monitoring",
+    "evidence": [
+      {
+        "document_id": "DOC_fixture",
+        "document_name": "motor_fault.pdf",
+        "page": 1,
+        "chunk_id": "CHK_eaf6408640131cf5fbc56e86",
+        "quote": "Bearing wear may result in excessive vibration, which can be detected through vibration monitoring."
+      }
+    ],
+    "operating_conditions": null,
+    "linked_fmea_record_id": "FMEA_210f0f78bf451a990bf7a904",
+    "review_status": "pending"
+  }
+]

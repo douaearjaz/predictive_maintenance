@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_2ae450641edcff529e874cbe",
+  "candidate_hash": "518d713b0949346108f5ddc00dbb59a228a54092e13b1eb5dd306e69c7163f0a",
+  "decision": "accepted",
+  "reviewer": "Your name",
+  "reviewer_kind": "human",
+  "note": "Checked the full source paragraph and immediate causal step",
+  "reviewed_at": "2026-09-14T23:34:45.219853+00:00"
+}

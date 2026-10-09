@@ -1,0 +1,10 @@
+{
+  "run_id": "2cc983acb246bd929a89ac82",
+  "candidate_id": "ATOM_73b9e02febb78923708b56bd",
+  "candidate_hash": "55ff32ef440420646cd34dd43584a8b0837ee213da1463c9418ed6e70fededa1",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. ABB same row ties replacement with proper type and rating specifically to blown fuses. Keep this remedy on the blown-fuse scenario.",
+  "reviewed_at": "2026-09-15T00:14:45.666884+00:00"
+}

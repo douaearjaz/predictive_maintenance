@@ -1,0 +1,157 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v2",
+  "allow_assistant": true,
+  "run_id": "b54ac34af4791ab118c217cf",
+  "records": [],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_dd944fb48c53ba6d62785103",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_746f878784f5f3466d623b82",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_360127dc050b6c470eb1f110",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_3bed7679bf1ef121ae9d471c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_325347485efaf16b317356a7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d0972c25ce7e150244e2900d",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_aeeb09d2bfeb635f2076ff0c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_536c021dad26756ed49a6c11",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_972a8c0afa2aa72d92862eed",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_efbfed9ac73f5f9472f6bbf3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_9703975396b62ed6201b3224",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_cf35cf7bbbdabd7191e5835f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_63a773250aa608fceab198ca",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_9cd0e8ea98b2ab1585568da8",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_fce1b5f8df040fdc38ad8709",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_b29fdb00fd9b2b9e7dea47f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_42554991b1e580afc3262448",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_882745b31b12548f88a176b6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_d2f72f494820ec757b75386c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4290781802573cec9e3dd330",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2336633ccb9ce908530df609",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4a2c6bdf2688564b342a3a22",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_da8ea25916b033d49ce15c1f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_86adaf8c0d884d001e4f36c6",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_cb23763d59bd4bf396dc1971",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_13ac80bb01eee14a0dba45b5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_476198932693cba172563ed3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_81104206b3c61159ed15c0dd",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_782a7423cc77a411ea85679c",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_e9f584cf017320de2b3f3cdb",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_7e77eface9cdcaffe0bbf760",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_65b4c7d5f6306c6303d873da",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_38af60f7fe30df38f833c26f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_0b7eefb5a5ab04ea73349ca5",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f908f498b303c536edb65d15",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a840c18931182eb081910da4",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c150cf391751ec96d7aab3c1",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T00:11:16.545350+00:00"
+}

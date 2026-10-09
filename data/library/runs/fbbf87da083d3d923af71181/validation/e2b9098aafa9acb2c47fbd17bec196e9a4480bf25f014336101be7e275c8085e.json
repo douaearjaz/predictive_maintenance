@@ -1,0 +1,1431 @@
+{
+  "run_id": "fbbf87da083d3d923af71181",
+  "source_kind": "llm",
+  "responses": 1,
+  "total_sections": 3,
+  "missing_sections": [
+    "epri-corrosion",
+    "epri-lubrication"
+  ],
+  "results": [
+    {
+      "section_id": "epri-moisture",
+      "candidates": [
+        {
+          "candidate_id": "ATOM_e22a9291f51ee44f788b5384",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "moisture in the groundwall insulation of the winding",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "gross failure of the winding",
+              "kind": "failure_mode"
+            },
+            "qualifier": "could cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "moisture in the groundwall insulation of the winding",
+              "kind": "cause"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "gross failure of the winding",
+              "kind": "failure_mode"
+            },
+            "qualifier": "could cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng."
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng.",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 202,
+              "clean_end": 352,
+              "original_start": 202,
+              "original_end": 352,
+              "original_quote": "If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng.",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_9c123343a2b9cdd7af5ac040",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "applying external heat",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can be dried out by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Often a wet winding can be dried out by applying external heat"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "applying external heat",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can be dried out by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Often a wet winding can be dried out by applying external heat"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "Often a wet winding can be dried out by applying external heat",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 353,
+              "clean_end": 415,
+              "original_start": 353,
+              "original_end": 415,
+              "original_quote": "Often a wet winding can be dried out by applying external heat",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_722e3eda2a3d77837bf5b2ce",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "circulating low level DC current through the windings",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can be dried out by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "or by circulating low level DC current through the windings"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "MITIGATED_BY",
+            "object": {
+              "text": "circulating low level DC current through the windings",
+              "kind": "maintenance_action"
+            },
+            "qualifier": "can be dried out by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "or by circulating low level DC current through the windings"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "or by circulating low level DC current through the windings",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 416,
+              "clean_end": 475,
+              "original_start": 416,
+              "original_end": 475,
+              "original_quote": "or by circulating\nlow level DC current through the windings",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_0535a0cb0182be1d547bc08e",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "DETECTED_BY",
+            "object": {
+              "text": "insulation resistance testing",
+              "kind": "detection_method"
+            },
+            "qualifier": "can often be found by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Indication of a wet winding can often be found by insulation resistance testing"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "relation": "DETECTED_BY",
+            "object": {
+              "text": "insulation resistance testing",
+              "kind": "detection_method"
+            },
+            "qualifier": "can often be found by",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Indication of a wet winding can often be found by insulation resistance testing"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "Indication of a wet winding can often be found by insulation resistance testing",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 494,
+              "clean_end": 573,
+              "original_start": 494,
+              "original_end": 573,
+              "original_quote": "Indication of a wet winding\ncan often be found by insulation resistance testing",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1bb70b9b94cbc4164f33eaa3",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "failures in motor winding insulation",
+              "kind": "failure_mode"
+            },
+            "qualifier": "causes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive moisture causes failures in motor winding insulation"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "failures in motor winding insulation",
+              "kind": "failure_mode"
+            },
+            "qualifier": "causes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive moisture causes failures in motor winding insulation"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "Excessive moisture causes failures in motor winding insulation",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 20,
+              "clean_end": 82,
+              "original_start": 20,
+              "original_end": 82,
+              "original_quote": "Excessive moisture causes failures in motor winding insulation",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_30da26e247cbbc27a8e62e54",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "failures in motor leads",
+              "kind": "failure_mode"
+            },
+            "qualifier": "causes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive moisture causes failures in motor winding insulation and in motor leads"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "failures in motor leads",
+              "kind": "failure_mode"
+            },
+            "qualifier": "causes",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive moisture causes failures in motor winding insulation and in motor leads"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "Excessive moisture causes failures in motor winding insulation and in motor leads",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 20,
+              "clean_end": 101,
+              "original_start": 20,
+              "original_end": 101,
+              "original_quote": "Excessive moisture causes failures in motor winding insulation and\nin motor leads",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_595d774e487b88c8063caecf",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "loss of lubrication capability in bearing oil systems",
+              "kind": "failure_mode"
+            },
+            "qualifier": "can also cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "It can also cause loss of lubrication capability in bearing oil systems"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "loss of lubrication capability in bearing oil systems",
+              "kind": "failure_mode"
+            },
+            "qualifier": "can also cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "It can also cause loss of lubrication capability in bearing oil systems"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "It can also cause loss of lubrication capability in bearing oil systems",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 103,
+              "clean_end": 174,
+              "original_start": 103,
+              "original_end": 174,
+              "original_quote": "It can also cause loss of lubrication capability in bearing oil systems",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3698cc5ebf1672810927391f",
+          "section_id": "epri-moisture",
+          "category": "statements",
+          "raw_record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "deterioration of motor parts, both electrical and mechanical",
+              "kind": "failure_mode"
+            },
+            "qualifier": "can also cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "and deterioration of motor parts, both electrical and mechanical"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "record": {
+            "subject": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "relation": "CAUSES",
+            "object": {
+              "text": "deterioration of motor parts, both electrical and mechanical",
+              "kind": "failure_mode"
+            },
+            "qualifier": "can also cause",
+            "operating_conditions": null,
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "and deterioration of motor parts, both electrical and mechanical"
+              }
+            ],
+            "needs_context_review": false,
+            "review_note": ""
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [
+            "endpoint_not_literal_in_quote_check_full_paragraph",
+            "qualifier_not_literal_in_evidence"
+          ],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "and deterioration of motor parts, both electrical and mechanical",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 175,
+              "clean_end": 239,
+              "original_start": 175,
+              "original_end": 239,
+              "original_quote": "and\ndeterioration of motor parts, both electrical and mechanical",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_71ab3204b80b04ab701fa3b3",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "motor winding",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Protecting the motor winding from moisture is a major concern"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "motor winding",
+              "kind": "component"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Protecting the motor winding from moisture is a major concern"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "Protecting the motor winding from moisture is a major concern",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 0,
+              "clean_end": 61,
+              "original_start": 0,
+              "original_end": 61,
+              "original_quote": "Protecting the motor winding from moisture is a major concern",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_b9581840271e8fc16a1bfce9",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "moisture in the groundwall insulation of the winding",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "moisture in the groundwall insulation of the winding",
+              "kind": "cause"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 202,
+              "clean_end": 351,
+              "original_start": 202,
+              "original_end": 351,
+              "original_quote": "If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_ac47cb3879a360a8b8bbec52",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "gross failure of the winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "this could cause gross failure of the wind- ng"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "gross failure of the winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "this could cause gross failure of the wind- ng"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "this could cause gross failure of the wind- ng",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 305,
+              "clean_end": 351,
+              "original_start": 305,
+              "original_end": 351,
+              "original_quote": "this could cause gross failure of the wind-\nng",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_4420f14a559b4a373d63161e",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Often a wet winding can be dried out by applying external heat"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "wet winding",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "Often a wet winding can be dried out by applying external heat"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "Often a wet winding can be dried out by applying external heat",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 353,
+              "clean_end": 415,
+              "original_start": 353,
+              "original_end": 415,
+              "original_quote": "Often a wet winding can be dried out by applying external heat",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3558997ef271213e45644330",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "applying external heat",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by applying external heat"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "applying external heat",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by applying external heat"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "by applying external heat",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 390,
+              "clean_end": 415,
+              "original_start": 390,
+              "original_end": 415,
+              "original_quote": "by applying external heat",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_362f2242865e4f3d9bc25ac6",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "circulating low level DC current through the windings",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by circulating low level DC current through the windings"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "circulating low level DC current through the windings",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by circulating low level DC current through the windings"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "by circulating low level DC current through the windings",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 419,
+              "clean_end": 475,
+              "original_start": 419,
+              "original_end": 475,
+              "original_quote": "by circulating\nlow level DC current through the windings",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_8834ddf19e8e8261967a9a5a",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "insulation resistance testing",
+              "kind": "detection_method"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by insulation resistance testing"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "insulation resistance testing",
+              "kind": "detection_method"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "by insulation resistance testing"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "by insulation resistance testing",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 541,
+              "clean_end": 573,
+              "original_start": 541,
+              "original_end": 573,
+              "original_quote": "by insulation resistance testing",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_34c127c0d152f572f8d5b508",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive Moisture"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "excessive moisture",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "Excessive Moisture"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "Excessive Moisture",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 0,
+              "clean_end": 18,
+              "original_start": 0,
+              "original_end": 18,
+              "original_quote": "Excessive Moisture",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_3ec7888d8f1f8c73891bcd78",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "failures in motor winding insulation",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "fails in motor winding insulation"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "failures in motor winding insulation",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "fails in motor winding insulation"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": false,
+          "semantic_review_status": "pending",
+          "issues": [
+            "Quote is not an exact nonempty cleaned-text substring"
+          ],
+          "warnings": [],
+          "resolved_evidence": []
+        },
+        {
+          "candidate_id": "ATOM_94360212847878a9f9be0f9a",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "failures in motor leads",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "and in motor leads"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "failures in motor leads",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "and in motor leads"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "and in motor leads",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 83,
+              "clean_end": 101,
+              "original_start": 83,
+              "original_end": 101,
+              "original_quote": "and\nin motor leads",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_7194c54153e02d4b04164ba0",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "loss of lubrication capability in bearing oil systems",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "loss of lubrication capability in bearing oil systems"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "loss of lubrication capability in bearing oil systems",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "loss of lubrication capability in bearing oil systems"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "loss of lubrication capability in bearing oil systems",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 121,
+              "clean_end": 174,
+              "original_start": 121,
+              "original_end": 174,
+              "original_quote": "loss of lubrication capability in bearing oil systems",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_2fb09f72eff4a781c5fd02a4",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "deterioration of motor parts, both electrical and mechanical",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "deterioration of motor parts, both electrical and mechanical"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "deterioration of motor parts, both electrical and mechanical",
+              "kind": "failure_mode"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B6",
+                "quote": "deterioration of motor parts, both electrical and mechanical"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B6",
+              "quote": "deterioration of motor parts, both electrical and mechanical",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 179,
+              "clean_end": 239,
+              "original_start": 179,
+              "original_end": 239,
+              "original_quote": "deterioration of motor parts, both electrical and mechanical",
+              "bbox": [
+                62.63999557495117,
+                426.9633483886719,
+                510.0133361816406,
+                463.6756591796875
+              ],
+              "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+              "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_0f8924de0688525fe9e828c4",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "condensation",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "condensation is usually not a problem"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "condensation",
+              "kind": "phenomenon"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "condensation is usually not a problem"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "condensation is usually not a problem",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 89,
+              "clean_end": 126,
+              "original_start": 89,
+              "original_end": 126,
+              "original_quote": "condensation is usually not a problem",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        },
+        {
+          "candidate_id": "ATOM_1e2f60d93dccff6500034597",
+          "section_id": "epri-moisture",
+          "category": "mentions",
+          "raw_record": {
+            "concept": {
+              "text": "heaters",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "motor winding needs to be kept dry (i.e. heaters)"
+              }
+            ]
+          },
+          "record": {
+            "concept": {
+              "text": "heaters",
+              "kind": "maintenance_action"
+            },
+            "evidence": [
+              {
+                "paragraph_id": "P54_B4",
+                "quote": "motor winding needs to be kept dry (i.e. heaters)"
+              }
+            ]
+          },
+          "schema_valid": true,
+          "evidence_valid": true,
+          "semantic_review_status": "pending",
+          "issues": [],
+          "warnings": [],
+          "resolved_evidence": [
+            {
+              "paragraph_id": "P54_B4",
+              "quote": "motor winding needs to be kept dry (i.e. heaters)",
+              "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+              "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+              "page": 54,
+              "section_id": "epri-moisture",
+              "section": "Moisture and motor insulation",
+              "clean_start": 151,
+              "clean_end": 200,
+              "original_start": 151,
+              "original_end": 200,
+              "original_quote": "motor winding\nneeds to be kept dry (i.e. heaters)",
+              "bbox": [
+                62.63999938964844,
+                261.6031188964844,
+                511.3307189941406,
+                361.1955261230469
+              ],
+              "source_paragraph_cleaned": "Protecting the motor winding from moisture is a major concern. When the motor is in use, condensation is usually not a problem. However when idle, the motor winding needs to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation of the winding, it should not be energized since this could cause gross failure of the wind- ng. Often a wet winding can be dried out by applying external heat or by circulating low level DC current through the windings (Reference 6.12). Indication of a wet winding can often be found by insulation resistance testing. Additional discussion on causes of failures are as follows:",
+              "source_paragraph_original": "Protecting the motor winding from moisture is a major concern. When the motor is in\nuse, condensation is usually not a problem. However when idle, the motor winding\nneeds to be kept dry (i.e. heaters). If there is any moisture in the groundwall insulation\nof the winding, it should not be energized since this could cause gross failure of the wind-\nng. Often a wet winding can be dried out by applying external heat or by circulating\nlow level DC current through the windings (Reference 6.12). Indication of a wet winding\ncan often be found by insulation resistance testing. Additional discussion on causes of\nfailures are as follows:\n"
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "validator_version": "atomic-evidence-v1",
+  "validator_code_hash": "edffa316cffa510469455b6187b47543724a6ce9bc0c5500d2e95dc0a7c287c8"
+}

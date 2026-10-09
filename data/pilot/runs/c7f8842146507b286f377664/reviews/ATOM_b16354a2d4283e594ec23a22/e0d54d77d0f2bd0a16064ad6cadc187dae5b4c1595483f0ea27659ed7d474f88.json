@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_b16354a2d4283e594ec23a22",
+  "candidate_hash": "cc3c2bd8e1da12441f94d5aa1f5fda94a2122f4203b5072f49896ae30d9e9ac2",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Assistant verification only; human review pending. Page 6 P6_B5 explicitly introduces causes of bearing failure and lists inadequate or incorrect lubrication. Quotation is a list item; full paragraph supplies the causal introduction. Retain can, not deterministic causality.",
+  "reviewed_at": "2026-09-14T21:02:35.094692+00:00"
+}

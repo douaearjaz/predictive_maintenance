@@ -1,0 +1,10 @@
+{
+  "run_id": "db43916284bc11e8e0ea9566",
+  "candidate_id": "ATOM_e96ecedbc490afca933b4120",
+  "candidate_hash": "dc37fcad4df9239664f9521973d957d6cfe8b8355a52735b5c065a9df9f1b9fa",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. AC guide page 3 same paragraph names Defective winding and instructs testing for shorted/open circuits. This supports the diagnostic-method association; it is not a sensitivity claim.",
+  "reviewed_at": "2026-09-15T00:14:45.701048+00:00"
+}

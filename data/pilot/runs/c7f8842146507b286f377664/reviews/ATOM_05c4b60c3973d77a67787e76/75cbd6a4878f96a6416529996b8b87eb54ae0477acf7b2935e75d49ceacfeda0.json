@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_05c4b60c3973d77a67787e76",
+  "candidate_hash": "38701bfff9b8fb68d95115ecfacd6e71e0333f6ce0d0a4dc14a9c19b5349860c",
+  "decision": "rejected",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "The coupling component itself is not the cause stated; its misalignment is the condition. Endpoint loses the defining condition.",
+  "reviewed_at": "2026-09-14T21:02:35.431116+00:00"
+}

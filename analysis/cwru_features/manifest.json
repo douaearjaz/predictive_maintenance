@@ -1,0 +1,1560 @@
+{
+  "recordings": [
+    {
+      "filename": "105.mat",
+      "source_label": "IR007_0",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "recording_id": "105",
+      "channel": "X105_DE_time",
+      "rpm": 1797.0,
+      "samples": 121265,
+      "segments": 40,
+      "discarded_tail_samples": 1265,
+      "ignored_de_channels": [],
+      "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab"
+    },
+    {
+      "filename": "118.mat",
+      "source_label": "B007_0",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "recording_id": "118",
+      "channel": "X118_DE_time",
+      "rpm": 1796.0,
+      "samples": 122571,
+      "segments": 40,
+      "discarded_tail_samples": 2571,
+      "ignored_de_channels": [],
+      "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e"
+    },
+    {
+      "filename": "130.mat",
+      "source_label": "OR007@6_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "6",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "recording_id": "130",
+      "channel": "X130_DE_time",
+      "rpm": 1796.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d"
+    },
+    {
+      "filename": "144.mat",
+      "source_label": "OR007@3_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "3",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/144.mat",
+      "recording_id": "144",
+      "channel": "X144_DE_time",
+      "rpm": 1797.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "f1f51d8c3b66e90fcdd8de15be95c2d4d3e9bac018dbba57f3006e930eec6b22"
+    },
+    {
+      "filename": "156.mat",
+      "source_label": "OR007@12_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "12",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/156.mat",
+      "recording_id": "156",
+      "channel": "X156_DE_time",
+      "rpm": 1797.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "d6ebef8850c114f136018381f6d3fa1c700073a784fffac72c0c8a3e21a227e3"
+    },
+    {
+      "filename": "106.mat",
+      "source_label": "IR007_1",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/106.mat",
+      "recording_id": "106",
+      "channel": "X106_DE_time",
+      "rpm": 1772.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883"
+    },
+    {
+      "filename": "119.mat",
+      "source_label": "B007_1",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/119.mat",
+      "recording_id": "119",
+      "channel": "X119_DE_time",
+      "rpm": 1772.0,
+      "samples": 121410,
+      "segments": 40,
+      "discarded_tail_samples": 1410,
+      "ignored_de_channels": [],
+      "sha256": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330"
+    },
+    {
+      "filename": "131.mat",
+      "source_label": "OR007@6_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "6",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/131.mat",
+      "recording_id": "131",
+      "channel": "X131_DE_time",
+      "rpm": 1773.0,
+      "samples": 122426,
+      "segments": 40,
+      "discarded_tail_samples": 2426,
+      "ignored_de_channels": [],
+      "sha256": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb"
+    },
+    {
+      "filename": "145.mat",
+      "source_label": "OR007@3_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "3",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/145.mat",
+      "recording_id": "145",
+      "channel": "X145_DE_time",
+      "rpm": 1774.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "2ea3b3e021ec0024a6b85573035e4ca76856180c875fed7740a2ee7216ad84a2"
+    },
+    {
+      "filename": "158.mat",
+      "source_label": "OR007@12_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "12",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/158.mat",
+      "recording_id": "158",
+      "channel": "X158_DE_time",
+      "rpm": 1773.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "9ca1d5954e2ab970d3e8e87d069a1a468151f177071b4b7dc6f9ca1acfd0dfcd"
+    },
+    {
+      "filename": "107.mat",
+      "source_label": "IR007_2",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/107.mat",
+      "recording_id": "107",
+      "channel": "X107_DE_time",
+      "rpm": 1748.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388"
+    },
+    {
+      "filename": "120.mat",
+      "source_label": "B007_2",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/120.mat",
+      "recording_id": "120",
+      "channel": "X120_DE_time",
+      "rpm": 1748.0,
+      "samples": 121556,
+      "segments": 40,
+      "discarded_tail_samples": 1556,
+      "ignored_de_channels": [],
+      "sha256": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c"
+    },
+    {
+      "filename": "132.mat",
+      "source_label": "OR007@6_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "6",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/132.mat",
+      "recording_id": "132",
+      "channel": "X132_DE_time",
+      "rpm": 1750.0,
+      "samples": 121410,
+      "segments": 40,
+      "discarded_tail_samples": 1410,
+      "ignored_de_channels": [],
+      "sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18"
+    },
+    {
+      "filename": "146.mat",
+      "source_label": "OR007@3_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "3",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/146.mat",
+      "recording_id": "146",
+      "channel": "X146_DE_time",
+      "rpm": 1751.0,
+      "samples": 121556,
+      "segments": 40,
+      "discarded_tail_samples": 1556,
+      "ignored_de_channels": [],
+      "sha256": "1be984f637243ce8e0bf801a6a82b0b024abd6d0f71aa9d759330ccc898d7b7b"
+    },
+    {
+      "filename": "159.mat",
+      "source_label": "OR007@12_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "12",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/159.mat",
+      "recording_id": "159",
+      "channel": "X159_DE_time",
+      "rpm": 1750.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "a0544e211cda781e06c70a29fbbc34ff871625dd9929917cfb5367b8bc59d236"
+    },
+    {
+      "filename": "108.mat",
+      "source_label": "IR007_3",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/108.mat",
+      "recording_id": "108",
+      "channel": "X108_DE_time",
+      "rpm": 1721.0,
+      "samples": 122917,
+      "segments": 40,
+      "discarded_tail_samples": 2917,
+      "ignored_de_channels": [],
+      "sha256": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d"
+    },
+    {
+      "filename": "121.mat",
+      "source_label": "B007_3",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/121.mat",
+      "recording_id": "121",
+      "channel": "X121_DE_time",
+      "rpm": 1722.0,
+      "samples": 121556,
+      "segments": 40,
+      "discarded_tail_samples": 1556,
+      "ignored_de_channels": [],
+      "sha256": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb"
+    },
+    {
+      "filename": "133.mat",
+      "source_label": "OR007@6_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "6",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/133.mat",
+      "recording_id": "133",
+      "channel": "X133_DE_time",
+      "rpm": 1725.0,
+      "samples": 122571,
+      "segments": 40,
+      "discarded_tail_samples": 2571,
+      "ignored_de_channels": [],
+      "sha256": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71"
+    },
+    {
+      "filename": "147.mat",
+      "source_label": "OR007@3_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "3",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/147.mat",
+      "recording_id": "147",
+      "channel": "X147_DE_time",
+      "rpm": 1725.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "cb8a4440866359a664200b5cf774c567accdbf12a56a4854d137a4638cfe43fb"
+    },
+    {
+      "filename": "160.mat",
+      "source_label": "OR007@12_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.007",
+      "outer_race_position": "12",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/160.mat",
+      "recording_id": "160",
+      "channel": "X160_DE_time",
+      "rpm": 1724.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "e3385b0ba00274a35405205622b9513cbd0b2a3e62116d50adf477a1def0e8d2"
+    },
+    {
+      "filename": "169.mat",
+      "source_label": "IR014_0",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/169.mat",
+      "recording_id": "169",
+      "channel": "X169_DE_time",
+      "rpm": 1796.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "f5448673725c4ea2735fe7d3fe4b16ad82b217eac6b62c4bf351c4549b0a5229"
+    },
+    {
+      "filename": "185.mat",
+      "source_label": "B014_0",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/185.mat",
+      "recording_id": "185",
+      "channel": "X185_DE_time",
+      "rpm": 1796.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "5bea2c60f177215ba3ec4ae287faf745d7e14aed1a12efe9e37b27c27044bafc"
+    },
+    {
+      "filename": "197.mat",
+      "source_label": "OR014@6_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "6",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/197.mat",
+      "recording_id": "197",
+      "channel": "X197_DE_time",
+      "rpm": 1796.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "fa571b47cd942f9514a920b403fb7c053cd442bb2963a360a96d0f61432f03e9"
+    },
+    {
+      "filename": "170.mat",
+      "source_label": "IR014_1",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/170.mat",
+      "recording_id": "170",
+      "channel": "X170_DE_time",
+      "rpm": 1774.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "bcb73a5208b67265468232a2e342f53719850901671d0ee28494f3af97621f46"
+    },
+    {
+      "filename": "186.mat",
+      "source_label": "B014_1",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/186.mat",
+      "recording_id": "186",
+      "channel": "X186_DE_time",
+      "rpm": 1772.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "1b3b6f3ad38e891feaa8026fe957b34f62f9082785089cc74f6878acdfe88ec5"
+    },
+    {
+      "filename": "198.mat",
+      "source_label": "OR014@6_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "6",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/198.mat",
+      "recording_id": "198",
+      "channel": "X198_DE_time",
+      "rpm": 1772.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "dbd58e4585ca8f8332c708b15936987ec0990ca701359fd2483dae2719df5b49"
+    },
+    {
+      "filename": "171.mat",
+      "source_label": "IR014_2",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/171.mat",
+      "recording_id": "171",
+      "channel": "X171_DE_time",
+      "rpm": 1752.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "63d0fdc1a68e64610ddfaf56a9c224d6137ab7b5c0d318eea1d542b9e5ffc029"
+    },
+    {
+      "filename": "187.mat",
+      "source_label": "B014_2",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/187.mat",
+      "recording_id": "187",
+      "channel": "X187_DE_time",
+      "rpm": 1749.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "0f1338cce89beb5c8d8e5e154579bc576354e7c7d1617ebd1759662c6f3100b2"
+    },
+    {
+      "filename": "199.mat",
+      "source_label": "OR014@6_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "6",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/199.mat",
+      "recording_id": "199",
+      "channel": "X199_DE_time",
+      "rpm": 1749.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "ca4e6407fdb68845a6973da6028477911a62d018580063749fe956441be95cf2"
+    },
+    {
+      "filename": "172.mat",
+      "source_label": "IR014_3",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/172.mat",
+      "recording_id": "172",
+      "channel": "X172_DE_time",
+      "rpm": 1728.0,
+      "samples": 121701,
+      "segments": 40,
+      "discarded_tail_samples": 1701,
+      "ignored_de_channels": [],
+      "sha256": "f75170ceef70d5da475671de0d2e52a0acd9b3883ad422b6deaf2907d888ba24"
+    },
+    {
+      "filename": "188.mat",
+      "source_label": "B014_3",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/188.mat",
+      "recording_id": "188",
+      "channel": "X188_DE_time",
+      "rpm": 1724.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "1981614324d653c2522bea68fd4fd87e337495b117d12596db67abd1e10e7443"
+    },
+    {
+      "filename": "200.mat",
+      "source_label": "OR014@6_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.014",
+      "outer_race_position": "6",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/200.mat",
+      "recording_id": "200",
+      "channel": "X200_DE_time",
+      "rpm": 1723.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "2526483d2701220a700df8e6c9db0c527641b0887225907f4096610dd7120f4b"
+    },
+    {
+      "filename": "209.mat",
+      "source_label": "IR021_0",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/209.mat",
+      "recording_id": "209",
+      "channel": "X209_DE_time",
+      "rpm": 1797.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "9f723d6d9d2eba714c6dc50f99321dffa73d8b1e4d3605675b2c2251511eff80"
+    },
+    {
+      "filename": "222.mat",
+      "source_label": "B021_0",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/222.mat",
+      "recording_id": "222",
+      "channel": "X222_DE_time",
+      "rpm": 1796.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "fcc0ee740fa123b1f4683f555458891719efb2857afd9fdee63e8fde0ed14469"
+    },
+    {
+      "filename": "234.mat",
+      "source_label": "OR021@6_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "6",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/234.mat",
+      "recording_id": "234",
+      "channel": "X234_DE_time",
+      "rpm": 1796.0,
+      "samples": 122426,
+      "segments": 40,
+      "discarded_tail_samples": 2426,
+      "ignored_de_channels": [],
+      "sha256": "ebcbdb96612e8085bbdbf81f0e5e8e8a8d1a693d1ec559c4894f7792771aa9b2"
+    },
+    {
+      "filename": "246.mat",
+      "source_label": "OR021@3_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "3",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/246.mat",
+      "recording_id": "246",
+      "channel": "X246_DE_time",
+      "rpm": 1796.0,
+      "samples": 121701,
+      "segments": 40,
+      "discarded_tail_samples": 1701,
+      "ignored_de_channels": [],
+      "sha256": "9e02c5e5785f51cc9a60bf31ccb14e6869ff7d452e4aedefa325aa8a6d9da4e9"
+    },
+    {
+      "filename": "258.mat",
+      "source_label": "OR021@12_0",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "12",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/258.mat",
+      "recording_id": "258",
+      "channel": "X258_DE_time",
+      "rpm": 1796.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "0b9c84acca45c3ee6ecbd697eb186a903293809625fda231a18da8c588e34383"
+    },
+    {
+      "filename": "210.mat",
+      "source_label": "IR021_1",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/210.mat",
+      "recording_id": "210",
+      "channel": "X210_DE_time",
+      "rpm": 1774.0,
+      "samples": 121556,
+      "segments": 40,
+      "discarded_tail_samples": 1556,
+      "ignored_de_channels": [],
+      "sha256": "596692397e77e129a00f7b7a61c4c3ffd6c7a59979b89039e7f70a7431cce1c7"
+    },
+    {
+      "filename": "223.mat",
+      "source_label": "B021_1",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/223.mat",
+      "recording_id": "223",
+      "channel": "X223_DE_time",
+      "rpm": 1774.0,
+      "samples": 121701,
+      "segments": 40,
+      "discarded_tail_samples": 1701,
+      "ignored_de_channels": [],
+      "sha256": "7287410fd2217e3b332c5ab4732a68963be046d7d17bd40efa41cabe6a0514e5"
+    },
+    {
+      "filename": "235.mat",
+      "source_label": "OR021@6_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "6",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/235.mat",
+      "recording_id": "235",
+      "channel": "X235_DE_time",
+      "rpm": 1771.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "667e4bf1f213f92d10dca71d494ad002d8fd22bfd8004b31a4c71ccf0d764b66"
+    },
+    {
+      "filename": "247.mat",
+      "source_label": "OR021@3_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "3",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/247.mat",
+      "recording_id": "247",
+      "channel": "X247_DE_time",
+      "rpm": 1771.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "83ed7f952bd0e1c412ca490e1757a36c4f91ffdef75ce359daaeec4a5b0466fa"
+    },
+    {
+      "filename": "259.mat",
+      "source_label": "OR021@12_1",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "12",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/259.mat",
+      "recording_id": "259",
+      "channel": "X259_DE_time",
+      "rpm": 1771.0,
+      "samples": 122426,
+      "segments": 40,
+      "discarded_tail_samples": 2426,
+      "ignored_de_channels": [],
+      "sha256": "7d9f99e3a85d10d9c9548d09a2990f5dd35dd8a634d2f71ac1192a03ffadf1f2"
+    },
+    {
+      "filename": "211.mat",
+      "source_label": "IR021_2",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/211.mat",
+      "recording_id": "211",
+      "channel": "X211_DE_time",
+      "rpm": 1752.0,
+      "samples": 121846,
+      "segments": 40,
+      "discarded_tail_samples": 1846,
+      "ignored_de_channels": [],
+      "sha256": "8296a02ee489c2d16cbd9fc278ca2e29b22475cec70ebe840558c78b6b743dc1"
+    },
+    {
+      "filename": "224.mat",
+      "source_label": "B021_2",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/224.mat",
+      "recording_id": "224",
+      "channel": "X224_DE_time",
+      "rpm": 1754.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "8a16894c2ff4d6bcdb9f4c345c0d5f13737b3bd6d15015d6b566c86e7a3ee7b7"
+    },
+    {
+      "filename": "236.mat",
+      "source_label": "OR021@6_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "6",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/236.mat",
+      "recording_id": "236",
+      "channel": "X236_DE_time",
+      "rpm": 1748.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "c411d6d9826cba8073430555dc833e05fcbe4c38535f3eb7f03c525ea6797589"
+    },
+    {
+      "filename": "248.mat",
+      "source_label": "OR021@3_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "3",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/248.mat",
+      "recording_id": "248",
+      "channel": "X248_DE_time",
+      "rpm": 1747.0,
+      "samples": 122281,
+      "segments": 40,
+      "discarded_tail_samples": 2281,
+      "ignored_de_channels": [],
+      "sha256": "d3418e8f9884493548bdddb5406f84a4fd0e73ec153b8f3dfd4633525685ff10"
+    },
+    {
+      "filename": "260.mat",
+      "source_label": "OR021@12_2",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "12",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/260.mat",
+      "recording_id": "260",
+      "channel": "X260_DE_time",
+      "rpm": 1746.0,
+      "samples": 122716,
+      "segments": 40,
+      "discarded_tail_samples": 2716,
+      "ignored_de_channels": [],
+      "sha256": "75b92225df9bdc8053809d9732fec4a5eac27e770bb78f9796998f8b7f6a15df"
+    },
+    {
+      "filename": "212.mat",
+      "source_label": "IR021_3",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/212.mat",
+      "recording_id": "212",
+      "channel": "X212_DE_time",
+      "rpm": 1728.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "bfe13761f545a26b217db897a12d27e16fec74306aa86ade8dbdc8ebe587c253"
+    },
+    {
+      "filename": "225.mat",
+      "source_label": "B021_3",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/225.mat",
+      "recording_id": "225",
+      "channel": "X225_DE_time",
+      "rpm": 1729.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "ece92fa141af03473fdfca80d00d9112472a20340224514e79979c6ddc97a6cf"
+    },
+    {
+      "filename": "237.mat",
+      "source_label": "OR021@6_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "6",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/237.mat",
+      "recording_id": "237",
+      "channel": "X237_DE_time",
+      "rpm": 1721.0,
+      "samples": 121991,
+      "segments": 40,
+      "discarded_tail_samples": 1991,
+      "ignored_de_channels": [],
+      "sha256": "233d1edb2daa963658369119e389e30f02aca551dd7bb028ab33e7ba63edfd20"
+    },
+    {
+      "filename": "249.mat",
+      "source_label": "OR021@3_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "3",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/249.mat",
+      "recording_id": "249",
+      "channel": "X249_DE_time",
+      "rpm": 1719.0,
+      "samples": 122136,
+      "segments": 40,
+      "discarded_tail_samples": 2136,
+      "ignored_de_channels": [],
+      "sha256": "2468c6faf7d93483ffba1f2a10b17820f024d5a34037256e7ee38dfde541e974"
+    },
+    {
+      "filename": "261.mat",
+      "source_label": "OR021@12_3",
+      "fault_label": "outer_race_defect",
+      "fault_diameter_in": "0.021",
+      "outer_race_position": "12",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/261.mat",
+      "recording_id": "261",
+      "channel": "X261_DE_time",
+      "rpm": 1718.0,
+      "samples": 121701,
+      "segments": 40,
+      "discarded_tail_samples": 1701,
+      "ignored_de_channels": [],
+      "sha256": "d89e31d7ba9f08e183e9acdea10f814a89837e38e6762a7dde4d871a976437a1"
+    },
+    {
+      "filename": "3001.mat",
+      "source_label": "IR028_0",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3001.mat",
+      "recording_id": "3001",
+      "channel": "X056_DE_time",
+      "rpm": null,
+      "samples": 120801,
+      "segments": 40,
+      "discarded_tail_samples": 801,
+      "ignored_de_channels": [],
+      "sha256": "2e7400f922b75888dbee1fc3ab8c7cd770822127aa97353b7b622de103e79d46"
+    },
+    {
+      "filename": "3005.mat",
+      "source_label": "B028_0",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "0",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3005.mat",
+      "recording_id": "3005",
+      "channel": "X048_DE_time",
+      "rpm": null,
+      "samples": 120801,
+      "segments": 40,
+      "discarded_tail_samples": 801,
+      "ignored_de_channels": [],
+      "sha256": "37f3f8e0268a9cd7df8ff5e15e326be06ab099b2291a2282041d01bb89a7c924"
+    },
+    {
+      "filename": "3002.mat",
+      "source_label": "IR028_1",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3002.mat",
+      "recording_id": "3002",
+      "channel": "X057_DE_time",
+      "rpm": null,
+      "samples": 121351,
+      "segments": 40,
+      "discarded_tail_samples": 1351,
+      "ignored_de_channels": [],
+      "sha256": "13556b993e01d95a48c6693f592bbea4da2252c99eb94d2f4a0961d8b3af033a"
+    },
+    {
+      "filename": "3006.mat",
+      "source_label": "B028_1",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "1",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3006.mat",
+      "recording_id": "3006",
+      "channel": "X049_DE_time",
+      "rpm": null,
+      "samples": 121351,
+      "segments": 40,
+      "discarded_tail_samples": 1351,
+      "ignored_de_channels": [],
+      "sha256": "b642c57602deaeecfa33291d9179a2d2c2d997e0c23b44598a3cdecb9533d3f1"
+    },
+    {
+      "filename": "3003.mat",
+      "source_label": "IR028_2",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3003.mat",
+      "recording_id": "3003",
+      "channel": "X058_DE_time",
+      "rpm": null,
+      "samples": 121351,
+      "segments": 40,
+      "discarded_tail_samples": 1351,
+      "ignored_de_channels": [],
+      "sha256": "ef7ebceaee0a1da63c6da18f227e3582d6c626dbce2d84a06674872645cb8272"
+    },
+    {
+      "filename": "3007.mat",
+      "source_label": "B028_2",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "2",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3007.mat",
+      "recording_id": "3007",
+      "channel": "X050_DE_time",
+      "rpm": null,
+      "samples": 120984,
+      "segments": 40,
+      "discarded_tail_samples": 984,
+      "ignored_de_channels": [],
+      "sha256": "9b1ce8c46b4df3c3a8ab5f18a3fceaa78b0c17904716abc1bf6066c7235a226c"
+    },
+    {
+      "filename": "3004.mat",
+      "source_label": "IR028_3",
+      "fault_label": "inner_race_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3004.mat",
+      "recording_id": "3004",
+      "channel": "X059_DE_time",
+      "rpm": null,
+      "samples": 121535,
+      "segments": 40,
+      "discarded_tail_samples": 1535,
+      "ignored_de_channels": [],
+      "sha256": "5c0a940bcef2b4850c826f3480f493ea69c68a09b79a70e79c7fa5cb39020c32"
+    },
+    {
+      "filename": "3008.mat",
+      "source_label": "B028_3",
+      "fault_label": "ball_defect",
+      "fault_diameter_in": "0.028",
+      "outer_race_position": "",
+      "load_hp": "3",
+      "sample_rate_hz": "12000",
+      "source_url": "https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data",
+      "download_url": "https://engineering.case.edu/sites/default/files/3008.mat",
+      "recording_id": "3008",
+      "channel": "X051_DE_time",
+      "rpm": null,
+      "samples": 120984,
+      "segments": 40,
+      "discarded_tail_samples": 984,
+      "ignored_de_channels": [],
+      "sha256": "ac958f7b5a1c00469849e6104a1869d75231cddd0742a39d36475fce589ee475"
+    }
+  ],
+  "excluded_files": [
+    {
+      "filename": "100.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "109.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "110.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "111.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "112.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "122.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "123.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "124.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "125.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "135.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "136.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "137.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "138.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "148.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "149.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "150.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "151.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "161.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "162.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "163.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "164.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "174.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "175.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "176.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "177.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "189.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "190.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "191.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "192.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "201.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "202.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "203.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "204.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "213.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "214.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "215.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "217.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "226.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "227.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "228.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "229.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "238.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "239.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "240.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "241.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "250.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "251.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "252.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "253.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "262.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "263.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "264.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "265.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "270.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "271.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "272.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "273.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "274.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "275.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "276.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "277.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "278.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "279.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "280.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "281.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "282.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "283.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "284.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "285.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "286.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "287.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "288.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "289.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "290.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "291.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "292.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "293.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "294.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "295.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "296.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "297.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "298.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "299.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "300.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "301.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "302.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "305.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "306.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "307.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "309.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "310.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "311.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "312.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "313.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "315.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "316.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "317.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "318.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "97.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "98.mat",
+      "reason": "outside_verified_12k_subset"
+    },
+    {
+      "filename": "99.mat",
+      "reason": "outside_verified_12k_subset"
+    }
+  ],
+  "feature_rows": 2400,
+  "window_seconds": 0.25,
+  "overlap": 0,
+  "preprocessing": "subtract each segment mean; no scaling, filtering or resampling",
+  "kurtosis_definition": "Pearson fourth central moment / variance squared (Gaussian reference 3)",
+  "amplitude_units": "original MAT signal units; no unit conversion asserted",
+  "undefined_features": "blank for constant segments",
+  "healthy_baseline_included": false,
+  "limitation": "Fault-only subset; not ready for healthy-versus-defective evaluation.",
+  "split_policy": "Keep recording IDs together; preferably hold out evaluation_group to separate matching defect configurations across loads."
+}

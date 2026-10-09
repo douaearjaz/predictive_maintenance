@@ -1,0 +1,1899 @@
+{
+  "status": "awaiting_expert_structure_and_probability_review",
+  "scope": {
+    "equipment": "electric motor",
+    "population": null,
+    "operating_conditions": null,
+    "diagnostic_or_prediction_purpose": null,
+    "time_basis": null
+  },
+  "parameter_method": "motor_maintenance_expert_elicitation",
+  "source_graph": "analysis/motor_ontology/motor_model.json",
+  "nodes": {
+    "insulation_breakdown": {
+      "label": "insulation breakdown",
+      "concept_id": "source_14847406bc4f6a37d5a7d428",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "increased_operating_temperatures"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "overload": {
+      "label": "Overload",
+      "concept_id": "source_18c4474cff097f2945e54c55",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "deterioration_of_motor_parts_both_electrical_and_mechanical": {
+      "label": "deterioration of motor parts, both electrical and mechanical",
+      "concept_id": "source_21d371edd377502047663bbd",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "excessive_moisture"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "wrong_application": {
+      "label": "Wrong application",
+      "concept_id": "source_3490190e3e31927e2ca54b84",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "damaged_bearing": {
+      "label": "damaged bearing",
+      "concept_id": "source_3a8d8364b4f2a04eede7a21b",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "improper_storage_and_handling",
+        "normal_wear_in_use"
+      ],
+      "p_present": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "motor_will_not_start_just_hums_and_heats_up": {
+      "label": "Motor will not start (Just hums and heats up.)",
+      "concept_id": "source_3cc2a0b591dddf9cd567c7be",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "input_circuit_single_phased",
+        "motor_was_single_phased"
+      ],
+      "p_present": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "loss_of_lubrication_capability_in_bearing_oil_systems": {
+      "label": "loss of lubrication capability in bearing oil systems",
+      "concept_id": "source_402008eaa6cbcdff132aa53c",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "excessive_moisture"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "emits_more_heat": {
+      "label": "emits more heat",
+      "concept_id": "source_5221e2d07843aa058c4941ac",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "bearing_failure"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "heavier_load_than_designed_for": {
+      "label": "heavier load than designed for",
+      "concept_id": "source_5579001034e45d080ec9e4ce",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "lower_efficiency": {
+      "label": "lower efficiency",
+      "concept_id": "source_56995ab45f1221773af3df53",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "bearing_failure"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "improper_storage_and_handling": {
+      "label": "improper storage and handling",
+      "concept_id": "source_5e332f87af38c91b6ec3f6cb",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "imbalance": {
+      "label": "Imbalance",
+      "concept_id": "source_621086bbc353e36c402c6c6d",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "unbalanced_load": {
+      "label": "unbalanced load",
+      "concept_id": "source_66e3b668db13f94996c75e1d",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "low_voltage": {
+      "label": "Low voltage",
+      "concept_id": "source_7974a85d08a783ca6972e50b",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "one_phase_may_be_open": {
+      "label": "One phase may be open",
+      "concept_id": "source_7d28f2916e29761139c350db",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "incorrect_fit": {
+      "label": "incorrect fit",
+      "concept_id": "source_86aad1538df734bbcd8d41f3",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "induced_shaft_voltages": {
+      "label": "induced shaft voltages",
+      "concept_id": "source_87c5fe04c723937de24ee9ae",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "excessive_moisture": {
+      "label": "excessive moisture",
+      "concept_id": "source_8d39968b9dde89d029336004",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "defective_winding": {
+      "label": "Defective winding",
+      "concept_id": "source_9504802f0a8308fc6136062e",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "normal_wear": {
+      "label": "normal wear",
+      "concept_id": "source_a20e1fbdf70c7a4874f0c858",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "increased_operating_temperatures": {
+      "label": "increased operating temperatures",
+      "concept_id": "source_aa62ea44ba9d0cfbd82b8584",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "excessive_current_flow_in_one_or_more_phases"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "motor_fails_to_start": {
+      "label": "Motor fails to start",
+      "concept_id": "source_b50a62fe447b8b965cec5c4f",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "blown_fuses"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "ineffective_bearing_sealing": {
+      "label": "ineffective bearing sealing",
+      "concept_id": "source_b6f93b7fff0a6a2669c843e3",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "input_circuit_single_phased": {
+      "label": "Input circuit single phased",
+      "concept_id": "source_bf3e979efbc4ecaaf9dc9663",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "failures_in_motor_leads": {
+      "label": "failures in motor leads",
+      "concept_id": "source_c8743c0c91c18f54aee193d0",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "excessive_moisture"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "failures_in_motor_winding_insulation": {
+      "label": "failures in motor winding insulation",
+      "concept_id": "source_ca8ec9df9497bb11f57eb198",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "excessive_moisture"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "high_amps": {
+      "label": "high amps",
+      "concept_id": "source_d6cf75e4dea9b30e5b785357",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "defective_winding"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "inadequate_or_incorrect_lubrication": {
+      "label": "inadequate or incorrect lubrication",
+      "concept_id": "source_d6e52242a24f69608269165f",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "blown_fuses": {
+      "label": "Blown fuses",
+      "concept_id": "source_dea8beed2ee696f59a98f048",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "excessive_current_flow_in_one_or_more_phases": {
+      "label": "excessive current flow in one or more phases",
+      "concept_id": "source_e04b8f344a037fc1e22ddb26",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "imbalance"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "normal_wear_in_use": {
+      "label": "normal wear in use",
+      "concept_id": "source_e66e65041144f9161813c8c8",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "motor_stalls": {
+      "label": "Motor stalls",
+      "concept_id": "source_e9f885693731476bc1713860",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "low_voltage",
+        "one_phase_may_be_open",
+        "overload",
+        "wrong_application"
+      ],
+      "p_present": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "motor_was_single_phased": {
+      "label": "Motor was single phased",
+      "concept_id": "source_f7c6126ce1549ee6d26a7f11",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    },
+    "increased_drag": {
+      "label": "increased drag",
+      "concept_id": "source_fe781bcd2e0ed65ffd9b28c3",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "bearing_failure"
+      ],
+      "p_present": [
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "bearing_failure": {
+      "label": "Bearing failure",
+      "concept_id": "term_bearing_failure",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [
+        "heavier_load_than_designed_for",
+        "inadequate_or_incorrect_lubrication",
+        "incorrect_fit",
+        "induced_shaft_voltages",
+        "ineffective_bearing_sealing",
+        "normal_wear",
+        "shaft_misalignment",
+        "unbalanced_load"
+      ],
+      "p_present": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "parameter_source": null
+    },
+    "shaft_misalignment": {
+      "label": "Shaft misalignment",
+      "concept_id": "term_shaft_misalignment",
+      "states": [
+        "absent",
+        "present"
+      ],
+      "state_definition": null,
+      "parents": [],
+      "p_present": [
+        null
+      ],
+      "parameter_source": null
+    }
+  },
+  "edges": [
+    {
+      "parent": "input_circuit_single_phased",
+      "child": "motor_will_not_start_just_hums_and_heats_up",
+      "source_claim_id": "126d1de5d4fb26fc3582dd08",
+      "source_relation": "CAUSES",
+      "qualifier": "could have been a temporary condition",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B6",
+          "quote": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+          "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+          "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+          "page": 6,
+          "section_id": "lincoln-hums",
+          "section": "Motor will not start; hums and heats",
+          "clean_start": 0,
+          "clean_end": 111,
+          "original_start": 0,
+          "original_end": 111,
+          "original_quote": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).",
+          "bbox": [
+            64.24970245361328,
+            523.8578491210938,
+            239.34375,
+            553.6337890625
+          ],
+          "source_paragraph_cleaned": "Cause 3a: Input circuit single phased (No voltage in one or two phases; could have been a temporary condition).",
+          "source_paragraph_original": "Cause 3a: Input circuit single phased (No\nvoltage in one or two phases; could have\nbeen a temporary condition).\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "excessive_moisture",
+      "child": "failures_in_motor_leads",
+      "source_claim_id": "2a0aca946f2f60d3b3422acb",
+      "source_relation": "CAUSES",
+      "qualifier": "causes",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B6",
+          "quote": "Excessive moisture causes failures in motor winding insulation and in motor leads",
+          "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+          "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+          "page": 54,
+          "section_id": "epri-moisture",
+          "section": "Moisture and motor insulation",
+          "clean_start": 20,
+          "clean_end": 101,
+          "original_start": 20,
+          "original_end": 101,
+          "original_quote": "Excessive moisture causes failures in motor winding insulation and\nin motor leads",
+          "bbox": [
+            62.63999557495117,
+            426.9633483886719,
+            510.0133361816406,
+            463.6756591796875
+          ],
+          "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+          "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "blown_fuses",
+      "child": "motor_fails_to_start",
+      "source_claim_id": "2f2ce18009c18695d88bcf97",
+      "source_relation": "CAUSES",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B6",
+          "quote": "Blown fuses",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-start-fuses",
+          "section": "Motor fails to start — fuses",
+          "clean_start": 21,
+          "clean_end": 32,
+          "original_start": 21,
+          "original_end": 32,
+          "original_quote": "Blown fuses",
+          "bbox": [
+            129.92129516601562,
+            327.0812072753906,
+            519.0681762695312,
+            335.97821044921875
+          ],
+          "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+          "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+        },
+        {
+          "paragraph_id": "P25_B6",
+          "quote": "Motor fails to start",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-start-fuses",
+          "section": "Motor fails to start — fuses",
+          "clean_start": 0,
+          "clean_end": 20,
+          "original_start": 0,
+          "original_end": 20,
+          "original_quote": "Motor fails to start",
+          "bbox": [
+            129.92129516601562,
+            327.0812072753906,
+            519.0681762695312,
+            335.97821044921875
+          ],
+          "source_paragraph_cleaned": "Motor fails to start Blown fuses Replace fuses with proper type and rating.",
+          "source_paragraph_original": "Motor fails to start\nBlown fuses\nReplace fuses with proper type and rating.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "bearing_failure",
+      "child": "lower_efficiency",
+      "source_claim_id": "359c70979d7ae870eead9a7f",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "has lower efficiency",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 58,
+          "clean_end": 78,
+          "original_start": 58,
+          "original_end": 79,
+          "original_quote": "has \nlower efficiency",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "imbalance",
+      "child": "excessive_current_flow_in_one_or_more_phases",
+      "source_claim_id": "3f1bbccc1b32dbc1d23bebdb",
+      "source_relation": "CAUSES",
+      "qualifier": "creates",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "Imbalance creates excessive current flow in one or more phases",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 2,
+          "section_id": "fault-02",
+          "section": "2 Voltage imbalance",
+          "clean_start": 8,
+          "clean_end": 70,
+          "original_start": 8,
+          "original_end": 71,
+          "original_quote": "Imbalance creates excessive current flow in one or more \nphases",
+          "bbox": [
+            268.71429443359375,
+            523.3394165039062,
+            547.9678344726562,
+            556.6939086914062
+          ],
+          "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+          "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "wrong_application",
+      "child": "motor_stalls",
+      "source_claim_id": "40a0a0932073087e14cf5f48",
+      "source_relation": "CAUSES",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B17",
+          "quote": "Wrong application",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 17,
+          "original_start": 0,
+          "original_end": 17,
+          "original_quote": "Wrong application",
+          "bbox": [
+            211.87811279296875,
+            534.7867431640625,
+            534.595703125,
+            543.3617553710938
+          ],
+          "source_paragraph_cleaned": "Wrong application Change type or size. Consult equipment supplier.",
+          "source_paragraph_original": "Wrong application\nChange type or size. Consult equipment supplier.\n"
+        },
+        {
+          "paragraph_id": "P25_B16",
+          "quote": "Motor stalls",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 12,
+          "original_start": 0,
+          "original_end": 12,
+          "original_quote": "Motor stalls",
+          "bbox": [
+            129.922119140625,
+            522.1167602539062,
+            467.7701416015625,
+            531.0137329101562
+          ],
+          "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+          "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "normal_wear",
+      "child": "bearing_failure",
+      "source_claim_id": "413a15ff21e41bc3ee829d9f",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Normal wear",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 325,
+          "clean_end": 336,
+          "original_start": 336,
+          "original_end": 347,
+          "original_quote": "Normal wear",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "shaft_misalignment",
+      "child": "bearing_failure",
+      "source_claim_id": "460c37681cdef41b06522875",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Shaft misalignment",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 288,
+          "clean_end": 306,
+          "original_start": 296,
+          "original_end": 314,
+          "original_quote": "Shaft misalignment",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "normal_wear_in_use",
+      "child": "damaged_bearing",
+      "source_claim_id": "5d8918df0b5cc4584e0921c7",
+      "source_relation": "CAUSES",
+      "qualifier": "may",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B24",
+          "quote": "normal wear in use",
+          "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+          "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+          "page": 12,
+          "section_id": "timken-damage",
+          "section": "Damaged bearings",
+          "clean_start": 121,
+          "clean_end": 139,
+          "original_start": 122,
+          "original_end": 140,
+          "original_quote": "normal wear in use",
+          "bbox": [
+            41.99760055541992,
+            601.0715942382812,
+            293.1300964355469,
+            690.818115234375
+          ],
+          "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+          "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "improper_storage_and_handling",
+      "child": "damaged_bearing",
+      "source_claim_id": "68509b8634576631f4bf1797",
+      "source_relation": "CAUSES",
+      "qualifier": "may",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P12_B24",
+          "quote": "improper storage and handling",
+          "document_id": "DOC_eae8090d19d0478c75eda61af9c97af5953dc4395b339ef3c9806d9fa405e1ad",
+          "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+          "page": 12,
+          "section_id": "timken-damage",
+          "section": "Damaged bearings",
+          "clean_start": 80,
+          "clean_end": 109,
+          "original_start": 80,
+          "original_end": 109,
+          "original_quote": "improper storage and handling",
+          "bbox": [
+            41.99760055541992,
+            601.0715942382812,
+            293.1300964355469,
+            690.818115234375
+          ],
+          "source_paragraph_cleaned": "Despite taking proper precautions, bearings may become dam- aged either through improper storage and handling or through normal wear in use. Bearings that have been damaged or are no longer within specifications may still be returned to service after repair or refurbishment. Some bearings can be refurbished more than once. Eventually all bearings will sustain sufficient wear or damage and will have to be replaced.",
+          "source_paragraph_original": "Despite taking proper precautions, bearings may become dam-\naged either through improper storage and handling or through \nnormal wear in use. Bearings that have been damaged or are no \nlonger within specifications may still be returned to service after \nrepair or refurbishment. Some bearings can be refurbished more \nthan once. Eventually all bearings will sustain sufficient wear or \ndamage and will have to be replaced.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "defective_winding",
+      "child": "high_amps",
+      "source_claim_id": "879d056732df0d3ce5456f8b",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "may be",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B9",
+          "quote": "The amps may also be high.",
+          "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+          "document_name": "ac-troubleshooting-guide.pdf",
+          "page": 3,
+          "section_id": "ac-winding",
+          "section": "Defective winding",
+          "clean_start": 65,
+          "clean_end": 91,
+          "original_start": 66,
+          "original_end": 93,
+          "original_quote": "The \namps may also be high.",
+          "bbox": [
+            161.908203125,
+            370.08599853515625,
+            555.598388671875,
+            409.171142578125
+          ],
+          "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+          "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "bearing_failure",
+      "child": "increased_drag",
+      "source_claim_id": "8ef941de8d420caee50fb72d",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "A failed bearing has increased drag",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 0,
+          "clean_end": 35,
+          "original_start": 0,
+          "original_end": 35,
+          "original_quote": "A failed bearing has increased drag",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "incorrect_fit",
+      "child": "bearing_failure",
+      "source_claim_id": "92dba63b8e4a27a6d92798ab",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Incorrect fit",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 309,
+          "clean_end": 322,
+          "original_start": 319,
+          "original_end": 332,
+          "original_quote": "Incorrect fit",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "motor_was_single_phased",
+      "child": "motor_will_not_start_just_hums_and_heats_up",
+      "source_claim_id": "981234e775cd2033cad80d7f",
+      "source_relation": "CAUSES",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B7",
+          "quote": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+          "document_id": "DOC_775874115de53f4ac9dfe96ef9fac58f3b2a9a0ae5697e5bff5c94110edaa6ec",
+          "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+          "page": 6,
+          "section_id": "lincoln-hums",
+          "section": "Motor will not start; hums and heats",
+          "clean_start": 0,
+          "clean_end": 105,
+          "original_start": 0,
+          "original_end": 105,
+          "original_quote": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings.",
+          "bbox": [
+            64.24980163574219,
+            563.8579711914062,
+            230.39425659179688,
+            593.6339111328125
+          ],
+          "source_paragraph_cleaned": "Cause 3b: Motor was single phased as indicated by heat damage to one or two phases of the motor windings.",
+          "source_paragraph_original": "Cause 3b: Motor was single phased as\nindicated by heat damage to one or two\nphases of the motor windings. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "induced_shaft_voltages",
+      "child": "bearing_failure",
+      "source_claim_id": "b3ebef504638d271e4b2f0d1",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Induced shaft voltages",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 339,
+          "clean_end": 361,
+          "original_start": 351,
+          "original_end": 373,
+          "original_quote": "Induced shaft voltages",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "low_voltage",
+      "child": "motor_stalls",
+      "source_claim_id": "b4b4f0c582e0c6f2ec95bdf7",
+      "source_relation": "CAUSES",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B19",
+          "quote": "Low voltage",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 11,
+          "original_start": 0,
+          "original_end": 11,
+          "original_quote": "Low voltage",
+          "bbox": [
+            211.87811279296875,
+            559.7347412109375,
+            530.62890625,
+            577.3117065429688
+          ],
+          "source_paragraph_cleaned": "Low voltage Ensure the rating plate voltage is maintained. Check connection.",
+          "source_paragraph_original": "Low voltage\nEnsure the rating plate voltage is maintained. \nCheck connection.\n"
+        },
+        {
+          "paragraph_id": "P25_B16",
+          "quote": "Motor stalls",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 12,
+          "original_start": 0,
+          "original_end": 12,
+          "original_quote": "Motor stalls",
+          "bbox": [
+            129.922119140625,
+            522.1167602539062,
+            467.7701416015625,
+            531.0137329101562
+          ],
+          "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+          "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "overload",
+      "child": "motor_stalls",
+      "source_claim_id": "b5c5ffe29a098857fc273020",
+      "source_relation": "CAUSES",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B18",
+          "quote": "Overload",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 8,
+          "original_start": 0,
+          "original_end": 8,
+          "original_quote": "Overload",
+          "bbox": [
+            211.87811279296875,
+            547.2607421875,
+            418.0400085449219,
+            555.8357543945312
+          ],
+          "source_paragraph_cleaned": "Overload Reduce load.",
+          "source_paragraph_original": "Overload\nReduce load.\n"
+        },
+        {
+          "paragraph_id": "P25_B16",
+          "quote": "Motor stalls",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 12,
+          "original_start": 0,
+          "original_end": 12,
+          "original_quote": "Motor stalls",
+          "bbox": [
+            129.922119140625,
+            522.1167602539062,
+            467.7701416015625,
+            531.0137329101562
+          ],
+          "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+          "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "excessive_moisture",
+      "child": "failures_in_motor_winding_insulation",
+      "source_claim_id": "bd5aabae7d89f217e55defb2",
+      "source_relation": "CAUSES",
+      "qualifier": "causes",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B6",
+          "quote": "Excessive moisture causes failures in motor winding insulation",
+          "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+          "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+          "page": 54,
+          "section_id": "epri-moisture",
+          "section": "Moisture and motor insulation",
+          "clean_start": 20,
+          "clean_end": 82,
+          "original_start": 20,
+          "original_end": 82,
+          "original_quote": "Excessive moisture causes failures in motor winding insulation",
+          "bbox": [
+            62.63999557495117,
+            426.9633483886719,
+            510.0133361816406,
+            463.6756591796875
+          ],
+          "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+          "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "heavier_load_than_designed_for",
+      "child": "bearing_failure",
+      "source_claim_id": "bef6647b0157f3bafe0e7662",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "A heavier load than designed for",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 185,
+          "clean_end": 217,
+          "original_start": 190,
+          "original_end": 222,
+          "original_quote": "A heavier load than designed for",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "excessive_moisture",
+      "child": "deterioration_of_motor_parts_both_electrical_and_mechanical",
+      "source_claim_id": "bf9b48893740bf3fa357d453",
+      "source_relation": "CAUSES",
+      "qualifier": "can also cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B6",
+          "quote": "and deterioration of motor parts, both electrical and mechanical",
+          "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+          "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+          "page": 54,
+          "section_id": "epri-moisture",
+          "section": "Moisture and motor insulation",
+          "clean_start": 175,
+          "clean_end": 239,
+          "original_start": 175,
+          "original_end": 239,
+          "original_quote": "and\ndeterioration of motor parts, both electrical and mechanical",
+          "bbox": [
+            62.63999557495117,
+            426.9633483886719,
+            510.0133361816406,
+            463.6756591796875
+          ],
+          "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+          "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "excessive_current_flow_in_one_or_more_phases",
+      "child": "increased_operating_temperatures",
+      "source_claim_id": "d53546437e969abd2936db93",
+      "source_relation": "CAUSES",
+      "qualifier": "increases",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "that then increases operating temperatures",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 2,
+          "section_id": "fault-02",
+          "section": "2 Voltage imbalance",
+          "clean_start": 71,
+          "clean_end": 113,
+          "original_start": 72,
+          "original_end": 114,
+          "original_quote": "that then increases operating temperatures",
+          "bbox": [
+            268.71429443359375,
+            523.3394165039062,
+            547.9678344726562,
+            556.6939086914062
+          ],
+          "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+          "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "ineffective_bearing_sealing",
+      "child": "bearing_failure",
+      "source_claim_id": "ddfce40be3e2af62db650fe2",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Ineffective bearing sealing",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 258,
+          "clean_end": 285,
+          "original_start": 265,
+          "original_end": 292,
+          "original_quote": "Ineffective bearing sealing",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "excessive_moisture",
+      "child": "loss_of_lubrication_capability_in_bearing_oil_systems",
+      "source_claim_id": "e0852546b7fd02b69058da2a",
+      "source_relation": "CAUSES",
+      "qualifier": "can also cause",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P54_B6",
+          "quote": "It can also cause loss of lubrication capability in bearing oil systems",
+          "document_id": "DOC_cf0bdf9d28720ead73ea3680ce4f0d19dc8ff2f84bcf454378dea1215b51fa22",
+          "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+          "page": 54,
+          "section_id": "epri-moisture",
+          "section": "Moisture and motor insulation",
+          "clean_start": 103,
+          "clean_end": 174,
+          "original_start": 103,
+          "original_end": 174,
+          "original_quote": "It can also cause loss of lubrication capability in bearing oil systems",
+          "bbox": [
+            62.63999557495117,
+            426.9633483886719,
+            510.0133361816406,
+            463.6756591796875
+          ],
+          "source_paragraph_cleaned": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and in motor leads. It can also cause loss of lubrication capability in bearing oil systems and deterioration of motor parts, both electrical and mechanical.",
+          "source_paragraph_original": "Excessive Moisture. Excessive moisture causes failures in motor winding insulation and\nin motor leads. It can also cause loss of lubrication capability in bearing oil systems and\ndeterioration of motor parts, both electrical and mechanical.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "unbalanced_load",
+      "child": "bearing_failure",
+      "source_claim_id": "ee099c73dbeacfb05d4a46a8",
+      "source_relation": "CAUSES",
+      "qualifier": "will also",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P3_B12",
+          "quote": "An unbalanced load will also cause the bearings to fail.",
+          "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+          "document_name": "ac-troubleshooting-guide.pdf",
+          "page": 3,
+          "section_id": "ac-unbalanced-load",
+          "section": "Unbalanced load and bearing failure",
+          "clean_start": 86,
+          "clean_end": 142,
+          "original_start": 87,
+          "original_end": 144,
+          "original_quote": "An unbalanced \nload will also cause the bearings to fail.",
+          "bbox": [
+            319.6659851074219,
+            453.2501220703125,
+            559.1820068359375,
+            492.3273620605469
+          ],
+          "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+          "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "increased_operating_temperatures",
+      "child": "insulation_breakdown",
+      "source_claim_id": "ef31f4e6fb0e61b459a294a9",
+      "source_relation": "LEADS_TO",
+      "qualifier": "leading to",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P2_B6",
+          "quote": "leading to insulation breakdown",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 2,
+          "section_id": "fault-02",
+          "section": "2 Voltage imbalance",
+          "clean_start": 114,
+          "clean_end": 145,
+          "original_start": 115,
+          "original_end": 148,
+          "original_quote": "leading to  \ninsulation breakdown",
+          "bbox": [
+            268.71429443359375,
+            523.3394165039062,
+            547.9678344726562,
+            556.6939086914062
+          ],
+          "source_paragraph_cleaned": "Impact: Imbalance creates excessive current flow in one or more phases that then increases operating temperatures–leading to insulation breakdown",
+          "source_paragraph_original": "Impact: Imbalance creates excessive current flow in one or more \nphases that then increases operating temperatures–leading to  \ninsulation breakdown\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "bearing_failure",
+      "child": "emits_more_heat",
+      "source_claim_id": "ef3bb596bb010d21ca03efa6",
+      "source_relation": "HAS_SYMPTOM",
+      "qualifier": "asserted",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "emits more heat",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 37,
+          "clean_end": 52,
+          "original_start": 37,
+          "original_end": 52,
+          "original_quote": "emits more heat",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "one_phase_may_be_open",
+      "child": "motor_stalls",
+      "source_claim_id": "f4684ea80a740ca7e3ac66b0",
+      "source_relation": "CAUSES",
+      "qualifier": "may",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P25_B16",
+          "quote": "One phase may be open",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 13,
+          "clean_end": 34,
+          "original_start": 13,
+          "original_end": 34,
+          "original_quote": "One phase may be open",
+          "bbox": [
+            129.922119140625,
+            522.1167602539062,
+            467.7701416015625,
+            531.0137329101562
+          ],
+          "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+          "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+        },
+        {
+          "paragraph_id": "P25_B16",
+          "quote": "Motor stalls",
+          "document_id": "DOC_90dca734e4b5699ff37901e18cdb90275e77ded8b355359130c493820d2fa913",
+          "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+          "page": 25,
+          "section_id": "abb-stalls",
+          "section": "Motor stalls",
+          "clean_start": 0,
+          "clean_end": 12,
+          "original_start": 0,
+          "original_end": 12,
+          "original_quote": "Motor stalls",
+          "bbox": [
+            129.922119140625,
+            522.1167602539062,
+            467.7701416015625,
+            531.0137329101562
+          ],
+          "source_paragraph_cleaned": "Motor stalls One phase may be open Check lines for open phase.",
+          "source_paragraph_original": "Motor stalls\nOne phase may be open\nCheck lines for open phase.\n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    },
+    {
+      "parent": "inadequate_or_incorrect_lubrication",
+      "child": "bearing_failure",
+      "source_claim_id": "fb6c9fcc10b12a441b67d9fd",
+      "source_relation": "CAUSES",
+      "qualifier": "can",
+      "operating_conditions": null,
+      "evidence": [
+        {
+          "paragraph_id": "P6_B5",
+          "quote": "Inadequate or incorrect lubrication",
+          "document_id": "DOC_bc4bdf2b43eb7832b16dfab1668af3e742a93a1cb1dbfd36ba2b901d5af6a371",
+          "document_name": "13-common-causes.pdf",
+          "page": 6,
+          "section_id": "fault-10",
+          "section": "10 Bearing wear",
+          "clean_start": 220,
+          "clean_end": 255,
+          "original_start": 226,
+          "original_end": 261,
+          "original_quote": "Inadequate or incorrect lubrication",
+          "bbox": [
+            268.7143249511719,
+            393.11505126953125,
+            542.9324951171875,
+            576.4556274414062
+          ],
+          "source_paragraph_cleaned": "A failed bearing has increased drag, emits more heat, and has lower efficiency because of a mechanical, lubrication, or wear problem. Bearing failure can be caused by several things: • A heavier load than designed for • Inadequate or incorrect lubrication • Ineffective bearing sealing • Shaft misalignment • Incorrect fit • Normal wear • Induced shaft voltages Once bearing failure begins, it also creates a cascade effect that accelerates motor failure. 13 % of motor failures are caused by bearing failure, and more than 60 % of the mechanical failures in a facility are caused by bearing wear, so learning how to troubleshoot this potential problem is important.",
+          "source_paragraph_original": "A failed bearing has increased drag, emits more heat, and has \nlower efficiency because of a mechanical, lubrication, or wear  \nproblem. Bearing failure can be caused by several things: \n•\t A heavier load than designed for\n•\t Inadequate or incorrect lubrication\n•\t Ineffective bearing sealing\n•\t Shaft misalignment \n•\t Incorrect fit\n•\t Normal wear\n•\t Induced shaft voltages\nOnce bearing failure begins, it also creates a cascade effect that \naccelerates motor failure. 13 % of motor failures are caused by  \nbearing failure, and more than 60 % of the mechanical failures  \nin a facility are caused by bearing wear, so learning how to \ntroubleshoot this potential problem is important. \n"
+        }
+      ],
+      "review_status": "dependency_proposed_for_expert_review"
+    }
+  ],
+  "excluded_relations": [
+    "DETECTED_BY",
+    "HAS_FAILURE_MODE",
+    "MITIGATED_BY"
+  ],
+  "assumptions_pending_review": [
+    "Absent edges encode independence assumptions, not proven absence of effects.",
+    "Root causes may share operating or maintenance conditions.",
+    "Symptoms may remain dependent after conditioning on modeled parents.",
+    "Alternative causes and omitted mechanisms require expert review.",
+    "Generic motor and bearing guidance may describe different populations.",
+    "Binary states are provisional; current conditions and past exposures must be distinguished."
+  ]
+}

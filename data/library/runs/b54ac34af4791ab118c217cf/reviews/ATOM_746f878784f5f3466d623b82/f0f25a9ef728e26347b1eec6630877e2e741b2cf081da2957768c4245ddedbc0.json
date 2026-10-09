@@ -1,0 +1,10 @@
+{
+  "run_id": "b54ac34af4791ab118c217cf",
+  "candidate_id": "ATOM_746f878784f5f3466d623b82",
+  "candidate_hash": "d358bea9907e920126d4e25b803aa4596f90fcb4a46882277a7e2b3656e6d78f",
+  "decision": "accepted",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "Source fidelity check only; technical approval pending. Timken same repair sentence includes small areas on rolling-element contact surfaces. Can sometimes is preserved. No blanket bearing-repair approval.",
+  "reviewed_at": "2026-09-15T00:14:45.721316+00:00"
+}

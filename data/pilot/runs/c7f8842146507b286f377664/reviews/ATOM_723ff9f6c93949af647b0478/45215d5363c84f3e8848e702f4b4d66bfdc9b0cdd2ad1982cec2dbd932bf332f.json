@@ -1,0 +1,10 @@
+{
+  "run_id": "c7f8842146507b286f377664",
+  "candidate_id": "ATOM_723ff9f6c93949af647b0478",
+  "candidate_hash": "475c0cbbdc159531cc474613c37b5cdc24a3b1ffe6d8f5feb15bcaa5fd5233f5",
+  "decision": "rejected",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant",
+  "note": "A definition of stray current is not a component function. Wrong HAS_FUNCTION relation.",
+  "reviewed_at": "2026-09-14T21:02:35.456216+00:00"
+}

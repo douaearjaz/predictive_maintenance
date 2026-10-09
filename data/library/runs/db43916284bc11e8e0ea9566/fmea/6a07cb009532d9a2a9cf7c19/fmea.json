@@ -1,0 +1,428 @@
+{
+  "builder_version": "reviewed-atomic-fmea-v3",
+  "failure_aliases": {
+    "bearing failure": "bearing failure",
+    "failed bearing": "bearing failure",
+    "defective motor bearings": "bearing failure",
+    "bearings to fail": "bearing failure"
+  },
+  "allow_assistant": true,
+  "run_id": "db43916284bc11e8e0ea9566",
+  "records": [
+    {
+      "fmea_record_id": "FMEA_e50163d21ff7a80f7e696e76",
+      "section_id": "ac-unbalanced-load",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "bearing failure",
+          "original_value": "bearings to fail",
+          "statement_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+          "qualifier": "will also",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "An unbalanced load will also cause the bearings to fail.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 86,
+              "clean_end": 142,
+              "original_start": 87,
+              "original_end": 144,
+              "original_quote": "An unbalanced \nload will also cause the bearings to fail.",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        }
+      ],
+      "cause": [
+        {
+          "value": "unbalanced load",
+          "original_value": "unbalanced load",
+          "statement_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+          "qualifier": "will also",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B12",
+              "quote": "An unbalanced load will also cause the bearings to fail.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-unbalanced-load",
+              "section": "Unbalanced load and bearing failure",
+              "clean_start": 86,
+              "clean_end": 142,
+              "original_start": 87,
+              "original_end": 144,
+              "original_quote": "An unbalanced \nload will also cause the bearings to fail.",
+              "bbox": [
+                319.6659851074219,
+                453.2501220703125,
+                559.1820068359375,
+                492.3273620605469
+              ],
+              "source_paragraph_cleaned": "Check the motor load and inspect the drive belt tension to ensure it’s not too tight. An unbalanced load will also cause the bearings to fail.",
+              "source_paragraph_original": "Check the motor load and inspect the drive belt \ntension to ensure it’s not too tight. An unbalanced \nload will also cause the bearings to fail. \n"
+            }
+          ]
+        }
+      ],
+      "effect": null,
+      "symptom": null,
+      "detection_method": null,
+      "maintenance_action": null,
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_5c6fece6bc806d9843d9d6b4"
+      ],
+      "reviews": [
+        {
+          "run_id": "db43916284bc11e8e0ea9566",
+          "candidate_id": "ATOM_5c6fece6bc806d9843d9d6b4",
+          "candidate_hash": "09a0493e79b353073357b2c73f2df9c2aa50ad0bfe42e0d8e5fc68a29a90f625",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. AC guide page 3 explicitly states an unbalanced load will also cause the bearings to fail. No missing first-column table heading was inferred.",
+          "reviewed_at": "2026-09-15T00:14:45.711142+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    },
+    {
+      "fmea_record_id": "FMEA_d139393e65bac2552490a142",
+      "section_id": "ac-winding",
+      "component": null,
+      "function": null,
+      "failure_mode": [
+        {
+          "value": "Defective winding",
+          "original_value": "Defective winding",
+          "statement_id": "ATOM_e96ecedbc490afca933b4120",
+          "qualifier": "can be detected by",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "Test the winding for shorted or open circuits.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 18,
+              "clean_end": 64,
+              "original_start": 19,
+              "original_end": 65,
+              "original_quote": "Test the winding for shorted or open circuits.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "value": "Defective winding",
+          "original_value": "Defective winding",
+          "statement_id": "ATOM_1b0582193c63081ce1228aec",
+          "qualifier": "may be",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "The amps may also be high.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 65,
+              "clean_end": 91,
+              "original_start": 66,
+              "original_end": 93,
+              "original_quote": "The \namps may also be high.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        },
+        {
+          "value": "Defective winding",
+          "original_value": "Defective winding",
+          "statement_id": "ATOM_1576325697f9ae69582af1f5",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "For defective winding, replace the motor.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 92,
+              "clean_end": 133,
+              "original_start": 94,
+              "original_end": 136,
+              "original_quote": "For defective winding, \nreplace the motor.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        }
+      ],
+      "cause": null,
+      "effect": null,
+      "symptom": [
+        {
+          "value": "high amps",
+          "original_value": "high amps",
+          "statement_id": "ATOM_1b0582193c63081ce1228aec",
+          "qualifier": "may be",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "The amps may also be high.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 65,
+              "clean_end": 91,
+              "original_start": 66,
+              "original_end": 93,
+              "original_quote": "The \namps may also be high.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        }
+      ],
+      "detection_method": [
+        {
+          "value": "test the winding for shorted or open circuits",
+          "original_value": "test the winding for shorted or open circuits",
+          "statement_id": "ATOM_e96ecedbc490afca933b4120",
+          "qualifier": "can be detected by",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "Test the winding for shorted or open circuits.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 18,
+              "clean_end": 64,
+              "original_start": 19,
+              "original_end": 65,
+              "original_quote": "Test the winding for shorted or open circuits.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        }
+      ],
+      "maintenance_action": [
+        {
+          "value": "replace the motor",
+          "original_value": "replace the motor",
+          "statement_id": "ATOM_1576325697f9ae69582af1f5",
+          "qualifier": "asserted",
+          "operating_conditions": null,
+          "evidence": [
+            {
+              "paragraph_id": "P3_B9",
+              "quote": "For defective winding, replace the motor.",
+              "document_id": "DOC_db0cb8fe8ba6918158759135579681f3ed396ae6472dfe2655462ca20fb5c583",
+              "document_name": "ac-troubleshooting-guide.pdf",
+              "page": 3,
+              "section_id": "ac-winding",
+              "section": "Defective winding",
+              "clean_start": 92,
+              "clean_end": 133,
+              "original_start": 94,
+              "original_end": 136,
+              "original_quote": "For defective winding, \nreplace the motor.",
+              "bbox": [
+                161.908203125,
+                370.08599853515625,
+                555.598388671875,
+                409.171142578125
+              ],
+              "source_paragraph_cleaned": "Defective winding Test the winding for shorted or open circuits. The amps may also be high. For defective winding, replace the motor.",
+              "source_paragraph_original": "Defective winding \nTest the winding for shorted or open circuits. The \namps may also be high. For defective winding, \nreplace the motor. \n"
+            }
+          ]
+        }
+      ],
+      "severity": null,
+      "occurrence": null,
+      "detection_rating": null,
+      "rpn": null,
+      "statement_ids": [
+        "ATOM_1576325697f9ae69582af1f5",
+        "ATOM_1b0582193c63081ce1228aec",
+        "ATOM_e96ecedbc490afca933b4120"
+      ],
+      "reviews": [
+        {
+          "run_id": "db43916284bc11e8e0ea9566",
+          "candidate_id": "ATOM_e96ecedbc490afca933b4120",
+          "candidate_hash": "dc37fcad4df9239664f9521973d957d6cfe8b8355a52735b5c065a9df9f1b9fa",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. AC guide page 3 same paragraph names Defective winding and instructs testing for shorted/open circuits. This supports the diagnostic-method association; it is not a sensitivity claim.",
+          "reviewed_at": "2026-09-15T00:14:45.701048+00:00"
+        },
+        {
+          "run_id": "db43916284bc11e8e0ea9566",
+          "candidate_id": "ATOM_1b0582193c63081ce1228aec",
+          "candidate_hash": "52662e83bfd0f04d00a775855e7fc1a9e945bc7ea7eb6e6d428316dd6fc8ab8e",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. AC guide page 3 defective-winding paragraph says amps may also be high. Full paragraph checked; retain may.",
+          "reviewed_at": "2026-09-15T00:14:45.704362+00:00"
+        },
+        {
+          "run_id": "db43916284bc11e8e0ea9566",
+          "candidate_id": "ATOM_1576325697f9ae69582af1f5",
+          "candidate_hash": "c071463ff573f28cf082a127d5888ee4038c7b4947c9ffdec1372061f564843c",
+          "decision": "accepted",
+          "reviewer": "Codex",
+          "reviewer_kind": "assistant",
+          "note": "Source fidelity check only; technical approval pending. AC guide page 3 explicitly says For defective winding, replace the motor. Statement accurately reflects the source recommendation; technical applicability still needs assessment.",
+          "reviewed_at": "2026-09-15T00:14:45.707725+00:00"
+        }
+      ],
+      "status": "assistant_verified_draft"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate_id": "ATOM_39b3450b5149f4c7919e96b3",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_d293f75f35230432cb00aa7f",
+      "reason": "not_accepted"
+    },
+    {
+      "candidate_id": "ATOM_071ab59575fa81104d2f518b",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1679dbd14c96409fdce9d9ac",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_5a3c47c3cccef940375cd70e",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_985c2390628aa0140b649cb0",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_4bddbec4c59dfc810a8aa4d2",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_c720bf4110ddc3ba1c96cf68",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_33250cd085b80d2336b3019c",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_694875c51e9cd3500fb04b0f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a93669e6627726e08f75770f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_a208bf1bec2eeff2ad784090",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_f2670dea9c817622dc5f497f",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_1a04e1d240f083c82de6e6b7",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_65ff9b63e1f267a56cc0f1f8",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_2c69b144e00a03b365b9eab3",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_50a1e9dff72db5d2e0460218",
+      "reason": "not_a_statement"
+    },
+    {
+      "candidate_id": "ATOM_738fb495805af670f255a6bf",
+      "reason": "not_a_statement"
+    }
+  ],
+  "created_at": "2026-09-15T08:36:09.302540+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-15T00:05:41.872797+00:00",
+  "plan": "config/document_profiles.json",
+  "documents": [
+    {
+      "document_name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+      "profile_id": "abb-troubleshooting",
+      "batch_path": "data/library/sections/e17e54b4ccd5a9b01684d260.json",
+      "selected_sections": 3,
+      "total_pages": 32,
+      "selected_pages": [
+        25
+      ],
+      "status": "parsed"
+    },
+    {
+      "document_name": "ac-troubleshooting-guide.pdf",
+      "profile_id": "ac-guide",
+      "batch_path": "data/library/sections/12f8bd7cc5c77b682a8c8b50.json",
+      "selected_sections": 3,
+      "total_pages": 3,
+      "selected_pages": [
+        3
+      ],
+      "status": "parsed"
+    },
+    {
+      "document_name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+      "profile_id": "timken-bearing-care",
+      "batch_path": "data/library/sections/ea448539e3d20d4a7c996b06.json",
+      "selected_sections": 3,
+      "total_pages": 157,
+      "selected_pages": [
+        12
+      ],
+      "status": "parsed"
+    },
+    {
+      "document_name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+      "profile_id": "epri-failure-mechanisms",
+      "batch_path": "data/library/sections/962b53b1a2fcf24c9750b603.json",
+      "selected_sections": 3,
+      "total_pages": 118,
+      "selected_pages": [
+        54
+      ],
+      "status": "parsed"
+    },
+    {
+      "document_name": "Electric Motor Troubleshooting (Polyphase).pdf",
+      "profile_id": "lincoln-starting",
+      "batch_path": "data/library/sections/671a91548995cf4b4e2c3f97.json",
+      "selected_sections": 3,
+      "total_pages": 16,
+      "selected_pages": [
+        6
+      ],
+      "status": "parsed"
+    }
+  ]
+}

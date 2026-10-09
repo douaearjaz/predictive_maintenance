@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-15T01:47:36.220698+00:00",
+  "scope": "Selected sections from six PDFs, not full corpus coverage",
+  "fmea_rows": 30,
+  "statements": 185,
+  "documents": [
+    {
+      "name": "Electric Motor Troubleshooting (Polyphase).pdf",
+      "responses": 3,
+      "selected_sections": 3,
+      "selected_pages": [
+        6
+      ],
+      "total_pages": 16,
+      "fmea_rows": 3
+    },
+    {
+      "name": "3GZF500730-85 RevH_EN 06-2022_lowres.pdf",
+      "responses": 3,
+      "selected_sections": 3,
+      "selected_pages": [
+        25
+      ],
+      "total_pages": 32,
+      "fmea_rows": 5
+    },
+    {
+      "name": "Manual_Udrzba_Montaz_TIMKEN_AJ.pdf",
+      "responses": 3,
+      "selected_sections": 3,
+      "selected_pages": [
+        12
+      ],
+      "total_pages": 157,
+      "fmea_rows": 6
+    },
+    {
+      "name": "ac-troubleshooting-guide.pdf",
+      "responses": 3,
+      "selected_sections": 3,
+      "selected_pages": [
+        3
+      ],
+      "total_pages": 3,
+      "fmea_rows": 2
+    },
+    {
+      "name": "NP_7502_Electric Motor Predictive and Preventive Maintenance Guide.pdf",
+      "responses": 3,
+      "selected_sections": 3,
+      "selected_pages": [
+        54
+      ],
+      "total_pages": 118,
+      "fmea_rows": 5
+    },
+    {
+      "name": "13-common-causes.pdf",
+      "responses": 15,
+      "selected_sections": 15,
+      "selected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "total_pages": 8,
+      "fmea_rows": 9
+    }
+  ],
+  "reviews": {
+    "Needs review": 132,
+    "Assistant source check": 46,
+    "Uncertain": 2,
+    "Human reviewed": 1,
+    "Rejected": 4
+  },
+  "tests_passed": 37
+}
